@@ -20,7 +20,16 @@ async function readJson(url) {
   return response.json();
 }
 
-async function loadWeeks() {
+let weeksRequest;
+export function loadWeeks() {
+  weeksRequest ??= fetchWeeks().catch(error => {
+    weeksRequest = null;
+    throw error;
+  });
+  return weeksRequest;
+}
+
+async function fetchWeeks() {
   const directory = new URL('./data/ap-rankings/2026/', import.meta.url);
   const index = await readJson(new URL('index.json', directory));
   if (index.season !== 2026 || index.poll !== 'AP Top 25' || !Array.isArray(index.weeks)) {
@@ -44,7 +53,7 @@ async function loadWeeks() {
   }));
 }
 
-function drawChart(canvas, weeks, teams, activeWeek) {
+export function drawChart(canvas, weeks, teams, activeWeek) {
   const width = Math.max(480, weeks.length * 45 + 55);
   const height = 280;
   const density = window.devicePixelRatio || 1;
