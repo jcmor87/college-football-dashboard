@@ -3,7 +3,7 @@ import {movement} from './ranking-history.mjs';
 export const profileHref = id => `#team=${encodeURIComponent(id)}`;
 export const teamFromHash = hash => /^#team=([0-9]+)$/.exec(hash)?.[1] ?? null;
 
-const metrics = [
+export const metrics = [
   ['points', 'Points scored / game', 1], ['allowed', 'Points allowed / game', -1],
   ['margin', 'Scoring margin / game', 1], ['yards', 'Total yards / game', 1],
   ['yards_allowed', 'Yards allowed / game', -1], ['rushing', 'Rushing yards / game', 1],
@@ -11,12 +11,12 @@ const metrics = [
   ['third_pct', 'Third-down conversion', 1, '%'], ['strength', 'Opponent win percentage', 1, '%'],
 ];
 
-const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g,
+export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g,
   char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'})[char]);
-const format = (value, unit = '') => value == null ? 'N/A' : `${value}${unit}`;
+export const format = (value, unit = '') => value == null ? 'N/A' : `${value}${unit}`;
 const percent = value => format(value, '%');
-const metric = (profile, key) => key === 'strength' ? profile?.strength.pct : profile?.stats[key];
-const shortDate = (date, tbd = false) => new Date(date).toLocaleDateString(undefined,
+export const metric = (profile, key) => key === 'strength' ? profile?.strength.pct : profile?.stats[key];
+export const shortDate = (date, tbd = false) => new Date(date).toLocaleDateString(undefined,
   {month:'short', day:'numeric', ...(tbd ? {timeZone:'UTC'} : {})});
 
 export function advantage(left, right, direction) {
@@ -24,7 +24,7 @@ export function advantage(left, right, direction) {
 }
 
 let profileData;
-async function loadProfiles() {
+export async function loadProfiles() {
   if (!profileData) {
     profileData = fetch(new URL('./data/team-profiles.json', import.meta.url), {cache:'no-cache'})
       .then(response => {
@@ -65,11 +65,39 @@ function scheduleTable(games, directory) {
 }
 
 const trendMetrics = {
+  defense: [['Yards allowed', game => game.defense?.yards]],
+  twoWayYards: [['Total yards', game => game.offense?.yards], ['Yards allowed', game => game.defense?.yards]],
   scoring: [['Points scored', game => game.points], ['Points allowed', game => game.allowed]],
   margin: [['Scoring margin', game => game.points - game.allowed]],
   yards: [['Total yards', game => game.offense?.yards], ['Rushing yards', game => game.offense?.rushing],
     ['Net passing yards', game => game.offense?.passing]],
 };
+
+export function trendSection(command = false) {
+  const extraOptions = '<option value="defense">Defensive production</option><option value="rollingScoring">Rolling scoring averages</option><option value="rollingYards">Rolling yardage averages</option>';
+  return `<section class="profile-section trend-section"><h3>Game Trends</h3>
+      <div class="profile-controls"><label>Metric<select class="trend-metric">
+        <option value="scoring">Points scored vs. allowed</option><option value="margin">Scoring margin</option>
+        <option value="yards">Offensive production</option>${command ? extraOptions : ''}</select></label>
+        <label>Games<select class="trend-range"><option value="five">Last five</option><option value="all" ${command ? "selected" : ""}>Full season</option></select></label></div>
+      <div class="trend-chart"></div>
+    </section>`;
+}
+
+export function rollingFive(values) {
+  return values.map((_, index) => {
+    if (index < 4) return null;
+    const window = values.slice(index - 4, index + 1);
+    return window.every(Number.isFinite)
+      ? Math.round(10 * window.reduce((sum, value) => sum + value, 0) / 5) / 10
+      : null;
+  });
+}
+
+export function mountTrends(section, games) {
+  section.addEventListener('change', () => renderTrend(section, games));
+  renderTrend(section, games);
+}
 
 export function trendGames(games, lastFive) {
   const finals = games.filter(game => game.final);
@@ -78,7 +106,16 @@ export function trendGames(games, lastFive) {
 
 function renderTrend(section, games) {
   const mode = section.querySelector('.trend-metric').value;
-  const series = trendMetrics[mode];
+  let series = trendMetrics[mode];
+  if (mode === 'rollingScoring' || mode === 'rollingYards') {
+    const finals = trendGames(games, false);
+    const indices = new Map(finals.map((game, index) => [game, index]));
+    const definitions = mode === 'rollingScoring' ? trendMetrics.scoring : trendMetrics.twoWayYards;
+    series = definitions.map(([label, get]) => {
+      const averages = rollingFive(finals.map(get));
+      return [label + ' · 5-game avg', game => averages[indices.get(game)]];
+    });
+  }
   const displayed = trendGames(games, section.querySelector('.trend-range').value === 'five');
   const target = section.querySelector('.trend-chart');
   if (!displayed.length) {
@@ -152,13 +189,7 @@ export async function renderProfiles(panel, directory, id, hasPoll, isCurrent) {
       <dl class="profile-metrics">${metrics.slice(0, -1).map(([key, label, , unit]) =>
         `<div><dt>${label}</dt><dd>${format(metric(profile, key), unit)}</dd></div>`).join('')}</dl>
     </section>
-    <section class="profile-section trend-section"><h3>Game Trends</h3>
-      <div class="profile-controls"><label>Metric<select class="trend-metric">
-        <option value="scoring">Points scored vs. allowed</option><option value="margin">Scoring margin</option>
-        <option value="yards">Offensive production</option></select></label>
-        <label>Games<select class="trend-range"><option value="five">Last five</option><option value="all">Full season</option></select></label></div>
-      <div class="trend-chart"></div>
-    </section>
+    ${trendSection()}
     <section class="profile-section"><h3>Opponent Strength</h3>
       <p><strong>${percent(strength.pct)}</strong> opponent win percentage · ${strength.covered} of ${strength.played} completed games covered</p>
       <p class="muted">Combined current records of FBS opponents already played, including head-to-head results. Missing records and non-FBS opponents are excluded. This is a Saturday HQ calculation.</p>
@@ -176,9 +207,7 @@ export async function renderProfiles(panel, directory, id, hasPoll, isCurrent) {
   const picker = panel.querySelector('.profile-picker');
   picker.value = String(team.id);
   picker.addEventListener('change', () => { location.hash = profileHref(picker.value); });
-  const trends = panel.querySelector('.trend-section');
-  trends.addEventListener('change', () => renderTrend(trends, profile.games));
-  renderTrend(trends, profile.games);
+  mountTrends(panel.querySelector('.trend-section'), profile.games);
 
   const first = panel.querySelector('.compare-first');
   const second = panel.querySelector('.compare-second');
