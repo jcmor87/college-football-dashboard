@@ -122,6 +122,9 @@ export async function renderProfiles(panel, directory, id, hasPoll, isCurrent) {
     return;
   }
 
+  const espnLink = /^https:\/\/www\.espn\.com\/college-football\/team\//.test(team.url ?? '')
+    ? `<br><a class="muted" href="${escapeHtml(team.url)}" target="_blank" rel="noopener">ESPN team page</a>`
+    : '';
   const rank = team.rank ?? null;
   const rankText = !hasPoll ? 'N/A' : rank == null ? 'Unranked' : `#${rank}`;
   const change = profile.movement_available ? movement(profile.previous_rank, rank) : '';
@@ -134,7 +137,7 @@ export async function renderProfiles(panel, directory, id, hasPoll, isCurrent) {
     <div class="panel-head profile-heading">
       ${profile.logo ? `<img src="${escapeHtml(profile.logo)}" width="64" height="64" alt="">` : ''}
       <div><h2>${escapeHtml(profile.school)}</h2>
-      <span class="muted">${escapeHtml(team.name)} · ${escapeHtml(team.conference)}</span></div>
+      <span class="muted">${escapeHtml(team.name)} · ${escapeHtml(team.conference)}</span>${espnLink}</div>
       <label>Team<select class="profile-picker">${options}</select></label>
     </div>
     <div class="statrow">
