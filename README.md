@@ -43,12 +43,12 @@ HTTP lets the browser load the JSON snapshot.
    timestamp reflects when the published snapshot last changed.
 
 GitHub schedules the workflow every three hours at minute 17 UTC. Each
-successful refresh stages the HTML and the JSON from the same run, then
-deploys them together. A failed refresh skips deployment so the previous site
+successful refresh stages the HTML, dashboard JSON, and AP ranking archive
+from the same run, then deploys them together. A failed refresh skips deployment so the previous site
 stays online. An unchanged snapshot still deploys and keeps its existing
 timestamp.
 
-The refresh job uses `contents: write` to commit changed snapshots to
+The refresh job uses `contents: write` to commit changed dashboard and AP snapshots to
 `main`. Repository rules must allow that push. The deploy job uses
 `pages: write` and `id-token: write` in the `github-pages` environment.
 If the environment restricts deployment branches, allow `main`. Required
@@ -59,3 +59,34 @@ a branch-based Pages build from a commit pushed with `GITHUB_TOKEN`.
 
 [GitHub documentation on running workflows manually](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/manually-running-a-workflow) ·
 [GitHub Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+## 2026 AP ranking history
+
+Open **AP Ranking History** and use the conference filter or team search to
+add up to four FBS teams. Pick a poll to highlight its chart column and table
+row. On a small screen, swipe horizontally to see the rest of the chart and
+table. No. 1 is at the top.
+
+Saturday HQ archives the [AP Top 25 as published by ESPN](https://www.espn.com/college-football/rankings/_/poll/1/year/2026).
+These are Associated Press results. Saturday HQ power rankings have no role
+in the chart. The archive uses ESPN's poll labels and dates, including its
+preseason poll and the September 8 release labeled **Week 2**. Conference
+filters use the dashboard's FBS directory.
+
+The refresh workflow discovers published 2026 polls using ESPN's
+[season archive](https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/seasons/2026/rankings/1?lang=en&region=us).
+It adds validated polls under `data/ap-rankings/2026/`, using separate files
+for each season phase and week. Existing poll files are kept intact. The
+index is updated as polls become available. Temporary source failures leave
+saved polls in place and will be retried on the next refresh. The movement
+table distinguishes an unranked team from a missing poll. The chart breaks
+lines at either, and movement is calculated only across consecutive available
+poll slots. Previously unranked teams entering the Top 25 are marked **New entry**.
+
+To refresh the archive locally and run the tests:
+
+```sh
+python3 update_rankings.py
+python3 -m unittest discover -s tests
+node --test tests/ranking-history.test.mjs
+```

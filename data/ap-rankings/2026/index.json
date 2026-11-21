@@ -1,0 +1,54 @@
+{
+  "season": 2026,
+  "poll": "AP Top 25",
+  "weeks": [
+    {
+      "label": "Preseason",
+      "file": "phase-1-week-1.json"
+    },
+    {
+      "label": "Week 2",
+      "file": "phase-2-week-2.json"
+    },
+    {
+      "label": "Week 3",
+      "file": "phase-2-week-3.json"
+    },
+    {
+      "label": "Week 4",
+      "file": "phase-2-week-4.json"
+    },
+    {
+      "label": "Week 5",
+      "file": "phase-2-week-5.json"
+    },
+    {
+      "label": "Week 6",
+      "file": "phase-2-week-6.json"
+    },
+    {
+      "label": "Week 7",
+      "file": "phase-2-week-7.json"
+    },
+    {
+      "label": "Week 8",
+      "file": "phase-2-week-8.json"
+    },
+    {
+      "label": "Week 9",
+      "file": "phase-2-week-9.json"
+    },
+    {
+      "label": "Week 10",
+      "file": "phase-2-week-10.json"
+    },
+    {
+      "label": "Week 11",
+      "file": "phase-2-week-11.json"
+    },
+    {
+      "label": "Week 12",
+      "file": "phase-2-week-12.json"
+    }
+  ]
+}
