@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T04:00:16+00:00",
+  "updated_at": "2026-11-21T07:20:35+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -62,7 +62,7 @@
       "name": "Air Force Falcons",
       "abbreviation": "AFA",
       "conference": "Mountain West Conference",
-      "record": "8-2",
+      "record": "9-2",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons"
     },
@@ -251,7 +251,7 @@
       "name": "Clemson Tigers",
       "abbreviation": "CLEM",
       "conference": "Atlantic Coast Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/228/clemson-tigers"
     },
@@ -296,7 +296,7 @@
       "name": "Duke Blue Devils",
       "abbreviation": "DUKE",
       "conference": "Atlantic Coast Conference",
-      "record": "7-3",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils"
     },
@@ -620,7 +620,7 @@
       "name": "Michigan State Spartans",
       "abbreviation": "MSU",
       "conference": "Big Ten Conference",
-      "record": "3-7",
+      "record": "3-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/127/michigan-state-spartans"
     },
@@ -719,7 +719,7 @@
       "name": "New Mexico Lobos",
       "abbreviation": "UNM",
       "conference": "Mountain West Conference",
-      "record": "8-2",
+      "record": "9-2",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/167/new-mexico-lobos"
     },
@@ -845,7 +845,7 @@
       "name": "Oregon Ducks",
       "abbreviation": "ORE",
       "conference": "Big Ten Conference",
-      "record": "7-3",
+      "record": "8-3",
       "rank": 14,
       "url": "https://www.espn.com/college-football/team/_/id/2483/oregon-ducks"
     },
@@ -1169,7 +1169,7 @@
       "name": "UTEP Miners",
       "abbreviation": "UTEP",
       "conference": "Mountain West Conference",
-      "record": "1-9",
+      "record": "1-10",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2638/utep-miners"
     },
@@ -1295,7 +1295,7 @@
       "name": "Wyoming Cowboys",
       "abbreviation": "WYO",
       "conference": "Mountain West Conference",
-      "record": "7-3",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2751/wyoming-cowboys"
     }
@@ -1367,10 +1367,10 @@
     {
       "id": "401858303",
       "date": "2026-11-21T00:30Z",
-      "status": "1:06 - 4th",
+      "status": "Final",
       "away": "Clemson Tigers",
       "home": "Duke Blue Devils",
-      "away_score": "17",
+      "away_score": "20",
       "home_score": "10"
     },
     {
@@ -1385,16 +1385,16 @@
     {
       "id": "401858529",
       "date": "2026-11-21T01:00Z",
-      "status": "13:34 - 4th",
+      "status": "Final",
       "away": "Oregon Ducks",
       "home": "Michigan State Spartans",
-      "away_score": "38",
+      "away_score": "45",
       "home_score": "7"
     },
     {
       "id": "401864545",
       "date": "2026-11-21T01:00Z",
-      "status": "4:14 - 4th",
+      "status": "Final",
       "away": "UTEP Miners",
       "home": "Air Force Falcons",
       "away_score": "3",
@@ -1403,11 +1403,11 @@
     {
       "id": "401864542",
       "date": "2026-11-21T02:00Z",
-      "status": "Halftime",
+      "status": "Final",
       "away": "New Mexico Lobos",
       "home": "Wyoming Cowboys",
-      "away_score": "17",
-      "home_score": "7"
+      "away_score": "24",
+      "home_score": "17"
     },
     {
       "id": "401856748",
