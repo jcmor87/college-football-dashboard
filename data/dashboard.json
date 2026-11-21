@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T18:57:47+00:00",
+  "updated_at": "2026-11-21T19:03:38+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -1412,7 +1412,7 @@
     {
       "id": "401856748",
       "date": "2026-11-21T17:00Z",
-      "status": "Halftime",
+      "status": "14:56 - 3rd",
       "away": "Vanderbilt Commodores",
       "home": "Florida Gators",
       "away_score": "24",
@@ -1421,7 +1421,7 @@
     {
       "id": "401856749",
       "date": "2026-11-21T17:00Z",
-      "status": "14:53 - 3rd",
+      "status": "11:40 - 3rd",
       "away": "Wofford Terriers",
       "home": "Ole Miss Rebels",
       "away_score": "3",
@@ -1430,16 +1430,16 @@
     {
       "id": "401856866",
       "date": "2026-11-21T17:00Z",
-      "status": "9:59 - 3rd",
+      "status": "8:32 - 3rd",
       "away": "BYU Cougars",
       "home": "Kansas Jayhawks",
-      "away_score": "6",
+      "away_score": "9",
       "home_score": "6"
     },
     {
       "id": "401856867",
       "date": "2026-11-21T17:00Z",
-      "status": "12:01 - 3rd",
+      "status": "10:52 - 3rd",
       "away": "Colorado Buffaloes",
       "home": "Cincinnati Bearcats",
       "away_score": "14",
@@ -1448,7 +1448,7 @@
     {
       "id": "401858309",
       "date": "2026-11-21T17:00Z",
-      "status": "Halftime",
+      "status": "13:58 - 3rd",
       "away": "Syracuse Orange",
       "home": "Boston College Eagles",
       "away_score": "3",
@@ -1466,11 +1466,11 @@
     {
       "id": "401858530",
       "date": "2026-11-21T17:00Z",
-      "status": "9:01 - 3rd",
+      "status": "6:43 - 3rd",
       "away": "Northwestern Wildcats",
       "home": "Minnesota Golden Gophers",
       "away_score": "7",
-      "home_score": "7"
+      "home_score": "14"
     },
     {
       "id": "401858531",
@@ -1484,7 +1484,7 @@
     {
       "id": "401858533",
       "date": "2026-11-21T17:00Z",
-      "status": "12:55 - 3rd",
+      "status": "9:21 - 3rd",
       "away": "Wisconsin Badgers",
       "home": "Purdue Boilermakers",
       "away_score": "21",
@@ -1493,7 +1493,7 @@
     {
       "id": "401862831",
       "date": "2026-11-21T17:00Z",
-      "status": "9:41 - 3rd",
+      "status": "6:38 - 3rd",
       "away": "East Carolina Pirates",
       "home": "Army Black Knights",
       "away_score": "0",
@@ -1502,7 +1502,7 @@
     {
       "id": "401862834",
       "date": "2026-11-21T17:00Z",
-      "status": "13:04 - 3rd",
+      "status": "10:46 - 3rd",
       "away": "Memphis Tigers",
       "home": "Navy Midshipmen",
       "away_score": "10",
@@ -1511,43 +1511,43 @@
     {
       "id": "401862835",
       "date": "2026-11-21T17:00Z",
-      "status": "11:00 - 3rd",
+      "status": "9:10 - 3rd",
       "away": "North Texas Mean Green",
       "home": "Tulane Green Wave",
-      "away_score": "14",
+      "away_score": "17",
       "home_score": "14"
     },
     {
       "id": "401858305",
       "date": "2026-11-21T17:30Z",
-      "status": "1:19 - 2nd",
+      "status": "0:31 - 2nd",
       "away": "North Carolina Tar Heels",
       "home": "Virginia Cavaliers",
       "away_score": "7",
-      "home_score": "17"
+      "home_score": "20"
     },
     {
       "id": "401856750",
       "date": "2026-11-21T18:00Z",
-      "status": "9:26 - 2nd",
+      "status": "7:05 - 2nd",
       "away": "Tennessee Tech Golden Eagles",
       "home": "Mississippi State Bulldogs",
       "away_score": "10",
-      "home_score": "13"
+      "home_score": "14"
     },
     {
       "id": "401856868",
       "date": "2026-11-21T18:00Z",
-      "status": "12:38 - 2nd",
+      "status": "10:16 - 2nd",
       "away": "Houston Cougars",
       "home": "West Virginia Mountaineers",
       "away_score": "14",
-      "home_score": "10"
+      "home_score": "17"
     },
     {
       "id": "401871080",
       "date": "2026-11-21T18:00Z",
-      "status": "11:40 - 2nd",
+      "status": "8:04 - 2nd",
       "away": "Western Kentucky Hilltoppers",
       "home": "Liberty Flames",
       "away_score": "0",
@@ -1556,38 +1556,38 @@
     {
       "id": "401856746",
       "date": "2026-11-21T19:00Z",
-      "status": "11/21 - 2:00 PM EST",
+      "status": "14:53 - 1st",
       "away": "Chattanooga Mocs",
       "home": "Alabama Crimson Tide",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401862832",
       "date": "2026-11-21T19:00Z",
-      "status": "11/21 - 2:00 PM EST",
+      "status": "15:00 - 1st",
       "away": "Charlotte 49ers",
       "home": "Tulsa Golden Hurricane",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401871079",
       "date": "2026-11-21T19:00Z",
-      "status": "11/21 - 2:00 PM EST",
+      "status": "15:00 - 1st",
       "away": "Missouri State Bears",
       "home": "Jacksonville State Gamecocks",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401871081",
       "date": "2026-11-21T19:00Z",
-      "status": "11/21 - 2:00 PM EST",
+      "status": "15:00 - 1st",
       "away": "Middle Tennessee Blue Raiders",
       "home": "Sam Houston Bearkats",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401858527",
