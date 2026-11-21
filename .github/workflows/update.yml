@@ -28,9 +28,11 @@ jobs:
           python-version: '3.12'
       - name: Refresh ESPN snapshot
         run: python update_data.py
-      - name: Commit updated snapshot
+      - name: Archive weekly AP rankings
+        run: python update_rankings.py
+      - name: Commit updated data
         run: |
-          git add -- data/dashboard.json
+          git add -- data/dashboard.json data/ap-rankings
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -44,8 +46,9 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html _site/index.html
+          cp index.html ranking-history.mjs _site/
           cp data/dashboard.json _site/data/dashboard.json
+          cp -R data/ap-rankings _site/data/
       - name: Upload dashboard
         uses: actions/upload-pages-artifact@v4
         with:
