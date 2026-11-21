@@ -6,6 +6,7 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
@@ -26,12 +27,22 @@ next_request = 0.0
 def request(endpoint, **params):
     """Keep ESPN requests bounded across the worker pool."""
     global next_request
-    with request_lock:
-        now = time.monotonic()
-        start = max(now, next_request)
-        next_request = start + 0.15
-    time.sleep(max(0, start - now))
-    return fetch(f"{BASE}/{endpoint}", **params)
+    for attempt in range(3):
+        with request_lock:
+            now = time.monotonic()
+            start = max(now, next_request)
+            next_request = start + 0.25
+        time.sleep(max(0, start - now))
+        try:
+            return fetch(f"{BASE}/{endpoint}", **params)
+        except ValueError as error:
+            cause = error.__cause__
+            transient = isinstance(cause, HTTPError) and cause.code in (429, 500, 502, 503, 504)
+            if not transient or attempt == 2:
+                raise
+            retry_after = cause.headers.get("Retry-After", "") if cause.headers else ""
+            delay = min(30, int(retry_after)) if retry_after.isdigit() else 2 ** (attempt + 1)
+            time.sleep(delay)
 
 
 def integer(value):
