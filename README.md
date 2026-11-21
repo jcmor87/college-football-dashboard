@@ -32,27 +32,30 @@ python3 -m http.server 8000
 Open [the local dashboard](http://localhost:8000/). Serving the files over
 HTTP lets the browser load the JSON snapshot.
 
-## Merge and refresh on GitHub
+## Publish and refresh on GitHub
 
-1. Open the setup pull request. Review **Files changed**, then choose
-   **Merge pull request** and **Confirm merge**, subject to repository rules.
-2. On the repository's **Actions** tab, select **Update dashboard data**,
-   choose **Run workflow**, select the default branch (`main`), and choose
-   **Run workflow** again. GitHub displays the manual trigger after the
-   workflow file is present on the default branch.
-3. Open the new run to check the **Refresh ESPN snapshot** and **Commit
-   updated snapshot** steps. The workflow commits the JSON only when its
-   contents change.
+1. After merging the Pages workflow changes into `main`, open **Settings →
+   Pages**. Under **Build and deployment → Source**, select **GitHub Actions**.
+2. Open **Actions → Update dashboard data → Run workflow**. Select `main`
+   and confirm. Update and deployment jobs run only on the default branch.
+3. Check that both **update** and **deploy** succeed. Open the deployment URL
+   from the **deploy** job, then check the header for **Last updated**. The
+   timestamp reflects when the published snapshot last changed.
 
-GitHub schedules the workflow every three hours at minute 17 UTC. The
-workflow uses the repository's built-in token with `contents: write`.
-Repository rules must allow the workflow to push its snapshot commit.
+GitHub schedules the workflow every three hours at minute 17 UTC. Each
+successful refresh stages the HTML and the JSON from the same run, then
+deploys them together. A failed refresh skips deployment so the previous site
+stays online. An unchanged snapshot still deploys and keeps its existing
+timestamp.
 
-If GitHub Pages publishes from a branch, commits pushed with
-`GITHUB_TOKEN` do not trigger a Pages build. To publish automatic updates
-to a Pages site, configure an Actions-based Pages deployment that publishes
-the refreshed files as part of the workflow. The JSON is available on the
-default branch after a successful push.
+The refresh job uses `contents: write` to commit changed snapshots to
+`main`. Repository rules must allow that push. The deploy job uses
+`pages: write` and `id-token: write` in the `github-pages` environment.
+If the environment restricts deployment branches, allow `main`. Required
+environment approvals, if configured, pause deployment until approved.
+
+The workflow deploys the artifact directly because GitHub does not guarantee
+a branch-based Pages build from a commit pushed with `GITHUB_TOKEN`.
 
 [GitHub documentation on running workflows manually](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/manually-running-a-workflow) ·
 [GitHub Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
