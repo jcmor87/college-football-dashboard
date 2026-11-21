@@ -144,3 +144,40 @@ comparison teams, and switching the trend to **Full season**.
 python3 -m unittest discover -s tests
 node --test tests/*.test.mjs
 ```
+
+## Notre Dame Command Center
+
+Use **Notre Dame** in the dashboard tabs or **Open Notre Dame Command Center**
+in the spotlight. Share the dashboard URL with `#notre-dame` appended.
+The Command Center uses the existing 2026 ESPN team profiles and archived AP
+polls. It requires no new feeds, secrets, or Pages settings.
+
+- **AP trajectory and quality wins.** The trajectory displays Notre Dame's
+  published AP ranks. A quality win is a final Notre Dame victory against an
+  opponent that a verified archived poll ranked at kickoff. The current AP
+  rank appears in a separate column. Missing polls or matchup data may leave
+  some wins unclassified.
+- **Performance.** Recent form shows up to five completed games. Scoring and
+  yardage charts use final games and ESPN team box scores. Rolling averages
+  require five consecutive completed games with a reported value for each.
+  Missing inputs and the first four games display N/A. Changing the chart
+  range does not change the rolling calculation.
+- **Opponent intelligence.** The picker defaults to the next listed game
+  when one is available. Comparisons use completed-game season averages
+  from each team's ESPN profile. Higher scoring and offensive yardage,
+  lower scoring and yardage allowed, and fewer turnovers lost are edges.
+  Ties and unavailable figures receive no highlight. Common opponents are
+  matched by ESPN team ID, with verified final scores shown from each
+  team's perspective. Saved results may appear when the feed is stale.
+- **Season outlook.** Opponent records and current AP positions come from
+  the dashboard snapshot. Challenge and opportunity notes interpret
+  scoring defense and offensive yardage differences. The teams may have
+  played different schedules. The notes and opponent winning percentage
+  offer descriptive context and do not estimate playoff or game outcomes.
+
+To preview the feature branch, run `python3 -m http.server 8000` and open
+`http://localhost:8000/#notre-dame`. Try selecting a past opponent, switching
+to a rolling chart, and opening a poll in the AP trajectory. Run
+`node --test tests/*.test.mjs` and `python3 -m unittest discover -s tests`
+for automated checks. The pull request workflow also exercises the share
+link and controls in Chromium without publishing the branch.
