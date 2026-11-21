@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:40:35+00:00",
+  "updated_at": "2026-11-21T21:50:53+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -134,7 +134,7 @@
       "name": "Army Black Knights",
       "abbreviation": "ARMY",
       "conference": "American Conference",
-      "record": "5-4",
+      "record": "5-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/349/army-black-knights"
     },
@@ -152,7 +152,7 @@
       "name": "BYU Cougars",
       "abbreviation": "BYU",
       "conference": "Big 12 Conference",
-      "record": "8-2",
+      "record": "9-2",
       "rank": 12,
       "url": "https://www.espn.com/college-football/team/_/id/252/byu-cougars"
     },
@@ -188,7 +188,7 @@
       "name": "Boston College Eagles",
       "abbreviation": "BC",
       "conference": "Atlantic Coast Conference",
-      "record": "4-6",
+      "record": "5-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/103/boston-college-eagles"
     },
@@ -242,7 +242,7 @@
       "name": "Cincinnati Bearcats",
       "abbreviation": "CIN",
       "conference": "Big 12 Conference",
-      "record": "5-5",
+      "record": "6-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats"
     },
@@ -269,7 +269,7 @@
       "name": "Colorado Buffaloes",
       "abbreviation": "COLO",
       "conference": "Big 12 Conference",
-      "record": "4-6",
+      "record": "4-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/38/colorado-buffaloes"
     },
@@ -305,7 +305,7 @@
       "name": "East Carolina Pirates",
       "abbreviation": "ECU",
       "conference": "American Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates"
     },
@@ -332,7 +332,7 @@
       "name": "Florida Gators",
       "abbreviation": "FLA",
       "conference": "Southeastern Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": 23,
       "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
     },
@@ -395,7 +395,7 @@
       "name": "Georgia Tech Yellow Jackets",
       "abbreviation": "GT",
       "conference": "Atlantic Coast Conference",
-      "record": "3-7",
+      "record": "3-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/59/georgia-tech-yellow-jackets"
     },
@@ -413,7 +413,7 @@
       "name": "Houston Cougars",
       "abbreviation": "HOU",
       "conference": "Big 12 Conference",
-      "record": "7-3",
+      "record": "8-3",
       "rank": 20,
       "url": "https://www.espn.com/college-football/team/_/id/248/houston-cougars"
     },
@@ -476,7 +476,7 @@
       "name": "Kansas Jayhawks",
       "abbreviation": "KU",
       "conference": "Big 12 Conference",
-      "record": "4-6",
+      "record": "4-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2305/kansas-jayhawks"
     },
@@ -530,7 +530,7 @@
       "name": "Liberty Flames",
       "abbreviation": "LIB",
       "conference": "Conference USA",
-      "record": "9-1",
+      "record": "10-1",
       "rank": 22,
       "url": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames"
     },
@@ -593,7 +593,7 @@
       "name": "Memphis Tigers",
       "abbreviation": "MEM",
       "conference": "American Conference",
-      "record": "8-2",
+      "record": "8-3",
       "rank": 24,
       "url": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers"
     },
@@ -647,7 +647,7 @@
       "name": "Minnesota Golden Gophers",
       "abbreviation": "MINN",
       "conference": "Big Ten Conference",
-      "record": "5-5",
+      "record": "6-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/135/minnesota-golden-gophers"
     },
@@ -656,7 +656,7 @@
       "name": "Mississippi State Bulldogs",
       "abbreviation": "MSST",
       "conference": "Southeastern Conference",
-      "record": "4-6",
+      "record": "5-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/344/mississippi-state-bulldogs"
     },
@@ -692,7 +692,7 @@
       "name": "Navy Midshipmen",
       "abbreviation": "NAVY",
       "conference": "American Conference",
-      "record": "3-6",
+      "record": "4-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen"
     },
@@ -701,7 +701,7 @@
       "name": "Nebraska Cornhuskers",
       "abbreviation": "NEB",
       "conference": "Big Ten Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/158/nebraska-cornhuskers"
     },
@@ -737,7 +737,7 @@
       "name": "North Carolina Tar Heels",
       "abbreviation": "UNC",
       "conference": "Atlantic Coast Conference",
-      "record": "5-5",
+      "record": "5-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/153/north-carolina-tar-heels"
     },
@@ -755,7 +755,7 @@
       "name": "North Texas Mean Green",
       "abbreviation": "UNT",
       "conference": "American Conference",
-      "record": "7-3",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/249/north-texas-mean-green"
     },
@@ -773,7 +773,7 @@
       "name": "Northwestern Wildcats",
       "abbreviation": "NU",
       "conference": "Big Ten Conference",
-      "record": "6-4",
+      "record": "6-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/77/northwestern-wildcats"
     },
@@ -800,7 +800,7 @@
       "name": "Ohio State Buckeyes",
       "abbreviation": "OSU",
       "conference": "Big Ten Conference",
-      "record": "7-3",
+      "record": "7-4",
       "rank": 16,
       "url": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes"
     },
@@ -836,7 +836,7 @@
       "name": "Ole Miss Rebels",
       "abbreviation": "MISS",
       "conference": "Southeastern Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": 25,
       "url": "https://www.espn.com/college-football/team/_/id/145/ole-miss-rebels"
     },
@@ -881,7 +881,7 @@
       "name": "Purdue Boilermakers",
       "abbreviation": "PUR",
       "conference": "Big Ten Conference",
-      "record": "3-7",
+      "record": "3-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2509/purdue-boilermakers"
     },
@@ -998,7 +998,7 @@
       "name": "Syracuse Orange",
       "abbreviation": "SYR",
       "conference": "Atlantic Coast Conference",
-      "record": "5-5",
+      "record": "5-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/183/syracuse-orange"
     },
@@ -1088,7 +1088,7 @@
       "name": "Tulane Green Wave",
       "abbreviation": "TULN",
       "conference": "American Conference",
-      "record": "5-5",
+      "record": "6-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave"
     },
@@ -1205,7 +1205,7 @@
       "name": "Vanderbilt Commodores",
       "abbreviation": "VAN",
       "conference": "Southeastern Conference",
-      "record": "4-6",
+      "record": "4-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/238/vanderbilt-commodores"
     },
@@ -1214,7 +1214,7 @@
       "name": "Virginia Cavaliers",
       "abbreviation": "UVA",
       "conference": "Atlantic Coast Conference",
-      "record": "5-5",
+      "record": "6-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/258/virginia-cavaliers"
     },
@@ -1232,7 +1232,7 @@
       "name": "Wake Forest Demon Deacons",
       "abbreviation": "WAKE",
       "conference": "Atlantic Coast Conference",
-      "record": "9-1",
+      "record": "10-1",
       "rank": 10,
       "url": "https://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons"
     },
@@ -1259,7 +1259,7 @@
       "name": "West Virginia Mountaineers",
       "abbreviation": "WVU",
       "conference": "Big 12 Conference",
-      "record": "5-5",
+      "record": "5-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/277/west-virginia-mountaineers"
     },
@@ -1268,7 +1268,7 @@
       "name": "Western Kentucky Hilltoppers",
       "abbreviation": "WKU",
       "conference": "Conference USA",
-      "record": "4-6",
+      "record": "4-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/98/western-kentucky-hilltoppers"
     },
@@ -1286,7 +1286,7 @@
       "name": "Wisconsin Badgers",
       "abbreviation": "WIS",
       "conference": "Big Ten Conference",
-      "record": "6-4",
+      "record": "7-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers"
     },
@@ -1412,34 +1412,34 @@
     {
       "id": "401856748",
       "date": "2026-11-21T17:00Z",
-      "status": "13:14 - 4th",
+      "status": "Final",
       "away": "Vanderbilt Commodores",
       "home": "Florida Gators",
-      "away_score": "24",
-      "home_score": "24"
+      "away_score": "27",
+      "home_score": "34"
     },
     {
       "id": "401856749",
       "date": "2026-11-21T17:00Z",
-      "status": "End of 3rd",
+      "status": "Final",
       "away": "Wofford Terriers",
       "home": "Ole Miss Rebels",
       "away_score": "17",
-      "home_score": "56"
+      "home_score": "59"
     },
     {
       "id": "401856866",
       "date": "2026-11-21T17:00Z",
-      "status": "9:49 - 4th",
+      "status": "Final/3OT",
       "away": "BYU Cougars",
       "home": "Kansas Jayhawks",
-      "away_score": "16",
-      "home_score": "9"
+      "away_score": "31",
+      "home_score": "29"
     },
     {
       "id": "401856867",
       "date": "2026-11-21T17:00Z",
-      "status": "11:26 - 4th",
+      "status": "Final",
       "away": "Colorado Buffaloes",
       "home": "Cincinnati Bearcats",
       "away_score": "28",
@@ -1448,326 +1448,326 @@
     {
       "id": "401858309",
       "date": "2026-11-21T17:00Z",
-      "status": "3:17 - 3rd",
+      "status": "Final",
       "away": "Syracuse Orange",
       "home": "Boston College Eagles",
-      "away_score": "9",
-      "home_score": "19"
+      "away_score": "15",
+      "home_score": "27"
     },
     {
       "id": "401858310",
       "date": "2026-11-21T17:00Z",
-      "status": "5:47 - 3rd",
+      "status": "Final",
       "away": "Wake Forest Demon Deacons",
       "home": "Georgia Tech Yellow Jackets",
       "away_score": "50",
-      "home_score": "15"
+      "home_score": "29"
     },
     {
       "id": "401858530",
       "date": "2026-11-21T17:00Z",
-      "status": "10:41 - 4th",
+      "status": "Final",
       "away": "Northwestern Wildcats",
       "home": "Minnesota Golden Gophers",
-      "away_score": "10",
-      "home_score": "17"
+      "away_score": "17",
+      "home_score": "20"
     },
     {
       "id": "401858531",
       "date": "2026-11-21T17:00Z",
-      "status": "3:33 - 3rd",
+      "status": "Final",
       "away": "Ohio State Buckeyes",
       "home": "Nebraska Cornhuskers",
-      "away_score": "21",
-      "home_score": "21"
+      "away_score": "28",
+      "home_score": "31"
     },
     {
       "id": "401858533",
       "date": "2026-11-21T17:00Z",
-      "status": "10:59 - 4th",
+      "status": "Final",
       "away": "Wisconsin Badgers",
       "home": "Purdue Boilermakers",
-      "away_score": "35",
+      "away_score": "42",
       "home_score": "10"
     },
     {
       "id": "401862831",
       "date": "2026-11-21T17:00Z",
-      "status": "4:24 - 4th",
+      "status": "Final",
       "away": "East Carolina Pirates",
       "home": "Army Black Knights",
-      "away_score": "3",
+      "away_score": "10",
       "home_score": "6"
     },
     {
       "id": "401862834",
       "date": "2026-11-21T17:00Z",
-      "status": "End of 3rd",
+      "status": "Final",
       "away": "Memphis Tigers",
       "home": "Navy Midshipmen",
-      "away_score": "27",
-      "home_score": "24"
+      "away_score": "34",
+      "home_score": "38"
     },
     {
       "id": "401862835",
       "date": "2026-11-21T17:00Z",
-      "status": "7:48 - 4th",
+      "status": "Final",
       "away": "North Texas Mean Green",
       "home": "Tulane Green Wave",
-      "away_score": "23",
-      "home_score": "14"
+      "away_score": "24",
+      "home_score": "28"
     },
     {
       "id": "401858305",
       "date": "2026-11-21T17:30Z",
-      "status": "7:08 - 3rd",
+      "status": "Final",
       "away": "North Carolina Tar Heels",
       "home": "Virginia Cavaliers",
-      "away_score": "10",
-      "home_score": "20"
+      "away_score": "24",
+      "home_score": "41"
     },
     {
       "id": "401856750",
       "date": "2026-11-21T18:00Z",
-      "status": "Halftime",
+      "status": "Final",
       "away": "Tennessee Tech Golden Eagles",
       "home": "Mississippi State Bulldogs",
-      "away_score": "10",
-      "home_score": "20"
+      "away_score": "16",
+      "home_score": "34"
     },
     {
       "id": "401856868",
       "date": "2026-11-21T18:00Z",
-      "status": "End of 2nd",
+      "status": "Final",
       "away": "Houston Cougars",
       "home": "West Virginia Mountaineers",
-      "away_score": "21",
-      "home_score": "24"
+      "away_score": "34",
+      "home_score": "31"
     },
     {
       "id": "401871080",
       "date": "2026-11-21T18:00Z",
-      "status": "Halftime",
+      "status": "Final",
       "away": "Western Kentucky Hilltoppers",
       "home": "Liberty Flames",
-      "away_score": "0",
-      "home_score": "28"
+      "away_score": "14",
+      "home_score": "45"
     },
     {
       "id": "401856746",
       "date": "2026-11-21T19:00Z",
-      "status": "End of 1st",
+      "status": "Final",
       "away": "Chattanooga Mocs",
       "home": "Alabama Crimson Tide",
       "away_score": "0",
-      "home_score": "9"
+      "home_score": "47"
     },
     {
       "id": "401862832",
       "date": "2026-11-21T19:00Z",
-      "status": "End of 1st",
+      "status": "0:11 - 4th",
       "away": "Charlotte 49ers",
       "home": "Tulsa Golden Hurricane",
-      "away_score": "0",
-      "home_score": "0"
+      "away_score": "14",
+      "home_score": "28"
     },
     {
       "id": "401871079",
       "date": "2026-11-21T19:00Z",
-      "status": "15:00 - 1st",
+      "status": "7:18 - 4th",
       "away": "Missouri State Bears",
       "home": "Jacksonville State Gamecocks",
-      "away_score": "3",
-      "home_score": "0"
+      "away_score": "20",
+      "home_score": "18"
     },
     {
       "id": "401871081",
       "date": "2026-11-21T19:00Z",
-      "status": "15:00 - 1st",
+      "status": "8:20 - 4th",
       "away": "Middle Tennessee Blue Raiders",
       "home": "Sam Houston Bearkats",
-      "away_score": "14",
-      "home_score": "7"
+      "away_score": "31",
+      "home_score": "21"
     },
     {
       "id": "401858527",
       "date": "2026-11-21T19:30Z",
-      "status": "11:43 - 1st",
+      "status": "9:23 - 3rd",
       "away": "Iowa Hawkeyes",
       "home": "Illinois Fighting Illini",
-      "away_score": "0",
-      "home_score": "0"
+      "away_score": "17",
+      "home_score": "17"
     },
     {
       "id": "401862833",
       "date": "2026-11-21T19:30Z",
-      "status": "11:59 - 1st",
+      "status": "End of 2nd",
       "away": "South Florida Bulls",
       "home": "Florida Atlantic Owls",
       "away_score": "0",
-      "home_score": "0"
+      "home_score": "20"
     },
     {
       "id": "401869929",
       "date": "2026-11-21T19:30Z",
-      "status": "11:38 - 1st",
+      "status": "13:19 - 4th",
       "away": "UL Monroe Warhawks",
       "home": "App State Mountaineers",
-      "away_score": "0",
-      "home_score": "0"
+      "away_score": "3",
+      "home_score": "7"
     },
     {
       "id": "401869946",
       "date": "2026-11-21T20:00Z",
-      "status": "11/21 - 3:00 PM EST",
+      "status": "14:56 - 3rd",
       "away": "Coastal Carolina Chanticleers",
       "home": "Louisiana Ragin' Cajuns",
-      "away_score": null,
-      "home_score": null
+      "away_score": "10",
+      "home_score": "21"
     },
     {
       "id": "401871077",
       "date": "2026-11-21T20:00Z",
-      "status": "11/21 - 3:00 PM EST",
+      "status": "Halftime",
       "away": "Delaware Blue Hens",
       "home": "New Mexico State Aggies",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "16"
     },
     {
       "id": "401871078",
       "date": "2026-11-21T20:00Z",
-      "status": "11/21 - 3:00 PM EST",
+      "status": "End of 2nd",
       "away": "Florida International Panthers",
       "home": "Kennesaw State Owls",
-      "away_score": null,
-      "home_score": null
+      "away_score": "10",
+      "home_score": "21"
     },
     {
       "id": "401856747",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "8:24 - 2nd",
       "away": "Samford Bulldogs",
       "home": "Auburn Tigers",
-      "away_score": null,
-      "home_score": null
+      "away_score": "3",
+      "home_score": "35"
     },
     {
       "id": "401856754",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "8:21 - 2nd",
       "away": "LSU Tigers",
       "home": "Tennessee Volunteers",
-      "away_score": null,
-      "home_score": null
+      "away_score": "6",
+      "home_score": "0"
     },
     {
       "id": "401856755",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "2:20 - 2nd",
       "away": "Arkansas Razorbacks",
       "home": "Texas Longhorns",
-      "away_score": null,
-      "home_score": null
+      "away_score": "3",
+      "home_score": "24"
     },
     {
       "id": "401856871",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "5:44 - 2nd",
       "away": "Texas Tech Red Raiders",
       "home": "Baylor Bears",
-      "away_score": null,
-      "home_score": null
+      "away_score": "7",
+      "home_score": "7"
     },
     {
       "id": "401858304",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "2:18 - 2nd",
       "away": "NC State Wolfpack",
       "home": "Florida State Seminoles",
-      "away_score": null,
-      "home_score": null
+      "away_score": "7",
+      "home_score": "7"
     },
     {
       "id": "401858528",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "3:08 - 2nd",
       "away": "UCLA Bruins",
       "home": "Michigan Wolverines",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "3"
     },
     {
       "id": "401858532",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "5:00 - 2nd",
       "away": "Rutgers Scarlet Knights",
       "home": "Penn State Nittany Lions",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "16"
     },
     {
       "id": "401858535",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "7:02 - 2nd",
       "away": "Indiana Hoosiers",
       "home": "Washington Huskies",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "14"
     },
     {
       "id": "401861968",
       "date": "2026-11-21T20:30Z",
-      "status": "11/21 - 3:30 PM EST",
+      "status": "1:50 - 2nd",
       "away": "Old Dominion Monarchs",
       "home": "UConn Huskies",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "17"
     },
     {
       "id": "401856752",
       "date": "2026-11-21T20:45Z",
-      "status": "11/21 - 3:45 PM EST",
+      "status": "8:30 - 2nd",
       "away": "Texas A&M Aggies",
       "home": "Oklahoma Sooners",
-      "away_score": null,
-      "home_score": null
+      "away_score": "7",
+      "home_score": "0"
     },
     {
       "id": "401864543",
       "date": "2026-11-21T21:00Z",
-      "status": "11/21 - 4:00 PM EST",
+      "status": "14:31 - 2nd",
       "away": "Northern Illinois Huskies",
       "home": "North Dakota State Bison",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "7"
     },
     {
       "id": "401869953",
       "date": "2026-11-21T21:00Z",
-      "status": "11/21 - 4:00 PM EST",
+      "status": "13:17 - 2nd",
       "away": "Georgia Southern Eagles",
       "home": "Troy Trojans",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "0"
     },
     {
       "id": "401869958",
       "date": "2026-11-21T21:00Z",
-      "status": "11/21 - 4:00 PM EST",
+      "status": "11:41 - 2nd",
       "away": "Georgia State Panthers",
       "home": "Marshall Thundering Herd",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "7"
     },
     {
       "id": "401871101",
       "date": "2026-11-21T21:00Z",
-      "status": "11/21 - 4:00 PM EST",
+      "status": "11:37 - 2nd",
       "away": "South Alabama Jaguars",
       "home": "Southern Miss Golden Eagles",
-      "away_score": null,
-      "home_score": null
+      "away_score": "16",
+      "home_score": "7"
     },
     {
       "id": "401860920",
