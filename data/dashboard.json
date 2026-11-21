@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:33:33+00:00",
+  "updated_at": "2026-11-21T04:00:16+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -197,7 +197,7 @@
       "name": "Bowling Green Falcons",
       "abbreviation": "BGSU",
       "conference": "Mid-American Conference",
-      "record": "3-7",
+      "record": "3-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/189/bowling-green-falcons"
     },
@@ -1070,7 +1070,7 @@
       "name": "Toledo Rockets",
       "abbreviation": "TOL",
       "conference": "Mid-American Conference",
-      "record": "8-2",
+      "record": "9-2",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2649/toledo-rockets"
     },
@@ -1367,47 +1367,47 @@
     {
       "id": "401858303",
       "date": "2026-11-21T00:30Z",
-      "status": "13:09 - 3rd",
+      "status": "1:06 - 4th",
       "away": "Clemson Tigers",
       "home": "Duke Blue Devils",
-      "away_score": "3",
-      "home_score": "0"
+      "away_score": "17",
+      "home_score": "10"
     },
     {
       "id": "401866468",
       "date": "2026-11-21T00:30Z",
-      "status": "13:08 - 3rd",
+      "status": "Final",
       "away": "Bowling Green Falcons",
       "home": "Toledo Rockets",
       "away_score": "0",
-      "home_score": "16"
+      "home_score": "19"
     },
     {
       "id": "401858529",
       "date": "2026-11-21T01:00Z",
-      "status": "0:15 - 2nd",
+      "status": "13:34 - 4th",
       "away": "Oregon Ducks",
       "home": "Michigan State Spartans",
-      "away_score": "10",
-      "home_score": "0"
+      "away_score": "38",
+      "home_score": "7"
     },
     {
       "id": "401864545",
       "date": "2026-11-21T01:00Z",
-      "status": "Halftime",
+      "status": "4:14 - 4th",
       "away": "UTEP Miners",
       "home": "Air Force Falcons",
       "away_score": "3",
-      "home_score": "28"
+      "home_score": "52"
     },
     {
       "id": "401864542",
       "date": "2026-11-21T02:00Z",
-      "status": "6:48 - 1st",
+      "status": "Halftime",
       "away": "New Mexico Lobos",
       "home": "Wyoming Cowboys",
-      "away_score": "7",
-      "home_score": "0"
+      "away_score": "17",
+      "home_score": "7"
     },
     {
       "id": "401856748",
