@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '17 */3 * * *'
   workflow_dispatch:
+  pull_request:
 
 permissions: {}
 
@@ -12,13 +13,42 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s tests
+      - run: node --test tests/*.test.mjs
+      - name: Install Chromium for browser tests
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test profiles in Chromium
+        run: node tests/profile-browser.cjs
+      - name: Upload review screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: team-profile-preview
+          path: team-profile-preview.png
+
   update:
-    if: github.ref_name == github.event.repository.default_branch && github.ref_type == 'branch'
+    if: github.event_name != 'pull_request' && github.ref_name == github.event.repository.default_branch && github.ref_type == 'branch'
     permissions:
       contents: write
       pages: read
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
         with:
@@ -30,9 +60,11 @@ jobs:
         run: python update_data.py
       - name: Archive weekly AP rankings
         run: python update_rankings.py
+      - name: Generate FBS team profiles
+        run: python update_profiles.py
       - name: Commit updated data
         run: |
-          git add -- data/dashboard.json data/ap-rankings
+          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -46,8 +78,8 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html ranking-history.mjs _site/
-          cp data/dashboard.json _site/data/dashboard.json
+          cp index.html ranking-history.mjs team-profiles.mjs _site/
+          cp data/dashboard.json data/team-profiles.json _site/data/
           cp -R data/ap-rankings _site/data/
       - name: Upload dashboard
         uses: actions/upload-pages-artifact@v4

@@ -182,12 +182,19 @@ export async function mountHistory(panel, directory) {
         ? `${active.label} · AP poll published ${active.poll.published_at.slice(0, 10)}`
         : `${active.label} · Poll unavailable`;
 
-      const headings = ['Poll', ...selected.map(team => team.name)];
+      const headings = [null, ...selected];
       const header = table.tHead.rows[0];
-      header.replaceChildren(...headings.map(name => {
+      header.replaceChildren(...headings.map(team => {
         const cell = document.createElement('th');
         cell.scope = 'col';
-        cell.textContent = name;
+        if (team) {
+          const link = document.createElement('a');
+          link.href = `#team=${encodeURIComponent(team.id)}`;
+          link.textContent = team.name;
+          cell.append(link);
+        } else {
+          cell.textContent = 'Poll';
+        }
         return cell;
       }));
       const body = table.tBodies[0];
