@@ -90,3 +90,57 @@ python3 update_rankings.py
 python3 -m unittest discover -s tests
 node --test tests/ranking-history.test.mjs
 ```
+
+## Interactive team profiles
+
+Select a team from the rankings, the filtered FBS directory, or a team column
+in AP Ranking History. Share the profile URL, such as `#team=87` for Notre Dame.
+Use **Team Profiles** to browse all FBS teams and compare any two.
+
+- **Schedule and records.** ESPN's [team schedule feed](https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/87/schedule?season=2026&seasontype=2)
+  supplies regular-season and published postseason games. The overall record
+  comes from the dashboard's ESPN standings. Conference record is ESPN's
+  most recent finished regular-season game's conference record. Independent
+  teams and unpublished records show N/A. ESPN can add or move future games.
+- **AP rankings.** Current ranks use the dashboard AP poll. Movement is shown
+  when the latest archived AP poll matches the dashboard and the preceding
+  poll is available. A completed game's opponent rank uses the latest archived
+  AP poll published before that game's Eastern calendar date. Same-day
+  releases and known archive gaps show N/A where kickoff order is uncertain.
+  A verified poll that omits the opponent yields Unranked. Ranked results use
+  these game-time ranks.
+- **Performance.** Points scored, points allowed, and margin average all
+  final scores from the schedule. ESPN [game box scores](https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858438)
+  provide total, rushing and net passing yards, yards allowed, and turnovers
+  lost per game. Third-down percentage is total conversions divided by total
+  attempts. Each season box-score statistic requires coverage for every
+  completed game. A game chart shows N/A for missing data. Trends use the last
+  five completed games or all completed games. National stat rankings are
+  omitted because published coverage can differ between teams.
+- **Opponent strength.** Sum current wins, losses and ties for FBS opponents
+  already played, counting one opponent record per meeting. The percentage is
+  `(wins + ties / 2) / (wins + losses + ties)`. The denominator includes
+  head-to-head results and may include opponents' games against non-FBS
+  schools. Missing or stale opponent schedules and non-FBS opponents are
+  excluded, and coverage appears alongside the percentage. This descriptive
+  figure has no official NCAA standing. Comparison highlights favorable
+  scoring, yardage, turnover and conversion figures and the higher opponent
+  percentage, without making a prediction.
+
+`python3 update_profiles.py` builds `data/team-profiles.json` after the
+dashboard and AP archive refresh. ESPN requests are throttled and completed
+box scores are deduplicated across teams and reused on future runs. Failed
+schedule fetches keep previously saved games and label them stale when
+available. The browser loads the static profile file once when a profile is
+opened. GitHub Pages publishes it through the existing default-branch
+refresh and deploy workflow. Pull requests run validation without publishing.
+
+To preview the feature branch, run `python3 -m http.server 8000`, open
+[the local dashboard](http://localhost:8000/), and select **Team Profiles**.
+Try browsing from a ranked team, reloading its shared URL, changing both
+comparison teams, and switching the trend to **Full season**.
+
+```sh
+python3 -m unittest discover -s tests
+node --test tests/*.test.mjs
+```
