@@ -1,0 +1,1935 @@
+{
+  "updated_at": "2026-11-21T02:12:52+00:00",
+  "status": "ok",
+  "season": 2026,
+  "week": 12,
+  "poll": "AP Top 25",
+  "poll_date": "2026-11-16T08:00Z",
+  "sources": {
+    "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings",
+    "rankings": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings",
+    "scoreboard": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard"
+  },
+  "conferences": [
+    {
+      "id": "151",
+      "name": "American Conference"
+    },
+    {
+      "id": "1",
+      "name": "Atlantic Coast Conference"
+    },
+    {
+      "id": "4",
+      "name": "Big 12 Conference"
+    },
+    {
+      "id": "5",
+      "name": "Big Ten Conference"
+    },
+    {
+      "id": "12",
+      "name": "Conference USA"
+    },
+    {
+      "id": "18",
+      "name": "Independent"
+    },
+    {
+      "id": "15",
+      "name": "Mid-American Conference"
+    },
+    {
+      "id": "17",
+      "name": "Mountain West Conference"
+    },
+    {
+      "id": "9",
+      "name": "Pac-12 Conference"
+    },
+    {
+      "id": "8",
+      "name": "Southeastern Conference"
+    },
+    {
+      "id": "37",
+      "name": "Sun Belt Conference"
+    }
+  ],
+  "teams": [
+    {
+      "id": "2005",
+      "name": "Air Force Falcons",
+      "abbreviation": "AFA",
+      "conference": "Mountain West Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons"
+    },
+    {
+      "id": "2006",
+      "name": "Akron Zips",
+      "abbreviation": "AKR",
+      "conference": "Mid-American Conference",
+      "record": "2-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2006/akron-zips"
+    },
+    {
+      "id": "333",
+      "name": "Alabama Crimson Tide",
+      "abbreviation": "ALA",
+      "conference": "Southeastern Conference",
+      "record": "8-2",
+      "rank": 7,
+      "url": "https://www.espn.com/college-football/team/_/id/333/alabama-crimson-tide"
+    },
+    {
+      "id": "2026",
+      "name": "App State Mountaineers",
+      "abbreviation": "APP",
+      "conference": "Sun Belt Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2026/app-state-mountaineers"
+    },
+    {
+      "id": "9",
+      "name": "Arizona State Sun Devils",
+      "abbreviation": "ASU",
+      "conference": "Big 12 Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/9/arizona-state-sun-devils"
+    },
+    {
+      "id": "12",
+      "name": "Arizona Wildcats",
+      "abbreviation": "ARIZ",
+      "conference": "Big 12 Conference",
+      "record": "7-3",
+      "rank": 19,
+      "url": "https://www.espn.com/college-football/team/_/id/12/arizona-wildcats"
+    },
+    {
+      "id": "8",
+      "name": "Arkansas Razorbacks",
+      "abbreviation": "ARK",
+      "conference": "Southeastern Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/8/arkansas-razorbacks"
+    },
+    {
+      "id": "2032",
+      "name": "Arkansas State Red Wolves",
+      "abbreviation": "ARST",
+      "conference": "Sun Belt Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2032/arkansas-state-red-wolves"
+    },
+    {
+      "id": "349",
+      "name": "Army Black Knights",
+      "abbreviation": "ARMY",
+      "conference": "American Conference",
+      "record": "5-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/349/army-black-knights"
+    },
+    {
+      "id": "2",
+      "name": "Auburn Tigers",
+      "abbreviation": "AUB",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2/auburn-tigers"
+    },
+    {
+      "id": "252",
+      "name": "BYU Cougars",
+      "abbreviation": "BYU",
+      "conference": "Big 12 Conference",
+      "record": "8-2",
+      "rank": 12,
+      "url": "https://www.espn.com/college-football/team/_/id/252/byu-cougars"
+    },
+    {
+      "id": "2050",
+      "name": "Ball State Cardinals",
+      "abbreviation": "BALL",
+      "conference": "Mid-American Conference",
+      "record": "3-8",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2050/ball-state-cardinals"
+    },
+    {
+      "id": "239",
+      "name": "Baylor Bears",
+      "abbreviation": "BAY",
+      "conference": "Big 12 Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/239/baylor-bears"
+    },
+    {
+      "id": "68",
+      "name": "Boise State Broncos",
+      "abbreviation": "BOIS",
+      "conference": "Pac-12 Conference",
+      "record": "9-1",
+      "rank": 15,
+      "url": "https://www.espn.com/college-football/team/_/id/68/boise-state-broncos"
+    },
+    {
+      "id": "103",
+      "name": "Boston College Eagles",
+      "abbreviation": "BC",
+      "conference": "Atlantic Coast Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/103/boston-college-eagles"
+    },
+    {
+      "id": "189",
+      "name": "Bowling Green Falcons",
+      "abbreviation": "BGSU",
+      "conference": "Mid-American Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/189/bowling-green-falcons"
+    },
+    {
+      "id": "2084",
+      "name": "Buffalo Bulls",
+      "abbreviation": "BUFF",
+      "conference": "Mid-American Conference",
+      "record": "8-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2084/buffalo-bulls"
+    },
+    {
+      "id": "25",
+      "name": "California Golden Bears",
+      "abbreviation": "CAL",
+      "conference": "Atlantic Coast Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/25/california-golden-bears"
+    },
+    {
+      "id": "2117",
+      "name": "Central Michigan Chippewas",
+      "abbreviation": "CMU",
+      "conference": "Mid-American Conference",
+      "record": "5-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2117/central-michigan-chippewas"
+    },
+    {
+      "id": "2429",
+      "name": "Charlotte 49ers",
+      "abbreviation": "CLT",
+      "conference": "American Conference",
+      "record": "1-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2429/charlotte-49ers"
+    },
+    {
+      "id": "2132",
+      "name": "Cincinnati Bearcats",
+      "abbreviation": "CIN",
+      "conference": "Big 12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2132/cincinnati-bearcats"
+    },
+    {
+      "id": "228",
+      "name": "Clemson Tigers",
+      "abbreviation": "CLEM",
+      "conference": "Atlantic Coast Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/228/clemson-tigers"
+    },
+    {
+      "id": "324",
+      "name": "Coastal Carolina Chanticleers",
+      "abbreviation": "CCU",
+      "conference": "Sun Belt Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/324/coastal-carolina-chanticleers"
+    },
+    {
+      "id": "38",
+      "name": "Colorado Buffaloes",
+      "abbreviation": "COLO",
+      "conference": "Big 12 Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/38/colorado-buffaloes"
+    },
+    {
+      "id": "36",
+      "name": "Colorado State Rams",
+      "abbreviation": "CSU",
+      "conference": "Pac-12 Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/36/colorado-state-rams"
+    },
+    {
+      "id": "48",
+      "name": "Delaware Blue Hens",
+      "abbreviation": "DEL",
+      "conference": "Conference USA",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/48/delaware-blue-hens"
+    },
+    {
+      "id": "150",
+      "name": "Duke Blue Devils",
+      "abbreviation": "DUKE",
+      "conference": "Atlantic Coast Conference",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/150/duke-blue-devils"
+    },
+    {
+      "id": "151",
+      "name": "East Carolina Pirates",
+      "abbreviation": "ECU",
+      "conference": "American Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/151/east-carolina-pirates"
+    },
+    {
+      "id": "2199",
+      "name": "Eastern Michigan Eagles",
+      "abbreviation": "EMU",
+      "conference": "Mid-American Conference",
+      "record": "4-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles"
+    },
+    {
+      "id": "2226",
+      "name": "Florida Atlantic Owls",
+      "abbreviation": "FAU",
+      "conference": "American Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2226/florida-atlantic-owls"
+    },
+    {
+      "id": "57",
+      "name": "Florida Gators",
+      "abbreviation": "FLA",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": 23,
+      "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
+    },
+    {
+      "id": "2229",
+      "name": "Florida International Panthers",
+      "abbreviation": "FIU",
+      "conference": "Conference USA",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2229/florida-international-panthers"
+    },
+    {
+      "id": "52",
+      "name": "Florida State Seminoles",
+      "abbreviation": "FSU",
+      "conference": "Atlantic Coast Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/52/florida-state-seminoles"
+    },
+    {
+      "id": "278",
+      "name": "Fresno State Bulldogs",
+      "abbreviation": "FRES",
+      "conference": "Pac-12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/278/fresno-state-bulldogs"
+    },
+    {
+      "id": "61",
+      "name": "Georgia Bulldogs",
+      "abbreviation": "UGA",
+      "conference": "Southeastern Conference",
+      "record": "9-1",
+      "rank": 1,
+      "url": "https://www.espn.com/college-football/team/_/id/61/georgia-bulldogs"
+    },
+    {
+      "id": "290",
+      "name": "Georgia Southern Eagles",
+      "abbreviation": "GASO",
+      "conference": "Sun Belt Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/290/georgia-southern-eagles"
+    },
+    {
+      "id": "2247",
+      "name": "Georgia State Panthers",
+      "abbreviation": "GAST",
+      "conference": "Sun Belt Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2247/georgia-state-panthers"
+    },
+    {
+      "id": "59",
+      "name": "Georgia Tech Yellow Jackets",
+      "abbreviation": "GT",
+      "conference": "Atlantic Coast Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/59/georgia-tech-yellow-jackets"
+    },
+    {
+      "id": "62",
+      "name": "Hawai'i Rainbow Warriors",
+      "abbreviation": "HAW",
+      "conference": "Mountain West Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/62/hawaii-rainbow-warriors"
+    },
+    {
+      "id": "248",
+      "name": "Houston Cougars",
+      "abbreviation": "HOU",
+      "conference": "Big 12 Conference",
+      "record": "7-3",
+      "rank": 20,
+      "url": "https://www.espn.com/college-football/team/_/id/248/houston-cougars"
+    },
+    {
+      "id": "356",
+      "name": "Illinois Fighting Illini",
+      "abbreviation": "ILL",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/356/illinois-fighting-illini"
+    },
+    {
+      "id": "84",
+      "name": "Indiana Hoosiers",
+      "abbreviation": "IU",
+      "conference": "Big Ten Conference",
+      "record": "9-1",
+      "rank": 6,
+      "url": "https://www.espn.com/college-football/team/_/id/84/indiana-hoosiers"
+    },
+    {
+      "id": "2294",
+      "name": "Iowa Hawkeyes",
+      "abbreviation": "IOWA",
+      "conference": "Big Ten Conference",
+      "record": "8-2",
+      "rank": 13,
+      "url": "https://www.espn.com/college-football/team/_/id/2294/iowa-hawkeyes"
+    },
+    {
+      "id": "66",
+      "name": "Iowa State Cyclones",
+      "abbreviation": "ISU",
+      "conference": "Big 12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/66/iowa-state-cyclones"
+    },
+    {
+      "id": "55",
+      "name": "Jacksonville State Gamecocks",
+      "abbreviation": "JXST",
+      "conference": "Conference USA",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/55/jacksonville-state-gamecocks"
+    },
+    {
+      "id": "256",
+      "name": "James Madison Dukes",
+      "abbreviation": "JMU",
+      "conference": "Sun Belt Conference",
+      "record": "8-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/256/james-madison-dukes"
+    },
+    {
+      "id": "2305",
+      "name": "Kansas Jayhawks",
+      "abbreviation": "KU",
+      "conference": "Big 12 Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2305/kansas-jayhawks"
+    },
+    {
+      "id": "2306",
+      "name": "Kansas State Wildcats",
+      "abbreviation": "KSU",
+      "conference": "Big 12 Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2306/kansas-state-wildcats"
+    },
+    {
+      "id": "338",
+      "name": "Kennesaw State Owls",
+      "abbreviation": "KENN",
+      "conference": "Conference USA",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/338/kennesaw-state-owls"
+    },
+    {
+      "id": "2309",
+      "name": "Kent State Golden Flashes",
+      "abbreviation": "KENT",
+      "conference": "Mid-American Conference",
+      "record": "3-8",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2309/kent-state-golden-flashes"
+    },
+    {
+      "id": "96",
+      "name": "Kentucky Wildcats",
+      "abbreviation": "UK",
+      "conference": "Southeastern Conference",
+      "record": "7-3",
+      "rank": 17,
+      "url": "https://www.espn.com/college-football/team/_/id/96/kentucky-wildcats"
+    },
+    {
+      "id": "99",
+      "name": "LSU Tigers",
+      "abbreviation": "LSU",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/99/lsu-tigers"
+    },
+    {
+      "id": "2335",
+      "name": "Liberty Flames",
+      "abbreviation": "LIB",
+      "conference": "Conference USA",
+      "record": "9-1",
+      "rank": 22,
+      "url": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames"
+    },
+    {
+      "id": "309",
+      "name": "Louisiana Ragin' Cajuns",
+      "abbreviation": "UL",
+      "conference": "Sun Belt Conference",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/309/louisiana-ragin-cajuns"
+    },
+    {
+      "id": "2348",
+      "name": "Louisiana Tech Bulldogs",
+      "abbreviation": "LT",
+      "conference": "Sun Belt Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2348/louisiana-tech-bulldogs"
+    },
+    {
+      "id": "97",
+      "name": "Louisville Cardinals",
+      "abbreviation": "LOU",
+      "conference": "Atlantic Coast Conference",
+      "record": "7-3",
+      "rank": 21,
+      "url": "https://www.espn.com/college-football/team/_/id/97/louisville-cardinals"
+    },
+    {
+      "id": "276",
+      "name": "Marshall Thundering Herd",
+      "abbreviation": "MRSH",
+      "conference": "Sun Belt Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/276/marshall-thundering-herd"
+    },
+    {
+      "id": "120",
+      "name": "Maryland Terrapins",
+      "abbreviation": "MD",
+      "conference": "Big Ten Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/120/maryland-terrapins"
+    },
+    {
+      "id": "113",
+      "name": "Massachusetts Minutemen",
+      "abbreviation": "MASS",
+      "conference": "Mid-American Conference",
+      "record": "5-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/113/massachusetts-minutemen"
+    },
+    {
+      "id": "235",
+      "name": "Memphis Tigers",
+      "abbreviation": "MEM",
+      "conference": "American Conference",
+      "record": "8-2",
+      "rank": 24,
+      "url": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers"
+    },
+    {
+      "id": "193",
+      "name": "Miami (OH) RedHawks",
+      "abbreviation": "M-OH",
+      "conference": "Mid-American Conference",
+      "record": "7-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/193/miami-oh-redhawks"
+    },
+    {
+      "id": "2390",
+      "name": "Miami Hurricanes",
+      "abbreviation": "MIA",
+      "conference": "Atlantic Coast Conference",
+      "record": "9-1",
+      "rank": 5,
+      "url": "https://www.espn.com/college-football/team/_/id/2390/miami-hurricanes"
+    },
+    {
+      "id": "127",
+      "name": "Michigan State Spartans",
+      "abbreviation": "MSU",
+      "conference": "Big Ten Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/127/michigan-state-spartans"
+    },
+    {
+      "id": "130",
+      "name": "Michigan Wolverines",
+      "abbreviation": "MICH",
+      "conference": "Big Ten Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/130/michigan-wolverines"
+    },
+    {
+      "id": "2393",
+      "name": "Middle Tennessee Blue Raiders",
+      "abbreviation": "MTSU",
+      "conference": "Conference USA",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2393/middle-tennessee-blue-raiders"
+    },
+    {
+      "id": "135",
+      "name": "Minnesota Golden Gophers",
+      "abbreviation": "MINN",
+      "conference": "Big Ten Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/135/minnesota-golden-gophers"
+    },
+    {
+      "id": "344",
+      "name": "Mississippi State Bulldogs",
+      "abbreviation": "MSST",
+      "conference": "Southeastern Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/344/mississippi-state-bulldogs"
+    },
+    {
+      "id": "2623",
+      "name": "Missouri State Bears",
+      "abbreviation": "MOST",
+      "conference": "Conference USA",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2623/missouri-state-bears"
+    },
+    {
+      "id": "142",
+      "name": "Missouri Tigers",
+      "abbreviation": "MIZ",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/142/missouri-tigers"
+    },
+    {
+      "id": "152",
+      "name": "NC State Wolfpack",
+      "abbreviation": "NCSU",
+      "conference": "Atlantic Coast Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/152/nc-state-wolfpack"
+    },
+    {
+      "id": "2426",
+      "name": "Navy Midshipmen",
+      "abbreviation": "NAVY",
+      "conference": "American Conference",
+      "record": "3-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2426/navy-midshipmen"
+    },
+    {
+      "id": "158",
+      "name": "Nebraska Cornhuskers",
+      "abbreviation": "NEB",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/158/nebraska-cornhuskers"
+    },
+    {
+      "id": "2440",
+      "name": "Nevada Wolf Pack",
+      "abbreviation": "NEV",
+      "conference": "Mountain West Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2440/nevada-wolf-pack"
+    },
+    {
+      "id": "167",
+      "name": "New Mexico Lobos",
+      "abbreviation": "UNM",
+      "conference": "Mountain West Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/167/new-mexico-lobos"
+    },
+    {
+      "id": "166",
+      "name": "New Mexico State Aggies",
+      "abbreviation": "NMSU",
+      "conference": "Conference USA",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/166/new-mexico-state-aggies"
+    },
+    {
+      "id": "153",
+      "name": "North Carolina Tar Heels",
+      "abbreviation": "UNC",
+      "conference": "Atlantic Coast Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/153/north-carolina-tar-heels"
+    },
+    {
+      "id": "2449",
+      "name": "North Dakota State Bison",
+      "abbreviation": "NDSU",
+      "conference": "Mountain West Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2449/north-dakota-state-bison"
+    },
+    {
+      "id": "249",
+      "name": "North Texas Mean Green",
+      "abbreviation": "UNT",
+      "conference": "American Conference",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/249/north-texas-mean-green"
+    },
+    {
+      "id": "2459",
+      "name": "Northern Illinois Huskies",
+      "abbreviation": "NIU",
+      "conference": "Mountain West Conference",
+      "record": "0-10",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2459/northern-illinois-huskies"
+    },
+    {
+      "id": "77",
+      "name": "Northwestern Wildcats",
+      "abbreviation": "NU",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/77/northwestern-wildcats"
+    },
+    {
+      "id": "87",
+      "name": "Notre Dame Fighting Irish",
+      "abbreviation": "ND",
+      "conference": "Independent",
+      "record": "9-1",
+      "rank": 3,
+      "url": "https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish"
+    },
+    {
+      "id": "195",
+      "name": "Ohio Bobcats",
+      "abbreviation": "OHIO",
+      "conference": "Mid-American Conference",
+      "record": "8-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/195/ohio-bobcats"
+    },
+    {
+      "id": "194",
+      "name": "Ohio State Buckeyes",
+      "abbreviation": "OSU",
+      "conference": "Big Ten Conference",
+      "record": "7-3",
+      "rank": 16,
+      "url": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes"
+    },
+    {
+      "id": "201",
+      "name": "Oklahoma Sooners",
+      "abbreviation": "OU",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/201/oklahoma-sooners"
+    },
+    {
+      "id": "197",
+      "name": "Oklahoma State Cowboys",
+      "abbreviation": "OKST",
+      "conference": "Big 12 Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/197/oklahoma-state-cowboys"
+    },
+    {
+      "id": "295",
+      "name": "Old Dominion Monarchs",
+      "abbreviation": "ODU",
+      "conference": "Sun Belt Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/295/old-dominion-monarchs"
+    },
+    {
+      "id": "145",
+      "name": "Ole Miss Rebels",
+      "abbreviation": "MISS",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": 25,
+      "url": "https://www.espn.com/college-football/team/_/id/145/ole-miss-rebels"
+    },
+    {
+      "id": "2483",
+      "name": "Oregon Ducks",
+      "abbreviation": "ORE",
+      "conference": "Big Ten Conference",
+      "record": "7-3",
+      "rank": 14,
+      "url": "https://www.espn.com/college-football/team/_/id/2483/oregon-ducks"
+    },
+    {
+      "id": "204",
+      "name": "Oregon State Beavers",
+      "abbreviation": "ORST",
+      "conference": "Pac-12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/204/oregon-state-beavers"
+    },
+    {
+      "id": "213",
+      "name": "Penn State Nittany Lions",
+      "abbreviation": "PSU",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/213/penn-state-nittany-lions"
+    },
+    {
+      "id": "221",
+      "name": "Pittsburgh Panthers",
+      "abbreviation": "PITT",
+      "conference": "Atlantic Coast Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/221/pittsburgh-panthers"
+    },
+    {
+      "id": "2509",
+      "name": "Purdue Boilermakers",
+      "abbreviation": "PUR",
+      "conference": "Big Ten Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2509/purdue-boilermakers"
+    },
+    {
+      "id": "242",
+      "name": "Rice Owls",
+      "abbreviation": "RICE",
+      "conference": "American Conference",
+      "record": "2-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/242/rice-owls"
+    },
+    {
+      "id": "164",
+      "name": "Rutgers Scarlet Knights",
+      "abbreviation": "RUTG",
+      "conference": "Big Ten Conference",
+      "record": "2-8",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/164/rutgers-scarlet-knights"
+    },
+    {
+      "id": "2567",
+      "name": "SMU Mustangs",
+      "abbreviation": "SMU",
+      "conference": "Atlantic Coast Conference",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2567/smu-mustangs"
+    },
+    {
+      "id": "16",
+      "name": "Sacramento State Hornets",
+      "abbreviation": "SAC",
+      "conference": "Mid-American Conference",
+      "record": "2-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/16/sacramento-state-hornets"
+    },
+    {
+      "id": "2534",
+      "name": "Sam Houston Bearkats",
+      "abbreviation": "SHSU",
+      "conference": "Conference USA",
+      "record": "1-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2534/sam-houston-bearkats"
+    },
+    {
+      "id": "21",
+      "name": "San Diego State Aztecs",
+      "abbreviation": "SDSU",
+      "conference": "Pac-12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/21/san-diego-state-aztecs"
+    },
+    {
+      "id": "23",
+      "name": "San José State Spartans",
+      "abbreviation": "SJSU",
+      "conference": "Mountain West Conference",
+      "record": "5-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans"
+    },
+    {
+      "id": "6",
+      "name": "South Alabama Jaguars",
+      "abbreviation": "USA",
+      "conference": "Sun Belt Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/6/south-alabama-jaguars"
+    },
+    {
+      "id": "2579",
+      "name": "South Carolina Gamecocks",
+      "abbreviation": "SC",
+      "conference": "Southeastern Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2579/south-carolina-gamecocks"
+    },
+    {
+      "id": "58",
+      "name": "South Florida Bulls",
+      "abbreviation": "USF",
+      "conference": "American Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/58/south-florida-bulls"
+    },
+    {
+      "id": "2572",
+      "name": "Southern Miss Golden Eagles",
+      "abbreviation": "USM",
+      "conference": "Sun Belt Conference",
+      "record": "3-7",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2572/southern-miss-golden-eagles"
+    },
+    {
+      "id": "24",
+      "name": "Stanford Cardinal",
+      "abbreviation": "STAN",
+      "conference": "Atlantic Coast Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/24/stanford-cardinal"
+    },
+    {
+      "id": "183",
+      "name": "Syracuse Orange",
+      "abbreviation": "SYR",
+      "conference": "Atlantic Coast Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/183/syracuse-orange"
+    },
+    {
+      "id": "2628",
+      "name": "TCU Horned Frogs",
+      "abbreviation": "TCU",
+      "conference": "Big 12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2628/tcu-horned-frogs"
+    },
+    {
+      "id": "218",
+      "name": "Temple Owls",
+      "abbreviation": "TEM",
+      "conference": "American Conference",
+      "record": "2-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/218/temple-owls"
+    },
+    {
+      "id": "2633",
+      "name": "Tennessee Volunteers",
+      "abbreviation": "TENN",
+      "conference": "Southeastern Conference",
+      "record": "8-2",
+      "rank": 9,
+      "url": "https://www.espn.com/college-football/team/_/id/2633/tennessee-volunteers"
+    },
+    {
+      "id": "245",
+      "name": "Texas A&M Aggies",
+      "abbreviation": "TA&M",
+      "conference": "Southeastern Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/245/texas-am-aggies"
+    },
+    {
+      "id": "251",
+      "name": "Texas Longhorns",
+      "abbreviation": "TEX",
+      "conference": "Southeastern Conference",
+      "record": "8-2",
+      "rank": 8,
+      "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
+    },
+    {
+      "id": "326",
+      "name": "Texas State Bobcats",
+      "abbreviation": "TXST",
+      "conference": "Pac-12 Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/326/texas-state-bobcats"
+    },
+    {
+      "id": "2641",
+      "name": "Texas Tech Red Raiders",
+      "abbreviation": "TTU",
+      "conference": "Big 12 Conference",
+      "record": "9-1",
+      "rank": 11,
+      "url": "https://www.espn.com/college-football/team/_/id/2641/texas-tech-red-raiders"
+    },
+    {
+      "id": "2649",
+      "name": "Toledo Rockets",
+      "abbreviation": "TOL",
+      "conference": "Mid-American Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2649/toledo-rockets"
+    },
+    {
+      "id": "2653",
+      "name": "Troy Trojans",
+      "abbreviation": "TROY",
+      "conference": "Sun Belt Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2653/troy-trojans"
+    },
+    {
+      "id": "2655",
+      "name": "Tulane Green Wave",
+      "abbreviation": "TULN",
+      "conference": "American Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2655/tulane-green-wave"
+    },
+    {
+      "id": "202",
+      "name": "Tulsa Golden Hurricane",
+      "abbreviation": "TLSA",
+      "conference": "American Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/202/tulsa-golden-hurricane"
+    },
+    {
+      "id": "5",
+      "name": "UAB Blazers",
+      "abbreviation": "UAB",
+      "conference": "American Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/5/uab-blazers"
+    },
+    {
+      "id": "2116",
+      "name": "UCF Knights",
+      "abbreviation": "UCF",
+      "conference": "Big 12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2116/ucf-knights"
+    },
+    {
+      "id": "26",
+      "name": "UCLA Bruins",
+      "abbreviation": "UCLA",
+      "conference": "Big Ten Conference",
+      "record": "10-0",
+      "rank": 4,
+      "url": "https://www.espn.com/college-football/team/_/id/26/ucla-bruins"
+    },
+    {
+      "id": "41",
+      "name": "UConn Huskies",
+      "abbreviation": "CONN",
+      "conference": "Independent",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/41/uconn-huskies"
+    },
+    {
+      "id": "2433",
+      "name": "UL Monroe Warhawks",
+      "abbreviation": "ULM",
+      "conference": "Sun Belt Conference",
+      "record": "2-8",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2433/ul-monroe-warhawks"
+    },
+    {
+      "id": "2439",
+      "name": "UNLV Rebels",
+      "abbreviation": "UNLV",
+      "conference": "Mountain West Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2439/unlv-rebels"
+    },
+    {
+      "id": "30",
+      "name": "USC Trojans",
+      "abbreviation": "USC",
+      "conference": "Big Ten Conference",
+      "record": "7-3",
+      "rank": 18,
+      "url": "https://www.espn.com/college-football/team/_/id/30/usc-trojans"
+    },
+    {
+      "id": "2638",
+      "name": "UTEP Miners",
+      "abbreviation": "UTEP",
+      "conference": "Mountain West Conference",
+      "record": "1-9",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2638/utep-miners"
+    },
+    {
+      "id": "2636",
+      "name": "UTSA Roadrunners",
+      "abbreviation": "UTSA",
+      "conference": "American Conference",
+      "record": "8-2",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2636/utsa-roadrunners"
+    },
+    {
+      "id": "328",
+      "name": "Utah State Aggies",
+      "abbreviation": "USU",
+      "conference": "Pac-12 Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/328/utah-state-aggies"
+    },
+    {
+      "id": "254",
+      "name": "Utah Utes",
+      "abbreviation": "UTAH",
+      "conference": "Big 12 Conference",
+      "record": "10-0",
+      "rank": 2,
+      "url": "https://www.espn.com/college-football/team/_/id/254/utah-utes"
+    },
+    {
+      "id": "238",
+      "name": "Vanderbilt Commodores",
+      "abbreviation": "VAN",
+      "conference": "Southeastern Conference",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/238/vanderbilt-commodores"
+    },
+    {
+      "id": "258",
+      "name": "Virginia Cavaliers",
+      "abbreviation": "UVA",
+      "conference": "Atlantic Coast Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/258/virginia-cavaliers"
+    },
+    {
+      "id": "259",
+      "name": "Virginia Tech Hokies",
+      "abbreviation": "VT",
+      "conference": "Atlantic Coast Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/259/virginia-tech-hokies"
+    },
+    {
+      "id": "154",
+      "name": "Wake Forest Demon Deacons",
+      "abbreviation": "WAKE",
+      "conference": "Atlantic Coast Conference",
+      "record": "9-1",
+      "rank": 10,
+      "url": "https://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons"
+    },
+    {
+      "id": "264",
+      "name": "Washington Huskies",
+      "abbreviation": "WASH",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/264/washington-huskies"
+    },
+    {
+      "id": "265",
+      "name": "Washington State Cougars",
+      "abbreviation": "WSU",
+      "conference": "Pac-12 Conference",
+      "record": "2-8",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/265/washington-state-cougars"
+    },
+    {
+      "id": "277",
+      "name": "West Virginia Mountaineers",
+      "abbreviation": "WVU",
+      "conference": "Big 12 Conference",
+      "record": "5-5",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/277/west-virginia-mountaineers"
+    },
+    {
+      "id": "98",
+      "name": "Western Kentucky Hilltoppers",
+      "abbreviation": "WKU",
+      "conference": "Conference USA",
+      "record": "4-6",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/98/western-kentucky-hilltoppers"
+    },
+    {
+      "id": "2711",
+      "name": "Western Michigan Broncos",
+      "abbreviation": "WMU",
+      "conference": "Mid-American Conference",
+      "record": "8-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos"
+    },
+    {
+      "id": "275",
+      "name": "Wisconsin Badgers",
+      "abbreviation": "WIS",
+      "conference": "Big Ten Conference",
+      "record": "6-4",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers"
+    },
+    {
+      "id": "2751",
+      "name": "Wyoming Cowboys",
+      "abbreviation": "WYO",
+      "conference": "Mountain West Conference",
+      "record": "7-3",
+      "rank": null,
+      "url": "https://www.espn.com/college-football/team/_/id/2751/wyoming-cowboys"
+    }
+  ],
+  "games": [
+    {
+      "id": "401866465",
+      "date": "2026-11-17T23:00Z",
+      "status": "Final",
+      "away": "Eastern Michigan Eagles",
+      "home": "Western Michigan Broncos",
+      "away_score": "27",
+      "home_score": "34"
+    },
+    {
+      "id": "401866464",
+      "date": "2026-11-18T00:00Z",
+      "status": "Final",
+      "away": "Ball State Cardinals",
+      "home": "Ohio Bobcats",
+      "away_score": "28",
+      "home_score": "35"
+    },
+    {
+      "id": "401866466",
+      "date": "2026-11-18T00:00Z",
+      "status": "Final",
+      "away": "Miami (OH) RedHawks",
+      "home": "Kent State Golden Flashes",
+      "away_score": "20",
+      "home_score": "3"
+    },
+    {
+      "id": "401866467",
+      "date": "2026-11-19T00:00Z",
+      "status": "Final",
+      "away": "Akron Zips",
+      "home": "Massachusetts Minutemen",
+      "away_score": "34",
+      "home_score": "33"
+    },
+    {
+      "id": "401866469",
+      "date": "2026-11-19T00:30Z",
+      "status": "Final",
+      "away": "Central Michigan Chippewas",
+      "home": "Buffalo Bulls",
+      "away_score": "21",
+      "home_score": "40"
+    },
+    {
+      "id": "401862830",
+      "date": "2026-11-20T00:30Z",
+      "status": "Final",
+      "away": "Rice Owls",
+      "home": "Temple Owls",
+      "away_score": "31",
+      "home_score": "27"
+    },
+    {
+      "id": "401856869",
+      "date": "2026-11-20T23:00Z",
+      "status": "6:35 - 4th",
+      "away": "Iowa State Cyclones",
+      "home": "UCF Knights",
+      "away_score": "17",
+      "home_score": "48"
+    },
+    {
+      "id": "401858303",
+      "date": "2026-11-21T00:30Z",
+      "status": "Halftime",
+      "away": "Clemson Tigers",
+      "home": "Duke Blue Devils",
+      "away_score": "3",
+      "home_score": "0"
+    },
+    {
+      "id": "401866468",
+      "date": "2026-11-21T00:30Z",
+      "status": "Halftime",
+      "away": "Bowling Green Falcons",
+      "home": "Toledo Rockets",
+      "away_score": "0",
+      "home_score": "16"
+    },
+    {
+      "id": "401858529",
+      "date": "2026-11-21T01:00Z",
+      "status": "2:53 - 2nd",
+      "away": "Oregon Ducks",
+      "home": "Michigan State Spartans",
+      "away_score": "10",
+      "home_score": "0"
+    },
+    {
+      "id": "401864545",
+      "date": "2026-11-21T01:00Z",
+      "status": "7:35 - 2nd",
+      "away": "UTEP Miners",
+      "home": "Air Force Falcons",
+      "away_score": "3",
+      "home_score": "21"
+    },
+    {
+      "id": "401864542",
+      "date": "2026-11-21T02:00Z",
+      "status": "11/20 - 9:00 PM EST",
+      "away": "New Mexico Lobos",
+      "home": "Wyoming Cowboys",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856748",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Vanderbilt Commodores",
+      "home": "Florida Gators",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856749",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Wofford Terriers",
+      "home": "Ole Miss Rebels",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856866",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "BYU Cougars",
+      "home": "Kansas Jayhawks",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856867",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Colorado Buffaloes",
+      "home": "Cincinnati Bearcats",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858309",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Syracuse Orange",
+      "home": "Boston College Eagles",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858310",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Wake Forest Demon Deacons",
+      "home": "Georgia Tech Yellow Jackets",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858530",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Northwestern Wildcats",
+      "home": "Minnesota Golden Gophers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858531",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Ohio State Buckeyes",
+      "home": "Nebraska Cornhuskers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858533",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Wisconsin Badgers",
+      "home": "Purdue Boilermakers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862831",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "East Carolina Pirates",
+      "home": "Army Black Knights",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862834",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "Memphis Tigers",
+      "home": "Navy Midshipmen",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862835",
+      "date": "2026-11-21T17:00Z",
+      "status": "11/21 - 12:00 PM EST",
+      "away": "North Texas Mean Green",
+      "home": "Tulane Green Wave",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858305",
+      "date": "2026-11-21T17:30Z",
+      "status": "11/21 - 12:30 PM EST",
+      "away": "North Carolina Tar Heels",
+      "home": "Virginia Cavaliers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856750",
+      "date": "2026-11-21T18:00Z",
+      "status": "11/21 - 1:00 PM EST",
+      "away": "Tennessee Tech Golden Eagles",
+      "home": "Mississippi State Bulldogs",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856868",
+      "date": "2026-11-21T18:00Z",
+      "status": "11/21 - 1:00 PM EST",
+      "away": "Houston Cougars",
+      "home": "West Virginia Mountaineers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871080",
+      "date": "2026-11-21T18:00Z",
+      "status": "11/21 - 1:00 PM EST",
+      "away": "Western Kentucky Hilltoppers",
+      "home": "Liberty Flames",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856746",
+      "date": "2026-11-21T19:00Z",
+      "status": "11/21 - 2:00 PM EST",
+      "away": "Chattanooga Mocs",
+      "home": "Alabama Crimson Tide",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862832",
+      "date": "2026-11-21T19:00Z",
+      "status": "11/21 - 2:00 PM EST",
+      "away": "Charlotte 49ers",
+      "home": "Tulsa Golden Hurricane",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871079",
+      "date": "2026-11-21T19:00Z",
+      "status": "11/21 - 2:00 PM EST",
+      "away": "Missouri State Bears",
+      "home": "Jacksonville State Gamecocks",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871081",
+      "date": "2026-11-21T19:00Z",
+      "status": "11/21 - 2:00 PM EST",
+      "away": "Middle Tennessee Blue Raiders",
+      "home": "Sam Houston Bearkats",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858527",
+      "date": "2026-11-21T19:30Z",
+      "status": "11/21 - 2:30 PM EST",
+      "away": "Iowa Hawkeyes",
+      "home": "Illinois Fighting Illini",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862833",
+      "date": "2026-11-21T19:30Z",
+      "status": "11/21 - 2:30 PM EST",
+      "away": "South Florida Bulls",
+      "home": "Florida Atlantic Owls",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401869929",
+      "date": "2026-11-21T19:30Z",
+      "status": "11/21 - 2:30 PM EST",
+      "away": "UL Monroe Warhawks",
+      "home": "App State Mountaineers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401869946",
+      "date": "2026-11-21T20:00Z",
+      "status": "11/21 - 3:00 PM EST",
+      "away": "Coastal Carolina Chanticleers",
+      "home": "Louisiana Ragin' Cajuns",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871077",
+      "date": "2026-11-21T20:00Z",
+      "status": "11/21 - 3:00 PM EST",
+      "away": "Delaware Blue Hens",
+      "home": "New Mexico State Aggies",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871078",
+      "date": "2026-11-21T20:00Z",
+      "status": "11/21 - 3:00 PM EST",
+      "away": "Florida International Panthers",
+      "home": "Kennesaw State Owls",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856747",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Samford Bulldogs",
+      "home": "Auburn Tigers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856754",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "LSU Tigers",
+      "home": "Tennessee Volunteers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856755",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Arkansas Razorbacks",
+      "home": "Texas Longhorns",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856871",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Texas Tech Red Raiders",
+      "home": "Baylor Bears",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858304",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "NC State Wolfpack",
+      "home": "Florida State Seminoles",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858528",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "UCLA Bruins",
+      "home": "Michigan Wolverines",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858532",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Rutgers Scarlet Knights",
+      "home": "Penn State Nittany Lions",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858535",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Indiana Hoosiers",
+      "home": "Washington Huskies",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401861968",
+      "date": "2026-11-21T20:30Z",
+      "status": "11/21 - 3:30 PM EST",
+      "away": "Old Dominion Monarchs",
+      "home": "UConn Huskies",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856752",
+      "date": "2026-11-21T20:45Z",
+      "status": "11/21 - 3:45 PM EST",
+      "away": "Texas A&M Aggies",
+      "home": "Oklahoma Sooners",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401864543",
+      "date": "2026-11-21T21:00Z",
+      "status": "11/21 - 4:00 PM EST",
+      "away": "Northern Illinois Huskies",
+      "home": "North Dakota State Bison",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401869953",
+      "date": "2026-11-21T21:00Z",
+      "status": "11/21 - 4:00 PM EST",
+      "away": "Georgia Southern Eagles",
+      "home": "Troy Trojans",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401869958",
+      "date": "2026-11-21T21:00Z",
+      "status": "11/21 - 4:00 PM EST",
+      "away": "Georgia State Panthers",
+      "home": "Marshall Thundering Herd",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401871101",
+      "date": "2026-11-21T21:00Z",
+      "status": "11/21 - 4:00 PM EST",
+      "away": "South Alabama Jaguars",
+      "home": "Southern Miss Golden Eagles",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401860920",
+      "date": "2026-11-21T23:00Z",
+      "status": "11/21 - 6:00 PM EST",
+      "away": "Washington State Cougars",
+      "home": "Texas State Bobcats",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858534",
+      "date": "2026-11-21T23:15Z",
+      "status": "11/21 - 6:15 PM EST",
+      "away": "Maryland Terrapins",
+      "home": "USC Trojans",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856865",
+      "date": "2026-11-22T00:00Z",
+      "status": "11/21 - 7:00 PM EST",
+      "away": "Arizona Wildcats",
+      "home": "Kansas State Wildcats",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858302",
+      "date": "2026-11-22T00:00Z",
+      "status": "11/21 - 7:00 PM EST",
+      "away": "Virginia Tech Hokies",
+      "home": "Miami Hurricanes",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401864544",
+      "date": "2026-11-22T00:00Z",
+      "status": "11/21 - 7:00 PM EST",
+      "away": "UNLV Rebels",
+      "home": "San José State Spartans",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401869938",
+      "date": "2026-11-22T00:00Z",
+      "status": "11/21 - 7:00 PM EST",
+      "away": "Arkansas State Red Wolves",
+      "home": "Louisiana Tech Bulldogs",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856751",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "Kentucky Wildcats",
+      "home": "Missouri Tigers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856753",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "Georgia Bulldogs",
+      "home": "South Carolina Gamecocks",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858306",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "Pittsburgh Panthers",
+      "home": "Louisville Cardinals",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858307",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "SMU Mustangs",
+      "home": "Notre Dame Fighting Irish",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858308",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "Stanford Cardinal",
+      "home": "California Golden Bears",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401860918",
+      "date": "2026-11-22T00:30Z",
+      "status": "11/21 - 7:30 PM EST",
+      "away": "Colorado State Rams",
+      "home": "Fresno State Bulldogs",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401862836",
+      "date": "2026-11-22T01:00Z",
+      "status": "11/21 - 8:00 PM EST",
+      "away": "UTSA Roadrunners",
+      "home": "UAB Blazers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856872",
+      "date": "2026-11-22T02:00Z",
+      "status": "11/21 - 9:00 PM EST",
+      "away": "Utah Utes",
+      "home": "TCU Horned Frogs",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401860925",
+      "date": "2026-11-22T02:30Z",
+      "status": "11/21 - 9:30 PM EST",
+      "away": "San Diego State Aztecs",
+      "home": "Boise State Broncos",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401856870",
+      "date": "2026-11-22T03:15Z",
+      "status": "11/21 - 10:15 PM EST",
+      "away": "Oklahoma State Cowboys",
+      "home": "Arizona State Sun Devils",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401860919",
+      "date": "2026-11-22T03:30Z",
+      "status": "11/21 - 10:30 PM EST",
+      "away": "Utah State Aggies",
+      "home": "Oregon State Beavers",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401864541",
+      "date": "2026-11-22T03:30Z",
+      "status": "11/21 - 10:30 PM EST",
+      "away": "Hawai'i Rainbow Warriors",
+      "home": "Nevada Wolf Pack",
+      "away_score": null,
+      "home_score": null
+    }
+  ]
+}
