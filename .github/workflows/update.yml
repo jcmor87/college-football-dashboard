@@ -78,7 +78,7 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html ranking-history.mjs team-profiles.mjs _site/
+          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs _site/
           cp data/dashboard.json data/team-profiles.json _site/data/
           cp -R data/ap-rankings _site/data/
       - name: Upload dashboard

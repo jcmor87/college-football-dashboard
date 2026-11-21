@@ -35,6 +35,14 @@
   .trend-bar.negative{background:#ff9c9c}.trend-track{display:flex;align-items:center;position:relative}.trend-track.diverging{background:linear-gradient(90deg,transparent calc(50% - .5px),#52677f 50%,transparent calc(50% + .5px))}.trend-track.diverging .trend-bar{position:absolute;left:50%}.trend-track.diverging .trend-bar.negative{left:auto;right:50%}.trend-legend{display:flex;flex-wrap:wrap;gap:12px}
   .trend-color-0{color:#f2bc45}.trend-color-1{color:#6bcaff}.trend-color-2,.stat-advantage{color:#7de0a5}
   .stat-advantage{font-weight:800;background:#17382f}
+  .nd-spotlight-link{display:inline-block;margin-top:12px;font-weight:800}
+  #ndPanel [hidden]{display:none}
+  #ndPanel label:not([hidden]){display:grid;gap:5px;color:#c9d8e9;font-size:13px;max-width:100%;width:max-content}
+  #ndPanel select{width:100%;padding:9px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb}
+  .nd-split{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px}
+  .nd-results{list-style:none;padding:0;display:flex;gap:8px;flex-wrap:wrap}
+  .nd-results li{padding:8px 10px;background:#192c42;border-radius:8px}
+  .nd-results li strong{color:#f2bc45}.history-table td.nd-context{min-width:230px}
   </style>
 </head>
 <body>
@@ -49,6 +57,7 @@
       <h1>Notre Dame<br>Command Center</h1>
       <p>One destination for the Fighting Irish, national rankings, conference races, and the biggest games of the week.</p>
       <div class="muted" id="ndSummary">Loading Notre Dame season information…</div>
+      <a class="nd-spotlight-link" href="#notre-dame">Open Notre Dame Command Center →</a>
     </div>
     <div class="monogram" aria-label="ND">ND</div>
   </section>
@@ -56,6 +65,7 @@
   <nav class="tabs" aria-label="Dashboard sections">
     <button class="active" data-tab="rankings">National Rankings</button>
     <button data-tab="history">AP Ranking History</button>
+    <button data-tab="command">Notre Dame</button>
     <button data-tab="games">This Week's Games</button>
     <button data-tab="teams">All FBS Teams</button>
     <button data-tab="profile">Team Profiles</button>
@@ -86,6 +96,7 @@
       </div>
     </div>
   </section>
+  <section class="panel hidden" id="ndPanel" aria-label="Notre Dame Command Center"></section>
   <section class="panel hidden" id="profilePanel" aria-label="Team profile"></section>
   <div class="grid" id="dashboardGrid">
     <section class="panel">
@@ -113,9 +124,12 @@
 const $=s=>document.querySelector(s);let state={tab:'rankings',conference:'All',query:'',data:null};const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const rank=t=>t.rank??null;const conf=t=>t.conference||'Independent';function filtered(){let a=state.data?.teams||[];if(state.tab==='rankings')a=a.filter(t=>rank(t)!=null).sort((a,b)=>rank(a)-rank(b));else a=[...a].sort((a,b)=>a.name.localeCompare(b.name));return a.filter(t=>(state.conference==='All'||conf(t)===state.conference)&&(`${t.name} ${t.abbreviation||''}`).toLowerCase().includes(state.query.toLowerCase()))}let historyMount;
 let profileView = 0;
 const readTeamHash = () => location.hash.startsWith('#team=');
-if (readTeamHash()) state.tab = 'profile';
+const commandHash = '#notre-dame';
+if (location.hash === commandHash) state.tab = 'command';
+else if (readTeamHash()) state.tab = 'profile';
 window.addEventListener('hashchange', () => {
-  if (readTeamHash()) state.tab = 'profile';
+  if (location.hash === commandHash) state.tab = 'command';
+  else if (readTeamHash()) state.tab = 'profile';
   else state.tab = history.state?.dashboardTab ?? 'rankings';
   render();
 });
@@ -125,8 +139,27 @@ function render(){
   $('#historyPanel').classList.toggle('hidden',!showHistory);
   const showProfile = state.tab === 'profile';
   $('#profilePanel').classList.toggle('hidden', !showProfile);
-  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile);
+  const showCommand = state.tab === 'command';
+  $('#ndPanel').classList.toggle('hidden', !showCommand);
+  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand);
   const currentView = ++profileView;
+  if (d) updateSpotlight(d);
+  if (showCommand) {
+    document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'command'));
+    const panel = $('#ndPanel');
+    const showError = () => {
+      panel.innerHTML = '<p class="notice" role="alert">Notre Dame data could not load. Reload to try again.</p>';
+    };
+    if ($('#dataError').textContent) showError();
+    else panel.innerHTML = '<p class="notice" role="status">Loading Notre Dame data…</p>';
+    if (d) import('./nd-command.mjs').then(module => {
+      if (profileView === currentView) return module.mountCommand(panel, d, () => profileView === currentView);
+    }).catch(error => {
+      if (profileView === currentView) showError();
+      console.error(error);
+    });
+    return;
+  }
   if (showProfile) {
     document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'profile'));
     const panel = $('#profilePanel');
@@ -159,14 +192,21 @@ function render(){
     }
     return;
   }
-  if(!d)return;document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.tab));$('#mainTitle').textContent={rankings:'National Poll Rankings',games:'This Week’s Games',teams:'FBS Team Directory',about:'About & Methodology'}[state.tab];$('#search').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#filters').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#teamList').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#mainExtra').classList.toggle('hidden',['rankings','teams'].includes(state.tab));if(['rankings','teams'].includes(state.tab)){let cs=['All',...new Set((d.teams||[]).map(conf))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));$('#filters').innerHTML=cs.map(c=>`<button class="${state.conference===c?'active':''}" data-conf="${esc(c)}">${esc(c)}</button>`).join('');$('#teamList').innerHTML=filtered().map(t=>`<a class="team" href="#team=${encodeURIComponent(t.id)}"><div class="rank">${rank(t)??'–'}</div><div><div class="team-name">${esc(t.name)}</div><small>${esc(conf(t))}</small></div><div class="muted">${esc(t.abbreviation||'')}</div><div class="record">${esc(t.record||'—')}</div></a>`).join('')||'<div class="empty">No teams match your filters. Rankings are shown only when a verified poll is available.</div>'}else if(state.tab==='games'){$('#mainExtra').innerHTML=gamesHtml(d.games||[])}else{$('#mainExtra').innerHTML='<div class="notice"><strong>Version 1.0</strong><p>Team directory: ESPN FBS standings endpoint. Poll ranks: ESPN rankings endpoint, with the selected poll identified in the data file. Scores: ESPN scoreboard endpoint.</p><p>These are published poll positions, not our own power rankings. Missing records or rankings are shown as unavailable, never invented. The data pipeline runs automatically on GitHub Actions and saves a static JSON snapshot for reliable GitHub Pages hosting.</p><p>The AP Ranking History tab archives published weekly polls. Future features include explainable power scores, playoff projections, and team analysis with cited evidence.</p></div>'}$('#gamesSidebar').innerHTML=gamesHtml((d.games||[]).slice(0,5));const nd=(d.teams||[]).find(t=>/Notre Dame/i.test(t.name));$('#ndRecord').textContent=nd?.record||'—';$('#ndRank').textContent=nd?.rank?'#'+nd.rank:'—';$('#ndDetails').textContent=nd?'Notre Dame is included in the national team directory. Select Notre Dame in the team directory to open its profile.':'Notre Dame data is not available in the latest snapshot.';$('#ndSummary').textContent=nd?`2026 season • ${nd.record||'Record unavailable'} • ${nd.rank?'#'+nd.rank+' in '+(d.poll||'selected poll'):'No published poll position'}`:'2026 season • Awaiting verified team data';}function gamesHtml(g){return g.length?g.map(x=>`<div class="score"><strong>${esc(x.away)} @ ${esc(x.home)}</strong><div class="meta">${esc(x.date?new Date(x.date).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Date unavailable')} • ${esc(x.status||'Scheduled')}</div><div class="result">${x.away_score!=null&&x.home_score!=null?`${esc(x.away_score)} – ${esc(x.home_score)}`:'Score pending'}</div></div>`).join(''):'<div class="empty">No games available in this snapshot.</div>'}document.addEventListener('click', event => {
+  if(!d)return;document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.tab));$('#mainTitle').textContent={rankings:'National Poll Rankings',games:'This Week’s Games',teams:'FBS Team Directory',about:'About & Methodology'}[state.tab];$('#search').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#filters').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#teamList').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#mainExtra').classList.toggle('hidden',['rankings','teams'].includes(state.tab));if(['rankings','teams'].includes(state.tab)){let cs=['All',...new Set((d.teams||[]).map(conf))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));$('#filters').innerHTML=cs.map(c=>`<button class="${state.conference===c?'active':''}" data-conf="${esc(c)}">${esc(c)}</button>`).join('');$('#teamList').innerHTML=filtered().map(t=>`<a class="team" href="#team=${encodeURIComponent(t.id)}"><div class="rank">${rank(t)??'–'}</div><div><div class="team-name">${esc(t.name)}</div><small>${esc(conf(t))}</small></div><div class="muted">${esc(t.abbreviation||'')}</div><div class="record">${esc(t.record||'—')}</div></a>`).join('')||'<div class="empty">No teams match your filters. Rankings are shown only when a verified poll is available.</div>'}else if(state.tab==='games'){$('#mainExtra').innerHTML=gamesHtml(d.games||[])}else{$('#mainExtra').innerHTML='<div class="notice"><strong>Version 1.0</strong><p>Team directory: ESPN FBS standings endpoint. Poll ranks: ESPN rankings endpoint, with the selected poll identified in the data file. Scores: ESPN scoreboard endpoint.</p><p>These are published poll positions, not our own power rankings. Missing records or rankings are shown as unavailable, never invented. The data pipeline runs automatically on GitHub Actions and saves a static JSON snapshot for reliable GitHub Pages hosting.</p><p>The AP Ranking History tab archives published weekly polls. Future features include explainable power scores, playoff projections, and team analysis with cited evidence.</p></div>'}$('#gamesSidebar').innerHTML=gamesHtml((d.games||[]).slice(0,5));}
+function updateSpotlight(d){const nd=(d.teams||[]).find(t=>String(t.id)==='87');$('#ndRecord').textContent=nd?.record||'—';$('#ndRank').textContent=nd?.rank?'#'+nd.rank:'—';$('#ndDetails').textContent=nd?'Notre Dame is included in the national team directory. Select Notre Dame in the team directory to open its profile.':'Notre Dame data is not available in the latest snapshot.';$('#ndSummary').textContent=nd?`2026 season • ${nd.record||'Record unavailable'} • ${nd.rank?'#'+nd.rank+' in '+(d.poll||'selected poll'):'No published poll position'}`:'2026 season • Awaiting verified team data';}function gamesHtml(g){return g.length?g.map(x=>`<div class="score"><strong>${esc(x.away)} @ ${esc(x.home)}</strong><div class="meta">${esc(x.date?new Date(x.date).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Date unavailable')} • ${esc(x.status||'Scheduled')}</div><div class="result">${x.away_score!=null&&x.home_score!=null?`${esc(x.away_score)} – ${esc(x.home_score)}`:'Score pending'}</div></div>`).join(''):'<div class="empty">No games available in this snapshot.</div>'}document.addEventListener('click', event => {
   const tab = event.target.closest('[data-tab]');
+  if (tab?.dataset.tab === 'command') {
+    if (location.hash !== commandHash) location.hash = commandHash;
+    return;
+  }
   if (tab) {
     state.tab = tab.dataset.tab;
     state.conference = 'All';
-    if (state.tab !== 'profile') {
+    if (state.tab === 'profile' && location.hash === commandHash) {
+      history.pushState({dashboardTab: 'profile'}, '', location.pathname + location.search);
+    } else if (state.tab !== 'profile') {
       const entry = {dashboardTab: state.tab};
-      if (readTeamHash()) history.pushState(entry, '', location.pathname + location.search);
+      if (readTeamHash() || location.hash === commandHash) history.pushState(entry, '', location.pathname + location.search);
       else history.replaceState(entry, '');
     }
     render();
@@ -202,7 +242,7 @@ async function loadDashboard() {
     const notice = $('#dataError');
     notice.textContent = 'The dashboard could not load its data. Reload this page to try again. If the problem continues, check the latest Update dashboard data run in GitHub Actions and confirm that the Pages deployment succeeded.';
     notice.classList.remove('hidden');
-    if (state.tab === 'history' || state.tab === 'profile') render();
+    if (['history', 'profile', 'command'].includes(state.tab)) render();
     console.error('Dashboard snapshot could not be loaded', snapshotUrl.href, error);
   }
 }
