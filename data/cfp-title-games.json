@@ -70,7 +70,9 @@
     "Southeastern Conference": {
       "id": "401869545",
       "date": "2026-12-05T21:00Z",
-      "teams": [],
+      "teams": [
+        "61"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261205"
