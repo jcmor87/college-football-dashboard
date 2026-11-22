@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-22T16:38:12+00:00",
+  "updated_at": "2026-11-22T18:58:09+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
-  "poll": "AP Top 25",
-  "poll_date": "2026-11-16T08:00Z",
+  "poll": null,
+  "poll_date": null,
   "sources": {
     "standings": "https://site.api.espn.com/apis/v2/sports/football/college-football/standings",
     "rankings": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings",
@@ -81,7 +81,7 @@
       "abbreviation": "ALA",
       "conference": "Southeastern Conference",
       "record": "9-2",
-      "rank": 7,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/333/alabama-crimson-tide"
     },
     {
@@ -108,7 +108,7 @@
       "abbreviation": "ARIZ",
       "conference": "Big 12 Conference",
       "record": "8-3",
-      "rank": 19,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/12/arizona-wildcats"
     },
     {
@@ -153,7 +153,7 @@
       "abbreviation": "BYU",
       "conference": "Big 12 Conference",
       "record": "9-2",
-      "rank": 12,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/252/byu-cougars"
     },
     {
@@ -180,7 +180,7 @@
       "abbreviation": "BOIS",
       "conference": "Pac-12 Conference",
       "record": "9-2",
-      "rank": 15,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/68/boise-state-broncos"
     },
     {
@@ -333,7 +333,7 @@
       "abbreviation": "FLA",
       "conference": "Southeastern Conference",
       "record": "7-4",
-      "rank": 23,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
     },
     {
@@ -369,7 +369,7 @@
       "abbreviation": "UGA",
       "conference": "Southeastern Conference",
       "record": "10-1",
-      "rank": 1,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/61/georgia-bulldogs"
     },
     {
@@ -414,7 +414,7 @@
       "abbreviation": "HOU",
       "conference": "Big 12 Conference",
       "record": "8-3",
-      "rank": 20,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/248/houston-cougars"
     },
     {
@@ -432,7 +432,7 @@
       "abbreviation": "IU",
       "conference": "Big Ten Conference",
       "record": "9-2",
-      "rank": 6,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/84/indiana-hoosiers"
     },
     {
@@ -441,7 +441,7 @@
       "abbreviation": "IOWA",
       "conference": "Big Ten Conference",
       "record": "9-2",
-      "rank": 13,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2294/iowa-hawkeyes"
     },
     {
@@ -513,7 +513,7 @@
       "abbreviation": "UK",
       "conference": "Southeastern Conference",
       "record": "7-4",
-      "rank": 17,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/96/kentucky-wildcats"
     },
     {
@@ -531,7 +531,7 @@
       "abbreviation": "LIB",
       "conference": "Conference USA",
       "record": "10-1",
-      "rank": 22,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2335/liberty-flames"
     },
     {
@@ -558,7 +558,7 @@
       "abbreviation": "LOU",
       "conference": "Atlantic Coast Conference",
       "record": "8-3",
-      "rank": 21,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/97/louisville-cardinals"
     },
     {
@@ -594,7 +594,7 @@
       "abbreviation": "MEM",
       "conference": "American Conference",
       "record": "8-3",
-      "rank": 24,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers"
     },
     {
@@ -612,7 +612,7 @@
       "abbreviation": "MIA",
       "conference": "Atlantic Coast Conference",
       "record": "10-1",
-      "rank": 5,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2390/miami-hurricanes"
     },
     {
@@ -783,7 +783,7 @@
       "abbreviation": "ND",
       "conference": "Independent",
       "record": "10-1",
-      "rank": 3,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/87/notre-dame-fighting-irish"
     },
     {
@@ -801,7 +801,7 @@
       "abbreviation": "OSU",
       "conference": "Big Ten Conference",
       "record": "7-4",
-      "rank": 16,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/194/ohio-state-buckeyes"
     },
     {
@@ -837,7 +837,7 @@
       "abbreviation": "MISS",
       "conference": "Southeastern Conference",
       "record": "7-4",
-      "rank": 25,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/145/ole-miss-rebels"
     },
     {
@@ -846,7 +846,7 @@
       "abbreviation": "ORE",
       "conference": "Big Ten Conference",
       "record": "8-3",
-      "rank": 14,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2483/oregon-ducks"
     },
     {
@@ -1026,7 +1026,7 @@
       "abbreviation": "TENN",
       "conference": "Southeastern Conference",
       "record": "9-2",
-      "rank": 9,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2633/tennessee-volunteers"
     },
     {
@@ -1044,7 +1044,7 @@
       "abbreviation": "TEX",
       "conference": "Southeastern Conference",
       "record": "9-2",
-      "rank": 8,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
     },
     {
@@ -1062,7 +1062,7 @@
       "abbreviation": "TTU",
       "conference": "Big 12 Conference",
       "record": "10-1",
-      "rank": 11,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2641/texas-tech-red-raiders"
     },
     {
@@ -1125,7 +1125,7 @@
       "abbreviation": "UCLA",
       "conference": "Big Ten Conference",
       "record": "10-1",
-      "rank": 4,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/26/ucla-bruins"
     },
     {
@@ -1161,7 +1161,7 @@
       "abbreviation": "USC",
       "conference": "Big Ten Conference",
       "record": "8-3",
-      "rank": 18,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/30/usc-trojans"
     },
     {
@@ -1197,7 +1197,7 @@
       "abbreviation": "UTAH",
       "conference": "Big 12 Conference",
       "record": "11-0",
-      "rank": 2,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/254/utah-utes"
     },
     {
@@ -1233,7 +1233,7 @@
       "abbreviation": "WAKE",
       "conference": "Atlantic Coast Conference",
       "record": "10-1",
-      "rank": 10,
+      "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/154/wake-forest-demon-deacons"
     },
     {
