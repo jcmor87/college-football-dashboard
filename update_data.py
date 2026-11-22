@@ -106,6 +106,7 @@ def scoreboard_games(scoreboard, fbs_ids):
             "week": (event.get("week") or {}).get("number"),
             "time_tbd": competition.get("timeValid") is False,
             "status": status_type.get("shortDetail") or status_type["description"],
+            "scheduled": status_type.get("name") == "STATUS_SCHEDULED",
             "away_id": away_id,
             "home_id": home_id,
             "away": away["team"]["displayName"],

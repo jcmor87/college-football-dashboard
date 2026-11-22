@@ -404,7 +404,7 @@ const root = resolve(__dirname, '..');
       poll: 'AP Top 25', week: 12, teams: [first, second, third, fourth],
       games: [
         featuredGame('1', third, fourth, '2026-11-21T17:00Z', 'Scheduled'),
-        featuredGame('2', third, first, '2026-11-21T18:00Z', 'Scheduled', {time_tbd: true}),
+        featuredGame('2', third, first, '2026-11-21T18:00Z', '11/21 - 1:00 PM EST', {time_tbd: true, scheduled: true}),
         featuredGame('3', first, second, '2026-11-21T19:00Z', 'Final', {away_score: '21', home_score: '0'}),
         featuredGame('4', second, fourth, '2026-11-21T20:00Z', 'Halftime', {away_score: '14', home_score: '7'}),
       ],
@@ -423,6 +423,7 @@ const root = resolve(__dirname, '..');
     await featured.getByRole('button', {name: "This Week's Games"}).click();
     assert.deepEqual(await featured.locator('#mainExtra .score strong').allTextContents(),
       ['Unranked Away @ Unranked Home', 'Unranked Away @ Ranked Away', 'Ranked Away @ Ranked Home', 'Ranked Home @ Unranked Home']);
+    assert.match(await featured.locator('#mainExtra .score').nth(1).innerText(), /11\/21 - 1:00 PM EST/);
     featuredSnapshot = {...featuredSnapshot, games: []};
     await featured.reload();
     await sidebar.getByText(/No AP Top 25 matchups/).waitFor();

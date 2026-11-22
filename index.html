@@ -390,9 +390,10 @@ function gamesHtml(games, featured = false) {
     const away = featured && game.awayRank != null ? `#${game.awayRank} ${game.away}` : game.away;
     const home = featured && game.homeRank != null ? `#${game.homeRank} ${game.home}` : game.home;
     const kickoff = featured && hasKickoff && game.time_tbd ? `${date} · Time TBD` : date;
+    const status = featured && game.scheduled ? 'Scheduled' : game.status || 'Scheduled';
     const score = game.away_score != null && game.home_score != null
       ? `${esc(game.away_score)} – ${esc(game.home_score)}` : 'Score pending';
-    return `<div class="score"><strong>${esc(away)} @ ${esc(home)}</strong><div class="meta">${esc(kickoff)} • ${esc(game.status || 'Scheduled')}</div><div class="result">${score}</div></div>`;
+    return `<div class="score"><strong>${esc(away)} @ ${esc(home)}</strong><div class="meta">${esc(kickoff)} • ${esc(status)}</div><div class="result">${score}</div></div>`;
   }).join('');
 }
 document.addEventListener('click', event => {
