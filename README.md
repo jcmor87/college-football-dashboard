@@ -150,8 +150,33 @@ node --test tests/*.test.mjs
 Use **Notre Dame** in the dashboard tabs or **Open Notre Dame Command Center**
 in the spotlight. Share the dashboard URL with `#notre-dame` appended.
 The Command Center uses the existing 2026 ESPN team profiles and archived AP
-polls. It requires no new feeds, secrets, or Pages settings.
+polls. It requires no secrets or additional Pages settings.
 
+- **Notre Dame in the News.** The existing three-hour GitHub Actions refresh
+  runs `python update_news.py` and publishes `data/notre-dame-news.json`.
+  The Command Center reads this snapshot and shows the five newest headlines
+  first, with up to 20 under **Show More**. Dates come from publisher RSS
+  timestamps and display in the viewer's time zone. Links go directly to the
+  publisher, where its normal access rules apply.
+
+  [Notre Dame Athletics RSS](https://fightingirish.com/rss) supplies articles
+  tagged Football, with video entries excluded.
+  [NDNation RSS](https://ndnation.com/feed/) supplies posts in its Football
+  category. [CBS Sports RSS](https://www.cbssports.com/rss/headlines/college-football/)
+  is a general college football feed. Only CBS entries naming Notre Dame or the
+  Fighting Irish in both the headline and article URL qualify. That narrow filter
+  can omit relevant coverage. ESPN's college football RSS returned the same
+  timestamp for distinct stories, and automated access to the news API could
+  not be verified. On3 and South Bend Tribune did not yield accessible,
+  verified football news feeds.
+
+  The collector removes duplicate publisher URLs and near-identical headlines.
+  Separate reporting on the same game can appear from multiple publishers.
+  It prefers the most recent 14 days and looks back up to 30 days only to fill
+  the first five entries. A source outage can leave saved headlines alongside
+  current entries. If all feeds fail, the last successful snapshot is retained
+  and marked stale. A snapshot older than nine hours also shows a stale
+  indicator. News errors do not stop the other dashboard updates.
 - **AP trajectory and quality wins.** The trajectory displays Notre Dame's
   published AP ranks. A quality win is a final Notre Dame victory against an
   opponent that a verified archived poll ranked at kickoff. The current AP

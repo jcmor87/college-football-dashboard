@@ -1,4 +1,5 @@
 import {loadPredictions, predictionCard} from './game-predictions.mjs';
+import {mountNews} from './notre-dame-news.mjs';
 import {drawChart, loadWeeks, movement, rankAt} from './ranking-history.mjs';
 import {
   advantage, escapeHtml, format, loadProfiles, metric, metrics, mountTrends,
@@ -173,6 +174,12 @@ export async function mountCommand(panel, dashboard, isCurrent) {
       <div class="stat"><strong>${apLabel(rank, hasPoll)}</strong><span>Official AP poll${pollMovement ? ' · ' + pollMovement : ''}</span></div>
       <div class="stat"><strong>${format(nd.stats.margin)}</strong><span>Scoring margin per game</span></div>
     </div>
+    <section class="profile-section nd-news" aria-labelledby="nd-news-heading">
+      <h3 id="nd-news-heading">Notre Dame in the News</h3>
+      <p class="muted nd-news-status" role="status">Loading Notre Dame football news…</p>
+      <ul id="nd-news-list"></ul>
+      <button type="button" aria-controls="nd-news-list" aria-expanded="false" hidden>Show More</button>
+    </section>
     <section class="profile-section"><h3>Recent Form</h3>${recent(nd.games)}</section>
     <section class="profile-section nd-trajectory"><h3>AP Ranking Trajectory</h3>
       <label hidden>Archived poll<select></select></label>
@@ -212,6 +219,7 @@ export async function mountCommand(panel, dashboard, isCurrent) {
         })) : '<p class="muted">No remaining games are listed in the available schedule.</p>'}
     </section>`;
 
+  void mountNews(panel.querySelector('.nd-news'), isCurrent);
   const playoff = panel.querySelector('.nd-playoff');
   playoff.addEventListener('toggle', () => {
     if (!playoff.open || playoff.dataset.loaded) return;
