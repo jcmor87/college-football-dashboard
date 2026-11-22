@@ -42,7 +42,17 @@
   .nd-news li{display:grid;gap:4px;padding:11px 0;border-top:1px solid #28374b;overflow-wrap:anywhere}
   .nd-news li a{color:#eaf1fb;font-weight:650;text-decoration:underline;text-decoration-color:#6984a4;text-underline-offset:3px}
   .nd-news li .muted{font-size:13px}
-  .nd-news button{margin-top:8px;min-height:44px;padding:8px 14px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb;font:inherit;cursor:pointer}
+  .nd-news button,.nd-roster button{margin-top:8px;min-height:44px;padding:8px 14px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb;font:inherit;cursor:pointer}
+  .nd-roster p{margin:6px 0;font-size:13px}
+  .nd-roster-controls{display:flex;gap:8px;margin-bottom:10px}
+  .nd-roster button[aria-pressed="true"]{border-color:#b8954d;color:#f2bc45;background:#26354b}
+  .nd-roster table{width:100%;table-layout:fixed;border-collapse:collapse;margin:10px 0;overflow-wrap:anywhere}
+  .nd-roster th,.nd-roster td{padding:8px 6px;border-bottom:1px solid #28374b;text-align:left;vertical-align:top}
+  .nd-roster th:first-child{width:5.4em}
+  .nd-roster td div+div{margin-top:4px}
+  .nd-roster details summary{padding:10px 0;cursor:pointer}
+  .nd-roster .nd-player-names td a{display:inline-block;margin:0 12px 4px 0}
+  @media(max-width:420px){.nd-roster table{font-size:13px}.nd-roster th:first-child{width:4.5em}}
   #ndPanel label:not([hidden]){display:grid;gap:5px;color:#c9d8e9;font-size:13px;max-width:100%;width:max-content}
   #ndPanel select{width:100%;padding:9px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb}
   .nd-split{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px}

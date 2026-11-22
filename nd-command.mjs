@@ -1,4 +1,5 @@
 import {loadPredictions, predictionCard} from './game-predictions.mjs';
+import {mountRoster} from './notre-dame-roster.mjs';
 import {mountNews} from './notre-dame-news.mjs';
 import {drawChart, loadWeeks, movement, rankAt} from './ranking-history.mjs';
 import {
@@ -180,6 +181,16 @@ export async function mountCommand(panel, dashboard, isCurrent) {
       <ul id="nd-news-list"></ul>
       <button type="button" aria-controls="nd-news-list" aria-expanded="false" hidden>Show More</button>
     </section>
+    <section class="profile-section nd-roster" aria-labelledby="nd-roster-heading">
+      <h3 id="nd-roster-heading">Notre Dame Roster &amp; Depth Chart</h3>
+      <p class="muted" role="status">Loading the Notre Dame roster…</p>
+      <p class="muted nd-roster-source"></p>
+      <div class="nd-roster-controls" role="group" aria-label="Roster side" hidden>
+        <button type="button" value="offense" aria-controls="nd-roster-content" aria-pressed="true">Offense</button>
+        <button type="button" value="defense" aria-controls="nd-roster-content" aria-pressed="false">Defense</button>
+      </div>
+      <div class="nd-roster-content" id="nd-roster-content"></div>
+    </section>
     <section class="profile-section"><h3>Recent Form</h3>${recent(nd.games)}</section>
     <section class="profile-section nd-trajectory"><h3>AP Ranking Trajectory</h3>
       <label hidden>Archived poll<select></select></label>
@@ -220,6 +231,7 @@ export async function mountCommand(panel, dashboard, isCurrent) {
     </section>`;
 
   void mountNews(panel.querySelector('.nd-news'), isCurrent);
+  void mountRoster(panel.querySelector('.nd-roster'), isCurrent);
   const playoff = panel.querySelector('.nd-playoff');
   playoff.addEventListener('toggle', () => {
     if (!playoff.open || playoff.dataset.loaded) return;

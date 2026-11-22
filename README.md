@@ -177,6 +177,24 @@ polls. It requires no secrets or additional Pages settings.
   current entries. If all feeds fail, the last successful snapshot is retained
   and marked stale. A snapshot older than nine hours also shows a stale
   indicator. News errors do not stop the other dashboard updates.
+- **Notre Dame Roster & Depth Chart.** The three-hour refresh reads the
+  public football roster and the latest published game-week chart listed in
+  the matching season's media table. The roster supplies player IDs, position
+  groups, and individual biography links. The official chart supplies the order
+  within each position, including alternatives marked “or.” The chart is
+  labeled by opponent and can differ from the eventual game-day lineup.
+  Open **Offense** or **Defense** for the chart and full position-group roster.
+  [Official roster](https://fightingirish.com/sports/football/roster/) ·
+  [Official football media information](https://fightingirish.com/news/2022/08/29/ndfbmedia)
+
+  Run `python update_roster.py` to refresh `data/notre-dame-roster.json`.
+  The updater uses `pdftotext` from Poppler to read the public chart PDF.
+  It preserves saved roster data on an outage and can keep a same-season
+  chart if all player references still match. A missing or unsupported chart
+  leaves the verified roster grouped by position. The updater drops
+  prior-season charts when the roster rolls over. The Command Center shows
+  verification dates and labels saved data during failures or when the last
+  roster verification is more than 12 hours old.
 - **AP trajectory and quality wins.** The trajectory displays Notre Dame's
   published AP ranks. A quality win is a final Notre Dame victory against an
   opponent that a verified archived poll ranked at kickoff. The current AP
