@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-22T04:03:40.177454+00:00",
-  "dashboard_updated_at": "2026-11-22T04:02:03+00:00",
-  "archive_count": 63,
+  "checked_at": "2026-11-22T07:22:48.992491+00:00",
+  "dashboard_updated_at": "2026-11-22T07:21:05+00:00",
+  "archive_count": 74,
   "power_cutoff": "2026-11-22T00:00:00+00:00",
   "prediction_cutoff": "2026-11-22T00:00:00+00:00",
   "sha256": {
@@ -11,18 +11,18 @@
     "nd-command.mjs": "11415745b168255d127f65232a8cbba856e87b59cdfb72abfceac40eaa08cc37",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
-    "data/dashboard.json": "25f228211dd968015a4273c94b1578f6aaa2031667363c7c53b3bd42ef4a0fd5",
-    "data/team-profiles.json": "42d5cb6028434142f6048832f39c625f0aef93437052a610e2908ecf995e6988",
+    "data/dashboard.json": "3d31c6fc3a8c31832a102516892dc18188d2a85af8e1e6ef9bc78b6fab65cbb1",
+    "data/team-profiles.json": "3ed879702a8c330624944295cbefdeade10ca73387fdbf57b0de8bc7cc446dd2",
     "data/ap-rankings/2026/index.json": "f8c3d4569b4f8dab5aabf6779c61d11a0f61e18cd9bbee46c0da4fa5c71ae14d",
     "data/power-rankings/latest.json": "2948e99418a1e1b4da27bad281708602759fcc00378cb83043e062d4f146c6d7",
-    "data/predictions/latest.json": "7df77028b101ed6aabaeca56608f586470dd27db03def321b8b1da5b5d990bee",
+    "data/predictions/latest.json": "9b83447be9e6eee08ee82f96b27cf320429c4b1f15577e5a90518957dd6b4bb3",
     "playoff-model.mjs": "59d81aae5ef6f529f61948c61f3e601fb400cb6ae7e8a7a62950cf8684e28c80",
     "playoff-explorer.mjs": "2ea5cc857ebc02cbbaa782627612db47fcb13dfefdac46ef6dab96e43a50154c",
-    "data/cfp-title-games.json": "ab2a893361779ba7814e9652c5af4094d4208d11f1e0985fe329ac141910a685",
+    "data/cfp-title-games.json": "6b9fc5ce1f644186ef00b63384deca41eaeaaa3ed00016159ae47cff549f729f",
     "data/cfp-official-bracket.json": "bb0775bb62cc56085a80039239c5aa0e8403d87bc7419eab338d844761045356",
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "97dd9107d3746f10e44b13529ee59c6957d5214ad73685d7a0ec1601efff8645"
+    "data/playoff-simulation.json": "631c6bc951bc1d0211c12b6bd2922d75a7aee8fbf05d300b7e7eefae0cc942b9"
   }
 }
