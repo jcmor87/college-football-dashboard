@@ -71,6 +71,60 @@ const root = resolve(__dirname, '..');
     await command.locator('.nd-opponent').selectOption({index:0});
     assert.ok(await command.locator('.nd-comparison table').count());
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    const newsRoute = '**/data/notre-dame-news.json';
+    const publishedAt = new Date(Date.now() - 60_000).toISOString();
+    const articles = Array.from({length: 21}, (_, index) => ({
+      title: index === 0 ? '<b>Literal headline</b>' : 'Fixture headline ' + (index + 1),
+      source: 'NDNation', url: 'https://ndnation.com/fixture-' + (index + 1) + '/', published_at: publishedAt,
+    }));
+    const newsSnapshot = {status: 'current', last_success_at: publishedAt, articles};
+    let releaseNews;
+    const newsGate = new Promise(resolve => { releaseNews = resolve; });
+    await page.route(newsRoute, async route => {
+      await newsGate;
+      await route.fulfill({json: {...newsSnapshot, articles: [
+        {...articles[0], url: 'javascript:alert(1)'}, ...articles,
+      ]}});
+    });
+    await page.reload();
+    const news = command.getByRole('region', {name: 'Notre Dame in the News'});
+    await news.getByText('Loading Notre Dame football news…').waitFor();
+    await command.getByRole('heading', {name: 'Opponent Intelligence'}).waitFor();
+    releaseNews();
+    await news.getByText(/Last successful refresh/).waitFor();
+    assert.equal(await news.getByRole('link').count(), 5);
+    assert.equal(await news.locator('b').count(), 0);
+    const headline = news.getByRole('link', {name: '<b>Literal headline</b>'});
+    assert.equal(await headline.getAttribute('href'), articles[0].url);
+    assert.equal(await headline.getAttribute('target'), '_blank');
+    assert.equal(await headline.getAttribute('rel'), 'noopener noreferrer');
+    assert.equal(await news.locator('li time').first().getAttribute('datetime'), publishedAt);
+    await news.getByRole('button', {name: 'Show More'}).click();
+    assert.equal(await news.getByRole('link').count(), 20);
+    assert.equal(await news.getByRole('button', {name: 'Show Less'}).getAttribute('aria-expanded'), 'true');
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await news.getByRole('button', {name: 'Show Less'}).click();
+    assert.equal(await news.getByRole('link').count(), 5);
+    await page.unroute(newsRoute);
+
+    const tablet = await browser.newPage({viewport: {width: 768, height: 1024}, isMobile: true, hasTouch: true});
+    await tablet.route(newsRoute, route => route.fulfill({json: {...newsSnapshot, status: 'stale'}}));
+    await tablet.goto(url+'#notre-dame');
+    await tablet.locator('.nd-news').getByText(/Stale news/).waitFor();
+    await tablet.getByRole('button', {name: 'Show More'}).click();
+    assert.ok(await tablet.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await tablet.close();
+
+    await page.route(newsRoute, route => route.fulfill({json: {...newsSnapshot, articles: []}}));
+    await page.reload();
+    await news.getByText(/No recent Notre Dame football articles/).waitFor();
+    assert.equal(await news.getByRole('button').count(), 0);
+    await page.unroute(newsRoute);
+    await page.route(newsRoute, route => route.fulfill({status: 503, body: 'Unavailable'}));
+    await page.reload();
+    await news.getByText(/news is temporarily unavailable/).waitFor();
+    await command.getByRole('heading', {name: 'Recent Form'}).waitFor();
+    await page.unroute(newsRoute);
     await command.getByRole('link', {name:'Full team profile'}).click();
     await page.getByRole('heading',{name:'Notre Dame',exact:true}).waitFor();
     await page.getByRole('button', {name:'Power Rankings', exact:true}).click();

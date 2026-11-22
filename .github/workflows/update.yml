@@ -84,11 +84,14 @@ jobs:
         run: python update_playoff.py
       - name: Precompute playoff simulation baselines
         run: node update_simulation.mjs
+      - name: Refresh Notre Dame news
+        continue-on-error: true
+        run: python update_news.py
       - name: Verify pregame records and data consistency
         run: python verify_release.py --write-manifest
       - name: Commit updated data
         run: |
-          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions data/refresh-status.json data/cfp-title-games.json data/playoff-simulation.json
+          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions data/refresh-status.json data/cfp-title-games.json data/playoff-simulation.json data/notre-dame-news.json
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -102,8 +105,8 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs game-predictions.mjs playoff-model.mjs playoff-explorer.mjs playoff-simulation.mjs playoff-simulator-ui.mjs playoff-worker.mjs _site/
-          cp data/dashboard.json data/team-profiles.json data/refresh-status.json data/cfp-title-games.json data/cfp-official-bracket.json data/playoff-simulation.json _site/data/
+          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs notre-dame-news.mjs power-rankings.mjs game-predictions.mjs playoff-model.mjs playoff-explorer.mjs playoff-simulation.mjs playoff-simulator-ui.mjs playoff-worker.mjs _site/
+          cp data/dashboard.json data/team-profiles.json data/refresh-status.json data/cfp-title-games.json data/cfp-official-bracket.json data/playoff-simulation.json data/notre-dame-news.json _site/data/
           cp -R data/ap-rankings data/power-rankings data/predictions _site/data/
       - name: Verify staged Pages files
         run: python verify_release.py --staged _site
