@@ -55,7 +55,8 @@ export async function mountNotreDamePlayoff(panel, dashboard, isCurrent) {
     ${games.map(game => `<label class="playoff-pick">${esc(game.teams.map(id => game.names[id]).join(' vs. '))}
       <select data-nd-scenario-game="${esc(game.id)}">${empty}
       ${game.teams.map(id => textOption(id,game.names[id],null)).join('')}</select></label>`).join('')}
-    <p class="nd-playoff-result" role="status"></p><a class="nd-playoff-link" href="#playoff?team=87">Open full Playoff Explorer</a>`;
+    <p class="nd-playoff-result" role="status"></p><a class="nd-playoff-link" href="#playoff?team=87">Open full Playoff Explorer</a>
+    <div class="nd-simulator"></div>`;
   function render() {
     const input = decodeScenario('');
     for (const select of panel.querySelectorAll('[data-nd-scenario-game]')) input.games[select.dataset.ndScenarioGame] = select.value;
@@ -66,9 +67,16 @@ export async function mountNotreDamePlayoff(panel, dashboard, isCurrent) {
       : projection.isOfficial ? 'Outside the official field' : projection.order.length ? 'Outside the current scenario field' : 'Projection unavailable')
       + (nd ? ' · Record ' + percentage(nd.overall) : '') + '.';
     panel.querySelector('.nd-playoff-link').href = encodeScenario(projection.used,NOTRE_DAME);
+    panel.querySelector('.nd-simulator').dispatchEvent(new Event('scenariochange'));
   }
-  panel.addEventListener('change',render);
+  panel.addEventListener('change', event => {
+    if (event.target.matches('[data-nd-scenario-game]')) render();
+  });
   render();
+  const target = panel.querySelector('.nd-simulator');
+  import('./playoff-simulator-ui.mjs').then(module => module.mountSimulator(target,
+    () => decodeScenario(panel.querySelector('.nd-playoff-link').hash), {focus:NOTRE_DAME,fixedTeam:true,isCurrent}))
+    .catch(() => { if (isCurrent()) target.textContent = 'Playoff simulation unavailable.'; });
 }
 
 export async function mountPlayoff(panel, dashboard, isCurrent) {
@@ -139,6 +147,9 @@ export async function mountPlayoff(panel, dashboard, isCurrent) {
       ${cfp ? `<ol class="playoff-poll">${Object.entries(cfp.ranks).sort(([,a],[,b]) => a-b).map(([id,rank]) =>
         `<li value="${rank}">${teamLink(id)}</li>`).join('')}</ol>` : ''}
     </section>
+    <section class="profile-section"><details class="playoff-sim-details">
+      <summary>Monte Carlo Playoff Simulator</summary><div class="playoff-sim-target"></div>
+    </details></section>
     <section class="profile-section">
       <h3>Scenario Assumptions</h3>
       <p>The latest published CFP order anchors the projection. Unranked teams start after No. 25 in verified/picked overall
@@ -160,6 +171,7 @@ export async function mountPlayoff(panel, dashboard, isCurrent) {
     const next = encodeScenario(input,input.team);
     if (next !== location.hash) history.replaceState(history.state,'',next);
     panel.querySelector('.playoff-link').value = location.href;
+    panel.querySelector('.playoff-sim-target').dispatchEvent(new Event('scenariochange'));
 
     const nd = state.rows.get(NOTRE_DAME);
     const seed = state.field.find(row => row.id === NOTRE_DAME);
@@ -242,5 +254,14 @@ export async function mountPlayoff(panel, dashboard, isCurrent) {
       }
     }
   }, {signal:controller.signal});
+  const simulator = panel.querySelector('.playoff-sim-details');
+  simulator.addEventListener('toggle',() => {
+    if (!simulator.open || simulator.dataset.loaded) return;
+    simulator.dataset.loaded = 'true';
+    const target = simulator.querySelector('.playoff-sim-target');
+    import('./playoff-simulator-ui.mjs').then(module => module.mountSimulator(
+      target,() => input,{focus:input.team ?? undefined,isCurrent,signal:controller.signal}))
+      .catch(() => { if (isCurrent()) target.textContent = 'Playoff simulation unavailable.'; });
+  });
   render();
 }

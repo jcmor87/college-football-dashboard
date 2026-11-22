@@ -18,6 +18,7 @@ FILES = (
     "data/ap-rankings/2026/index.json", "data/power-rankings/latest.json",
     "data/predictions/latest.json", "playoff-model.mjs", "playoff-explorer.mjs",
     "data/cfp-title-games.json", "data/cfp-official-bracket.json",
+    "playoff-simulation.mjs", "playoff-simulator-ui.mjs", "playoff-worker.mjs", "data/playoff-simulation.json",
 )
 
 
@@ -52,11 +53,14 @@ def write_manifest(root, now, archive_count):
     profiles = json.loads(files["data/team-profiles.json"])
     power = json.loads(files["data/power-rankings/latest.json"])
     predictions = json.loads(files["data/predictions/latest.json"])
+    simulator = json.loads(files["data/playoff-simulation.json"])
     if dashboard["season"] == 2026:
         ids = {str(team["id"]) for team in dashboard["teams"]}
         if (any(snapshot["season"] != dashboard["season"] for snapshot in (profiles, power, predictions))
                 or ids != profiles["teams"].keys() or ids != power["teams"].keys()
-                or predictions["input_cutoff"] != power["cutoff"]):
+                or predictions["input_cutoff"] != power["cutoff"]
+                or simulator["input"]["cutoff"] != power["cutoff"]
+                or simulator["input"]["predictionModel"] != predictions["model"]):
             raise ValueError("Inconsistent dashboard, profiles, power ratings, or prediction inputs")
     save_json(root / "data/refresh-status.json", {
         "checked_at": now.isoformat(), "dashboard_updated_at": dashboard["updated_at"],

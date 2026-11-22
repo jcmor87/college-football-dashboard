@@ -53,6 +53,27 @@ export const ratio = row => (row.wins + .5 * row.ties) / (row.wins + row.losses 
 const languageOrder = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 const eligibleConference = conference => [...MAJORS, ...GROUP].includes(conference);
 
+function addOutcome(rows, headToHead, game, outcome, picked, replaceUnknown = false) {
+  const key = game.teams.join(':');
+  if (outcome) headToHead.set(key, [...(headToHead.get(key) ?? []), outcome]);
+  for (const id of game.teams) {
+    const row = rows.get(id);
+    if (!row) continue;
+    const field = !outcome ? 'unknown' : outcome === 'tie' ? 'ties' : outcome === id ? 'wins' : 'losses';
+    row.overall[field]++;
+    if (replaceUnknown) row.overall.unknown--;
+    if (eligibleConference(game.conference)) {
+      row.conference[field]++;
+      if (replaceUnknown) row.conference.unknown--;
+    }
+    if (picked) row.adjustment += outcome === id ? -2 : 3;
+  }
+}
+
+export function pickable(game, now) {
+  return game.scheduled && !game.outcome && Date.parse(game.date) > now;
+}
+
 export function summarizeSchedule(teams, events, picks, now) {
   const rows = new Map([...teams.keys()].map(id => [id, {
     id, overall:emptyRecord(), conference:emptyRecord(), adjustment:0,
@@ -60,25 +81,40 @@ export function summarizeSchedule(teams, events, picks, now) {
   const headToHead = new Map();
   const used = {};
   for (const game of events) {
-    const picked = game.scheduled && Date.parse(game.date) > now && game.teams.includes(picks[game.id])
-      ? picks[game.id] : null;
-    const outcome = game.outcome ?? picked;
-    if (picked && !game.outcome) used[game.id] = picked;
-    if (outcome) headToHead.set(game.teams.join(':'), [...(headToHead.get(game.teams.join(':')) ?? []), outcome]);
-    for (const id of game.teams) {
-      const row = rows.get(id);
-      if (!row) continue;
-      const key = !outcome ? 'unknown' : outcome === 'tie' ? 'ties' : outcome === id ? 'wins' : 'losses';
-      row.overall[key]++;
-      if (eligibleConference(game.conference)) row.conference[key]++;
-      if (picked && !game.outcome) row.adjustment += outcome === id ? -2 : 3;
-    }
+    const picked = pickable(game, now) && game.teams.includes(picks[game.id]) ? picks[game.id] : null;
+    if (picked) used[game.id] = picked;
+    addOutcome(rows,headToHead,game,game.outcome ?? picked,Boolean(picked));
   }
   return {rows, headToHead, used};
 }
 
-export function conferenceTable(conference, teams, rows, headToHead, officialRanks) {
-  const members = [...teams].filter(([, team]) => team.conference === conference).map(([id]) => rows.get(id));
+export function prepareSchedule(teams, events, now) {
+  const base = summarizeSchedule(teams,events,{},now);
+  const remaining = events.filter(game => pickable(game,now));
+  return choose => {
+    const rows = new Map(base.rows);
+    const overlay = new Map();
+    const headToHead = {
+      get:key => overlay.get(key) ?? base.headToHead.get(key),
+      set:(key,value) => overlay.set(key,value),
+    };
+    for (const game of remaining) {
+      const winner = choose(game);
+      if (!game.teams.includes(winner)) continue;
+      for (const id of game.teams) {
+        const row = rows.get(id);
+        if (row && row === base.rows.get(id)) rows.set(id,
+          {...row,overall:{...row.overall},conference:{...row.conference}});
+      }
+      addOutcome(rows,headToHead,game,winner,true,true);
+    }
+    return {rows,headToHead};
+  };
+}
+
+export function conferenceTable(conference, teams, rows, headToHead, officialRanks, memberIds) {
+  const members = (memberIds ?? [...teams].filter(([, team]) => team.conference === conference).map(([id]) => id))
+    .map(id => rows.get(id));
   const byRecord = members.sort((a, b) => ratio(b.conference) - ratio(a.conference));
   const output = [];
   while (byRecord.length) {
@@ -108,7 +144,7 @@ export function conferenceTable(conference, teams, rows, headToHead, officialRan
   return output;
 }
 
-export function chooseChampions(conferences, fixtures, choices, now) {
+export function chooseChampions(conferences, fixtures, choices, now, chooseWinner) {
   const results = {};
   const used = {};
   for (const name of [...MAJORS, ...GROUP]) {
@@ -121,7 +157,8 @@ export function chooseChampions(conferences, fixtures, choices, now) {
     const valid = participants.find(id => choices[name] === match + ':' + id);
     const open = participants.length === 2 && !fixture?.winner && now < SELECTION &&
       (!fixture || (fixture.status === 'Scheduled' && Date.parse(fixture.date) > now));
-    const winner = fixture?.winner ?? (open ? valid ?? null : null);
+    const sampled = open && !valid ? chooseWinner?.(name, participants, fixture) : null;
+    const winner = fixture?.winner ?? (open ? valid ?? (participants.includes(sampled) ? sampled : null) : null);
     if (valid && open && !fixture?.winner) used[name] = choices[name];
     results[name] = {participants, match, winner, confirmed:known.length === 2,
       actual:Boolean(fixture?.winner), open, fixture:fixture ?? null};
@@ -129,21 +166,26 @@ export function chooseChampions(conferences, fixtures, choices, now) {
   return {results, used};
 }
 
-export function projectOrder(teams, rows, ranks, champions) {
-  if (!Object.keys(ranks).length) return [];
+export function committeeAnchor(rows, ranks) {
+  if (!Object.keys(ranks).length) return {};
   const fallback = [...rows.values()].filter(row => !ranks[row.id]
     && row.overall.wins + row.overall.losses + row.overall.ties).sort((a, b) =>
     ratio(b.overall) - ratio(a.overall) || b.overall.wins - a.overall.wins || languageOrder(a.id,b.id));
-  const startingRank = {...Object.fromEntries(fallback.map((row, i) => [row.id,26 + i])), ...ranks};
+  return {...Object.fromEntries(fallback.map((row, i) => [row.id,26 + i])), ...ranks};
+}
+
+export function projectOrder(teams, rows, ranks, champions, adjustResults = true,
+                             startingRank = committeeAnchor(rows,ranks)) {
   const titleAdjustments = {};
   for (const title of Object.values(champions)) {
-    if (title.actual || !title.winner) continue;
+    if (!adjustResults || title.actual || !title.winner) continue;
     for (const id of title.participants) titleAdjustments[id] = id === title.winner ? -2 : 3;
   }
-  return Object.keys(startingRank).filter(id => teams.has(id)).sort((a,b) => {
-    const points = id => startingRank[id] + rows.get(id).adjustment + (titleAdjustments[id] ?? 0);
-    return points(a) - points(b) || startingRank[a] - startingRank[b] || languageOrder(a,b);
-  });
+  const eligible = Object.keys(startingRank).filter(id => teams.has(id));
+  const points = Object.fromEntries(eligible.map(id => [
+    id, startingRank[id] + (adjustResults ? rows.get(id).adjustment : 0) + (titleAdjustments[id] ?? 0),
+  ]));
+  return eligible.sort((a,b) => points[a] - points[b] || startingRank[a] - startingRank[b] || languageOrder(a,b));
 }
 
 export function selectField(order, teams, champions) {
@@ -186,7 +228,7 @@ const ROUNDS = [
   [['final','s14','s23']],
 ];
 
-export function advanceBracket(field, choices, officialWinners = {}) {
+export function advanceBracket(field, choices, officialWinners = {}, chooseWinner) {
   const seeds = new Map(field.filter(row => row.id).map(row => [row.seed,row]));
   const winners = new Map();
   const used = {};
@@ -196,7 +238,8 @@ export function advanceBracket(field, choices, officialWinners = {}) {
     const match = teams.every(Boolean) ? teams.map(team => team.id).join('.') : null;
     const official = match && teams.find(team => team.id === officialWinners[id]);
     const picked = match && teams.find(team => choices[id] === match + ':' + team.id);
-    const winner = official || picked || null;
+    const sampled = match && !official && !picked && chooseWinner?.(id, teams, round === ROUNDS[0]);
+    const winner = official || picked || (sampled ? teams.find(team => team.id === sampled) : null) || null;
     if (picked && !official) used[id] = choices[id];
     winners.set(id,winner);
     return {id, teams, feeds:[left,right], match, winner, official:Boolean(official)};
@@ -204,10 +247,20 @@ export function advanceBracket(field, choices, officialWinners = {}) {
   return {rounds, used};
 }
 
+export function conferenceMembers(teams) {
+  const members = Object.fromEntries([...MAJORS,...GROUP].map(name => [name,[]]));
+  for (const [id, team] of teams) members[team.conference]?.push(id);
+  return members;
+}
+
+export function projectConferences(teams, rows, headToHead, ranks, members = conferenceMembers(teams)) {
+  return Object.fromEntries(Object.entries(members).map(([name,ids]) =>
+    [name,conferenceTable(name,teams,rows,headToHead,ranks,ids)]));
+}
+
 export function scenarios({teams, events, fixtures, ranks, official}, input, now) {
   const {rows, headToHead, used} = summarizeSchedule(teams,events,input.games,now);
-  const standings = Object.fromEntries([...MAJORS,...GROUP].map(name =>
-    [name,conferenceTable(name,teams,rows,headToHead,ranks)]));
+  const standings = projectConferences(teams,rows,headToHead,ranks);
   const titles = chooseChampions(standings,fixtures,input.titles,now);
   const order = projectOrder(teams,rows,ranks,titles.results);
   const officialSeeds = officialField(official,teams,now);
