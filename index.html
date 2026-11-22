@@ -72,6 +72,9 @@
   .simulator-controls select,.simulator-controls button{max-width:100%;padding:9px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb}
   .simulator-controls button:disabled{opacity:.55}.sim-results meter{width:70px;vertical-align:middle}
   .playoff-sim-details summary,.nd-playoff summary{cursor:pointer;color:#f2bc45}
+  .tabs button[data-tab="simulator"]:not(.active){border-color:#b8954d;color:#f2bc45}
+  @media(max-width:420px){.tabs button[data-tab="rankings"],.tabs button[data-tab="simulator"]{padding-inline:10px}}
+  #simulatorPanel .simulator-controls select,#simulatorPanel .simulator-controls button{min-height:44px;font-size:16px}
   </style>
 </head>
 <body>
@@ -93,6 +96,7 @@
   <div class="notice hidden" id="dataError" role="alert"></div>
   <nav class="tabs" aria-label="Dashboard sections">
     <button class="active" data-tab="rankings">National Rankings</button>
+    <button data-tab="simulator">Playoff Simulator</button>
     <button data-tab="power">Power Rankings</button>
     <button data-tab="history">AP Ranking History</button>
     <button data-tab="command">Notre Dame</button>
@@ -128,6 +132,7 @@
       </div>
     </div>
   </section>
+  <section class="panel hidden profile-section" id="simulatorPanel" aria-label="Playoff Simulator"></section>
   <section class="panel hidden" id="playoffPanel" aria-label="Playoff Scenario Explorer"></section>
   <section class="panel hidden" id="predictionPanel" aria-label="Game Predictions"></section>
   <section class="panel hidden" id="powerPanel" aria-label="Saturday HQ Power Rankings"></section>
@@ -158,6 +163,7 @@
 <script>
 const $=s=>document.querySelector(s);let state={tab:'rankings',conference:'All',query:'',data:null};const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const rank=t=>t.rank??null;const conf=t=>t.conference||'Independent';function filtered(){let a=state.data?.teams||[];if(state.tab==='rankings')a=a.filter(t=>rank(t)!=null).sort((a,b)=>rank(a)-rank(b));else a=[...a].sort((a,b)=>a.name.localeCompare(b.name));return a.filter(t=>(state.conference==='All'||conf(t)===state.conference)&&(`${t.name} ${t.abbreviation||''}`).toLowerCase().includes(state.query.toLowerCase()))}let historyMount;
 let profileView = 0;
+let simulatorController;
 const readTeamHash = () => location.hash.startsWith('#team=');
 const commandHash = '#notre-dame';
 const powerHash = '#power';
@@ -165,13 +171,15 @@ const isPowerHash = () => location.hash === powerHash || /^#power=[0-9]+$/.test(
 const predictionHash = '#predictions';
 const aboutHash = '#about';
 const isPlayoffHash = () => location.hash === '#playoff' || location.hash.startsWith('#playoff?');
-const tabFromHash = () => isPlayoffHash() ? 'playoff' : location.hash === aboutHash ? 'about' : location.hash === predictionHash ? 'predictions' : isPowerHash() ? 'power' : location.hash === commandHash ? 'command' : readTeamHash() ? 'profile' : null;
+const isSimulatorHash = () => location.hash === '#simulator' || location.hash.startsWith('#simulator?');
+const tabFromHash = () => isSimulatorHash() ? 'simulator' : isPlayoffHash() ? 'playoff' : location.hash === aboutHash ? 'about' : location.hash === predictionHash ? 'predictions' : isPowerHash() ? 'power' : location.hash === commandHash ? 'command' : readTeamHash() ? 'profile' : null;
 state.tab = tabFromHash() ?? 'rankings';
 window.addEventListener('hashchange', () => {
   state.tab = tabFromHash() ?? history.state?.dashboardTab ?? 'rankings';
   render();
 });
 function render(){
+  simulatorController?.abort();
   const d=state.data;
   const showHistory=state.tab==='history';
   $('#historyPanel').classList.toggle('hidden',!showHistory);
@@ -185,9 +193,32 @@ function render(){
   $('#predictionPanel').classList.toggle('hidden', !showPredictions);
   const showPlayoff = state.tab === 'playoff';
   $('#playoffPanel').classList.toggle('hidden', !showPlayoff);
-  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand || showPower || showPredictions || showPlayoff);
+  const showSimulator = state.tab === 'simulator';
+  $('#simulatorPanel').classList.toggle('hidden', !showSimulator);
+  $('#dataError').classList.toggle('hidden', showSimulator || !$('#dataError').textContent);
+  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand || showPower || showPredictions || showPlayoff || showSimulator);
   const currentView = ++profileView;
   if (d) updateSpotlight(d);
+  if (showSimulator) {
+    document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'simulator'));
+    const panel = $('#simulatorPanel');
+    const controller = new AbortController();
+    simulatorController = controller;
+    const current = () => !controller.signal.aborted;
+    panel.innerHTML = '<p class="notice" role="status">Loading playoff simulator…</p>';
+    Promise.all([import('./playoff-simulator-ui.mjs'), import('./playoff-model.mjs')])
+      .then(([ui, model]) => {
+        if (!current()) return;
+        const picks = model.decodeScenario(location.hash);
+        const explorer = model.encodeScenario(picks, picks.team);
+        return ui.mountSimulator(panel, () => picks, {focus:picks.team, isCurrent:current,
+          signal:controller.signal, explorerHref:explorer});
+      }).catch(error => {
+        if (current()) panel.innerHTML = '<p class="notice" role="alert">Playoff simulator could not load. Reload to try again.</p>';
+        console.error(error);
+      });
+    return;
+  }
   if (showPlayoff) {
     document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'playoff'));
     const panel = $('#playoffPanel');
@@ -288,7 +319,7 @@ function render(){
     }
     return;
   }
-  if(!d)return;document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.tab));$('#mainTitle').textContent={rankings:'National Poll Rankings',games:'This Week’s Games',teams:'FBS Team Directory',about:'About & Methodology'}[state.tab];$('#search').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#filters').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#teamList').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#mainExtra').classList.toggle('hidden',['rankings','teams'].includes(state.tab));if(['rankings','teams'].includes(state.tab)){let cs=['All',...new Set((d.teams||[]).map(conf))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));$('#filters').innerHTML=cs.map(c=>`<button class="${state.conference===c?'active':''}" data-conf="${esc(c)}">${esc(c)}</button>`).join('');$('#teamList').innerHTML=filtered().map(t=>`<a class="team" href="#team=${encodeURIComponent(t.id)}"><div class="rank">${rank(t)??'–'}</div><div><div class="team-name">${esc(t.name)}</div><small>${esc(conf(t))}</small></div><div class="muted">${esc(t.abbreviation||'')}</div><div class="record">${esc(t.record||'—')}</div></a>`).join('')||'<div class="empty">No teams match your filters. Rankings are shown only when a verified poll is available.</div>'}else if(state.tab==='games'){$('#mainExtra').innerHTML=gamesHtml(d.games||[])}else{$('#mainExtra').innerHTML=aboutContent}$('#gamesSidebar').innerHTML=gamesHtml((d.games||[]).slice(0,5));}
+  document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.tab));if(!d)return;$('#mainTitle').textContent={rankings:'National Poll Rankings',games:'This Week’s Games',teams:'FBS Team Directory',about:'About & Methodology'}[state.tab];$('#search').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#filters').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#teamList').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#mainExtra').classList.toggle('hidden',['rankings','teams'].includes(state.tab));if(['rankings','teams'].includes(state.tab)){let cs=['All',...new Set((d.teams||[]).map(conf))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));$('#filters').innerHTML=cs.map(c=>`<button class="${state.conference===c?'active':''}" data-conf="${esc(c)}">${esc(c)}</button>`).join('');$('#teamList').innerHTML=filtered().map(t=>`<a class="team" href="#team=${encodeURIComponent(t.id)}"><div class="rank">${rank(t)??'–'}</div><div><div class="team-name">${esc(t.name)}</div><small>${esc(conf(t))}</small></div><div class="muted">${esc(t.abbreviation||'')}</div><div class="record">${esc(t.record||'—')}</div></a>`).join('')||'<div class="empty">No teams match your filters. Rankings are shown only when a verified poll is available.</div>'}else if(state.tab==='games'){$('#mainExtra').innerHTML=gamesHtml(d.games||[])}else{$('#mainExtra').innerHTML=aboutContent}$('#gamesSidebar').innerHTML=gamesHtml((d.games||[]).slice(0,5));}
 const aboutContent = `<div class="notice">
   <strong>Saturday HQ · Version 2.0</strong>
   <p>ESPN supplies FBS standings, scores, schedules, box scores, and published AP and CFP polls.</p>
@@ -297,6 +328,7 @@ const aboutContent = `<div class="notice">
     <li><strong>Team Profiles</strong> show schedules, records, season statistics, and comparisons.</li>
     <li><a href="#notre-dame">Notre Dame Command Center</a> combines recent form, opponent analysis, ranked wins, and upcoming forecasts.</li>
     <li><a href="#power">Power Rankings</a> explain Saturday HQ’s independent weighted rating and compare it with the official AP and CFP polls.</li>
+    <li><a href="#simulator">Playoff Simulator</a> compares experimental playoff outcomes with precomputed baselines.</li>
     <li><a href="#playoff">Playoff Explorer</a> builds conditional brackets from user-selected results.</li>
     <li><a href="#predictions">Game Predictions</a> estimate winners and margins. Historical holdout results and archived live forecasts have separate scorecards.</li>
   </ul>
@@ -307,6 +339,10 @@ const aboutContent = `<div class="notice">
 
 function updateSpotlight(d){const nd=(d.teams||[]).find(t=>String(t.id)==='87');$('#ndRecord').textContent=nd?.record||'—';$('#ndRank').textContent=nd?.rank?'#'+nd.rank:'—';$('#ndDetails').textContent=nd?'Notre Dame is included in the national team directory. Select Notre Dame in the team directory to open its profile.':'Notre Dame data is not available in the latest snapshot.';$('#ndSummary').textContent=nd?`2026 season • ${nd.record||'Record unavailable'} • ${nd.rank?'#'+nd.rank+' in '+(d.poll||'selected poll'):'No published poll position'}`:'2026 season • Awaiting verified team data';}function gamesHtml(g){return g.length?g.map(x=>`<div class="score"><strong>${esc(x.away)} @ ${esc(x.home)}</strong><div class="meta">${esc(x.date?new Date(x.date).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Date unavailable')} • ${esc(x.status||'Scheduled')}</div><div class="result">${x.away_score!=null&&x.home_score!=null?`${esc(x.away_score)} – ${esc(x.home_score)}`:'Score pending'}</div></div>`).join(''):'<div class="empty">No games available in this snapshot.</div>'}document.addEventListener('click', event => {
   const tab = event.target.closest('[data-tab]');
+  if (tab?.dataset.tab === 'simulator') {
+    if (!isSimulatorHash()) location.hash = '#simulator';
+    return;
+  }
   if (tab?.dataset.tab === 'playoff') {
     if (!isPlayoffHash()) location.hash = '#playoff';
     return;
@@ -376,7 +412,8 @@ async function loadDashboard() {
       throw new Error('Dashboard snapshot is incomplete');
     }
     state.data = snapshot;
-    render();
+    if (state.tab === 'simulator') updateSpotlight(snapshot);
+    else render();
 
     const updated = new Date(snapshot.updated_at ?? NaN);
     $('#lastChanged').textContent = Number.isNaN(updated.getTime())
@@ -389,12 +426,13 @@ async function loadDashboard() {
     $('#ndSummary').textContent = 'Notre Dame data is unavailable';
     const notice = $('#dataError');
     notice.textContent = 'The dashboard could not load its data. Reload this page to try again. If the problem continues, check the latest Update dashboard data run in GitHub Actions and confirm that the Pages deployment succeeded.';
-    notice.classList.remove('hidden');
+    notice.classList.toggle('hidden', state.tab === 'simulator');
     if (['history', 'profile', 'command', 'power', 'predictions', 'playoff'].includes(state.tab)) render();
     console.error('Dashboard snapshot could not be loaded', snapshotUrl.href, error);
   }
 }
 
+if (state.tab === 'simulator') render();
 loadDashboard();
 </script>
 </body>

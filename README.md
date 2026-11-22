@@ -458,7 +458,10 @@ Run `node --test tests/*.test.mjs` and
 
 ## Monte Carlo Playoff Simulator
 
-Open **Playoff Explorer → Monte Carlo Playoff Simulator**. The Notre Dame
+Open the **Playoff Simulator** tab or share the direct URL with
+`#simulator`. To carry your picks into the tab, choose **Open Playoff
+Simulator** from Playoff Explorer. The simulator also remains available
+inside **Playoff Explorer → Monte Carlo Playoff Simulator**. The Notre Dame
 Command Center shows Notre Dame's dashboard inside **Explore Notre Dame
 outcomes**. Choose 1,000, 10,000, or 50,000 seasons. The baseline loads from
 the current Pages snapshot. Choose winners in the explorer or the Notre Dame

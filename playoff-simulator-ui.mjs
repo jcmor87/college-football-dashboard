@@ -74,13 +74,13 @@ function results(base, scenario, id, choices) {
     ${conditioned.length ? '<p class="muted">Title and bracket choices apply when that matchup occurs. Applied: ' + conditioned.join(' · ') + '.</p>' : ''}`;
 }
 
-export async function mountSimulator(panel, getChoices, {focus, fixedTeam = false, isCurrent, signal} = {}) {
-  panel.textContent = 'Loading precomputed simulations…';
+export async function mountSimulator(panel, getChoices, {focus, fixedTeam = false, isCurrent, signal, explorerHref} = {}) {
+  panel.innerHTML = '<p class="notice" role="status">Loading precomputed simulations…</p>';
   let snapshot;
   try {
     snapshot = await loadSnapshot();
   } catch (error) {
-    if (isCurrent?.() !== false) panel.innerHTML = '<p class="notice" role="alert">Playoff simulation data unavailable. Reload to try again.</p>';
+    if (!signal?.aborted && isCurrent?.() !== false) panel.innerHTML = '<p class="notice" role="alert">Playoff simulation data unavailable. Reload to try again.</p>';
     console.error(error);
     return;
   }
@@ -101,6 +101,7 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
     ${coverage.otherUnresolved} other listed unresolved games, and ${coverage.staleSchedules} stale or unavailable team schedules.
     ${input.missingTitleDates.length ? 'Some title fixture dates were unavailable. ' : ''}
     Unmodeled games remain unresolved unless a valid winner is selected.</p>
+    ${explorerHref ? `<p><a href="${esc(explorerHref)}">Choose or edit outcomes in Playoff Explorer</a></p>` : ''}
     <div class="profile-controls simulator-controls">
       <label>Simulated seasons<select class="sim-count">${COUNTS.map(count => `<option value="${count}">${number(count)}</option>`).join('')}</select></label>
       ${fixedTeam ? '' : `<label>Team<select class="sim-team">${teams.map(([id,team]) =>
@@ -133,7 +134,7 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
     signature = key;
     stop();
     scenario = null;
-    status.textContent = anyPicks(getChoices()) ? 'Scenario picks ready. Run the comparison.' : 'Choose an outcome above to compare against the baseline.';
+    status.textContent = anyPicks(getChoices()) ? 'Scenario picks ready. Run the comparison.' : explorerHref ? 'Choose outcomes in Playoff Explorer to run a comparison.' : 'Choose an outcome above to compare against the baseline.';
     run.disabled = !anyPicks(getChoices());
     draw();
   };

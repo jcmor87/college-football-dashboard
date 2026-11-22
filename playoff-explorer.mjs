@@ -110,6 +110,7 @@ export async function mountPlayoff(panel, dashboard, isCurrent) {
     <p class="notice">2026–27 · Saturday HQ scenarios. These are conditional brackets and selections with no playoff probabilities.
       <a href="${PROTOCOL}">Official CFP rules</a> · <a href="${OFFICIAL}">Official CFP bracket and sites</a></p>
     <div class="profile-section playoff-toolbar">
+      <a class="playoff-open-simulator" href="#simulator">Open Playoff Simulator</a>
       <button type="button" data-scenario-action="reset">Reset scenario</button>
       <button type="button" data-scenario-action="share">Copy scenario link</button>
       <label>Shareable URL<input class="playoff-link" readonly aria-label="Shareable scenario URL"></label>
@@ -171,6 +172,7 @@ export async function mountPlayoff(panel, dashboard, isCurrent) {
     const next = encodeScenario(input,input.team);
     if (next !== location.hash) history.replaceState(history.state,'',next);
     panel.querySelector('.playoff-link').value = location.href;
+    panel.querySelector('.playoff-open-simulator').href = next.replace(/^#playoff/,'#simulator');
     panel.querySelector('.playoff-sim-target').dispatchEvent(new Event('scenariochange'));
 
     const nd = state.rows.get(NOTRE_DAME);
