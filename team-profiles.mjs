@@ -24,23 +24,27 @@ export function advantage(left, right, direction) {
 }
 
 let profileData;
-export async function loadProfiles() {
+export async function loadProfileSnapshot() {
   if (!profileData) {
     profileData = fetch(new URL('./data/team-profiles.json', import.meta.url), {cache:'no-cache'})
       .then(response => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
       }).then(data => {
-        if (data.season !== 2026 || !data.teams || Array.isArray(data.teams)) {
+        if (!Number.isInteger(data.season) || !data.teams || Array.isArray(data.teams)) {
           throw new Error('Invalid team profile data');
         }
-        return data.teams;
+        return data;
       }).catch(error => {
         profileData = null;
         throw error;
       });
   }
   return profileData;
+}
+
+export async function loadProfiles() {
+  return (await loadProfileSnapshot()).teams;
 }
 
 function scheduleTable(games, directory) {
