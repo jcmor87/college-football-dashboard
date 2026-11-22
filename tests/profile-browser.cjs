@@ -1,7 +1,7 @@
 const {chromium} = require('playwright');
 const assert = require('node:assert/strict');
 const {once} = require('node:events');
-const {createReadStream, existsSync} = require('node:fs');
+const {createReadStream, existsSync, readFileSync} = require('node:fs');
 const {createServer} = require('node:http');
 const {resolve} = require('node:path');
 const prefix = '/college-football-dashboard/';
@@ -106,6 +106,39 @@ const root = resolve(__dirname, '..');
     await predictions.getByRole('heading', {name:'Accuracy Dashboard'}).waitFor();
     await page.goto(url+'#notre-dame');
     await command.getByRole('heading', {name:'Notre Dame Matchup Predictor'}).waitFor();
+    const dashboard = JSON.parse(readFileSync(resolve(root, 'data/dashboard.json'), 'utf8'));
+    let checkedAt = new Date().toISOString();
+    let changedAt = dashboard.updated_at;
+    await page.route('**/data/refresh-status.json', route => route.fulfill({json:{
+      checked_at:checkedAt, dashboard_updated_at:changedAt,
+    }}));
+    await page.goto(url+'#about');
+    const about = page.locator('#mainExtra');
+    await about.getByText('Saturday HQ · Version 2.0').waitFor();
+    for (const label of ['AP Ranking History','Team Profiles','Notre Dame Command Center','Power Rankings','Game Predictions']) {
+      await about.getByText(label,{exact:true}).waitFor();
+    }
+    await page.reload();
+    await about.getByText('Saturday HQ · Version 2.0').waitFor();
+    await page.getByText(/Refresh checked/).waitFor();
+    checkedAt = new Date(Date.now() - 7 * 3600 * 1000).toISOString();
+    await page.reload();
+    await page.getByText(/Refresh delayed/).waitFor();
+    changedAt = 'mismatched-response';
+    await page.reload();
+    await page.getByText('Refresh check unavailable').waitFor();
+    await about.getByRole('link',{name:'Game Predictions'}).click();
+    await predictions.getByRole('heading',{name:'Accuracy Dashboard'}).waitFor();
+    await page.setViewportSize({width:320,height:720});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    await page.setViewportSize({width:768,height:900});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    await page.route('**/data/predictions/latest.json', route => route.fulfill({status:503,body:'Unavailable'}));
+    await page.reload();
+    await predictions.getByRole('alert').filter({hasText:'could not load'}).waitFor();
+    await page.unroute('**/data/predictions/latest.json');
+    await page.getByRole('button',{name:'National Rankings',exact:true}).click();
+    await page.locator('#teamList .team').first().waitFor();
     await page.goto(url+'#team=999999');
     await page.getByRole('alert').filter({hasText:'not found'}).waitFor();
     await page.route('**/data/team-profiles.json',route=>route.fulfill({status:503,body:'Unavailable'}));

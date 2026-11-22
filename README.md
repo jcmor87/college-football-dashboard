@@ -367,3 +367,11 @@ Game Predictions tab. Run `python3 -m unittest discover -s tests` and
 `node --test tests/*.test.mjs` for automated checks. The pull request workflow
 regenerates previews in a temporary directory without writing live revisions
 or deploying Pages.
+
+## Version 2.0 quality audit
+
+See the [audit report](AUDIT.md) for reproduced backtests, paired uncertainty
+checks, verified Pages evidence, and priorities before the Playoff Simulator.
+The release workflow enforces an append-only forecast archive and publishes
+`data/refresh-status.json` with a check timestamp and core snapshot hashes.
+The header keeps its last-changed timestamp separate from the refresh check.
