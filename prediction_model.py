@@ -135,11 +135,12 @@ def performance(pairs):
     }
 
 
-def final_pregame(revisions, kickoff):
+def final_pregame(revisions, kickoff, matchup=None):
     def timestamp(value):
         return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
     valid = [row for row in revisions
-             if timestamp(row["input_cutoff"]) <= timestamp(row["generated_at"])
+             if (matchup is None or (row["first"], row["second"]) == matchup)
+             and timestamp(row["input_cutoff"]) <= timestamp(row["generated_at"])
              < min(timestamp(kickoff), timestamp(row["kickoff"]))]
     return max(valid, key=lambda row: (timestamp(row["generated_at"]), row["revision"]), default=None)

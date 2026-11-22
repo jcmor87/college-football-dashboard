@@ -145,10 +145,8 @@ def generate(dashboard, profiles, power, output, clock, archive_live=False):
             last = revisions[-1]
             event = {**last, "kickoff": parse_time(last["kickoff"]), "status": "Schedule unavailable"}
         kickoff = final.kickoff if final else event["kickoff"]
-        selected = final_pregame(revisions, kickoff.isoformat())
-        if selected and (selected["first"], selected["second"]) != (
-                final.first if final else event["first"], final.second if final else event["second"]):
-            selected = None
+        matchup = (final.first, final.second) if final else (event["first"], event["second"])
+        selected = final_pregame(revisions, kickoff.isoformat(), matchup)
         actual = {"first": final.points, "second": final.allowed} if final else None
         if selected and final:
             evaluated.append((week_of(kickoff), selected, final.points - final.allowed))

@@ -22,6 +22,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -30,6 +31,10 @@ jobs:
           node-version: '22'
       - run: python -m unittest discover -s tests
       - run: node --test tests/*.test.mjs
+      - name: Verify forecast archive against PR base
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+        run: python verify_release.py --baseline "$PR_BASE"
       - name: Regenerate power data without publishing
         run: python update_power.py --output "$RUNNER_TEMP/power-rankings"
       - name: Regenerate prediction preview without archiving
@@ -70,9 +75,11 @@ jobs:
         run: python update_power.py
       - name: Generate predictions and archive pregame revisions
         run: python update_predictions.py --archive-live
+      - name: Verify pregame records and data consistency
+        run: python verify_release.py --write-manifest
       - name: Commit updated data
         run: |
-          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions
+          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions data/refresh-status.json
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -87,8 +94,10 @@ jobs:
         run: |
           mkdir -p _site/data
           cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs game-predictions.mjs _site/
-          cp data/dashboard.json data/team-profiles.json _site/data/
+          cp data/dashboard.json data/team-profiles.json data/refresh-status.json _site/data/
           cp -R data/ap-rankings data/power-rankings data/predictions _site/data/
+      - name: Verify staged Pages files
+        run: python verify_release.py --staged _site
       - name: Upload dashboard
         uses: actions/upload-pages-artifact@v4
         with:
