@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-22T02:13:20.854912+00:00",
+  "dashboard_updated_at": "2026-11-22T02:12:10+00:00",
+  "archive_count": 62,
+  "power_cutoff": "2026-11-22T00:00:00+00:00",
+  "prediction_cutoff": "2026-11-22T00:00:00+00:00",
+  "sha256": {
+    "index.html": "b5fd9a9854d0045612ebbf8461a1ef6774fc1f618c7c396500df14d0eabb6b09",
+    "ranking-history.mjs": "86b8eda7a0f44b6f0fe1467a6d82cfa00471a94dcbb8046ddf2289ade744fba9",
+    "team-profiles.mjs": "d79a1dc08c4d7c31fa18df2b3a6f9c678bb6b4ff3e1c360a370f571e23dc19a3",
+    "nd-command.mjs": "44b008f4cf1d32a4e4e640404d5bbbc26ad6a503164be800469a8367978a35a9",
+    "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
+    "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
+    "data/dashboard.json": "0ac99adfd850c3de67e9817527c2451f734da5f26b774732d1d2953e1d602117",
+    "data/team-profiles.json": "c6c3595ec17e4aada77f8b4c7fbc1ca6e7a7e11fde6f916d23f7ae8f2c957884",
+    "data/ap-rankings/2026/index.json": "f8c3d4569b4f8dab5aabf6779c61d11a0f61e18cd9bbee46c0da4fa5c71ae14d",
+    "data/power-rankings/latest.json": "2948e99418a1e1b4da27bad281708602759fcc00378cb83043e062d4f146c6d7",
+    "data/predictions/latest.json": "ddf697ad32f3dbcd2f0a0057136a9d476cc3d19b9fb73c3fc725ba6f5e9db6be"
+  }
+}
