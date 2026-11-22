@@ -81,7 +81,7 @@ function teamCard(name, team, snapshot, game) {
     }).join('')}</ul>`;
   }).join('');
   return `<section><h4>${escapeHtml(name)}</h4>
-    <p><strong>${escapeHtml(count)} ${count === 1 ? 'player' : 'players'} reported out</strong></p>
+    <p><strong>Verified reported outs</strong> · ${escapeHtml(count)}</p>
     <p class="muted">${statusText} · Latest verified report ${dateLabel(team.latest_report_timestamp)}
     ${status.staleReport ? ' · Stale report' : ''}</p>${reportGroups}</section>`;
 }

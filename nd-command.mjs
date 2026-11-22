@@ -196,7 +196,11 @@ export async function mountCommand(panel, dashboard, isCurrent) {
     <section class="profile-section nd-injury" aria-labelledby="nd-injury-heading">
       <h3 id="nd-injury-heading">Injury Impact Index</h3>
       <p class="nd-injury-label">Experimental — availability data only</p>
-      <p class="muted">Counts include explicit outs in each team’s latest verified report. Coverage varies by team, and raw injury counts cannot measure player or team impact.</p>
+      <div class="notice">
+        <strong>Injury coverage is partial</strong>
+        <p>New injury reports are found, reviewed, and entered manually. The scheduled GitHub Actions refresh only validates and republishes existing reviewed reports.</p>
+      </div>
+      <p class="muted">Verified reported outs count players explicitly listed as out in each team’s latest verified report. These counts cannot measure player or team impact.</p>
       <p class="muted" role="status">Loading availability reports…</p>
       <label hidden>Availability matchup<select></select></label>
       <div class="nd-injury-results" aria-live="polite"></div>
