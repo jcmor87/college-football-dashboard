@@ -3,30 +3,6 @@
   "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
   "unavailable_dates": [],
   "games": {
-    "Atlantic Coast Conference": {
-      "id": "401858318",
-      "date": "2026-12-05T17:00Z",
-      "teams": [],
-      "status": "Scheduled",
-      "winner": null,
-      "source_date": "20261205"
-    },
-    "Mid-American Conference": {
-      "id": "401869536",
-      "date": "2026-12-05T17:00Z",
-      "teams": [],
-      "status": "Scheduled",
-      "winner": null,
-      "source_date": "20261205"
-    },
-    "Southeastern Conference": {
-      "id": "401869545",
-      "date": "2026-12-05T21:00Z",
-      "teams": [],
-      "status": "Scheduled",
-      "winner": null,
-      "source_date": "20261205"
-    },
     "Conference USA": {
       "id": "401869535",
       "date": "2026-12-05T00:00Z",
@@ -71,6 +47,30 @@
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261204"
+    },
+    "Atlantic Coast Conference": {
+      "id": "401858318",
+      "date": "2026-12-05T17:00Z",
+      "teams": [],
+      "status": "Scheduled",
+      "winner": null,
+      "source_date": "20261205"
+    },
+    "Mid-American Conference": {
+      "id": "401869536",
+      "date": "2026-12-05T17:00Z",
+      "teams": [],
+      "status": "Scheduled",
+      "winner": null,
+      "source_date": "20261205"
+    },
+    "Southeastern Conference": {
+      "id": "401869545",
+      "date": "2026-12-05T21:00Z",
+      "teams": [],
+      "status": "Scheduled",
+      "winner": null,
+      "source_date": "20261205"
     },
     "American Conference": {
       "id": "401869532",
