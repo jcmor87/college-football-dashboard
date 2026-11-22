@@ -403,11 +403,11 @@
         "third_pct": 51.9
       },
       "strength": {
-        "pct": 43.7,
-        "covered": 10,
+        "pct": 42.1,
+        "covered": 9,
         "played": 11,
-        "wins": 45,
-        "losses": 58,
+        "wins": 40,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -1235,11 +1235,11 @@
         "third_pct": 42.7
       },
       "strength": {
-        "pct": 59.2,
+        "pct": 57.9,
         "covered": 10,
         "played": 11,
-        "wins": 61,
-        "losses": 42,
+        "wins": 62,
+        "losses": 45,
         "ties": 0
       },
       "ranked_results": {
@@ -1252,7 +1252,7 @@
     "2026": {
       "school": "App State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -1592,15 +1592,31 @@
           "opponent_id": "2433",
           "opponent": "UL Monroe Warhawks",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 17,
+          "allowed": 16,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 349,
+            "rushing": 161,
+            "passing": 188,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 16
+          },
+          "defense": {
+            "yards": 277,
+            "rushing": 103,
+            "passing": 174,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401869930",
@@ -1623,23 +1639,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 25.7,
-        "allowed": 23.6,
-        "margin": 2.1,
-        "yards": 379.2,
-        "rushing": 125.6,
-        "passing": 253.6,
-        "turnovers": 1.6,
-        "yards_allowed": 370.4,
-        "third_pct": 34.9
+        "games": 11,
+        "points": 24.9,
+        "allowed": 22.9,
+        "margin": 2.0,
+        "yards": 376.5,
+        "rushing": 128.8,
+        "passing": 247.6,
+        "turnovers": 1.5,
+        "yards_allowed": 361.9,
+        "third_pct": 34.5
       },
       "strength": {
-        "pct": 46.7,
-        "covered": 9,
-        "played": 10,
-        "wins": 43,
-        "losses": 49,
+        "pct": 43.6,
+        "covered": 10,
+        "played": 11,
+        "wins": 48,
+        "losses": 62,
         "ties": 0
       },
       "ranked_results": {
@@ -2035,11 +2051,11 @@
         "third_pct": 33.3
       },
       "strength": {
-        "pct": 52.1,
+        "pct": 51.5,
         "covered": 9,
         "played": 10,
-        "wins": 49,
-        "losses": 45,
+        "wins": 50,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
@@ -2392,7 +2408,7 @@
           "opponent_id": "2306",
           "opponent": "Kansas State Wildcats",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -2435,11 +2451,11 @@
         "third_pct": 49.6
       },
       "strength": {
-        "pct": 54.3,
+        "pct": 54.2,
         "covered": 9,
         "played": 10,
-        "wins": 51,
-        "losses": 43,
+        "wins": 52,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -2452,7 +2468,7 @@
     "8": {
       "school": "Arkansas",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-      "conference_record": "2-5",
+      "conference_record": "2-6",
       "schedule_status": "available",
       "games": [
         {
@@ -2792,15 +2808,31 @@
           "opponent_id": "251",
           "opponent": "Texas Longhorns",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 3,
+          "allowed": 45,
+          "result": "L",
           "opponent_rank_now": 8,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 8,
+          "offense": {
+            "yards": 363,
+            "rushing": 110,
+            "passing": 253,
+            "turnovers": 2,
+            "third_made": 3,
+            "third_attempts": 14
+          },
+          "defense": {
+            "yards": 448,
+            "rushing": 116,
+            "passing": 332,
+            "turnovers": 0,
+            "third_made": 6,
+            "third_attempts": 11
+          }
         },
         {
           "id": "401856758",
@@ -2823,28 +2855,28 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 21.4,
-        "allowed": 25.3,
-        "margin": -3.9,
-        "yards": 339.6,
-        "rushing": 117.9,
-        "passing": 221.7,
-        "turnovers": 1.4,
-        "yards_allowed": 362.5,
-        "third_pct": 42.3
+        "games": 11,
+        "points": 19.7,
+        "allowed": 27.1,
+        "margin": -7.4,
+        "yards": 341.7,
+        "rushing": 117.2,
+        "passing": 224.5,
+        "turnovers": 1.5,
+        "yards_allowed": 370.3,
+        "third_pct": 40.5
       },
       "strength": {
-        "pct": 64.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 59,
-        "losses": 32,
+        "pct": 67.0,
+        "covered": 10,
+        "played": 11,
+        "wins": 71,
+        "losses": 35,
         "ties": 0
       },
       "ranked_results": {
         "W": 1,
-        "L": 4,
+        "L": 5,
         "T": 0,
         "unverified": 0
       }
@@ -3192,7 +3224,7 @@
           "opponent_id": "2348",
           "opponent": "Louisiana Tech Bulldogs",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -3235,11 +3267,11 @@
         "third_pct": 44.2
       },
       "strength": {
-        "pct": 47.3,
+        "pct": 46.9,
         "covered": 9,
         "played": 10,
-        "wins": 43,
-        "losses": 48,
+        "wins": 46,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -3635,10 +3667,10 @@
         "third_pct": 43.8
       },
       "strength": {
-        "pct": 61.1,
+        "pct": 61.5,
         "covered": 9,
         "played": 10,
-        "wins": 58,
+        "wins": 59,
         "losses": 37,
         "ties": 0
       },
@@ -3992,15 +4024,31 @@
           "opponent_id": "2535",
           "opponent": "Samford Bulldogs",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 59,
+          "allowed": 17,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": false,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 672,
+            "rushing": 192,
+            "passing": 480,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 9
+          },
+          "defense": {
+            "yards": 334,
+            "rushing": 90,
+            "passing": 244,
+            "turnovers": 0,
+            "third_made": 5,
+            "third_attempts": 17
+          }
         },
         {
           "id": "401856757",
@@ -4023,23 +4071,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 26.0,
-        "allowed": 24.6,
-        "margin": 1.4,
-        "yards": 368.0,
-        "rushing": 154.5,
-        "passing": 213.5,
+        "games": 11,
+        "points": 29.0,
+        "allowed": 23.9,
+        "margin": 5.1,
+        "yards": 395.6,
+        "rushing": 157.9,
+        "passing": 237.7,
         "turnovers": 1.2,
-        "yards_allowed": 387.9,
-        "third_pct": 40.9
+        "yards_allowed": 383.0,
+        "third_pct": 41.1
       },
       "strength": {
-        "pct": 56.7,
+        "pct": 55.0,
         "covered": 10,
-        "played": 10,
-        "wins": 59,
-        "losses": 45,
+        "played": 11,
+        "wins": 60,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -4451,11 +4499,11 @@
         "third_pct": 50.7
       },
       "strength": {
-        "pct": 59.2,
+        "pct": 58.7,
         "covered": 10,
         "played": 11,
         "wins": 61,
-        "losses": 42,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
@@ -4884,7 +4932,7 @@
     "239": {
       "school": "Baylor",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-      "conference_record": "4-3",
+      "conference_record": "4-4",
       "schedule_status": "available",
       "games": [
         {
@@ -5224,15 +5272,31 @@
           "opponent_id": "2641",
           "opponent": "Texas Tech Red Raiders",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 10,
+          "allowed": 20,
+          "result": "L",
           "opponent_rank_now": 11,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 11,
+          "offense": {
+            "yards": 267,
+            "rushing": 31,
+            "passing": 236,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 18
+          },
+          "defense": {
+            "yards": 402,
+            "rushing": 231,
+            "passing": 171,
+            "turnovers": 3,
+            "third_made": 3,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401856874",
@@ -5255,28 +5319,28 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 29.4,
-        "allowed": 18.1,
-        "margin": 11.3,
-        "yards": 413.9,
-        "rushing": 148.0,
-        "passing": 265.9,
-        "turnovers": 1.2,
-        "yards_allowed": 344.6,
-        "third_pct": 41.2
+        "games": 11,
+        "points": 27.6,
+        "allowed": 18.3,
+        "margin": 9.4,
+        "yards": 400.5,
+        "rushing": 137.4,
+        "passing": 263.2,
+        "turnovers": 1.1,
+        "yards_allowed": 349.8,
+        "third_pct": 39.3
       },
       "strength": {
-        "pct": 55.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 53,
-        "losses": 42,
+        "pct": 59.8,
+        "covered": 10,
+        "played": 11,
+        "wins": 64,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
         "W": 0,
-        "L": 1,
+        "L": 2,
         "T": 0,
         "unverified": 0
       }
@@ -6086,8 +6150,8 @@
         "pct": 53.8,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 48,
+        "wins": 57,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -6915,11 +6979,11 @@
         "third_pct": 40.2
       },
       "strength": {
-        "pct": 51.5,
+        "pct": 50.5,
         "covered": 9,
         "played": 11,
         "wins": 50,
-        "losses": 47,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -7272,7 +7336,7 @@
           "opponent_id": "24",
           "opponent": "Stanford Cardinal",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -7315,11 +7379,11 @@
         "third_pct": 36.2
       },
       "strength": {
-        "pct": 64.9,
+        "pct": 64.6,
         "covered": 9,
         "played": 10,
-        "wins": 61,
-        "losses": 33,
+        "wins": 62,
+        "losses": 34,
         "ties": 0
       },
       "ranked_results": {
@@ -7731,11 +7795,11 @@
         "third_pct": 41.7
       },
       "strength": {
-        "pct": 58.7,
-        "covered": 10,
+        "pct": 58.2,
+        "covered": 9,
         "played": 11,
-        "wins": 64,
-        "losses": 45,
+        "wins": 57,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -7748,7 +7812,7 @@
     "2429": {
       "school": "Charlotte",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-      "conference_record": "1-5",
+      "conference_record": "1-6",
       "schedule_status": "available",
       "games": [
         {
@@ -8088,15 +8152,31 @@
           "opponent_id": "202",
           "opponent": "Tulsa Golden Hurricane",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 14,
+          "allowed": 42,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 259,
+            "rushing": 173,
+            "passing": 86,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 14
+          },
+          "defense": {
+            "yards": 482,
+            "rushing": 197,
+            "passing": 285,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401862842",
@@ -8119,23 +8199,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 19.3,
-        "allowed": 36.2,
-        "margin": -16.9,
-        "yards": 306.5,
-        "rushing": 109.1,
-        "passing": 197.4,
-        "turnovers": 1.8,
-        "yards_allowed": 434.9,
-        "third_pct": 31.1
+        "games": 11,
+        "points": 18.8,
+        "allowed": 36.7,
+        "margin": -17.9,
+        "yards": 302.2,
+        "rushing": 114.9,
+        "passing": 187.3,
+        "turnovers": 1.7,
+        "yards_allowed": 439.2,
+        "third_pct": 30.8
       },
       "strength": {
-        "pct": 58.3,
-        "covered": 9,
-        "played": 10,
-        "wins": 56,
-        "losses": 40,
+        "pct": 59.6,
+        "covered": 10,
+        "played": 11,
+        "wins": 65,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -8547,10 +8627,10 @@
         "third_pct": 47.1
       },
       "strength": {
-        "pct": 60.4,
+        "pct": 60.7,
         "covered": 10,
         "played": 11,
-        "wins": 64,
+        "wins": 65,
         "losses": 42,
         "ties": 0
       },
@@ -8963,11 +9043,11 @@
         "third_pct": 31.4
       },
       "strength": {
-        "pct": 52.9,
+        "pct": 52.3,
         "covered": 10,
         "played": 11,
-        "wins": 55,
-        "losses": 49,
+        "wins": 56,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -8980,7 +9060,7 @@
     "324": {
       "school": "Coastal Carolina",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-      "conference_record": "3-3",
+      "conference_record": "3-4",
       "schedule_status": "available",
       "games": [
         {
@@ -9320,15 +9400,31 @@
           "opponent_id": "309",
           "opponent": "Louisiana Ragin' Cajuns",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 24,
+          "allowed": 38,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 395,
+            "rushing": 105,
+            "passing": 290,
+            "turnovers": 3,
+            "third_made": 6,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 369,
+            "rushing": 140,
+            "passing": 229,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401869947",
@@ -9351,23 +9447,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 25.0,
-        "allowed": 24.3,
-        "margin": 0.7,
-        "yards": 358.6,
-        "rushing": 117.9,
-        "passing": 240.7,
-        "turnovers": 2.1,
-        "yards_allowed": 388.5,
-        "third_pct": 32.8
+        "games": 11,
+        "points": 24.9,
+        "allowed": 25.5,
+        "margin": -0.6,
+        "yards": 361.9,
+        "rushing": 116.7,
+        "passing": 245.2,
+        "turnovers": 2.2,
+        "yards_allowed": 386.7,
+        "third_pct": 34.1
       },
       "strength": {
-        "pct": 53.3,
-        "covered": 9,
-        "played": 10,
-        "wins": 49,
-        "losses": 43,
+        "pct": 56.0,
+        "covered": 10,
+        "played": 11,
+        "wins": 61,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -9779,11 +9875,11 @@
         "third_pct": 40.4
       },
       "strength": {
-        "pct": 61.5,
+        "pct": 61.3,
         "covered": 10,
         "played": 11,
-        "wins": 64,
-        "losses": 40,
+        "wins": 65,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -10136,7 +10232,7 @@
           "opponent_id": "278",
           "opponent": "Fresno State Bulldogs",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -10179,11 +10275,11 @@
         "third_pct": 43.3
       },
       "strength": {
-        "pct": 59.8,
-        "covered": 9,
+        "pct": 59.3,
+        "covered": 8,
         "played": 10,
-        "wins": 55,
-        "losses": 37,
+        "wins": 48,
+        "losses": 33,
         "ties": 0
       },
       "ranked_results": {
@@ -10196,7 +10292,7 @@
     "48": {
       "school": "Delaware",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -10536,15 +10632,31 @@
           "opponent_id": "166",
           "opponent": "New Mexico State Aggies",
           "site": "Away",
-          "status": "Halftime",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 42,
+          "allowed": 30,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 523,
+            "rushing": 125,
+            "passing": 398,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 11
+          },
+          "defense": {
+            "yards": 401,
+            "rushing": 123,
+            "passing": 278,
+            "turnovers": 0,
+            "third_made": 7,
+            "third_attempts": 14
+          }
         },
         {
           "id": "401871062",
@@ -10567,23 +10679,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 29.7,
-        "allowed": 27.8,
-        "margin": 1.9,
-        "yards": 399.4,
-        "rushing": 106.6,
-        "passing": 292.8,
-        "turnovers": 1.2,
-        "yards_allowed": 412.7,
-        "third_pct": 35.7
+        "games": 11,
+        "points": 30.8,
+        "allowed": 28.0,
+        "margin": 2.8,
+        "yards": 410.6,
+        "rushing": 108.3,
+        "passing": 302.4,
+        "turnovers": 1.1,
+        "yards_allowed": 411.6,
+        "third_pct": 34.3
       },
       "strength": {
-        "pct": 47.9,
-        "covered": 9,
-        "played": 10,
-        "wins": 45,
-        "losses": 49,
+        "pct": 45.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 50,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
@@ -10998,8 +11110,8 @@
         "pct": 52.8,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 50,
+        "wins": 57,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -11411,11 +11523,11 @@
         "third_pct": 34.6
       },
       "strength": {
-        "pct": 46.2,
+        "pct": 45.8,
         "covered": 10,
         "played": 11,
-        "wins": 48,
-        "losses": 56,
+        "wins": 49,
+        "losses": 58,
         "ties": 0
       },
       "ranked_results": {
@@ -12184,7 +12296,7 @@
           "opponent_id": "58",
           "opponent": "South Florida Bulls",
           "site": "Home",
-          "status": "In Progress",
+          "status": "Delayed",
           "final": false,
           "points": null,
           "allowed": null,
@@ -12227,11 +12339,11 @@
         "third_pct": 47.1
       },
       "strength": {
-        "pct": 48.4,
+        "pct": 47.9,
         "covered": 9,
         "played": 10,
-        "wins": 45,
-        "losses": 48,
+        "wins": 46,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -12643,10 +12755,10 @@
         "third_pct": 46.2
       },
       "strength": {
-        "pct": 63.7,
+        "pct": 64.8,
         "covered": 10,
         "played": 11,
-        "wins": 65,
+        "wins": 68,
         "losses": 37,
         "ties": 0
       },
@@ -12660,7 +12772,7 @@
     "2229": {
       "school": "Florida International",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -13000,15 +13112,31 @@
           "opponent_id": "338",
           "opponent": "Kennesaw State Owls",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 24,
+          "allowed": 35,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 351,
+            "rushing": 120,
+            "passing": 231,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 396,
+            "rushing": 177,
+            "passing": 219,
+            "turnovers": 0,
+            "third_made": 6,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401871082",
@@ -13031,23 +13159,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 19.0,
-        "allowed": 20.7,
-        "margin": -1.7,
-        "yards": 376.1,
-        "rushing": 128.3,
-        "passing": 247.8,
-        "turnovers": 1.5,
-        "yards_allowed": 308.4,
-        "third_pct": 42.1
+        "games": 11,
+        "points": 19.5,
+        "allowed": 22.0,
+        "margin": -2.5,
+        "yards": 373.8,
+        "rushing": 127.5,
+        "passing": 246.3,
+        "turnovers": 1.4,
+        "yards_allowed": 316.4,
+        "third_pct": 41.1
       },
       "strength": {
-        "pct": 58.7,
-        "covered": 9,
-        "played": 10,
-        "wins": 54,
-        "losses": 38,
+        "pct": 57.4,
+        "covered": 10,
+        "played": 11,
+        "wins": 62,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -13060,7 +13188,7 @@
     "52": {
       "school": "Florida State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-      "conference_record": "3-4",
+      "conference_record": "3-5",
       "schedule_status": "available",
       "games": [
         {
@@ -13400,15 +13528,31 @@
           "opponent_id": "152",
           "opponent": "NC State Wolfpack",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 10,
+          "allowed": 28,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 283,
+            "rushing": 77,
+            "passing": 206,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 464,
+            "rushing": 172,
+            "passing": 292,
+            "turnovers": 0,
+            "third_made": 8,
+            "third_attempts": 16
+          }
         },
         {
           "id": "401856759",
@@ -13431,23 +13575,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 29.2,
-        "allowed": 26.5,
-        "margin": 2.7,
-        "yards": 395.5,
-        "rushing": 162.5,
-        "passing": 233.0,
+        "games": 11,
+        "points": 27.5,
+        "allowed": 26.6,
+        "margin": 0.8,
+        "yards": 385.3,
+        "rushing": 154.7,
+        "passing": 230.5,
         "turnovers": 1.6,
-        "yards_allowed": 402.1,
-        "third_pct": 39.4
+        "yards_allowed": 407.7,
+        "third_pct": 39.3
       },
       "strength": {
-        "pct": 62.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 59,
-        "losses": 35,
+        "pct": 60.4,
+        "covered": 10,
+        "played": 11,
+        "wins": 64,
+        "losses": 42,
         "ties": 0
       },
       "ranked_results": {
@@ -13800,7 +13944,7 @@
           "opponent_id": "36",
           "opponent": "Colorado State Rams",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -14200,7 +14344,7 @@
           "opponent_id": "2579",
           "opponent": "South Carolina Gamecocks",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -14243,11 +14387,11 @@
         "third_pct": 51.8
       },
       "strength": {
-        "pct": 55.8,
+        "pct": 56.1,
         "covered": 9,
         "played": 10,
-        "wins": 53,
-        "losses": 42,
+        "wins": 55,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
@@ -14260,7 +14404,7 @@
     "290": {
       "school": "Georgia Southern",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-      "conference_record": "5-1",
+      "conference_record": "6-1",
       "schedule_status": "available",
       "games": [
         {
@@ -14600,15 +14744,31 @@
           "opponent_id": "2653",
           "opponent": "Troy Trojans",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 45,
+          "allowed": 7,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 410,
+            "rushing": 129,
+            "passing": 281,
+            "turnovers": 0,
+            "third_made": 8,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 127,
+            "rushing": -7,
+            "passing": 134,
+            "turnovers": 3,
+            "third_made": 2,
+            "third_attempts": 10
+          }
         },
         {
           "id": "401869954",
@@ -14631,23 +14791,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 27.3,
-        "allowed": 19.4,
-        "margin": 7.9,
-        "yards": 411.0,
-        "rushing": 132.1,
-        "passing": 278.9,
-        "turnovers": 1.0,
-        "yards_allowed": 314.2,
-        "third_pct": 41.7
+        "games": 11,
+        "points": 28.9,
+        "allowed": 18.3,
+        "margin": 10.6,
+        "yards": 410.9,
+        "rushing": 131.8,
+        "passing": 279.1,
+        "turnovers": 0.9,
+        "yards_allowed": 297.2,
+        "third_pct": 42.9
       },
       "strength": {
-        "pct": 57.0,
-        "covered": 9,
-        "played": 10,
-        "wins": 53,
-        "losses": 40,
+        "pct": 54.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 60,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -14660,7 +14820,7 @@
     "2247": {
       "school": "Georgia State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -15000,15 +15160,31 @@
           "opponent_id": "276",
           "opponent": "Marshall Thundering Herd",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 27,
+          "allowed": 28,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 458,
+            "rushing": 209,
+            "passing": 249,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 351,
+            "rushing": 152,
+            "passing": 199,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401869959",
@@ -15031,23 +15207,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 32.7,
-        "allowed": 27.0,
-        "margin": 5.7,
-        "yards": 410.6,
-        "rushing": 200.8,
-        "passing": 209.8,
+        "games": 11,
+        "points": 32.2,
+        "allowed": 27.1,
+        "margin": 5.1,
+        "yards": 414.9,
+        "rushing": 201.5,
+        "passing": 213.4,
         "turnovers": 1.3,
-        "yards_allowed": 366.3,
-        "third_pct": 43.1
+        "yards_allowed": 364.9,
+        "third_pct": 42.1
       },
       "strength": {
-        "pct": 44.6,
-        "covered": 9,
-        "played": 10,
-        "wins": 41,
-        "losses": 51,
+        "pct": 45.9,
+        "covered": 10,
+        "played": 11,
+        "wins": 50,
+        "losses": 59,
         "ties": 0
       },
       "ranked_results": {
@@ -15459,10 +15635,10 @@
         "third_pct": 30.4
       },
       "strength": {
-        "pct": 61.9,
+        "pct": 62.3,
         "covered": 10,
         "played": 11,
-        "wins": 65,
+        "wins": 66,
         "losses": 40,
         "ties": 0
       },
@@ -15859,11 +16035,11 @@
         "third_pct": 38.8
       },
       "strength": {
-        "pct": 48.1,
-        "covered": 10,
+        "pct": 45.8,
+        "covered": 9,
         "played": 10,
-        "wins": 50,
-        "losses": 54,
+        "wins": 44,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -16275,10 +16451,10 @@
         "third_pct": 57.4
       },
       "strength": {
-        "pct": 58.7,
+        "pct": 59.4,
         "covered": 10,
         "played": 11,
-        "wins": 61,
+        "wins": 63,
         "losses": 43,
         "ties": 0
       },
@@ -16292,7 +16468,7 @@
     "356": {
       "school": "Illinois",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-      "conference_record": "4-3",
+      "conference_record": "4-4",
       "schedule_status": "available",
       "games": [
         {
@@ -16632,15 +16808,31 @@
           "opponent_id": "2294",
           "opponent": "Iowa Hawkeyes",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 17,
+          "allowed": 34,
+          "result": "L",
           "opponent_rank_now": 13,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 13,
+          "offense": {
+            "yards": 346,
+            "rushing": 28,
+            "passing": 318,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 401,
+            "rushing": 263,
+            "passing": 138,
+            "turnovers": 1,
+            "third_made": 7,
+            "third_attempts": 16
+          }
         },
         {
           "id": "401858537",
@@ -16663,28 +16855,28 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 27.0,
-        "allowed": 22.9,
-        "margin": 4.1,
-        "yards": 377.0,
-        "rushing": 146.2,
-        "passing": 230.8,
-        "turnovers": 0.9,
-        "yards_allowed": 375.2,
-        "third_pct": 46.4
+        "games": 11,
+        "points": 26.1,
+        "allowed": 23.9,
+        "margin": 2.2,
+        "yards": 374.2,
+        "rushing": 135.5,
+        "passing": 238.7,
+        "turnovers": 1.0,
+        "yards_allowed": 377.5,
+        "third_pct": 45.7
       },
       "strength": {
-        "pct": 57.3,
-        "covered": 9,
-        "played": 10,
-        "wins": 55,
-        "losses": 41,
+        "pct": 59.3,
+        "covered": 10,
+        "played": 11,
+        "wins": 64,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
         "W": 0,
-        "L": 2,
+        "L": 3,
         "T": 0,
         "unverified": 0
       }
@@ -16692,7 +16884,7 @@
     "84": {
       "school": "Indiana",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-      "conference_record": "6-1",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -17032,15 +17224,31 @@
           "opponent_id": "264",
           "opponent": "Washington Huskies",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 24,
+          "allowed": 27,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 392,
+            "rushing": 152,
+            "passing": 240,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 443,
+            "rushing": 189,
+            "passing": 254,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 17
+          }
         },
         {
           "id": "401858538",
@@ -17063,23 +17271,23 @@
       "previous_rank": 6,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 31.9,
-        "allowed": 12.5,
-        "margin": 19.4,
-        "yards": 422.7,
-        "rushing": 182.2,
+        "games": 11,
+        "points": 31.2,
+        "allowed": 13.8,
+        "margin": 17.4,
+        "yards": 419.9,
+        "rushing": 179.5,
         "passing": 240.5,
-        "turnovers": 0.7,
-        "yards_allowed": 274.2,
-        "third_pct": 41.7
+        "turnovers": 0.6,
+        "yards_allowed": 289.5,
+        "third_pct": 38.5
       },
       "strength": {
-        "pct": 53.1,
-        "covered": 9,
-        "played": 10,
-        "wins": 51,
-        "losses": 45,
+        "pct": 55.0,
+        "covered": 10,
+        "played": 11,
+        "wins": 60,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -17092,7 +17300,7 @@
     "2294": {
       "school": "Iowa",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-      "conference_record": "5-2",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -17432,15 +17640,31 @@
           "opponent_id": "356",
           "opponent": "Illinois Fighting Illini",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 34,
+          "allowed": 17,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 401,
+            "rushing": 263,
+            "passing": 138,
+            "turnovers": 1,
+            "third_made": 7,
+            "third_attempts": 16
+          },
+          "defense": {
+            "yards": 346,
+            "rushing": 28,
+            "passing": 318,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401858536",
@@ -17463,23 +17687,23 @@
       "previous_rank": 16,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 27.8,
-        "allowed": 11.7,
-        "margin": 16.1,
-        "yards": 379.9,
-        "rushing": 181.0,
-        "passing": 198.9,
+        "games": 11,
+        "points": 28.4,
+        "allowed": 12.2,
+        "margin": 16.2,
+        "yards": 381.8,
+        "rushing": 188.5,
+        "passing": 193.4,
         "turnovers": 1.0,
-        "yards_allowed": 279.3,
+        "yards_allowed": 285.4,
         "third_pct": 43.8
       },
       "strength": {
-        "pct": 46.9,
-        "covered": 9,
-        "played": 10,
-        "wins": 45,
-        "losses": 51,
+        "pct": 48.2,
+        "covered": 10,
+        "played": 11,
+        "wins": 53,
+        "losses": 57,
         "ties": 0
       },
       "ranked_results": {
@@ -17891,11 +18115,11 @@
         "third_pct": 32.9
       },
       "strength": {
-        "pct": 62.9,
+        "pct": 62.6,
         "covered": 10,
         "played": 11,
-        "wins": 66,
-        "losses": 39,
+        "wins": 67,
+        "losses": 40,
         "ties": 0
       },
       "ranked_results": {
@@ -17908,7 +18132,7 @@
     "55": {
       "school": "Jacksonville State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-      "conference_record": "5-1",
+      "conference_record": "6-1",
       "schedule_status": "available",
       "games": [
         {
@@ -18248,15 +18472,31 @@
           "opponent_id": "2623",
           "opponent": "Missouri State Bears",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 25,
+          "allowed": 20,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 417,
+            "rushing": 151,
+            "passing": 266,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 335,
+            "rushing": 174,
+            "passing": 161,
+            "turnovers": 0,
+            "third_made": 5,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401871062",
@@ -18274,28 +18514,45 @@
           "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
+        },
+        {
+          "id": "401869535",
+          "date": "2026-12-05T00:00Z",
+          "time_tbd": false,
+          "opponent_id": "2335",
+          "opponent": "Liberty Flames",
+          "site": "Away",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": 22,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 28.6,
-        "allowed": 20.7,
-        "margin": 7.9,
-        "yards": 385.3,
-        "rushing": 162.0,
-        "passing": 223.3,
+        "games": 11,
+        "points": 28.3,
+        "allowed": 20.6,
+        "margin": 7.6,
+        "yards": 388.2,
+        "rushing": 161.0,
+        "passing": 227.2,
         "turnovers": 1.5,
-        "yards_allowed": 322.0,
-        "third_pct": 43.4
+        "yards_allowed": 323.2,
+        "third_pct": 43.7
       },
       "strength": {
-        "pct": 46.7,
-        "covered": 9,
-        "played": 10,
-        "wins": 43,
-        "losses": 49,
+        "pct": 46.4,
+        "covered": 10,
+        "played": 11,
+        "wins": 51,
+        "losses": 59,
         "ties": 0
       },
       "ranked_results": {
@@ -18707,11 +18964,11 @@
         "third_pct": 37.8
       },
       "strength": {
-        "pct": 51.5,
+        "pct": 51.4,
         "covered": 10,
         "played": 11,
-        "wins": 52,
-        "losses": 49,
+        "wins": 56,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -19123,11 +19380,11 @@
         "third_pct": 37.4
       },
       "strength": {
-        "pct": 60.2,
+        "pct": 60.0,
         "covered": 10,
         "played": 11,
-        "wins": 62,
-        "losses": 41,
+        "wins": 63,
+        "losses": 42,
         "ties": 0
       },
       "ranked_results": {
@@ -19480,7 +19737,7 @@
           "opponent_id": "12",
           "opponent": "Arizona Wildcats",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -19540,7 +19797,7 @@
     "338": {
       "school": "Kennesaw State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -19880,15 +20137,31 @@
           "opponent_id": "2229",
           "opponent": "Florida International Panthers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 35,
+          "allowed": 24,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 396,
+            "rushing": 177,
+            "passing": 219,
+            "turnovers": 0,
+            "third_made": 6,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 351,
+            "rushing": 120,
+            "passing": 231,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401870804",
@@ -19911,23 +20184,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 25.2,
-        "allowed": 25.0,
-        "margin": 0.2,
-        "yards": 355.1,
-        "rushing": 126.3,
-        "passing": 228.8,
-        "turnovers": 1.2,
-        "yards_allowed": 371.7,
-        "third_pct": 39.4
+        "games": 11,
+        "points": 26.1,
+        "allowed": 24.9,
+        "margin": 1.2,
+        "yards": 358.8,
+        "rushing": 130.9,
+        "passing": 227.9,
+        "turnovers": 1.1,
+        "yards_allowed": 369.8,
+        "third_pct": 40.3
       },
       "strength": {
-        "pct": 53.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 49,
-        "losses": 42,
+        "pct": 52.3,
+        "covered": 10,
+        "played": 11,
+        "wins": 57,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -20696,7 +20969,7 @@
           "opponent_id": "142",
           "opponent": "Missouri Tigers",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -20739,11 +21012,11 @@
         "third_pct": 36.2
       },
       "strength": {
-        "pct": 59.1,
+        "pct": 59.2,
         "covered": 9,
         "played": 10,
-        "wins": 55,
-        "losses": 38,
+        "wins": 58,
+        "losses": 40,
         "ties": 0
       },
       "ranked_results": {
@@ -20756,7 +21029,7 @@
     "99": {
       "school": "LSU",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-      "conference_record": "3-4",
+      "conference_record": "3-5",
       "schedule_status": "available",
       "games": [
         {
@@ -21096,15 +21369,31 @@
           "opponent_id": "2633",
           "opponent": "Tennessee Volunteers",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 13,
+          "allowed": 27,
+          "result": "L",
           "opponent_rank_now": 9,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 9,
+          "offense": {
+            "yards": 265,
+            "rushing": 43,
+            "passing": 222,
+            "turnovers": 3,
+            "third_made": 5,
+            "third_attempts": 17
+          },
+          "defense": {
+            "yards": 308,
+            "rushing": 203,
+            "passing": 105,
+            "turnovers": 3,
+            "third_made": 4,
+            "third_attempts": 17
+          }
         },
         {
           "id": "401856758",
@@ -21127,28 +21416,28 @@
       "previous_rank": 24,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 35.5,
-        "allowed": 18.1,
-        "margin": 17.4,
-        "yards": 490.3,
-        "rushing": 173.5,
-        "passing": 316.8,
-        "turnovers": 1.6,
-        "yards_allowed": 262.3,
-        "third_pct": 50.0
+        "games": 11,
+        "points": 33.5,
+        "allowed": 18.9,
+        "margin": 14.5,
+        "yards": 469.8,
+        "rushing": 161.6,
+        "passing": 308.2,
+        "turnovers": 1.7,
+        "yards_allowed": 266.5,
+        "third_pct": 47.9
       },
       "strength": {
-        "pct": 64.9,
-        "covered": 9,
-        "played": 10,
-        "wins": 61,
-        "losses": 33,
+        "pct": 66.7,
+        "covered": 10,
+        "played": 11,
+        "wins": 72,
+        "losses": 36,
         "ties": 0
       },
       "ranked_results": {
         "W": 2,
-        "L": 3,
+        "L": 4,
         "T": 0,
         "unverified": 0
       }
@@ -21538,6 +21827,23 @@
           "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
+        },
+        {
+          "id": "401869535",
+          "date": "2026-12-05T00:00Z",
+          "time_tbd": false,
+          "opponent_id": "55",
+          "opponent": "Jacksonville State Gamecocks",
+          "site": "Home",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
@@ -21555,11 +21861,11 @@
         "third_pct": 48.4
       },
       "strength": {
-        "pct": 39.8,
+        "pct": 40.0,
         "covered": 10,
         "played": 11,
-        "wins": 41,
-        "losses": 62,
+        "wins": 44,
+        "losses": 66,
         "ties": 0
       },
       "ranked_results": {
@@ -21572,7 +21878,7 @@
     "309": {
       "school": "Louisiana",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-      "conference_record": "4-2",
+      "conference_record": "5-2",
       "schedule_status": "available",
       "games": [
         {
@@ -21912,15 +22218,31 @@
           "opponent_id": "324",
           "opponent": "Coastal Carolina Chanticleers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 38,
+          "allowed": 24,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 369,
+            "rushing": 140,
+            "passing": 229,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 395,
+            "rushing": 105,
+            "passing": 290,
+            "turnovers": 3,
+            "third_made": 6,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401869959",
@@ -21943,23 +22265,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 31.1,
-        "allowed": 21.7,
-        "margin": 9.4,
-        "yards": 386.0,
-        "rushing": 210.6,
-        "passing": 175.4,
+        "games": 11,
+        "points": 31.7,
+        "allowed": 21.9,
+        "margin": 9.8,
+        "yards": 384.5,
+        "rushing": 204.2,
+        "passing": 180.3,
         "turnovers": 1.2,
-        "yards_allowed": 327.9,
-        "third_pct": 42.5
+        "yards_allowed": 334.0,
+        "third_pct": 42.4
       },
       "strength": {
-        "pct": 44.4,
-        "covered": 9,
-        "played": 10,
-        "wins": 40,
-        "losses": 50,
+        "pct": 42.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 45,
+        "losses": 61,
         "ties": 0
       },
       "ranked_results": {
@@ -22312,7 +22634,7 @@
           "opponent_id": "2032",
           "opponent": "Arkansas State Red Wolves",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -22355,11 +22677,11 @@
         "third_pct": 40.5
       },
       "strength": {
-        "pct": 45.6,
+        "pct": 43.9,
         "covered": 9,
         "played": 10,
-        "wins": 41,
-        "losses": 49,
+        "wins": 43,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -22712,7 +23034,7 @@
           "opponent_id": "221",
           "opponent": "Pittsburgh Panthers",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -22755,11 +23077,11 @@
         "third_pct": 43.8
       },
       "strength": {
-        "pct": 53.7,
+        "pct": 53.6,
         "covered": 9,
         "played": 10,
-        "wins": 51,
-        "losses": 44,
+        "wins": 52,
+        "losses": 45,
         "ties": 0
       },
       "ranked_results": {
@@ -22772,7 +23094,7 @@
     "276": {
       "school": "Marshall",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
-      "conference_record": "2-4",
+      "conference_record": "3-4",
       "schedule_status": "available",
       "games": [
         {
@@ -23112,15 +23434,31 @@
           "opponent_id": "2247",
           "opponent": "Georgia State Panthers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 27,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 351,
+            "rushing": 152,
+            "passing": 199,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 458,
+            "rushing": 209,
+            "passing": 249,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401871102",
@@ -23143,23 +23481,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 21.7,
-        "allowed": 30.7,
-        "margin": -9.0,
-        "yards": 387.2,
-        "rushing": 175.5,
-        "passing": 211.7,
-        "turnovers": 1.9,
-        "yards_allowed": 419.1,
-        "third_pct": 36.8
+        "games": 11,
+        "points": 22.3,
+        "allowed": 30.4,
+        "margin": -8.1,
+        "yards": 383.9,
+        "rushing": 173.4,
+        "passing": 210.5,
+        "turnovers": 1.7,
+        "yards_allowed": 422.6,
+        "third_pct": 36.6
       },
       "strength": {
-        "pct": 51.6,
-        "covered": 9,
-        "played": 10,
-        "wins": 47,
-        "losses": 44,
+        "pct": 50.9,
+        "covered": 10,
+        "played": 11,
+        "wins": 56,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -23512,7 +23850,7 @@
           "opponent_id": "30",
           "opponent": "USC Trojans",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -23555,11 +23893,11 @@
         "third_pct": 34.1
       },
       "strength": {
-        "pct": 56.4,
+        "pct": 56.1,
         "covered": 9,
         "played": 10,
-        "wins": 53,
-        "losses": 41,
+        "wins": 55,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
@@ -23971,10 +24309,10 @@
         "third_pct": 33.1
       },
       "strength": {
-        "pct": 43.3,
+        "pct": 44.4,
         "covered": 9,
         "played": 11,
-        "wins": 42,
+        "wins": 44,
         "losses": 55,
         "ties": 0
       },
@@ -24387,11 +24725,11 @@
         "third_pct": 43.6
       },
       "strength": {
-        "pct": 52.9,
+        "pct": 52.4,
         "covered": 10,
         "played": 11,
         "wins": 54,
-        "losses": 48,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -24803,10 +25141,10 @@
         "third_pct": 34.1
       },
       "strength": {
-        "pct": 47.2,
+        "pct": 47.7,
         "covered": 10,
         "played": 11,
-        "wins": 51,
+        "wins": 52,
         "losses": 57,
         "ties": 0
       },
@@ -25160,7 +25498,7 @@
           "opponent_id": "259",
           "opponent": "Virginia Tech Hokies",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -25203,11 +25541,11 @@
         "third_pct": 52.6
       },
       "strength": {
-        "pct": 62.1,
+        "pct": 61.5,
         "covered": 9,
         "played": 10,
         "wins": 59,
-        "losses": 36,
+        "losses": 37,
         "ties": 0
       },
       "ranked_results": {
@@ -25619,11 +25957,11 @@
         "third_pct": 38.8
       },
       "strength": {
-        "pct": 66.4,
+        "pct": 65.8,
         "covered": 11,
         "played": 11,
-        "wins": 77,
-        "losses": 39,
+        "wins": 79,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -25636,7 +25974,7 @@
     "130": {
       "school": "Michigan",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-      "conference_record": "2-5",
+      "conference_record": "3-5",
       "schedule_status": "available",
       "games": [
         {
@@ -25976,15 +26314,31 @@
           "opponent_id": "26",
           "opponent": "UCLA Bruins",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 18,
+          "allowed": 16,
+          "result": "W",
           "opponent_rank_now": 4,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 4,
+          "offense": {
+            "yards": 247,
+            "rushing": 120,
+            "passing": 127,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 296,
+            "rushing": 107,
+            "passing": 189,
+            "turnovers": 3,
+            "third_made": 7,
+            "third_attempts": 18
+          }
         },
         {
           "id": "401858540",
@@ -26007,27 +26361,27 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
+        "games": 11,
         "points": 18.3,
-        "allowed": 17.7,
-        "margin": 0.6,
-        "yards": 300.9,
-        "rushing": 137.3,
-        "passing": 163.6,
-        "turnovers": 1.9,
-        "yards_allowed": 276.5,
-        "third_pct": 40.8
+        "allowed": 17.5,
+        "margin": 0.7,
+        "yards": 296.0,
+        "rushing": 135.7,
+        "passing": 160.3,
+        "turnovers": 1.8,
+        "yards_allowed": 278.3,
+        "third_pct": 40.0
       },
       "strength": {
-        "pct": 54.3,
-        "covered": 10,
-        "played": 10,
-        "wins": 57,
-        "losses": 48,
+        "pct": 57.9,
+        "covered": 11,
+        "played": 11,
+        "wins": 70,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
-        "W": 1,
+        "W": 2,
         "L": 3,
         "T": 0,
         "unverified": 0
@@ -26036,7 +26390,7 @@
     "2393": {
       "school": "Middle Tennessee",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -26376,15 +26730,31 @@
           "opponent_id": "2534",
           "opponent": "Sam Houston Bearkats",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 31,
+          "allowed": 28,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 433,
+            "rushing": 244,
+            "passing": 189,
+            "turnovers": 4,
+            "third_made": 3,
+            "third_attempts": 10
+          },
+          "defense": {
+            "yards": 330,
+            "rushing": 121,
+            "passing": 209,
+            "turnovers": 1,
+            "third_made": 8,
+            "third_attempts": 16
+          }
         },
         {
           "id": "401871083",
@@ -26407,23 +26777,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 26.5,
-        "allowed": 30.7,
-        "margin": -4.2,
-        "yards": 356.0,
-        "rushing": 145.9,
-        "passing": 210.1,
-        "turnovers": 0.7,
-        "yards_allowed": 409.0,
-        "third_pct": 34.1
+        "games": 11,
+        "points": 26.9,
+        "allowed": 30.5,
+        "margin": -3.5,
+        "yards": 363.0,
+        "rushing": 154.8,
+        "passing": 208.2,
+        "turnovers": 1.0,
+        "yards_allowed": 401.8,
+        "third_pct": 33.8
       },
       "strength": {
-        "pct": 50.5,
-        "covered": 9,
-        "played": 10,
-        "wins": 47,
-        "losses": 46,
+        "pct": 47.7,
+        "covered": 10,
+        "played": 11,
+        "wins": 52,
+        "losses": 57,
         "ties": 0
       },
       "ranked_results": {
@@ -26835,11 +27205,11 @@
         "third_pct": 30.9
       },
       "strength": {
-        "pct": 57.7,
+        "pct": 57.3,
         "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 44,
+        "wins": 63,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
@@ -27251,11 +27621,11 @@
         "third_pct": 37.8
       },
       "strength": {
-        "pct": 57.3,
+        "pct": 57.4,
         "covered": 10,
         "played": 11,
-        "wins": 59,
-        "losses": 44,
+        "wins": 62,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -27268,7 +27638,7 @@
     "2623": {
       "school": "Missouri State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
-      "conference_record": "3-3",
+      "conference_record": "3-4",
       "schedule_status": "available",
       "games": [
         {
@@ -27608,15 +27978,31 @@
           "opponent_id": "55",
           "opponent": "Jacksonville State Gamecocks",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 20,
+          "allowed": 25,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 335,
+            "rushing": 174,
+            "passing": 161,
+            "turnovers": 0,
+            "third_made": 5,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 417,
+            "rushing": 151,
+            "passing": 266,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401871063",
@@ -27639,23 +28025,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 24.2,
-        "allowed": 29.1,
+        "games": 11,
+        "points": 23.8,
+        "allowed": 28.7,
         "margin": -4.9,
-        "yards": 348.6,
-        "rushing": 119.9,
-        "passing": 228.7,
-        "turnovers": 1.1,
-        "yards_allowed": 418.3,
-        "third_pct": 35.2
+        "yards": 347.4,
+        "rushing": 124.8,
+        "passing": 222.5,
+        "turnovers": 1.0,
+        "yards_allowed": 418.2,
+        "third_pct": 35.5
       },
       "strength": {
-        "pct": 40.7,
-        "covered": 9,
-        "played": 10,
-        "wins": 37,
-        "losses": 54,
+        "pct": 44.0,
+        "covered": 10,
+        "played": 11,
+        "wins": 48,
+        "losses": 61,
         "ties": 0
       },
       "ranked_results": {
@@ -28008,7 +28394,7 @@
           "opponent_id": "96",
           "opponent": "Kentucky Wildcats",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -28051,11 +28437,11 @@
         "third_pct": 37.4
       },
       "strength": {
-        "pct": 55.3,
+        "pct": 54.1,
         "covered": 9,
         "played": 10,
-        "wins": 52,
-        "losses": 42,
+        "wins": 53,
+        "losses": 45,
         "ties": 0
       },
       "ranked_results": {
@@ -28068,7 +28454,7 @@
     "152": {
       "school": "NC State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "conference_record": "2-5",
+      "conference_record": "3-5",
       "schedule_status": "available",
       "games": [
         {
@@ -28408,15 +28794,31 @@
           "opponent_id": "52",
           "opponent": "Florida State Seminoles",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 10,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 464,
+            "rushing": 172,
+            "passing": 292,
+            "turnovers": 0,
+            "third_made": 8,
+            "third_attempts": 16
+          },
+          "defense": {
+            "yards": 283,
+            "rushing": 77,
+            "passing": 206,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401858313",
@@ -28439,23 +28841,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 29.1,
-        "allowed": 28.2,
-        "margin": 0.9,
-        "yards": 389.6,
-        "rushing": 150.5,
-        "passing": 239.1,
-        "turnovers": 1.2,
-        "yards_allowed": 380.0,
-        "third_pct": 47.5
+        "games": 11,
+        "points": 29.0,
+        "allowed": 26.5,
+        "margin": 2.5,
+        "yards": 396.4,
+        "rushing": 152.5,
+        "passing": 243.9,
+        "turnovers": 1.1,
+        "yards_allowed": 371.2,
+        "third_pct": 47.8
       },
       "strength": {
-        "pct": 55.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 53,
-        "losses": 42,
+        "pct": 55.1,
+        "covered": 10,
+        "played": 11,
+        "wins": 59,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -28851,10 +29253,10 @@
         "third_pct": 38.7
       },
       "strength": {
-        "pct": 64.9,
+        "pct": 65.3,
         "covered": 9,
         "played": 10,
-        "wins": 61,
+        "wins": 62,
         "losses": 33,
         "ties": 0
       },
@@ -29267,11 +29669,11 @@
         "third_pct": 49.3
       },
       "strength": {
-        "pct": 53.3,
+        "pct": 53.2,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 49,
+        "wins": 58,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -29667,11 +30069,11 @@
         "third_pct": 35.3
       },
       "strength": {
-        "pct": 53.7,
+        "pct": 53.5,
         "covered": 9,
         "played": 10,
-        "wins": 51,
-        "losses": 44,
+        "wins": 53,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -30083,11 +30485,11 @@
         "third_pct": 39.3
       },
       "strength": {
-        "pct": 46.2,
-        "covered": 10,
+        "pct": 44.8,
+        "covered": 9,
         "played": 11,
-        "wins": 48,
-        "losses": 56,
+        "wins": 43,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -30100,7 +30502,7 @@
     "166": {
       "school": "New Mexico State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -30440,15 +30842,31 @@
           "opponent_id": "48",
           "opponent": "Delaware Blue Hens",
           "site": "Home",
-          "status": "Halftime",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 30,
+          "allowed": 42,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 401,
+            "rushing": 123,
+            "passing": 278,
+            "turnovers": 0,
+            "third_made": 7,
+            "third_attempts": 14
+          },
+          "defense": {
+            "yards": 523,
+            "rushing": 125,
+            "passing": 398,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 11
+          }
         },
         {
           "id": "401871083",
@@ -30471,23 +30889,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 20.7,
-        "allowed": 25.9,
-        "margin": -5.2,
-        "yards": 348.3,
-        "rushing": 155.1,
-        "passing": 193.2,
-        "turnovers": 2.0,
-        "yards_allowed": 345.2,
-        "third_pct": 40.0
+        "games": 11,
+        "points": 21.5,
+        "allowed": 27.4,
+        "margin": -5.8,
+        "yards": 353.1,
+        "rushing": 152.2,
+        "passing": 200.9,
+        "turnovers": 1.8,
+        "yards_allowed": 361.4,
+        "third_pct": 41.0
       },
       "strength": {
-        "pct": 50.5,
-        "covered": 9,
-        "played": 10,
-        "wins": 47,
-        "losses": 46,
+        "pct": 49.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 54,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -30899,10 +31317,10 @@
         "third_pct": 46.5
       },
       "strength": {
-        "pct": 63.5,
+        "pct": 63.8,
         "covered": 10,
         "played": 11,
-        "wins": 66,
+        "wins": 67,
         "losses": 38,
         "ties": 0
       },
@@ -30916,7 +31334,7 @@
     "2449": {
       "school": "North Dakota State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-      "conference_record": "5-2",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -31256,15 +31674,31 @@
           "opponent_id": "2459",
           "opponent": "Northern Illinois Huskies",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 31,
+          "allowed": 25,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 414,
+            "rushing": 134,
+            "passing": 280,
+            "turnovers": 2,
+            "third_made": 8,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 433,
+            "rushing": 173,
+            "passing": 260,
+            "turnovers": 2,
+            "third_made": 7,
+            "third_attempts": 14
+          }
         },
         {
           "id": "401864549",
@@ -31287,23 +31721,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 27.4,
-        "allowed": 12.0,
-        "margin": 15.4,
-        "yards": 334.9,
-        "rushing": 150.3,
-        "passing": 184.6,
-        "turnovers": 0.9,
-        "yards_allowed": 250.1,
-        "third_pct": 38.8
+        "games": 11,
+        "points": 27.7,
+        "allowed": 13.2,
+        "margin": 14.5,
+        "yards": 342.1,
+        "rushing": 148.8,
+        "passing": 193.3,
+        "turnovers": 1.0,
+        "yards_allowed": 266.7,
+        "third_pct": 41.1
       },
       "strength": {
-        "pct": 50.5,
+        "pct": 43.8,
         "covered": 9,
-        "played": 10,
-        "wins": 48,
-        "losses": 47,
+        "played": 11,
+        "wins": 42,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -31715,11 +32149,11 @@
         "third_pct": 48.7
       },
       "strength": {
-        "pct": 52.9,
+        "pct": 52.4,
         "covered": 10,
         "played": 11,
-        "wins": 54,
-        "losses": 48,
+        "wins": 55,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -31732,7 +32166,7 @@
     "2459": {
       "school": "Northern Illinois",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-      "conference_record": "0-6",
+      "conference_record": "0-7",
       "schedule_status": "available",
       "games": [
         {
@@ -32072,15 +32506,31 @@
           "opponent_id": "2449",
           "opponent": "North Dakota State Bison",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 25,
+          "allowed": 31,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 433,
+            "rushing": 173,
+            "passing": 260,
+            "turnovers": 2,
+            "third_made": 7,
+            "third_attempts": 14
+          },
+          "defense": {
+            "yards": 414,
+            "rushing": 134,
+            "passing": 280,
+            "turnovers": 2,
+            "third_made": 8,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401864550",
@@ -32103,23 +32553,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 15.6,
-        "allowed": 35.9,
-        "margin": -20.3,
-        "yards": 326.7,
-        "rushing": 115.0,
-        "passing": 211.7,
+        "games": 11,
+        "points": 16.5,
+        "allowed": 35.5,
+        "margin": -19.0,
+        "yards": 336.4,
+        "rushing": 120.3,
+        "passing": 216.1,
         "turnovers": 1.8,
-        "yards_allowed": 418.4,
-        "third_pct": 33.1
+        "yards_allowed": 418.0,
+        "third_pct": 34.7
       },
       "strength": {
-        "pct": 58.1,
+        "pct": 60.0,
         "covered": 9,
-        "played": 10,
-        "wins": 54,
-        "losses": 39,
+        "played": 11,
+        "wins": 57,
+        "losses": 38,
         "ties": 0
       },
       "ranked_results": {
@@ -32531,11 +32981,11 @@
         "third_pct": 42.3
       },
       "strength": {
-        "pct": 52.8,
+        "pct": 52.7,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 50,
+        "wins": 58,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -32888,7 +33338,7 @@
           "opponent_id": "2567",
           "opponent": "SMU Mustangs",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -33347,10 +33797,10 @@
         "third_pct": 44.2
       },
       "strength": {
-        "pct": 41.7,
+        "pct": 42.7,
         "covered": 10,
         "played": 11,
-        "wins": 45,
+        "wins": 47,
         "losses": 63,
         "ties": 0
       },
@@ -33763,11 +34213,11 @@
         "third_pct": 45.3
       },
       "strength": {
-        "pct": 60.0,
+        "pct": 59.7,
         "covered": 11,
         "played": 11,
-        "wins": 69,
-        "losses": 46,
+        "wins": 71,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -33780,7 +34230,7 @@
     "201": {
       "school": "Oklahoma",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-      "conference_record": "4-3",
+      "conference_record": "5-3",
       "schedule_status": "available",
       "games": [
         {
@@ -34120,15 +34570,31 @@
           "opponent_id": "245",
           "opponent": "Texas A&M Aggies",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 7,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 421,
+            "rushing": 152,
+            "passing": 269,
+            "turnovers": 2,
+            "third_made": 6,
+            "third_attempts": 14
+          },
+          "defense": {
+            "yards": 185,
+            "rushing": 54,
+            "passing": 131,
+            "turnovers": 1,
+            "third_made": 2,
+            "third_attempts": 11
+          }
         },
         {
           "id": "401856763",
@@ -34151,23 +34617,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 22.3,
-        "allowed": 19.0,
-        "margin": 3.3,
-        "yards": 334.5,
-        "rushing": 118.6,
-        "passing": 215.9,
+        "games": 11,
+        "points": 22.8,
+        "allowed": 17.9,
+        "margin": 4.9,
+        "yards": 342.4,
+        "rushing": 121.6,
+        "passing": 220.7,
         "turnovers": 1.5,
-        "yards_allowed": 294.6,
-        "third_pct": 40.9
+        "yards_allowed": 284.6,
+        "third_pct": 41.1
       },
       "strength": {
-        "pct": 61.0,
-        "covered": 10,
-        "played": 10,
-        "wins": 64,
-        "losses": 41,
+        "pct": 59.3,
+        "covered": 11,
+        "played": 11,
+        "wins": 70,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -34563,10 +35029,10 @@
         "third_pct": 38.3
       },
       "strength": {
-        "pct": 57.3,
+        "pct": 58.2,
         "covered": 9,
         "played": 10,
-        "wins": 55,
+        "wins": 57,
         "losses": 41,
         "ties": 0
       },
@@ -34920,15 +35386,31 @@
           "opponent_id": "41",
           "opponent": "UConn Huskies",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 21,
+          "allowed": 29,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 392,
+            "rushing": 53,
+            "passing": 339,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 485,
+            "rushing": 246,
+            "passing": 239,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 10
+          }
         },
         {
           "id": "401871103",
@@ -34951,23 +35433,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 16.8,
-        "allowed": 25.8,
-        "margin": -9.0,
-        "yards": 268.2,
-        "rushing": 93.6,
-        "passing": 174.6,
-        "turnovers": 2.1,
-        "yards_allowed": 339.0,
-        "third_pct": 35.2
+        "games": 11,
+        "points": 17.2,
+        "allowed": 26.1,
+        "margin": -8.9,
+        "yards": 279.5,
+        "rushing": 89.9,
+        "passing": 189.5,
+        "turnovers": 1.9,
+        "yards_allowed": 352.3,
+        "third_pct": 34.8
       },
       "strength": {
-        "pct": 59.8,
-        "covered": 9,
-        "played": 10,
-        "wins": 55,
-        "losses": 37,
+        "pct": 59.3,
+        "covered": 10,
+        "played": 11,
+        "wins": 64,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -35379,11 +35861,11 @@
         "third_pct": 49.7
       },
       "strength": {
-        "pct": 58.8,
+        "pct": 58.9,
         "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 42,
+        "wins": 63,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -35795,11 +36277,11 @@
         "third_pct": 40.8
       },
       "strength": {
-        "pct": 63.5,
+        "pct": 62.6,
         "covered": 10,
         "played": 11,
-        "wins": 66,
-        "losses": 38,
+        "wins": 67,
+        "losses": 40,
         "ties": 0
       },
       "ranked_results": {
@@ -36178,10 +36660,10 @@
         "third_pct": 46.8
       },
       "strength": {
-        "pct": 52.2,
+        "pct": 52.7,
         "covered": 9,
         "played": 10,
-        "wins": 48,
+        "wins": 49,
         "losses": 44,
         "ties": 0
       },
@@ -36195,7 +36677,7 @@
     "213": {
       "school": "Penn State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
-      "conference_record": "3-4",
+      "conference_record": "3-5",
       "schedule_status": "available",
       "games": [
         {
@@ -36535,15 +37017,31 @@
           "opponent_id": "164",
           "opponent": "Rutgers Scarlet Knights",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 24,
+          "allowed": 25,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 387,
+            "rushing": 154,
+            "passing": 233,
+            "turnovers": 2,
+            "third_made": 4,
+            "third_attempts": 10
+          },
+          "defense": {
+            "yards": 263,
+            "rushing": 85,
+            "passing": 178,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 16
+          }
         },
         {
           "id": "401858539",
@@ -36566,23 +37064,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 30.2,
-        "allowed": 18.8,
-        "margin": 11.4,
-        "yards": 391.1,
-        "rushing": 158.7,
-        "passing": 232.4,
-        "turnovers": 0.7,
-        "yards_allowed": 290.2,
-        "third_pct": 38.1
+        "games": 11,
+        "points": 29.6,
+        "allowed": 19.4,
+        "margin": 10.3,
+        "yards": 390.7,
+        "rushing": 158.3,
+        "passing": 232.5,
+        "turnovers": 0.8,
+        "yards_allowed": 287.7,
+        "third_pct": 38.2
       },
       "strength": {
-        "pct": 51.9,
-        "covered": 10,
-        "played": 10,
-        "wins": 55,
-        "losses": 51,
+        "pct": 50.8,
+        "covered": 11,
+        "played": 11,
+        "wins": 61,
+        "losses": 59,
         "ties": 0
       },
       "ranked_results": {
@@ -36935,7 +37433,7 @@
           "opponent_id": "97",
           "opponent": "Louisville Cardinals",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -36978,11 +37476,11 @@
         "third_pct": 40.0
       },
       "strength": {
-        "pct": 53.1,
+        "pct": 52.6,
         "covered": 9,
         "played": 10,
         "wins": 51,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -37394,11 +37892,11 @@
         "third_pct": 41.5
       },
       "strength": {
-        "pct": 69.9,
+        "pct": 68.5,
         "covered": 10,
         "played": 11,
-        "wins": 72,
-        "losses": 31,
+        "wins": 74,
+        "losses": 34,
         "ties": 0
       },
       "ranked_results": {
@@ -37810,10 +38308,10 @@
         "third_pct": 31.4
       },
       "strength": {
-        "pct": 61.0,
+        "pct": 61.3,
         "covered": 10,
         "played": 11,
-        "wins": 64,
+        "wins": 65,
         "losses": 41,
         "ties": 0
       },
@@ -37827,7 +38325,7 @@
     "164": {
       "school": "Rutgers",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-      "conference_record": "1-6",
+      "conference_record": "2-6",
       "schedule_status": "available",
       "games": [
         {
@@ -38167,15 +38665,31 @@
           "opponent_id": "213",
           "opponent": "Penn State Nittany Lions",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 25,
+          "allowed": 24,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 263,
+            "rushing": 85,
+            "passing": 178,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 16
+          },
+          "defense": {
+            "yards": 387,
+            "rushing": 154,
+            "passing": 233,
+            "turnovers": 2,
+            "third_made": 4,
+            "third_attempts": 10
+          }
         },
         {
           "id": "401858542",
@@ -38198,23 +38712,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 23.2,
-        "allowed": 32.3,
-        "margin": -9.1,
-        "yards": 341.1,
-        "rushing": 139.0,
-        "passing": 202.1,
-        "turnovers": 1.6,
-        "yards_allowed": 413.6,
-        "third_pct": 36.3
+        "games": 11,
+        "points": 23.4,
+        "allowed": 31.5,
+        "margin": -8.2,
+        "yards": 334.0,
+        "rushing": 134.1,
+        "passing": 199.9,
+        "turnovers": 1.5,
+        "yards_allowed": 411.2,
+        "third_pct": 35.0
       },
       "strength": {
-        "pct": 57.9,
-        "covered": 9,
-        "played": 10,
-        "wins": 55,
-        "losses": 40,
+        "pct": 57.4,
+        "covered": 10,
+        "played": 11,
+        "wins": 62,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -38567,7 +39081,7 @@
           "opponent_id": "87",
           "opponent": "Notre Dame Fighting Irish",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -38610,11 +39124,11 @@
         "third_pct": 44.8
       },
       "strength": {
-        "pct": 54.3,
+        "pct": 53.1,
         "covered": 9,
         "played": 10,
         "wins": 51,
-        "losses": 43,
+        "losses": 45,
         "ties": 0
       },
       "ranked_results": {
@@ -39026,10 +39540,10 @@
         "third_pct": 31.8
       },
       "strength": {
-        "pct": 49.1,
+        "pct": 49.5,
         "covered": 10,
         "played": 11,
-        "wins": 53,
+        "wins": 54,
         "losses": 55,
         "ties": 0
       },
@@ -39043,7 +39557,7 @@
     "2534": {
       "school": "Sam Houston",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-      "conference_record": "0-6",
+      "conference_record": "0-7",
       "schedule_status": "available",
       "games": [
         {
@@ -39383,15 +39897,31 @@
           "opponent_id": "2393",
           "opponent": "Middle Tennessee Blue Raiders",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 31,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 330,
+            "rushing": 121,
+            "passing": 209,
+            "turnovers": 1,
+            "third_made": 8,
+            "third_attempts": 16
+          },
+          "defense": {
+            "yards": 433,
+            "rushing": 244,
+            "passing": 189,
+            "turnovers": 4,
+            "third_made": 3,
+            "third_attempts": 10
+          }
         },
         {
           "id": "401871082",
@@ -39414,23 +39944,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 16.5,
-        "allowed": 27.4,
-        "margin": -10.9,
-        "yards": 302.0,
-        "rushing": 76.7,
-        "passing": 225.3,
+        "games": 11,
+        "points": 17.5,
+        "allowed": 27.7,
+        "margin": -10.2,
+        "yards": 304.5,
+        "rushing": 80.7,
+        "passing": 223.8,
         "turnovers": 1.0,
-        "yards_allowed": 345.5,
-        "third_pct": 32.9
+        "yards_allowed": 353.5,
+        "third_pct": 34.6
       },
       "strength": {
-        "pct": 55.4,
-        "covered": 9,
-        "played": 10,
-        "wins": 51,
-        "losses": 41,
+        "pct": 55.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 61,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -39809,11 +40339,11 @@
         "third_pct": 36.4
       },
       "strength": {
-        "pct": 56.5,
+        "pct": 55.9,
         "covered": 9,
         "played": 10,
         "wins": 52,
-        "losses": 40,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -40199,7 +40729,7 @@
           "opponent_id": "2439",
           "opponent": "UNLV Rebels",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -40242,11 +40772,11 @@
         "third_pct": 29.3
       },
       "strength": {
-        "pct": 46.7,
-        "covered": 10,
+        "pct": 44.2,
+        "covered": 9,
         "played": 11,
-        "wins": 49,
-        "losses": 56,
+        "wins": 42,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -40259,7 +40789,7 @@
     "6": {
       "school": "South Alabama",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -40599,15 +41129,31 @@
           "opponent_id": "2572",
           "opponent": "Southern Miss Golden Eagles",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 40,
+          "allowed": 35,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 514,
+            "rushing": 247,
+            "passing": 267,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 415,
+            "rushing": 121,
+            "passing": 294,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 12
+          }
         },
         {
           "id": "401869930",
@@ -40630,23 +41176,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 31.9,
-        "allowed": 30.4,
-        "margin": 1.5,
-        "yards": 408.7,
-        "rushing": 211.0,
-        "passing": 197.7,
+        "games": 11,
+        "points": 32.6,
+        "allowed": 30.8,
+        "margin": 1.8,
+        "yards": 418.3,
+        "rushing": 214.3,
+        "passing": 204.0,
         "turnovers": 0.7,
-        "yards_allowed": 403.0,
-        "third_pct": 39.9
+        "yards_allowed": 404.1,
+        "third_pct": 39.2
       },
       "strength": {
-        "pct": 55.4,
-        "covered": 9,
-        "played": 10,
-        "wins": 51,
-        "losses": 41,
+        "pct": 52.3,
+        "covered": 10,
+        "played": 11,
+        "wins": 56,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -40999,7 +41545,7 @@
           "opponent_id": "61",
           "opponent": "Georgia Bulldogs",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -41042,11 +41588,11 @@
         "third_pct": 46.5
       },
       "strength": {
-        "pct": 56.4,
+        "pct": 56.1,
         "covered": 9,
         "played": 10,
-        "wins": 53,
-        "losses": 41,
+        "wins": 55,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
@@ -41399,7 +41945,7 @@
           "opponent_id": "2226",
           "opponent": "Florida Atlantic Owls",
           "site": "Away",
-          "status": "In Progress",
+          "status": "Delayed",
           "final": false,
           "points": null,
           "allowed": null,
@@ -41442,11 +41988,11 @@
         "third_pct": 36.1
       },
       "strength": {
-        "pct": 48.4,
+        "pct": 47.9,
         "covered": 9,
         "played": 10,
         "wins": 46,
-        "losses": 49,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -41459,7 +42005,7 @@
     "2572": {
       "school": "Southern Miss",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -41799,15 +42345,31 @@
           "opponent_id": "6",
           "opponent": "South Alabama Jaguars",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 35,
+          "allowed": 40,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 415,
+            "rushing": 121,
+            "passing": 294,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 514,
+            "rushing": 247,
+            "passing": 267,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401871103",
@@ -41830,23 +42392,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 26.9,
-        "allowed": 36.5,
-        "margin": -9.6,
-        "yards": 395.6,
-        "rushing": 161.1,
-        "passing": 234.5,
-        "turnovers": 1.6,
-        "yards_allowed": 445.2,
-        "third_pct": 29.3
+        "games": 11,
+        "points": 27.6,
+        "allowed": 36.8,
+        "margin": -9.2,
+        "yards": 397.4,
+        "rushing": 157.5,
+        "passing": 239.9,
+        "turnovers": 1.5,
+        "yards_allowed": 451.5,
+        "third_pct": 30.3
       },
       "strength": {
-        "pct": 54.3,
-        "covered": 9,
-        "played": 10,
-        "wins": 50,
-        "losses": 42,
+        "pct": 54.6,
+        "covered": 10,
+        "played": 11,
+        "wins": 59,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -42199,7 +42761,7 @@
           "opponent_id": "25",
           "opponent": "California Golden Bears",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -42242,10 +42804,10 @@
         "third_pct": 31.7
       },
       "strength": {
-        "pct": 62.4,
+        "pct": 62.8,
         "covered": 9,
         "played": 10,
-        "wins": 58,
+        "wins": 59,
         "losses": 35,
         "ties": 0
       },
@@ -42658,10 +43220,10 @@
         "third_pct": 41.1
       },
       "strength": {
-        "pct": 52.9,
+        "pct": 53.8,
         "covered": 10,
         "played": 11,
-        "wins": 55,
+        "wins": 57,
         "losses": 49,
         "ties": 0
       },
@@ -43058,11 +43620,11 @@
         "third_pct": 45.0
       },
       "strength": {
-        "pct": 52.6,
+        "pct": 52.1,
         "covered": 9,
         "played": 10,
         "wins": 50,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -43474,11 +44036,11 @@
         "third_pct": 37.6
       },
       "strength": {
-        "pct": 49.5,
+        "pct": 49.1,
         "covered": 10,
         "played": 11,
-        "wins": 51,
-        "losses": 52,
+        "wins": 52,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -43491,7 +44053,7 @@
     "2633": {
       "school": "Tennessee",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-      "conference_record": "5-2",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -43831,15 +44393,31 @@
           "opponent_id": "99",
           "opponent": "LSU Tigers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 27,
+          "allowed": 13,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 308,
+            "rushing": 203,
+            "passing": 105,
+            "turnovers": 3,
+            "third_made": 4,
+            "third_attempts": 17
+          },
+          "defense": {
+            "yards": 265,
+            "rushing": 43,
+            "passing": 222,
+            "turnovers": 3,
+            "third_made": 5,
+            "third_attempts": 17
+          }
         },
         {
           "id": "401856765",
@@ -43862,23 +44440,23 @@
       "previous_rank": 9,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 31.4,
-        "allowed": 14.3,
-        "margin": 17.1,
-        "yards": 385.5,
-        "rushing": 214.0,
-        "passing": 171.5,
-        "turnovers": 1.1,
-        "yards_allowed": 284.7,
-        "third_pct": 36.5
+        "games": 11,
+        "points": 31.0,
+        "allowed": 14.2,
+        "margin": 16.8,
+        "yards": 378.5,
+        "rushing": 213.0,
+        "passing": 165.5,
+        "turnovers": 1.3,
+        "yards_allowed": 282.9,
+        "third_pct": 35.1
       },
       "strength": {
-        "pct": 55.4,
-        "covered": 9,
-        "played": 10,
-        "wins": 51,
-        "losses": 41,
+        "pct": 55.6,
+        "covered": 10,
+        "played": 11,
+        "wins": 60,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -43891,7 +44469,7 @@
     "245": {
       "school": "Texas A&M",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-      "conference_record": "1-6",
+      "conference_record": "1-7",
       "schedule_status": "available",
       "games": [
         {
@@ -44231,15 +44809,31 @@
           "opponent_id": "201",
           "opponent": "Oklahoma Sooners",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 7,
+          "allowed": 28,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 185,
+            "rushing": 54,
+            "passing": 131,
+            "turnovers": 1,
+            "third_made": 2,
+            "third_attempts": 11
+          },
+          "defense": {
+            "yards": 421,
+            "rushing": 152,
+            "passing": 269,
+            "turnovers": 2,
+            "third_made": 6,
+            "third_attempts": 14
+          }
         },
         {
           "id": "401856756",
@@ -44262,23 +44856,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 24.2,
-        "allowed": 19.0,
-        "margin": 5.2,
-        "yards": 341.2,
-        "rushing": 153.5,
-        "passing": 187.7,
+        "games": 11,
+        "points": 22.6,
+        "allowed": 19.8,
+        "margin": 2.8,
+        "yards": 327.0,
+        "rushing": 144.5,
+        "passing": 182.5,
         "turnovers": 1.3,
-        "yards_allowed": 319.0,
-        "third_pct": 40.3
+        "yards_allowed": 328.3,
+        "third_pct": 38.7
       },
       "strength": {
-        "pct": 61.5,
-        "covered": 9,
-        "played": 10,
-        "wins": 56,
-        "losses": 35,
+        "pct": 60.4,
+        "covered": 10,
+        "played": 11,
+        "wins": 64,
+        "losses": 42,
         "ties": 0
       },
       "ranked_results": {
@@ -44291,7 +44885,7 @@
     "251": {
       "school": "Texas",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-      "conference_record": "5-2",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -44631,15 +45225,31 @@
           "opponent_id": "8",
           "opponent": "Arkansas Razorbacks",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 45,
+          "allowed": 3,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 448,
+            "rushing": 116,
+            "passing": 332,
+            "turnovers": 0,
+            "third_made": 6,
+            "third_attempts": 11
+          },
+          "defense": {
+            "yards": 363,
+            "rushing": 110,
+            "passing": 253,
+            "turnovers": 2,
+            "third_made": 3,
+            "third_attempts": 14
+          }
         },
         {
           "id": "401856756",
@@ -44662,23 +45272,23 @@
       "previous_rank": 8,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 30.2,
-        "allowed": 17.8,
-        "margin": 12.4,
-        "yards": 354.7,
-        "rushing": 128.6,
-        "passing": 226.1,
-        "turnovers": 1.7,
-        "yards_allowed": 288.7,
-        "third_pct": 40.4
+        "games": 11,
+        "points": 31.5,
+        "allowed": 16.5,
+        "margin": 15.1,
+        "yards": 363.2,
+        "rushing": 127.5,
+        "passing": 235.7,
+        "turnovers": 1.5,
+        "yards_allowed": 295.5,
+        "third_pct": 41.4
       },
       "strength": {
-        "pct": 63.5,
-        "covered": 10,
-        "played": 10,
-        "wins": 66,
-        "losses": 38,
+        "pct": 61.0,
+        "covered": 11,
+        "played": 11,
+        "wins": 72,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -45031,7 +45641,7 @@
           "opponent_id": "265",
           "opponent": "Washington State Cougars",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -45057,10 +45667,10 @@
         "third_pct": 54.9
       },
       "strength": {
-        "pct": 59.3,
+        "pct": 59.8,
         "covered": 9,
         "played": 10,
-        "wins": 54,
+        "wins": 55,
         "losses": 37,
         "ties": 0
       },
@@ -45074,7 +45684,7 @@
     "2641": {
       "school": "Texas Tech",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-      "conference_record": "6-1",
+      "conference_record": "7-1",
       "schedule_status": "available",
       "games": [
         {
@@ -45414,15 +46024,31 @@
           "opponent_id": "239",
           "opponent": "Baylor Bears",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 20,
+          "allowed": 10,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 402,
+            "rushing": 231,
+            "passing": 171,
+            "turnovers": 3,
+            "third_made": 3,
+            "third_attempts": 13
+          },
+          "defense": {
+            "yards": 267,
+            "rushing": 31,
+            "passing": 236,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 18
+          }
         },
         {
           "id": "401856879",
@@ -45445,23 +46071,23 @@
       "previous_rank": 10,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 39.0,
-        "allowed": 24.4,
-        "margin": 14.6,
-        "yards": 448.6,
-        "rushing": 210.6,
-        "passing": 238.0,
-        "turnovers": 1.4,
-        "yards_allowed": 408.6,
-        "third_pct": 39.7
+        "games": 11,
+        "points": 37.3,
+        "allowed": 23.1,
+        "margin": 14.2,
+        "yards": 444.4,
+        "rushing": 212.5,
+        "passing": 231.9,
+        "turnovers": 1.5,
+        "yards_allowed": 395.7,
+        "third_pct": 38.2
       },
       "strength": {
-        "pct": 51.1,
-        "covered": 9,
-        "played": 10,
-        "wins": 48,
-        "losses": 46,
+        "pct": 50.9,
+        "covered": 10,
+        "played": 11,
+        "wins": 54,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -45890,7 +46516,7 @@
     "2653": {
       "school": "Troy",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -46230,15 +46856,31 @@
           "opponent_id": "290",
           "opponent": "Georgia Southern Eagles",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 7,
+          "allowed": 45,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 127,
+            "rushing": -7,
+            "passing": 134,
+            "turnovers": 3,
+            "third_made": 2,
+            "third_attempts": 10
+          },
+          "defense": {
+            "yards": 410,
+            "rushing": 129,
+            "passing": 281,
+            "turnovers": 0,
+            "third_made": 8,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401869939",
@@ -46261,23 +46903,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 21.5,
-        "allowed": 26.3,
-        "margin": -4.8,
-        "yards": 358.1,
-        "rushing": 172.1,
-        "passing": 186.0,
-        "turnovers": 1.5,
-        "yards_allowed": 347.1,
-        "third_pct": 30.9
+        "games": 11,
+        "points": 20.2,
+        "allowed": 28.0,
+        "margin": -7.8,
+        "yards": 337.1,
+        "rushing": 155.8,
+        "passing": 181.3,
+        "turnovers": 1.6,
+        "yards_allowed": 352.8,
+        "third_pct": 30.2
       },
       "strength": {
-        "pct": 48.4,
-        "covered": 9,
-        "played": 10,
-        "wins": 44,
-        "losses": 47,
+        "pct": 49.5,
+        "covered": 10,
+        "played": 11,
+        "wins": 53,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -46689,11 +47331,11 @@
         "third_pct": 39.2
       },
       "strength": {
-        "pct": 49.1,
+        "pct": 49.2,
         "covered": 11,
         "played": 11,
-        "wins": 56,
-        "losses": 58,
+        "wins": 58,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
@@ -46706,7 +47348,7 @@
     "202": {
       "school": "Tulsa",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-      "conference_record": "3-3",
+      "conference_record": "4-3",
       "schedule_status": "available",
       "games": [
         {
@@ -47046,15 +47688,31 @@
           "opponent_id": "2429",
           "opponent": "Charlotte 49ers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 42,
+          "allowed": 14,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 482,
+            "rushing": 197,
+            "passing": 285,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 259,
+            "rushing": 173,
+            "passing": 86,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 14
+          }
         },
         {
           "id": "401862840",
@@ -47077,23 +47735,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 33.6,
-        "allowed": 22.6,
-        "margin": 11.0,
-        "yards": 402.1,
-        "rushing": 168.1,
-        "passing": 234.0,
+        "games": 11,
+        "points": 34.4,
+        "allowed": 21.8,
+        "margin": 12.5,
+        "yards": 409.4,
+        "rushing": 170.7,
+        "passing": 238.6,
         "turnovers": 0.8,
-        "yards_allowed": 387.0,
+        "yards_allowed": 375.4,
         "third_pct": 33.1
       },
       "strength": {
-        "pct": 44.1,
-        "covered": 9,
-        "played": 10,
-        "wins": 41,
-        "losses": 52,
+        "pct": 39.6,
+        "covered": 10,
+        "played": 11,
+        "wins": 42,
+        "losses": 64,
         "ties": 0
       },
       "ranked_results": {
@@ -47446,7 +48104,7 @@
           "opponent_id": "2636",
           "opponent": "UTSA Roadrunners",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -47489,11 +48147,11 @@
         "third_pct": 40.7
       },
       "strength": {
-        "pct": 46.2,
+        "pct": 45.4,
         "covered": 9,
         "played": 10,
-        "wins": 43,
-        "losses": 50,
+        "wins": 44,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -47905,11 +48563,11 @@
         "third_pct": 36.5
       },
       "strength": {
-        "pct": 57.7,
+        "pct": 56.6,
         "covered": 10,
         "played": 11,
         "wins": 60,
-        "losses": 44,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -47922,7 +48580,7 @@
     "26": {
       "school": "UCLA",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-      "conference_record": "7-0",
+      "conference_record": "7-1",
       "schedule_status": "available",
       "games": [
         {
@@ -48262,15 +48920,31 @@
           "opponent_id": "130",
           "opponent": "Michigan Wolverines",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 16,
+          "allowed": 18,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 296,
+            "rushing": 107,
+            "passing": 189,
+            "turnovers": 3,
+            "third_made": 7,
+            "third_attempts": 18
+          },
+          "defense": {
+            "yards": 247,
+            "rushing": 120,
+            "passing": 127,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401858543",
@@ -48293,23 +48967,23 @@
       "previous_rank": 4,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 32.4,
-        "allowed": 14.1,
-        "margin": 18.3,
-        "yards": 424.8,
-        "rushing": 202.7,
-        "passing": 222.1,
-        "turnovers": 1.4,
-        "yards_allowed": 262.2,
-        "third_pct": 45.3
+        "games": 11,
+        "points": 30.9,
+        "allowed": 14.5,
+        "margin": 16.5,
+        "yards": 413.1,
+        "rushing": 194.0,
+        "passing": 219.1,
+        "turnovers": 1.5,
+        "yards_allowed": 260.8,
+        "third_pct": 44.5
       },
       "strength": {
-        "pct": 46.7,
-        "covered": 10,
-        "played": 10,
-        "wins": 49,
-        "losses": 56,
+        "pct": 47.0,
+        "covered": 11,
+        "played": 11,
+        "wins": 55,
+        "losses": 62,
         "ties": 0
       },
       "ranked_results": {
@@ -48662,15 +49336,31 @@
           "opponent_id": "295",
           "opponent": "Old Dominion Monarchs",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 29,
+          "allowed": 21,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 485,
+            "rushing": 246,
+            "passing": 239,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 10
+          },
+          "defense": {
+            "yards": 392,
+            "rushing": 53,
+            "passing": 339,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 13
+          }
         },
         {
           "id": "401861969",
@@ -48693,23 +49383,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 34.2,
-        "allowed": 26.2,
+        "games": 11,
+        "points": 33.7,
+        "allowed": 25.7,
         "margin": 8.0,
-        "yards": 437.3,
-        "rushing": 187.9,
-        "passing": 249.4,
+        "yards": 441.6,
+        "rushing": 193.2,
+        "passing": 248.5,
         "turnovers": 1.0,
-        "yards_allowed": 385.5,
-        "third_pct": 42.7
+        "yards_allowed": 386.1,
+        "third_pct": 42.5
       },
       "strength": {
-        "pct": 49.5,
-        "covered": 9,
-        "played": 10,
-        "wins": 48,
-        "losses": 49,
+        "pct": 46.8,
+        "covered": 10,
+        "played": 11,
+        "wins": 51,
+        "losses": 58,
         "ties": 0
       },
       "ranked_results": {
@@ -48722,7 +49412,7 @@
     "2433": {
       "school": "UL Monroe",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-      "conference_record": "2-4",
+      "conference_record": "2-5",
       "schedule_status": "available",
       "games": [
         {
@@ -49062,15 +49752,31 @@
           "opponent_id": "2026",
           "opponent": "App State Mountaineers",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 16,
+          "allowed": 17,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 277,
+            "rushing": 103,
+            "passing": 174,
+            "turnovers": 1,
+            "third_made": 4,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 349,
+            "rushing": 161,
+            "passing": 188,
+            "turnovers": 1,
+            "third_made": 5,
+            "third_attempts": 16
+          }
         },
         {
           "id": "401871102",
@@ -49093,23 +49799,23 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 20.2,
-        "allowed": 35.5,
-        "margin": -15.3,
-        "yards": 341.8,
-        "rushing": 150.2,
-        "passing": 191.6,
-        "turnovers": 1.6,
-        "yards_allowed": 413.0,
-        "third_pct": 37.1
+        "games": 11,
+        "points": 19.8,
+        "allowed": 33.8,
+        "margin": -14.0,
+        "yards": 335.9,
+        "rushing": 145.9,
+        "passing": 190.0,
+        "turnovers": 1.5,
+        "yards_allowed": 407.2,
+        "third_pct": 36.1
       },
       "strength": {
-        "pct": 52.7,
-        "covered": 9,
-        "played": 10,
-        "wins": 48,
-        "losses": 43,
+        "pct": 53.8,
+        "covered": 10,
+        "played": 11,
+        "wins": 57,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -49462,7 +50168,7 @@
           "opponent_id": "23",
           "opponent": "San José State Spartans",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -49505,11 +50211,11 @@
         "third_pct": 43.1
       },
       "strength": {
-        "pct": 52.8,
-        "covered": 10,
+        "pct": 51.5,
+        "covered": 9,
         "played": 10,
-        "wins": 56,
-        "losses": 50,
+        "wins": 50,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
@@ -49862,7 +50568,7 @@
           "opponent_id": "120",
           "opponent": "Maryland Terrapins",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -49908,8 +50614,8 @@
         "pct": 59.6,
         "covered": 10,
         "played": 10,
-        "wins": 62,
-        "losses": 42,
+        "wins": 65,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -50321,11 +51027,11 @@
         "third_pct": 27.2
       },
       "strength": {
-        "pct": 58.7,
-        "covered": 10,
+        "pct": 59.4,
+        "covered": 9,
         "played": 11,
-        "wins": 61,
-        "losses": 43,
+        "wins": 57,
+        "losses": 39,
         "ties": 0
       },
       "ranked_results": {
@@ -50678,7 +51384,7 @@
           "opponent_id": "5",
           "opponent": "UAB Blazers",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -50721,10 +51427,10 @@
         "third_pct": 40.8
       },
       "strength": {
-        "pct": 51.6,
+        "pct": 52.1,
         "covered": 9,
         "played": 10,
-        "wins": 48,
+        "wins": 49,
         "losses": 45,
         "ties": 0
       },
@@ -51121,11 +51827,11 @@
         "third_pct": 36.8
       },
       "strength": {
-        "pct": 55.6,
+        "pct": 55.4,
         "covered": 9,
         "played": 10,
-        "wins": 50,
-        "losses": 40,
+        "wins": 51,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -51521,11 +52227,11 @@
         "third_pct": 53.2
       },
       "strength": {
-        "pct": 53.1,
+        "pct": 52.6,
         "covered": 9,
         "played": 10,
         "wins": 51,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -51937,11 +52643,11 @@
         "third_pct": 36.8
       },
       "strength": {
-        "pct": 60.6,
+        "pct": 61.1,
         "covered": 10,
         "played": 11,
-        "wins": 63,
-        "losses": 41,
+        "wins": 66,
+        "losses": 42,
         "ties": 0
       },
       "ranked_results": {
@@ -52353,11 +53059,11 @@
         "third_pct": 32.9
       },
       "strength": {
-        "pct": 53.3,
+        "pct": 53.7,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 49,
+        "wins": 58,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -52710,7 +53416,7 @@
           "opponent_id": "2390",
           "opponent": "Miami Hurricanes",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -52753,11 +53459,11 @@
         "third_pct": 41.7
       },
       "strength": {
-        "pct": 46.2,
+        "pct": 45.7,
         "covered": 9,
         "played": 10,
         "wins": 43,
-        "losses": 50,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -53169,10 +53875,10 @@
         "third_pct": 53.0
       },
       "strength": {
-        "pct": 47.1,
+        "pct": 47.6,
         "covered": 10,
         "played": 11,
-        "wins": 49,
+        "wins": 50,
         "losses": 55,
         "ties": 0
       },
@@ -53186,7 +53892,7 @@
     "264": {
       "school": "Washington",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-      "conference_record": "3-4",
+      "conference_record": "4-4",
       "schedule_status": "available",
       "games": [
         {
@@ -53526,15 +54232,31 @@
           "opponent_id": "84",
           "opponent": "Indiana Hoosiers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 27,
+          "allowed": 24,
+          "result": "W",
           "opponent_rank_now": 6,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-16T08:00Z",
+          "opponent_rank_at_game": 6,
+          "offense": {
+            "yards": 443,
+            "rushing": 189,
+            "passing": 254,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 17
+          },
+          "defense": {
+            "yards": 392,
+            "rushing": 152,
+            "passing": 240,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 15
+          }
         },
         {
           "id": "401858541",
@@ -53557,27 +54279,27 @@
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 10,
-        "points": 25.8,
-        "allowed": 21.1,
-        "margin": 4.7,
-        "yards": 361.2,
-        "rushing": 93.8,
-        "passing": 267.4,
+        "games": 11,
+        "points": 25.9,
+        "allowed": 21.4,
+        "margin": 4.5,
+        "yards": 368.6,
+        "rushing": 102.5,
+        "passing": 266.2,
         "turnovers": 1.1,
-        "yards_allowed": 349.6,
-        "third_pct": 34.9
+        "yards_allowed": 353.5,
+        "third_pct": 35.0
       },
       "strength": {
-        "pct": 48.9,
-        "covered": 9,
-        "played": 10,
-        "wins": 46,
-        "losses": 48,
+        "pct": 52.3,
+        "covered": 10,
+        "played": 11,
+        "wins": 56,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
-        "W": 0,
+        "W": 1,
         "L": 2,
         "T": 0,
         "unverified": 0
@@ -53926,7 +54648,7 @@
           "opponent_id": "326",
           "opponent": "Texas State Bobcats",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "In Progress",
           "final": false,
           "points": null,
           "allowed": null,
@@ -53969,10 +54691,10 @@
         "third_pct": 38.2
       },
       "strength": {
-        "pct": 53.3,
+        "pct": 53.8,
         "covered": 9,
         "played": 10,
-        "wins": 48,
+        "wins": 49,
         "losses": 42,
         "ties": 0
       },
@@ -54385,11 +55107,11 @@
         "third_pct": 44.0
       },
       "strength": {
-        "pct": 57.1,
+        "pct": 57.0,
         "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 45,
+        "wins": 61,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -54801,11 +55523,11 @@
         "third_pct": 40.1
       },
       "strength": {
-        "pct": 56.4,
+        "pct": 55.6,
         "covered": 10,
         "played": 11,
-        "wins": 57,
-        "losses": 44,
+        "wins": 60,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -55217,10 +55939,10 @@
         "third_pct": 45.1
       },
       "strength": {
-        "pct": 46.3,
+        "pct": 46.8,
         "covered": 10,
         "played": 11,
-        "wins": 50,
+        "wins": 51,
         "losses": 58,
         "ties": 0
       },
@@ -55633,11 +56355,11 @@
         "third_pct": 43.3
       },
       "strength": {
-        "pct": 54.4,
+        "pct": 54.2,
         "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 47,
+        "wins": 58,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -55651,7 +56373,7 @@
       "school": "Wyoming",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
       "conference_record": "6-2",
-      "schedule_status": "available",
+      "schedule_status": "stale",
       "games": [
         {
           "id": "401860878",
@@ -56052,8 +56774,8 @@
         "pct": 46.7,
         "covered": 10,
         "played": 11,
-        "wins": 49,
-        "losses": 56,
+        "wins": 50,
+        "losses": 57,
         "ties": 0
       },
       "ranked_results": {
