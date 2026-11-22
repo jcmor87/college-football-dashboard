@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T03:52:53+00:00",
+  "updated_at": "2026-11-22T03:54:57+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -1844,7 +1844,7 @@
     {
       "id": "401858306",
       "date": "2026-11-22T00:30Z",
-      "status": "5:32 - 4th",
+      "status": "3:23 - 4th",
       "away": "Pittsburgh Panthers",
       "home": "Louisville Cardinals",
       "away_score": "10",
@@ -1853,7 +1853,7 @@
     {
       "id": "401858307",
       "date": "2026-11-22T00:30Z",
-      "status": "2:00 - 4th",
+      "status": "1:52 - 4th",
       "away": "SMU Mustangs",
       "home": "Notre Dame Fighting Irish",
       "away_score": "3",
@@ -1862,7 +1862,7 @@
     {
       "id": "401858308",
       "date": "2026-11-22T00:30Z",
-      "status": "4:00 - 4th",
+      "status": "2:17 - 4th",
       "away": "Stanford Cardinal",
       "home": "California Golden Bears",
       "away_score": "44",
@@ -1871,7 +1871,7 @@
     {
       "id": "401860918",
       "date": "2026-11-22T00:30Z",
-      "status": "2:24 - 4th",
+      "status": "2:00 - 4th",
       "away": "Colorado State Rams",
       "home": "Fresno State Bulldogs",
       "away_score": "27",
@@ -1880,7 +1880,7 @@
     {
       "id": "401862836",
       "date": "2026-11-22T01:00Z",
-      "status": "10:04 - 4th",
+      "status": "9:51 - 4th",
       "away": "UTSA Roadrunners",
       "home": "UAB Blazers",
       "away_score": "19",
@@ -1889,7 +1889,7 @@
     {
       "id": "401856872",
       "date": "2026-11-22T02:00Z",
-      "status": "1:29 - 2nd",
+      "status": "1:17 - 2nd",
       "away": "Utah Utes",
       "home": "TCU Horned Frogs",
       "away_score": "17",
@@ -1898,7 +1898,7 @@
     {
       "id": "401860925",
       "date": "2026-11-22T02:30Z",
-      "status": "3:31 - 2nd",
+      "status": "2:25 - 2nd",
       "away": "San Diego State Aztecs",
       "home": "Boise State Broncos",
       "away_score": "0",
@@ -1907,7 +1907,7 @@
     {
       "id": "401856870",
       "date": "2026-11-22T03:30Z",
-      "status": "6:24 - 1st",
+      "status": "4:29 - 1st",
       "away": "Oklahoma State Cowboys",
       "home": "Arizona State Sun Devils",
       "away_score": "7",
@@ -1916,7 +1916,7 @@
     {
       "id": "401860919",
       "date": "2026-11-22T03:30Z",
-      "status": "12:11 - 1st",
+      "status": "10:34 - 1st",
       "away": "Utah State Aggies",
       "home": "Oregon State Beavers",
       "away_score": "7",
@@ -1925,7 +1925,7 @@
     {
       "id": "401864541",
       "date": "2026-11-22T03:30Z",
-      "status": "6:25 - 1st",
+      "status": "4:59 - 1st",
       "away": "Hawai'i Rainbow Warriors",
       "home": "Nevada Wolf Pack",
       "away_score": "0",

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-22T03:54:26.645132+00:00",
-  "dashboard_updated_at": "2026-11-22T03:52:53+00:00",
+  "checked_at": "2026-11-22T03:56:36.967267+00:00",
+  "dashboard_updated_at": "2026-11-22T03:54:57+00:00",
   "archive_count": 63,
   "power_cutoff": "2026-11-22T00:00:00+00:00",
   "prediction_cutoff": "2026-11-22T00:00:00+00:00",
@@ -11,7 +11,7 @@
     "nd-command.mjs": "11415745b168255d127f65232a8cbba856e87b59cdfb72abfceac40eaa08cc37",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
-    "data/dashboard.json": "e29c8ffcd8083c1723ff103ace6f0ead136b3750002640d64158b572d56633c5",
+    "data/dashboard.json": "6e7eac145538cc2f8f8d822c88e4551d9af271e4ab98f7d94744c38e104a81d8",
     "data/team-profiles.json": "6c7ba14adc68f91385e98eade73d5db8fc593da477b1f39872844b417803d7d0",
     "data/ap-rankings/2026/index.json": "f8c3d4569b4f8dab5aabf6779c61d11a0f61e18cd9bbee46c0da4fa5c71ae14d",
     "data/power-rankings/latest.json": "2948e99418a1e1b4da27bad281708602759fcc00378cb83043e062d4f146c6d7",
@@ -23,6 +23,6 @@
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "e4e56040c6f214c1fb3475ea2881a04e0954acadb5ab55a09fd1674b95147c7f"
+    "data/playoff-simulation.json": "85b7501ff41a5e7e5002f15a4b62f058e834b969be1be2dbc82d79469e8d93e3"
   }
 }
