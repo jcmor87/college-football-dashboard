@@ -5763,6 +5763,23 @@
           }
         },
         {
+          "id": "401860926",
+          "date": "2026-11-28T23:00Z",
+          "time_tbd": false,
+          "opponent_id": "36",
+          "opponent": "Colorado State Rams",
+          "site": "Away",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
+        },
+        {
           "id": "401869542",
           "date": "2026-12-05T01:00Z",
           "time_tbd": false,
@@ -10340,18 +10357,18 @@
         },
         {
           "id": "401860926",
-          "date": "2026-11-28T05:00Z",
-          "time_tbd": true,
-          "opponent_id": "-2",
-          "opponent": "TBD",
+          "date": "2026-11-28T23:00Z",
+          "time_tbd": false,
+          "opponent_id": "68",
+          "opponent": "Boise State Broncos",
           "site": "Home",
           "status": "Scheduled",
           "final": false,
           "points": null,
           "allowed": null,
           "result": null,
-          "opponent_rank_now": null,
-          "current_poll_available": false,
+          "opponent_rank_now": 15,
+          "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
         }
@@ -14084,10 +14101,10 @@
         },
         {
           "id": "401860927",
-          "date": "2026-11-28T05:00Z",
-          "time_tbd": true,
-          "opponent_id": "-2",
-          "opponent": "TBD",
+          "date": "2026-11-29T03:00Z",
+          "time_tbd": false,
+          "opponent_id": "204",
+          "opponent": "Oregon State Beavers",
           "site": "Home",
           "status": "Scheduled",
           "final": false,
@@ -14095,7 +14112,7 @@
           "allowed": null,
           "result": null,
           "opponent_rank_now": null,
-          "current_poll_available": false,
+          "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
         }
@@ -37013,6 +37030,23 @@
             "third_made": 6,
             "third_attempts": 14
           }
+        },
+        {
+          "id": "401860927",
+          "date": "2026-11-29T03:00Z",
+          "time_tbd": false,
+          "opponent_id": "278",
+          "opponent": "Fresno State Bulldogs",
+          "site": "Away",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
@@ -40740,6 +40774,23 @@
             "third_made": 4,
             "third_attempts": 12
           }
+        },
+        {
+          "id": "401860929",
+          "date": "2026-11-28T23:30Z",
+          "time_tbd": false,
+          "opponent_id": "265",
+          "opponent": "Washington State Cougars",
+          "site": "Away",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         },
         {
           "id": "401869542",
@@ -46181,6 +46232,23 @@
             "third_made": 3,
             "third_attempts": 13
           }
+        },
+        {
+          "id": "401860928",
+          "date": "2026-11-29T02:30Z",
+          "time_tbd": false,
+          "opponent_id": "328",
+          "opponent": "Utah State Aggies",
+          "site": "Away",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
@@ -52407,10 +52475,10 @@
         },
         {
           "id": "401860928",
-          "date": "2026-11-28T05:00Z",
-          "time_tbd": true,
-          "opponent_id": "-2",
-          "opponent": "TBD",
+          "date": "2026-11-29T02:30Z",
+          "time_tbd": false,
+          "opponent_id": "326",
+          "opponent": "Texas State Bobcats",
           "site": "Home",
           "status": "Scheduled",
           "final": false,
@@ -52418,7 +52486,7 @@
           "allowed": null,
           "result": null,
           "opponent_rank_now": null,
-          "current_poll_available": false,
+          "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
         }
@@ -55336,10 +55404,10 @@
         },
         {
           "id": "401860929",
-          "date": "2026-11-28T05:00Z",
-          "time_tbd": true,
-          "opponent_id": "-2",
-          "opponent": "TBD",
+          "date": "2026-11-28T23:30Z",
+          "time_tbd": false,
+          "opponent_id": "21",
+          "opponent": "San Diego State Aztecs",
           "site": "Home",
           "status": "Scheduled",
           "final": false,
@@ -55347,7 +55415,7 @@
           "allowed": null,
           "result": null,
           "opponent_rank_now": null,
-          "current_poll_available": false,
+          "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
         }
