@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T02:34:03+00:00",
+  "updated_at": "2026-11-22T02:53:22+00:00",
   "status": "ok",
   "season": 2026,
   "week": 12,
@@ -575,7 +575,7 @@
       "name": "Maryland Terrapins",
       "abbreviation": "MD",
       "conference": "Big Ten Conference",
-      "record": "4-6",
+      "record": "4-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/120/maryland-terrapins"
     },
@@ -1160,7 +1160,7 @@
       "name": "USC Trojans",
       "abbreviation": "USC",
       "conference": "Big Ten Conference",
-      "record": "7-3",
+      "record": "8-3",
       "rank": 18,
       "url": "https://www.espn.com/college-football/team/_/id/30/usc-trojans"
     },
@@ -1781,7 +1781,7 @@
     {
       "id": "401858534",
       "date": "2026-11-21T23:15Z",
-      "status": "1:18 - 4th",
+      "status": "Final",
       "away": "Maryland Terrapins",
       "home": "USC Trojans",
       "away_score": "21",
@@ -1790,61 +1790,61 @@
     {
       "id": "401856865",
       "date": "2026-11-22T00:00Z",
-      "status": "5:34 - 3rd",
+      "status": "15:00 - 3rd",
       "away": "Arizona Wildcats",
       "home": "Kansas State Wildcats",
       "away_score": "17",
-      "home_score": "20"
+      "home_score": "21"
     },
     {
       "id": "401858302",
       "date": "2026-11-22T00:00Z",
-      "status": "0:50 - 4th",
+      "status": "10:35 - 4th",
       "away": "Virginia Tech Hokies",
       "home": "Miami Hurricanes",
       "away_score": "20",
-      "home_score": "14"
+      "home_score": "21"
     },
     {
       "id": "401864544",
       "date": "2026-11-22T00:00Z",
-      "status": "14:57 - 4th",
+      "status": "6:51 - 4th",
       "away": "UNLV Rebels",
       "home": "San José State Spartans",
       "away_score": "24",
-      "home_score": "13"
+      "home_score": "16"
     },
     {
       "id": "401869938",
       "date": "2026-11-22T00:00Z",
-      "status": "12:41 - 4th",
+      "status": "2:53 - 4th",
       "away": "Arkansas State Red Wolves",
       "home": "Louisiana Tech Bulldogs",
       "away_score": "3",
-      "home_score": "41"
+      "home_score": "42"
     },
     {
       "id": "401856751",
       "date": "2026-11-22T00:30Z",
-      "status": "9:01 - 3rd",
+      "status": "1:03 - 3rd",
       "away": "Kentucky Wildcats",
       "home": "Missouri Tigers",
-      "away_score": "3",
-      "home_score": "21"
+      "away_score": "6",
+      "home_score": "28"
     },
     {
       "id": "401856753",
       "date": "2026-11-22T00:30Z",
-      "status": "14:56 - 3rd",
+      "status": "8:14 - 3rd",
       "away": "Georgia Bulldogs",
       "home": "South Carolina Gamecocks",
-      "away_score": "10",
+      "away_score": "17",
       "home_score": "6"
     },
     {
       "id": "401858306",
       "date": "2026-11-22T00:30Z",
-      "status": "End of 2nd",
+      "status": "12:37 - 3rd",
       "away": "Pittsburgh Panthers",
       "home": "Louisville Cardinals",
       "away_score": "10",
@@ -1853,34 +1853,34 @@
     {
       "id": "401858307",
       "date": "2026-11-22T00:30Z",
-      "status": "14:20 - 3rd",
+      "status": "6:52 - 3rd",
       "away": "SMU Mustangs",
       "home": "Notre Dame Fighting Irish",
       "away_score": "3",
-      "home_score": "17"
+      "home_score": "24"
     },
     {
       "id": "401858308",
       "date": "2026-11-22T00:30Z",
-      "status": "13:44 - 3rd",
+      "status": "5:35 - 3rd",
       "away": "Stanford Cardinal",
       "home": "California Golden Bears",
-      "away_score": "23",
+      "away_score": "30",
       "home_score": "14"
     },
     {
       "id": "401860918",
       "date": "2026-11-22T00:30Z",
-      "status": "End of 3rd",
+      "status": "10:42 - 3rd",
       "away": "Colorado State Rams",
       "home": "Fresno State Bulldogs",
-      "away_score": "17",
-      "home_score": "28"
+      "away_score": "20",
+      "home_score": "35"
     },
     {
       "id": "401862836",
       "date": "2026-11-22T01:00Z",
-      "status": "0:41 - 2nd",
+      "status": "Halftime",
       "away": "UTSA Roadrunners",
       "home": "UAB Blazers",
       "away_score": "14",
@@ -1889,20 +1889,20 @@
     {
       "id": "401856872",
       "date": "2026-11-22T02:00Z",
-      "status": "13:16 - 1st",
+      "status": "5:19 - 1st",
       "away": "Utah Utes",
       "home": "TCU Horned Frogs",
-      "away_score": "0",
+      "away_score": "3",
       "home_score": "0"
     },
     {
       "id": "401860925",
       "date": "2026-11-22T02:30Z",
-      "status": "11/21 - 9:30 PM EST",
+      "status": "8:51 - 1st",
       "away": "San Diego State Aztecs",
       "home": "Boise State Broncos",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401856870",

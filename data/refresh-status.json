@@ -1,24 +1,28 @@
 {
-  "checked_at": "2026-11-22T02:35:13.930520+00:00",
-  "dashboard_updated_at": "2026-11-22T02:34:03+00:00",
+  "checked_at": "2026-11-22T02:55:05.939658+00:00",
+  "dashboard_updated_at": "2026-11-22T02:53:22+00:00",
   "archive_count": 62,
   "power_cutoff": "2026-11-22T00:00:00+00:00",
   "prediction_cutoff": "2026-11-22T00:00:00+00:00",
   "sha256": {
-    "index.html": "476017848100bcbcee31a5c08d0647b2ee1c2ff6cff05396e267479e57b3537c",
+    "index.html": "9e0a6dfa9e47aecbd7c8e8dc222a89607bc11ed0f0feda6ac7a6ba0e2fdd63fe",
     "ranking-history.mjs": "86b8eda7a0f44b6f0fe1467a6d82cfa00471a94dcbb8046ddf2289ade744fba9",
     "team-profiles.mjs": "d79a1dc08c4d7c31fa18df2b3a6f9c678bb6b4ff3e1c360a370f571e23dc19a3",
     "nd-command.mjs": "11415745b168255d127f65232a8cbba856e87b59cdfb72abfceac40eaa08cc37",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
-    "data/dashboard.json": "14f6b51a7a263fa2859003e7cc0e8ece74032833c92813ab5ea809f293d0e96b",
-    "data/team-profiles.json": "6943e44e21393af87931cc3589ea2dde3e2cb8c7e7c21ed255aed69a5482bbc7",
+    "data/dashboard.json": "d6556af57e7ecdef37d302c25970de021af8e0a3c80fedb0a0faf947d1370975",
+    "data/team-profiles.json": "c97e08ed276a2304f7912e87186654a239c4e2983789c91e586b799ee5442f35",
     "data/ap-rankings/2026/index.json": "f8c3d4569b4f8dab5aabf6779c61d11a0f61e18cd9bbee46c0da4fa5c71ae14d",
     "data/power-rankings/latest.json": "2948e99418a1e1b4da27bad281708602759fcc00378cb83043e062d4f146c6d7",
-    "data/predictions/latest.json": "da34bd16b7f0cc3b1c16945ee630999331d99338e6cf3af9a36c95ad6fae75a6",
-    "playoff-model.mjs": "9d7aab4eb6f447612f595dc32fdd5137a3606b96823a902eac52fff65baf706f",
-    "playoff-explorer.mjs": "4401dc6ac48aa8cca1763e2b30576e2c7ce9c39582c1c329c86c3f7933223c22",
+    "data/predictions/latest.json": "485b0969222aac55d54ff5dca1f085f6871b00196bffb97e1736b8fc68174c73",
+    "playoff-model.mjs": "59d81aae5ef6f529f61948c61f3e601fb400cb6ae7e8a7a62950cf8684e28c80",
+    "playoff-explorer.mjs": "a9f305d00e90dee0fea069a03068d6f888cc9c176e4997f3d6f3743eaea67f7e",
     "data/cfp-title-games.json": "4fb514d56783bf05d3be7e1166f9ce869e3c706d61358d3122d7e8564ddd6372",
-    "data/cfp-official-bracket.json": "bb0775bb62cc56085a80039239c5aa0e8403d87bc7419eab338d844761045356"
+    "data/cfp-official-bracket.json": "bb0775bb62cc56085a80039239c5aa0e8403d87bc7419eab338d844761045356",
+    "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
+    "playoff-simulator-ui.mjs": "755e562aae6f457c63eba42136cb28f383c11a605a3f6f1b440c92be85149484",
+    "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
+    "data/playoff-simulation.json": "02dff1efa75b0d6a8eb98daf4a0afdc4b0ad54af26b02fc78b9988a25357bc2d"
   }
 }
