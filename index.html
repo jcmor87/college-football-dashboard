@@ -58,6 +58,16 @@
   .prediction-bar meter{width:100%;height:12px}
   #freshness{text-align:right}#refreshHealth{display:block;margin-top:3px;color:#b5c7dd}
   #refreshHealth.stale{color:#f2bc45}
+  #playoffPanel label{display:grid;gap:5px;color:#c9d8e9;font-size:13px}
+  #playoffPanel select,#playoffPanel button,.nd-playoff select{width:100%;max-width:100%;padding:9px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb}
+  #playoffPanel button{width:auto;cursor:pointer}
+  .playoff-toolbar{display:flex;gap:8px;align-items:end;flex-wrap:wrap}
+  .playoff-bracket,.playoff-titles,.playoff-events{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr))}
+  .playoff-round{min-width:0}.playoff-round h4{margin:8px 0}.playoff-match,.playoff-pick{min-width:0;overflow-wrap:anywhere;background:#192c42;border:1px solid #34465d;border-radius:9px;padding:10px;margin-bottom:7px}
+  .playoff-match h4,.playoff-match p{margin:6px 0}.playoff-match small{display:block;color:#b5c7dd;margin-bottom:5px}
+  .playoff-match label{margin-top:7px}.playoff-events,.playoff-standings{margin-top:12px}
+  .playoff-poll{columns:2}.playoff-poll li{margin:5px 0;break-inside:avoid}
+  @media(max-width:480px){.playoff-poll{columns:1}}
   </style>
 </head>
 <body>
@@ -82,6 +92,7 @@
     <button data-tab="power">Power Rankings</button>
     <button data-tab="history">AP Ranking History</button>
     <button data-tab="command">Notre Dame</button>
+    <button data-tab="playoff">Playoff Explorer</button>
     <button data-tab="predictions">Game Predictions</button>
     <button data-tab="games">This Week's Games</button>
     <button data-tab="teams">All FBS Teams</button>
@@ -113,6 +124,7 @@
       </div>
     </div>
   </section>
+  <section class="panel hidden" id="playoffPanel" aria-label="Playoff Scenario Explorer"></section>
   <section class="panel hidden" id="predictionPanel" aria-label="Game Predictions"></section>
   <section class="panel hidden" id="powerPanel" aria-label="Saturday HQ Power Rankings"></section>
   <section class="panel hidden" id="ndPanel" aria-label="Notre Dame Command Center"></section>
@@ -148,7 +160,8 @@ const powerHash = '#power';
 const isPowerHash = () => location.hash === powerHash || /^#power=[0-9]+$/.test(location.hash);
 const predictionHash = '#predictions';
 const aboutHash = '#about';
-const tabFromHash = () => location.hash === aboutHash ? 'about' : location.hash === predictionHash ? 'predictions' : isPowerHash() ? 'power' : location.hash === commandHash ? 'command' : readTeamHash() ? 'profile' : null;
+const isPlayoffHash = () => location.hash === '#playoff' || location.hash.startsWith('#playoff?');
+const tabFromHash = () => isPlayoffHash() ? 'playoff' : location.hash === aboutHash ? 'about' : location.hash === predictionHash ? 'predictions' : isPowerHash() ? 'power' : location.hash === commandHash ? 'command' : readTeamHash() ? 'profile' : null;
 state.tab = tabFromHash() ?? 'rankings';
 window.addEventListener('hashchange', () => {
   state.tab = tabFromHash() ?? history.state?.dashboardTab ?? 'rankings';
@@ -166,9 +179,27 @@ function render(){
   $('#powerPanel').classList.toggle('hidden', !showPower);
   const showPredictions = state.tab === 'predictions';
   $('#predictionPanel').classList.toggle('hidden', !showPredictions);
-  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand || showPower || showPredictions);
+  const showPlayoff = state.tab === 'playoff';
+  $('#playoffPanel').classList.toggle('hidden', !showPlayoff);
+  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand || showPower || showPredictions || showPlayoff);
   const currentView = ++profileView;
   if (d) updateSpotlight(d);
+  if (showPlayoff) {
+    document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'playoff'));
+    const panel = $('#playoffPanel');
+    const showError = () => {
+      panel.innerHTML = '<p class="notice" role="alert">Playoff scenario data could not load. Reload to try again.</p>';
+    };
+    if ($('#dataError').textContent) showError();
+    else panel.innerHTML = '<p class="notice" role="status">Loading playoff scenario data…</p>';
+    if (d) import('./playoff-explorer.mjs').then(module => {
+      if (profileView === currentView) return module.mountPlayoff(panel,d,() => profileView === currentView);
+    }).catch(error => {
+      if (profileView === currentView) showError();
+      console.error(error);
+    });
+    return;
+  }
   if (showPredictions) {
     document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'predictions'));
     const panel = $('#predictionPanel');
@@ -262,6 +293,7 @@ const aboutContent = `<div class="notice">
     <li><strong>Team Profiles</strong> show schedules, records, season statistics, and comparisons.</li>
     <li><a href="#notre-dame">Notre Dame Command Center</a> combines recent form, opponent analysis, ranked wins, and upcoming forecasts.</li>
     <li><a href="#power">Power Rankings</a> explain Saturday HQ’s independent weighted rating and compare it with the official AP and CFP polls.</li>
+    <li><a href="#playoff">Playoff Explorer</a> builds conditional brackets from user-selected results.</li>
     <li><a href="#predictions">Game Predictions</a> estimate winners and margins. Historical holdout results and archived live forecasts have separate scorecards.</li>
   </ul>
   <p>Ratings and forecasts are experimental. The header reports when dashboard data changed and when the refresh pipeline last checked available sources. Power and prediction views show their own input cutoffs.</p>
@@ -271,6 +303,10 @@ const aboutContent = `<div class="notice">
 
 function updateSpotlight(d){const nd=(d.teams||[]).find(t=>String(t.id)==='87');$('#ndRecord').textContent=nd?.record||'—';$('#ndRank').textContent=nd?.rank?'#'+nd.rank:'—';$('#ndDetails').textContent=nd?'Notre Dame is included in the national team directory. Select Notre Dame in the team directory to open its profile.':'Notre Dame data is not available in the latest snapshot.';$('#ndSummary').textContent=nd?`2026 season • ${nd.record||'Record unavailable'} • ${nd.rank?'#'+nd.rank+' in '+(d.poll||'selected poll'):'No published poll position'}`:'2026 season • Awaiting verified team data';}function gamesHtml(g){return g.length?g.map(x=>`<div class="score"><strong>${esc(x.away)} @ ${esc(x.home)}</strong><div class="meta">${esc(x.date?new Date(x.date).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Date unavailable')} • ${esc(x.status||'Scheduled')}</div><div class="result">${x.away_score!=null&&x.home_score!=null?`${esc(x.away_score)} – ${esc(x.home_score)}`:'Score pending'}</div></div>`).join(''):'<div class="empty">No games available in this snapshot.</div>'}document.addEventListener('click', event => {
   const tab = event.target.closest('[data-tab]');
+  if (tab?.dataset.tab === 'playoff') {
+    if (!isPlayoffHash()) location.hash = '#playoff';
+    return;
+  }
   if (tab?.dataset.tab === 'about') {
     if (location.hash !== aboutHash) location.hash = aboutHash;
     return;
@@ -350,7 +386,7 @@ async function loadDashboard() {
     const notice = $('#dataError');
     notice.textContent = 'The dashboard could not load its data. Reload this page to try again. If the problem continues, check the latest Update dashboard data run in GitHub Actions and confirm that the Pages deployment succeeded.';
     notice.classList.remove('hidden');
-    if (['history', 'profile', 'command', 'power', 'predictions'].includes(state.tab)) render();
+    if (['history', 'profile', 'command', 'power', 'predictions', 'playoff'].includes(state.tab)) render();
     console.error('Dashboard snapshot could not be loaded', snapshotUrl.href, error);
   }
 }

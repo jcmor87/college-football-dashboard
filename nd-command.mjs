@@ -166,7 +166,7 @@ export async function mountCommand(panel, dashboard, isCurrent) {
     '<p class="notice">Current Notre Dame schedule data is unavailable. Saved results and statistics are shown where available.</p>';
   panel.innerHTML = `
     <div class="panel-head"><h2>Notre Dame Command Center</h2>
-      <div><a href="${profileHref(NOTRE_DAME)}">Full team profile</a> · <a href="#power=87">Power ranking analysis</a></div></div>
+      <div><a href="${profileHref(NOTRE_DAME)}">Full team profile</a> · <a href="#power=87">Power ranking analysis</a> · <a href="#playoff?team=87">Notre Dame playoff scenarios</a></div></div>
     ${status}
     <div class="statrow">
       <div class="stat"><strong>${escapeHtml(format(team.record))}</strong><span>Overall record</span></div>
@@ -198,6 +198,9 @@ export async function mountCommand(panel, dashboard, isCurrent) {
         ${nd.strength.played ? ' · ' + nd.strength.covered + ' of ' + nd.strength.played + ' completed games covered' : ''}</p>
       <p class="muted">Saturday HQ combines current FBS opponent records, including head-to-head games, with half credit for ties. Missing, stale, and non-FBS records are excluded. This metric has no official NCAA standing.</p>
     </section>
+    <section class="profile-section"><h3>Notre Dame Playoff Scenarios</h3>
+      <details class="nd-playoff"><summary>Explore Notre Dame outcomes</summary><div class="nd-playoff-controls"></div></details>
+    </section>
     <section class="profile-section"><h3>Season Outlook</h3>
       <p class="muted">Challenges and opportunities interpret the available season averages. Teams have faced different schedules, and these observations carry no game or playoff forecast.</p>
       ${remaining.length ? table('Remaining Notre Dame games', ['Date', 'Opponent', 'Overall', 'Current AP', 'Statistical context'],
@@ -209,6 +212,15 @@ export async function mountCommand(panel, dashboard, isCurrent) {
         })) : '<p class="muted">No remaining games are listed in the available schedule.</p>'}
     </section>`;
 
+  const playoff = panel.querySelector('.nd-playoff');
+  playoff.addEventListener('toggle', () => {
+    if (!playoff.open || playoff.dataset.loaded) return;
+    playoff.dataset.loaded = 'true';
+    const target = playoff.querySelector('.nd-playoff-controls');
+    import('./playoff-explorer.mjs').then(module => {
+      if (isCurrent()) return module.mountNotreDamePlayoff(target,dashboard,isCurrent);
+    }).catch(() => { if (isCurrent()) target.textContent = 'Playoff scenarios unavailable.'; });
+  });
   mountTrends(panel.querySelector('.trend-section'), nd.games);
   void mountTrajectory(panel.querySelector('.nd-trajectory'));
   const select = panel.querySelector('.nd-opponent');

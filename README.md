@@ -375,3 +375,83 @@ checks, verified Pages evidence, and priorities before the Playoff Simulator.
 The release workflow enforces an append-only forecast archive and publishes
 `data/refresh-status.json` with a check timestamp and core snapshot hashes.
 The header keeps its last-changed timestamp separate from the refresh check.
+
+## 2026–27 Playoff Scenario Explorer
+
+Open **Playoff Explorer** or use `#playoff`. The Notre Dame Command Center
+also has a compact outcome picker that deep-links to the full explorer with
+its selections. Choose winners for remaining games and conference titles,
+then advance teams through the bracket. Reset clears picks. Copy the URL to
+share the selected results. Picks are checked against the current data when
+a link opens. A completed game or a changed matchup can invalidate an
+older choice.
+
+### Official selection and bracket rules
+
+The CFP's [2026–27 format](https://collegefootballplayoff.com/sports/2024/5/29/12-team-format)
+and [selection protocol](https://collegefootballplayoff.com/sports/2016/10/24/selection-committee-protocol)
+govern this explorer. The ACC, Big Ten, Big 12, and SEC champions receive
+automatic entry. The highest-ranked team among the American, Conference USA,
+MAC, Mountain West, Pac-12, and Sun Belt receives a berth. That team can be
+a nonchampion. The committee identifies the highest team in that group if
+none appears in its Top 25. Seven places go to the best remaining teams,
+or six when Notre Dame earns its guaranteed berth by finishing in the final
+CFP Top 12. There is no conference cap.
+
+The four highest-ranked teams receive byes. Automatic qualifiers outside
+the top 12 take the bottom seeds in rank order. Seeds 5–8 host 12–9
+respectively. The quarterfinal paths are 1 vs. 8/9, 4 vs. 5/12, 2 vs. 7/10,
+and 3 vs. 6/11. The first two paths share one semifinal and the last
+two share the other. The bracket stays fixed, including rematches.
+Seeds 1–3 select bowl sites in order, with seed 1 also choosing its semifinal
+destination. Seed 4 receives the remaining quarterfinal site.
+The explorer links the official sites and does not assign bowl slots.
+The [official bracket page](https://collegefootballplayoff.com/sports/2026/8/9/bracket-place-holder)
+lists Selection Day as December 6, 2026.
+
+### Data and subjective assumptions
+
+- The separately labeled committee poll comes from the existing ESPN CFP
+  snapshot. Confirmed title fixtures and completed title winners come from
+  the ESPN scoreboard for December 4–6. The loader validates participants
+  against the FBS conference directory. The production run updates this
+  feed alongside existing data without touching archived forecasts.
+- Standings use available ESPN profile finals and explicit scenario picks.
+  Unresolved games add no wins or losses. When phase metadata is absent,
+  same-conference games count as league games. Known title fixtures are
+  excluded from those records, as are unclassified same-conference games
+  on title weekend and games after the Selection Day cutoff.
+- Before official finalists are available, title entrants are provisional.
+  The explorer orders teams by league win percentage, then uses head-to-head
+  for fully played tied groups, published CFP order, overall win percentage,
+  and ESPN team ID. It does not reproduce all conference tiebreakers,
+  divisions or eligibility rules. Published participants take precedence.
+  There is no assumed winner. Unresolved automatic berths remain pending.
+- Projected committee order starts with the latest CFP Top 25. Teams outside
+  it start at 26 or lower in overall win percentage order, then wins and
+  team ID. For unranked teams, that record reflects available results and
+  the scenario. Each hypothetical win improves the starting position by
+  two points and each loss worsens it by three, including title picks.
+  Ties use starting position. When the published CFP poll is unavailable,
+  the projected field stays pending. Real finals update standings but do
+  not award hypothetical ranking points. The heuristic does not model
+  committee voting or changes since its latest published list.
+- Once the official field is published, a maintainer can enter verified
+  ESPN team IDs in seed order in `data/cfp-official-bracket.json`, with an
+  ISO publication timestamp and official source link. Until then the
+  file deliberately contains null seeds. Optional `winners` entries keyed
+  by bracket game ID can record verified CFP winners. The official seed
+  list takes priority over projections. A user's bracket picks remain
+  conditional. The official file is reviewed and does not auto-ingest
+  or infer seeds from interim rankings.
+- Existing archived single-game forecasts can be referenced from the game
+  picker. They do not drive selections. The [Version 2.0 audit](AUDIT.md)
+  found that HQ Power Rankings trailed simple historical baselines and
+  Game Predictions has not demonstrated a meaningful advantage. The explorer
+  gives no playoff probabilities.
+
+`playoff-model.mjs` holds deterministic schedule, selection, and bracket
+functions. It accepts explicit outcomes independent of how they are generated.
+A future simulation can supply sampled outcomes through the same functions.
+Run `node --test tests/*.test.mjs` and
+`python3 -m unittest discover -s tests` for automated checks.
