@@ -51,7 +51,10 @@
     "Atlantic Coast Conference": {
       "id": "401858318",
       "date": "2026-12-05T17:00Z",
-      "teams": [],
+      "teams": [
+        "154",
+        "2390"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261205"
