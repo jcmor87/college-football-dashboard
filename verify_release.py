@@ -15,6 +15,7 @@ ARCHIVE = "data/predictions/archive"
 FILES = (
     "index.html", "ranking-history.mjs", "team-profiles.mjs", "nd-command.mjs",
     "notre-dame-news.mjs", "data/notre-dame-news.json",
+    "notre-dame-roster.mjs", "data/notre-dame-roster.json",
     "power-rankings.mjs", "game-predictions.mjs", "data/dashboard.json", "data/team-profiles.json",
     "data/ap-rankings/2026/index.json", "data/power-rankings/latest.json",
     "data/predictions/latest.json", "playoff-model.mjs", "playoff-explorer.mjs",

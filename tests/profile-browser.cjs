@@ -125,6 +125,64 @@ const root = resolve(__dirname, '..');
     await news.getByText(/news is temporarily unavailable/).waitFor();
     await command.getByRole('heading', {name: 'Recent Form'}).waitFor();
     await page.unroute(newsRoute);
+    const rosterRoute = '**/data/notre-dame-roster.json';
+    const roster = command.getByRole('region', {name: 'Notre Dame Roster & Depth Chart'});
+    const fixtureBio = 'https://fightingirish.com/sports/football/roster/player/fixture-qb';
+    const rosterFixture = {
+      season: 2026, verified_at: publishedAt, roster_status: 'current', depth_status: 'current',
+      players: {
+        101: {name: 'Fixture QB', position: 'QB', group: 'offense', bio_url: fixtureBio},
+        102: {name: 'Fixture Reserve', position: 'QB', group: 'offense', bio_url: fixtureBio+'-reserve'},
+        103: {name: 'Fixture Alternate', position: 'QB', group: 'offense', bio_url: fixtureBio+'-alternate'},
+        201: {name: 'Fixture CB', position: 'CB', group: 'defense', bio_url: fixtureBio+'-defense'},
+        202: {name: 'Unsafe Player', position: 'CB', group: 'defense', bio_url: 'https://example.com/roster/player'},
+      },
+      depth: {
+        opponent: 'Test Opponent', verified_at: publishedAt,
+        url: 'https://fightingirish.com/documents/00000000-0000-0000-0000-000000000001.pdf',
+        sides: {offense: [{position: 'QB', tiers: [['101'], ['102', '103']]}],
+          defense: [{position: 'CB', tiers: [['201']]}]},
+      },
+    };
+    await page.route(rosterRoute, route => route.fulfill({json: rosterFixture}));
+    await page.reload();
+    const offense = roster.getByRole('table', {name: 'Offense depth chart'});
+    const defense = roster.getByRole('table', {name: 'Defense depth chart'});
+    await offense.waitFor();
+    const player = offense.getByRole('link', {name: 'Fixture QB'});
+    assert.equal(await player.getAttribute('href'), fixtureBio);
+    assert.equal(await player.getAttribute('target'), '_blank');
+    assert.equal(await player.getAttribute('rel'), 'noopener noreferrer');
+    assert.match(await offense.innerText(), /Fixture Reserve or Fixture Alternate/);
+    await roster.getByRole('button', {name: 'Defense'}).click();
+    await defense.getByRole('link', {name: 'Fixture CB'}).waitFor();
+    assert.equal(await roster.getByRole('button', {name: 'Defense'}).getAttribute('aria-pressed'), 'true');
+    await roster.getByText('Full defense roster by position', {exact: true}).click();
+    assert.equal(await roster.getByRole('table', {name: 'Defense roster'}).getByRole('link').count(), 1);
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.unroute(rosterRoute);
+
+    for (const width of [768, 1280]) {
+      const preview = await browser.newPage({viewport: {width, height: 1024}, hasTouch: width === 768});
+      await preview.route(rosterRoute, route => route.fulfill({
+        json: {...rosterFixture, depth: null, depth_status: 'unavailable', roster_status: 'stale'},
+      }));
+      await preview.goto(url+'#notre-dame');
+      const previewRoster = preview.getByRole('region', {name: 'Notre Dame Roster & Depth Chart'});
+      await previewRoster.getByText(/depth-chart assignments are unavailable/).waitFor();
+      await previewRoster.getByText(/Saved roster/).waitFor();
+      await previewRoster.getByRole('button', {name: 'Defense'}).click();
+      await previewRoster.getByRole('table', {name: 'Defense roster'}).getByRole('link', {name: 'Fixture CB'}).waitFor();
+      assert.ok(await preview.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+      await preview.close();
+    }
+
+    await page.route(rosterRoute, route => route.fulfill({status: 503, body: 'Unavailable'}));
+    await page.reload();
+    await roster.getByText(/roster is temporarily unavailable/).waitFor();
+    await roster.getByRole('link', {name: 'Official Notre Dame roster'}).waitFor();
+    await command.getByRole('heading', {name: 'Notre Dame in the News'}).waitFor();
+    await page.unroute(rosterRoute);
     await command.getByRole('link', {name:'Full team profile'}).click();
     await page.getByRole('heading',{name:'Notre Dame',exact:true}).waitFor();
     await page.getByRole('button', {name:'Power Rankings', exact:true}).click();

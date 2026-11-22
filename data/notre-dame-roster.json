@@ -1,0 +1,962 @@
+{
+  "season": 2026,
+  "verified_at": "2026-11-22T16:03:40+00:00",
+  "roster_status": "current",
+  "players": {
+    "15287": {
+      "name": "Tionne Gray",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/tionne-gray"
+    },
+    "15290": {
+      "name": "Quincy Porter",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/quincy-porter"
+    },
+    "15445": {
+      "name": "Dallas Golden",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/dallas-golden"
+    },
+    "15573": {
+      "name": "Jaden Greathouse",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jaden-greathouse"
+    },
+    "15420": {
+      "name": "Nolan James Jr.",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/nolan-james-jr"
+    },
+    "15778": {
+      "name": "DJ McKinney",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/dj-mckinney"
+    },
+    "15288": {
+      "name": "Mylan Graham",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/mylan-graham"
+    },
+    "15586": {
+      "name": "Jaylen Sneed",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jaylen-sneed"
+    },
+    "15344": {
+      "name": "Bubba Frazier",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/bubba-frazier"
+    },
+    "15580": {
+      "name": "Jaiden Ausberry",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jaiden-ausberry"
+    },
+    "15516": {
+      "name": "Cam Williams",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/cam-williams"
+    },
+    "15571": {
+      "name": "Boubacar Traore",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/boubacar-traore"
+    },
+    "15449": {
+      "name": "Christopher Burgess Jr.",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/christopher-burgess-jr"
+    },
+    "15543": {
+      "name": "Jordan Faison",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jordan-faison"
+    },
+    "15292": {
+      "name": "Francis Brewu",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/francis-brewu"
+    },
+    "15368": {
+      "name": "Ty Washington",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ty-washington"
+    },
+    "15409": {
+      "name": "Jerome Bettis Jr.",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jerome-bettis-jr"
+    },
+    "15576": {
+      "name": "Adon Shuler",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/adon-shuler"
+    },
+    "15497": {
+      "name": "Brauntae Johnson",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/tae-johnson"
+    },
+    "15774": {
+      "name": "Teddy Jarrard",
+      "position": "QB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/teddy-jarrard"
+    },
+    "15343": {
+      "name": "Noah Grubbs",
+      "position": "QB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/noah-grubbs"
+    },
+    "15507": {
+      "name": "Loghan Thomas",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/loghan-thomas"
+    },
+    "15293": {
+      "name": "Keon Keeley",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/keon-keeley"
+    },
+    "15337": {
+      "name": "Devin Fitzgerald",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/devin-fitzgerald"
+    },
+    "15295": {
+      "name": "Jayden Sanders",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jayden-sanders"
+    },
+    "15425": {
+      "name": "Blake Hebert",
+      "position": "QB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/blake-hebert"
+    },
+    "15327": {
+      "name": "Ayden Pouncey",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ayden-pouncey"
+    },
+    "15500": {
+      "name": "CJ Carr",
+      "position": "QB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/cj-carr"
+    },
+    "15340": {
+      "name": "Ebenezer Ewetade",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ebenezer-ewetade"
+    },
+    "15520": {
+      "name": "Micah Gilbert",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/micah-gilbert"
+    },
+    "15352": {
+      "name": "Brayden Robinson",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/brayden-robinson"
+    },
+    "15502": {
+      "name": "Leonard Moore",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/leonard-moore"
+    },
+    "15350": {
+      "name": "Dylan Faison",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/dylan-faison"
+    },
+    "15405": {
+      "name": "Koʻo Kia",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/koo-kia"
+    },
+    "15408": {
+      "name": "Elijah Burress",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/elijah-burress"
+    },
+    "15359": {
+      "name": "Kaydon Finley",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/kaydon-finley"
+    },
+    "15437": {
+      "name": "Erik Schmidt",
+      "position": "P",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/erik-schmidt"
+    },
+    "15414": {
+      "name": "Madden Faraimo",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/madden-faraimo"
+    },
+    "15893": {
+      "name": "Logan Saldate",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/logan-saldate"
+    },
+    "15313": {
+      "name": "Joey O'Brien",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/joey-obrien"
+    },
+    "15357": {
+      "name": "Jonaz Walton",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jonaz-walton"
+    },
+    "15319": {
+      "name": "Khary Adams",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/khary-adams"
+    },
+    "15524": {
+      "name": "Kedren Young",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/kedron-young"
+    },
+    "15432": {
+      "name": "Ethan Long",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ethan-long"
+    },
+    "15489": {
+      "name": "Aneyas Williams",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/aneyas-williams"
+    },
+    "15315": {
+      "name": "Ja'Kobe Clapper",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jakobe-clapper"
+    },
+    "15435": {
+      "name": "Mark Zackery IV",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/mark-zackery-iv"
+    },
+    "15783": {
+      "name": "Ian Premer",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ian-premer"
+    },
+    "15439": {
+      "name": "Brandon Logan",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/brandon-logan"
+    },
+    "15318": {
+      "name": "Chaz Smith",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/chaz-smith"
+    },
+    "15333": {
+      "name": "Javian Osborne",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/javian-osborne"
+    },
+    "15504": {
+      "name": "Kyngstonn Viliamu-Asa",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/kyngstonn-viliamu-asa"
+    },
+    "15554": {
+      "name": "Luke Talich",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/luke-talich"
+    },
+    "15581": {
+      "name": "Christian Gray",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/christian-gray"
+    },
+    "16394": {
+      "name": "Michael Giovacco",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/michael-giovacco"
+    },
+    "15894": {
+      "name": "Xavier Southall",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/xavier-southall"
+    },
+    "15325": {
+      "name": "Nick Reddish",
+      "position": "CB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/nick-reddish"
+    },
+    "15482": {
+      "name": "Matt Jeffery",
+      "position": "WR",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/matt-jeffery"
+    },
+    "15577": {
+      "name": "Drayk Bowen",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/drayk-bowen"
+    },
+    "15291": {
+      "name": "Spencer Porath",
+      "position": "K",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/spencer-porath"
+    },
+    "15514": {
+      "name": "Teddy Rezac",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/teddy-rezac"
+    },
+    "15776": {
+      "name": "Micah Drescher",
+      "position": "K",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/micah-drescher"
+    },
+    "15274": {
+      "name": "Kurt Smith",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/kurtis-smith"
+    },
+    "15477": {
+      "name": "Tommy Powlus",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/tommy-powlus"
+    },
+    "15281": {
+      "name": "Jasper Scaife",
+      "position": "P",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jasper-scaife"
+    },
+    "15417": {
+      "name": "Dominik Hulak",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/dominik-hulak"
+    },
+    "15522": {
+      "name": "Cole Mullins",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/cole-mullins"
+    },
+    "15553": {
+      "name": "Henry Garrity",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/henry-garrity"
+    },
+    "15591": {
+      "name": "Kahanu Kia",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/kahanu-kia"
+    },
+    "15331": {
+      "name": "Rodney Dunham",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/rodney-dunham"
+    },
+    "15273": {
+      "name": "Matt Williams",
+      "position": "RB",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/matt-williams"
+    },
+    "15590": {
+      "name": "Jason Onye",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jason-onye"
+    },
+    "15271": {
+      "name": "Chase Young",
+      "position": "S",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/chase-young"
+    },
+    "15547": {
+      "name": "Andrew Kros",
+      "position": "LS",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/andrew-kros"
+    },
+    "15335": {
+      "name": "Sullivan Garvin",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/sullivan-garvin"
+    },
+    "15779": {
+      "name": "Ben Nichols",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ben-nichols"
+    },
+    "15575": {
+      "name": "Devan Houstan",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/devan-houstan"
+    },
+    "15518": {
+      "name": "Anthonie Knapp",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/anthonie-knapp"
+    },
+    "15348": {
+      "name": "Tiki Hola",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/tiki-hola"
+    },
+    "15569": {
+      "name": "Chris Terek",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/chris-terek"
+    },
+    "15416": {
+      "name": "Elijah Hughes",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/elijah-hughes"
+    },
+    "15578": {
+      "name": "Charles Jagusah",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/charles-jagusah"
+    },
+    "15428": {
+      "name": "Cam Herron",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/cam-herron"
+    },
+    "15317": {
+      "name": "Thomas Davis Jr.",
+      "position": "LB",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/thomas-davis-jr"
+    },
+    "15895": {
+      "name": "Matty Augustine",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/matty-augustine"
+    },
+    "15512": {
+      "name": "Sean Sevillano Jr.",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/sean-sevillano-jr"
+    },
+    "15412": {
+      "name": "Davion Dixon",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/davion-dixon"
+    },
+    "15896": {
+      "name": "Max Anderson",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/max-anderson"
+    },
+    "15897": {
+      "name": "Robbie Wollan",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/robbie-wollan"
+    },
+    "15579": {
+      "name": "Joe Otting",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/joe-otting"
+    },
+    "15355": {
+      "name": "Grayson McKeogh",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/grayson-mckeogh"
+    },
+    "15347": {
+      "name": "Tyler Merrill",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/tyler-merrill"
+    },
+    "15781": {
+      "name": "Gregory Patrick",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/gregory-patrick"
+    },
+    "15339": {
+      "name": "Charlie Thom",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/charlie-thom"
+    },
+    "15588": {
+      "name": "Ashton Craig",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/ashton-craig"
+    },
+    "15492": {
+      "name": "Styles Prescod",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/styles-prescod"
+    },
+    "15443": {
+      "name": "Will Black",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/will-black"
+    },
+    "15572": {
+      "name": "Sullivan Absher",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/sullivan-absher-2"
+    },
+    "15491": {
+      "name": "Guerby Lambert",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/guerby-lambert"
+    },
+    "15506": {
+      "name": "Peter Jones",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/peter-jones"
+    },
+    "15418": {
+      "name": "Owen Strebig",
+      "position": "OL",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/owen-strebig"
+    },
+    "15329": {
+      "name": "Preston Fryzel",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/preston-fryzel"
+    },
+    "15510": {
+      "name": "Jack Larsen",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/jack-larsen"
+    },
+    "15898": {
+      "name": "Cooper Flanagan",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/cooper-flanagan"
+    },
+    "15447": {
+      "name": "James Flanigan",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/james-flanigan"
+    },
+    "15574": {
+      "name": "Armel Mukam",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/armel-mukam"
+    },
+    "15754": {
+      "name": "Austin Ratigan",
+      "position": "TE",
+      "group": "offense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/austin-ratigan"
+    },
+    "15320": {
+      "name": "Elijah Golden",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/elijah-golden"
+    },
+    "15402": {
+      "name": "Gordy Sulfsted",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/gordy-sulfsted"
+    },
+    "15436": {
+      "name": "Joe Reiff",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/joe-reiff"
+    },
+    "15495": {
+      "name": "Bryce Young",
+      "position": "DL",
+      "group": "defense",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/bryce-young"
+    },
+    "15499": {
+      "name": "Joseph Vinci",
+      "position": "LS",
+      "group": "special teams",
+      "bio_url": "https://fightingirish.com/sports/football/roster/player/joseph-vinci"
+    }
+  },
+  "depth_status": "current",
+  "depth": {
+    "opponent": "SMU",
+    "url": "https://fightingirish.com/documents/aa43c6ef-58fa-470d-af24-4b9f15ceeb3a.pdf",
+    "verified_at": "2026-11-22T16:03:40+00:00",
+    "sides": {
+      "offense": [
+        {
+          "position": "WR",
+          "tiers": [
+            [
+              "15543"
+            ],
+            [
+              "15482"
+            ],
+            [
+              "15516",
+              "15893"
+            ]
+          ]
+        },
+        {
+          "position": "WR",
+          "tiers": [
+            [
+              "15573",
+              "15288"
+            ],
+            [
+              "15344"
+            ]
+          ]
+        },
+        {
+          "position": "LT",
+          "tiers": [
+            [
+              "15443"
+            ],
+            [
+              "15492"
+            ],
+            [
+              "15355"
+            ]
+          ]
+        },
+        {
+          "position": "LG",
+          "tiers": [
+            [
+              "15518"
+            ],
+            [
+              "15428"
+            ]
+          ]
+        },
+        {
+          "position": "C",
+          "tiers": [
+            [
+              "15588"
+            ],
+            [
+              "15579"
+            ]
+          ]
+        },
+        {
+          "position": "RG",
+          "tiers": [
+            [
+              "15572"
+            ],
+            [
+              "15895"
+            ]
+          ]
+        },
+        {
+          "position": "RT",
+          "tiers": [
+            [
+              "15491"
+            ],
+            [
+              "15492"
+            ],
+            [
+              "15418"
+            ]
+          ]
+        },
+        {
+          "position": "TE",
+          "tiers": [
+            [
+              "15898",
+              "15447"
+            ],
+            [
+              "15368",
+              "15510"
+            ]
+          ]
+        },
+        {
+          "position": "WR",
+          "tiers": [
+            [
+              "15520"
+            ],
+            [
+              "15408",
+              "15409"
+            ]
+          ]
+        },
+        {
+          "position": "QB",
+          "tiers": [
+            [
+              "15500"
+            ],
+            [
+              "15343",
+              "15774"
+            ]
+          ]
+        },
+        {
+          "position": "RB",
+          "tiers": [
+            [
+              "15420",
+              "15357",
+              "15489"
+            ],
+            [
+              "15524",
+              "15333"
+            ]
+          ]
+        }
+      ],
+      "defense": [
+        {
+          "position": "DE",
+          "tiers": [
+            [
+              "15571"
+            ],
+            [
+              "15507"
+            ],
+            [
+              "15331"
+            ]
+          ]
+        },
+        {
+          "position": "DT",
+          "tiers": [
+            [
+              "15574"
+            ],
+            [
+              "15292"
+            ],
+            [
+              "15416"
+            ]
+          ]
+        },
+        {
+          "position": "DT",
+          "tiers": [
+            [
+              "15287",
+              "15292"
+            ],
+            [
+              "15590"
+            ]
+          ]
+        },
+        {
+          "position": "DE",
+          "tiers": [
+            [
+              "15495"
+            ],
+            [
+              "15293"
+            ]
+          ]
+        },
+        {
+          "position": "WILL",
+          "tiers": [
+            [
+              "15580"
+            ],
+            [
+              "15586"
+            ]
+          ]
+        },
+        {
+          "position": "MIKE",
+          "tiers": [
+            [
+              "15504"
+            ],
+            [
+              "15414"
+            ],
+            [
+              "15405"
+            ]
+          ]
+        },
+        {
+          "position": "NICKEL",
+          "tiers": [
+            [
+              "15581"
+            ],
+            [
+              "15445",
+              "15295"
+            ]
+          ]
+        },
+        {
+          "position": "CB",
+          "tiers": [
+            [
+              "15502"
+            ],
+            [
+              "15435"
+            ]
+          ]
+        },
+        {
+          "position": "BOUND",
+          "tiers": [
+            [
+              "15576"
+            ],
+            [
+              "15432"
+            ]
+          ]
+        },
+        {
+          "position": "FIELD",
+          "tiers": [
+            [
+              "15554"
+            ],
+            [
+              "15313"
+            ]
+          ]
+        },
+        {
+          "position": "CB",
+          "tiers": [
+            [
+              "15295"
+            ],
+            [
+              "15327"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
