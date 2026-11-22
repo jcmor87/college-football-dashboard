@@ -93,7 +93,8 @@ def scoreboard_games(scoreboard, fbs_ids):
         competition = event["competitions"][0]
         sides = {side["homeAway"]: side for side in competition["competitors"]}
         away, home = sides["away"], sides["home"]
-        if not {str(away["team"]["id"]), str(home["team"]["id"])} & fbs_ids:
+        away_id, home_id = str(away["team"]["id"]), str(home["team"]["id"])
+        if not {away_id, home_id} & fbs_ids:
             continue
         status = competition.get("status") or event["status"]
         status_type = status["type"]
@@ -102,7 +103,12 @@ def scoreboard_games(scoreboard, fbs_ids):
         games[game_id] = {
             "id": game_id,
             "date": event["date"],
+            "week": (event.get("week") or {}).get("number"),
+            "time_tbd": competition.get("timeValid") is False,
             "status": status_type.get("shortDetail") or status_type["description"],
+            "scheduled": status_type.get("name") == "STATUS_SCHEDULED",
+            "away_id": away_id,
+            "home_id": home_id,
             "away": away["team"]["displayName"],
             "home": home["team"]["displayName"],
             "away_score": away.get("score") if has_scores else None,

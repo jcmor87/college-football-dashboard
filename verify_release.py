@@ -13,7 +13,7 @@ from update_rankings import save_json
 
 ARCHIVE = "data/predictions/archive"
 FILES = (
-    "index.html", "ranking-history.mjs", "team-profiles.mjs", "nd-command.mjs",
+    "index.html", "featured-games.mjs", "ranking-history.mjs", "team-profiles.mjs", "nd-command.mjs",
     "notre-dame-news.mjs", "data/notre-dame-news.json",
     "notre-dame-roster.mjs", "data/notre-dame-roster.json",
     "power-rankings.mjs", "game-predictions.mjs", "data/dashboard.json", "data/team-profiles.json",

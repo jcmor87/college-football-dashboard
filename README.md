@@ -20,6 +20,11 @@ with no games produces an empty list. A failed refresh exits with an error
 and preserves the last saved snapshot. The `updated_at` timestamp changes
 when snapshot content changes.
 
+**Top 25 Featured Games** uses the same AP poll as National Rankings.
+It shows up to five matchups from the current scoreboard week, with two ranked
+teams first and kickoff order within each group. New snapshots match teams by
+ESPN ID. For older snapshots, an exact name match must be unique in the FBS directory.
+
 ## Run locally
 
 From the repository root:

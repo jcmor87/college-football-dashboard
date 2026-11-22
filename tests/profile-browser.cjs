@@ -389,6 +389,50 @@ const root = resolve(__dirname, '..');
     await standalone.getByRole('button',{name:'National Rankings',exact:true}).click();
     await standalone.locator('#dataError').waitFor();
     await standalone.close();
+    const featured = await browser.newPage({
+      viewport: {width: 390, height: 844}, isMobile: true, hasTouch: true, timezoneId: 'America/Los_Angeles',
+    });
+    const featuredTeam = (id, name, rank) => ({id, name, rank, record: '0-0'});
+    const featuredGame = (id, away, home, date, status, scores = {}) => ({
+      id, away_id: away.id, home_id: home.id, away: away.name, home: home.name, date, status, week: 12, ...scores,
+    });
+    const first = featuredTeam('1', 'Ranked Away', 3);
+    const second = featuredTeam('2', 'Ranked Home', 8);
+    const third = featuredTeam('3', 'Unranked Away', null);
+    const fourth = featuredTeam('4', 'Unranked Home', null);
+    let featuredSnapshot = {
+      poll: 'AP Top 25', week: 12, teams: [first, second, third, fourth],
+      games: [
+        featuredGame('1', third, fourth, '2026-11-21T17:00Z', 'Scheduled'),
+        featuredGame('2', third, first, '2026-11-21T18:00Z', '11/21 - 1:00 PM EST', {time_tbd: true, scheduled: true}),
+        featuredGame('3', first, second, '2026-11-21T19:00Z', 'Final', {away_score: '21', home_score: '0'}),
+        featuredGame('4', second, fourth, '2026-11-21T20:00Z', 'Halftime', {away_score: '14', home_score: '7'}),
+      ],
+    };
+    await featured.route('**/data/dashboard.json', route => route.fulfill({json: featuredSnapshot}));
+    await featured.goto(url);
+    await featured.getByRole('heading', {name: 'Top 25 Featured Games'}).waitFor();
+    const sidebar = featured.locator('#gamesSidebar');
+    await sidebar.getByText('#3 Ranked Away @ #8 Ranked Home', {exact: true}).waitFor();
+    assert.deepEqual(await sidebar.locator('.score strong').allTextContents(),
+      ['#3 Ranked Away @ #8 Ranked Home', 'Unranked Away @ #3 Ranked Away', '#8 Ranked Home @ Unranked Home']);
+    assert.match(await sidebar.locator('.score').nth(0).innerText(), /Nov 21.*11:00 AM.*Final[\s\S]*21 – 0/);
+    assert.match(await sidebar.locator('.score').nth(1).innerText(), /Time TBD.*Scheduled[\s\S]*Score pending/);
+    assert.match(await sidebar.locator('.score').nth(2).innerText(), /Halftime[\s\S]*14 – 7/);
+    assert.ok(await featured.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await featured.getByRole('button', {name: "This Week's Games"}).click();
+    assert.deepEqual(await featured.locator('#mainExtra .score strong').allTextContents(),
+      ['Unranked Away @ Unranked Home', 'Unranked Away @ Ranked Away', 'Ranked Away @ Ranked Home', 'Ranked Home @ Unranked Home']);
+    assert.match(await featured.locator('#mainExtra .score').nth(1).innerText(), /11\/21 - 1:00 PM EST/);
+    featuredSnapshot = {...featuredSnapshot, games: []};
+    await featured.reload();
+    await sidebar.getByText(/No AP Top 25 matchups/).waitFor();
+    featuredSnapshot = {...featuredSnapshot, poll: null};
+    await featured.reload();
+    await sidebar.getByText(/official AP Top 25 is unavailable/).waitFor();
+    assert.equal(await sidebar.locator('.score').count(), 0);
+    await featured.close();
+
     const desktop = await browser.newPage({viewport:{width:1280,height:1100}});
     await desktop.goto(url+'#team=87');
     await desktop.getByRole('heading',{name:'2026 Season Schedule'}).waitFor();
