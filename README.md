@@ -282,3 +282,88 @@ publication timestamps. Early games with ineligible teams are left out.
 The default-branch refresh generates ratings after team profiles, commits
 `data/power-rankings/`, and publishes the module and snapshots in the
 existing Pages artifact. Pull requests run tests without deploying.
+
+## Game prediction methodology
+
+Open **Game Predictions** or use `#predictions`. Week filters use
+Tuesday-to-Tuesday UTC windows. Conference and team filters match the same team
+in a matchup. The Notre Dame Command Center shows the forecast for the selected
+upcoming opponent beside its existing statistical comparison.
+
+The model uses the frozen Saturday HQ rating difference `R_A - R_B` and
+venue indicator `V` (+1 when team A is home, −1 when team B is home, and
+0 at a verified neutral site). A is the first team in stable ESPN ID order.
+
+- Expected margin for A is `M = b × (R_A - R_B) + h × V`, in points.
+  The venue contribution and rating contribution are displayed separately.
+- The probability that A wins is `1 / (1 + exp(-M / T))`. The higher
+  probability selects the winner. An exact 50% is an even matchup.
+  Confidence labels follow favorite probability: low below 60%, moderate
+  from 60% to below 75%, and high at 75% or above. These labels describe
+  estimate size and provide no statistical confidence interval.
+- The experimental fallback is `b=0.30, h=3, T=12`. When coverage permits,
+  weighted schedule and third-down features enter through the existing rating.
+  The margin fit uses least squares with a penalty of 100 on each squared
+  coefficient deviation from the fallback. A nonpositive rating slope or a
+  negative home coefficient triggers the fallback.
+- Historical rows use the power model's rating computed at the start of each
+  completed weekly window and the existing result-admission delay. The first
+  roughly 60% of weeks fit the margin, the next roughly 20% select the
+  integer logistic scale from 4–40 by minimum Brier score, and the final
+  weeks form the holdout. A label must pass the result buffer before the
+  next partition's UTC date. The fit requires at least five usable weeks,
+  120 margin-training games, and 50 calibration games with both outcomes
+  represented. With fewer than five usable weeks, the fixed fallback is
+  evaluated on the latest usable window if available.
+
+### Live forecast archive
+
+`python3 update_predictions.py` regenerates previews. The default-branch
+workflow runs it with `--archive-live` after recomputing power ratings.
+Only genuinely issued operational forecasts are scored as live. A forecast
+requires two eligible FBS teams, a current verified schedule and venue, a
+known future kickoff, and a power cutoff no more than 48 hours old.
+TBD, canceled, conflicting, and already-started games receive no new forecast.
+
+Each revision is written once beneath `data/predictions/archive/<game-id>/`
+with the known kickoff, issue timestamp, input cutoff, model and parameters,
+signed margin, probability and both baseline forecasts. Identical consecutive
+inputs produce no duplicate archive. Changes before kickoff append a new file.
+After a final is verified, grading selects the newest timestamp strictly
+earlier than both its archived and currently reported kickoff. Missing,
+canceled and unverified games remain outside evaluation. A reschedule can
+exclude a revision that was issued after the corrected kickoff.
+The JSON index is rebuilt independently, leaving all archived files intact.
+
+### Evaluation
+
+The accuracy dashboard separates historical holdout results from operational
+live forecasts. It reports sample sizes, winner accuracy, mean absolute
+margin error, Brier score, weekly accuracy, and mean forecast versus observed
+outcome in five 20-point calibration bins. Tied picks receive half credit on
+decisive games. Tied finals are excluded from winner accuracy and use a 0.5
+outcome for Brier and calibration. The home-only baseline uses `3 × V`.
+The raw-margin baseline uses half the difference in mean FBS scoring margin
+plus `3 × V`. Both convert margin using a fixed scale of 12. All models in a
+sample score the same games.
+
+The initial holdout covered 129 games. Winner accuracy was 62.0% for the
+engine, 60.5% for raw margin, and 49.2% for home field. Margin MAE was
+13.93, 14.07, and 15.40 points respectively. Brier scores were 0.22174,
+0.22151, and 0.25480 respectively. The engine's Brier score was slightly
+worse than raw margin. These mixed results from a single season and a small
+holdout provide no evidence of sustained superiority.
+
+The retrospective split can change as more weeks become available, and ESPN
+can correct historical fields after publication. The replay uses the same
+game-time cutoff safeguards as the power model without claiming point-in-time
+field availability. Live results may combine archived model versions.
+Timestamped files record issuance on the runner, with deployment potentially
+following later. Small calibration bins are descriptive. Neither poll ranks
+nor betting lines enter the engine.
+
+For a local preview, start `python3 -m http.server 8000` and open the
+Game Predictions tab. Run `python3 -m unittest discover -s tests` and
+`node --test tests/*.test.mjs` for automated checks. The pull request workflow
+regenerates previews in a temporary directory without writing live revisions
+or deploying Pages.
