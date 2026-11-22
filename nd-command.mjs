@@ -1,3 +1,4 @@
+import {loadPredictions, predictionCard} from './game-predictions.mjs';
 import {drawChart, loadWeeks, movement, rankAt} from './ranking-history.mjs';
 import {
   advantage, escapeHtml, format, loadProfiles, metric, metrics, mountTrends,
@@ -183,7 +184,7 @@ export async function mountCommand(panel, dashboard, isCurrent) {
     ${trendSection(true)}
     <section class="profile-section"><h3>Opponent Intelligence</h3>
       <p class="muted">Season averages use only verified final games. Higher scoring and offensive yardage, lower points and yards allowed, and fewer turnovers lost are highlighted. Figures come from ESPN schedules and box scores.</p>
-      ${opponents.size ? '<label>Schedule opponent<select class="nd-opponent"></select></label><div class="nd-comparison"></div>'
+      ${opponents.size ? '<label>Schedule opponent<select class="nd-opponent"></select></label><div class="nd-prediction"></div><div class="nd-comparison"></div>'
         : '<p class="muted">No verified schedule opponents available.</p>'}
     </section>
     <section class="profile-section"><h3>Quality Wins</h3>
@@ -214,7 +215,24 @@ export async function mountCommand(panel, dashboard, isCurrent) {
   if (select) {
     for (const [id, name] of opponents) select.add(new Option(name + (id === nextGame?.opponent_id ? ' (next)' : ''), id));
     select.value = defaultOpponent;
+    const target = panel.querySelector('.nd-prediction');
+    const forecasts = loadPredictions().catch(error => {
+      console.warn('Notre Dame forecasts unavailable', error);
+      return null;
+    });
+    let selection = 0;
     const show = () => {
+      const selected = ++selection;
+      const opponent = select.value;
+      target.textContent = 'Loading matchup forecast…';
+      forecasts.then(data => {
+        if (!isCurrent() || selected !== selection) return;
+        const row = data?.rows.find(game => Date.parse(game.kickoff) > Date.now() && game.status === 'Scheduled' &&
+          [game.first, game.second].includes(NOTRE_DAME) && [game.first, game.second].includes(opponent));
+        target.innerHTML = '<h4>Notre Dame Matchup Predictor</h4>' + (row
+          ? predictionCard(row, directory, false)
+          : '<p class="muted">No upcoming forecast available for the selected opponent.</p>');
+      });
       panel.querySelector('.nd-comparison').innerHTML = opponentView(nd, profiles[select.value],
         directory.get(select.value), opponents.get(select.value));
     };

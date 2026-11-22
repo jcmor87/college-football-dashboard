@@ -32,6 +32,8 @@ jobs:
       - run: node --test tests/*.test.mjs
       - name: Regenerate power data without publishing
         run: python update_power.py --output "$RUNNER_TEMP/power-rankings"
+      - name: Regenerate prediction preview without archiving
+        run: python update_predictions.py --output "$RUNNER_TEMP/predictions"
       - name: Install Chromium for browser tests
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
@@ -66,9 +68,11 @@ jobs:
         run: python update_profiles.py
       - name: Generate power rankings and backtest
         run: python update_power.py
+      - name: Generate predictions and archive pregame revisions
+        run: python update_predictions.py --archive-live
       - name: Commit updated data
         run: |
-          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings
+          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -82,9 +86,9 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs _site/
+          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs game-predictions.mjs _site/
           cp data/dashboard.json data/team-profiles.json _site/data/
-          cp -R data/ap-rankings data/power-rankings _site/data/
+          cp -R data/ap-rankings data/power-rankings data/predictions _site/data/
       - name: Upload dashboard
         uses: actions/upload-pages-artifact@v4
         with:

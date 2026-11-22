@@ -89,6 +89,23 @@ const root = resolve(__dirname, '..');
     assert.equal(new URL(page.url()).hash, '#power=87');
     await page.reload();
     await power.getByRole('heading', {name:'Notre Dame Power Analysis'}).waitFor();
+    await page.getByRole('button', {name:'Game Predictions', exact:true}).click();
+    const predictions = page.locator('#predictionPanel');
+    await predictions.getByRole('heading', {name:'Accuracy Dashboard'}).waitFor();
+    assert.match(await predictions.locator('.prediction-report').innerText(), /Saturday HQ/);
+    await predictions.locator('.prediction-mode').selectOption('backtest');
+    assert.match(await predictions.locator('.prediction-report').innerText(), /Mean forecast/);
+    await predictions.locator('.prediction-week').selectOption('');
+    await predictions.locator('.prediction-search').fill('Notre Dame');
+    await predictions.locator('.prediction-conference').selectOption('Independent');
+    for (const matchup of await predictions.locator('.prediction-game').all()) {
+      assert.match(await matchup.innerText(), /Notre Dame/);
+    }
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    await page.reload();
+    await predictions.getByRole('heading', {name:'Accuracy Dashboard'}).waitFor();
+    await page.goto(url+'#notre-dame');
+    await command.getByRole('heading', {name:'Notre Dame Matchup Predictor'}).waitFor();
     await page.goto(url+'#team=999999');
     await page.getByRole('alert').filter({hasText:'not found'}).waitFor();
     await page.route('**/data/team-profiles.json',route=>route.fulfill({status:503,body:'Unavailable'}));
