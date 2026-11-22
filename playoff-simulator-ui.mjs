@@ -1,5 +1,5 @@
 import {escapeHtml as esc} from './team-profiles.mjs';
-import {NOTRE_DAME} from './playoff-model.mjs';
+import {NOTRE_DAME, pickable} from './playoff-model.mjs';
 import {COUNTS, VERSION} from './playoff-simulation.mjs';
 
 const number = value => Number(value).toLocaleString();
@@ -74,7 +74,7 @@ function results(base, scenario, id, choices) {
     ${conditioned.length ? '<p class="muted">Title and bracket choices apply when that matchup occurs. Applied: ' + conditioned.join(' · ') + '.</p>' : ''}`;
 }
 
-export async function mountSimulator(panel, getChoices, {focus, fixedTeam = false, isCurrent, signal, explorerHref} = {}) {
+export async function mountSimulator(panel, getChoices, {focus, fixedTeam = false, isCurrent, signal, explorerHref, updateGame} = {}) {
   panel.innerHTML = '<p class="notice" role="status">Loading precomputed simulations…</p>';
   let snapshot;
   try {
@@ -89,6 +89,8 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
   const teams = [...input.teams].sort(([,a],[,b]) => a.name.localeCompare(b.name));
   const defaultTeam = focus ?? NOTRE_DAME;
   const coverage = baseline[1000].coverage;
+  const games = updateGame ? input.events.filter(game => pickable(game,input.asOf)) : [];
+  const matchup = game => game.teams.map(id => game.names[id]).join(' vs. ');
   panel.innerHTML = `<h3>${fixedTeam ? 'Notre Dame Playoff Probabilities' : 'Monte Carlo Playoff Simulator'}</h3>
     <p class="notice">Experimental estimates, conditional on available inputs and the stated selection policy.
       The audit found that Power Rankings trailed simple baselines and game forecasts have yet to establish a predictive advantage.
@@ -101,7 +103,11 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
     ${coverage.otherUnresolved} other listed unresolved games, and ${coverage.staleSchedules} stale or unavailable team schedules.
     ${input.missingTitleDates.length ? 'Some title fixture dates were unavailable. ' : ''}
     Unmodeled games remain unresolved unless a valid winner is selected.</p>
-    ${explorerHref ? `<p><a href="${esc(explorerHref)}">Choose or edit outcomes in Playoff Explorer</a></p>` : ''}
+    ${games.length ? `<h4>Pick a game winner</h4><div class="profile-controls simulator-controls">
+      <label>Game<select class="sim-game">${games.map(game => `<option value="${esc(game.id)}">${esc(matchup(game))}</option>`).join('')}</select></label>
+      <label>Winner<select class="sim-winner"></select></label>
+    </div><p class="muted sim-picks"></p>` : ''}
+    ${explorerHref ? `<p><a class="sim-explorer-link" href="${esc(explorerHref())}">Choose or edit outcomes in Playoff Explorer</a></p>` : ''}
     <div class="profile-controls simulator-controls">
       <label>Simulated seasons<select class="sim-count">${COUNTS.map(count => `<option value="${count}">${number(count)}</option>`).join('')}</select></label>
       ${fixedTeam ? '' : `<label>Team<select class="sim-team">${teams.map(([id,team]) =>
@@ -121,6 +127,25 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
   const run = panel.querySelector('.sim-run');
   const status = panel.querySelector('.sim-status');
   if (team) team.value = defaultTeam;
+  const gameSelect = panel.querySelector('.sim-game');
+  const winnerSelect = panel.querySelector('.sim-winner');
+  const selectedGame = () => games.find(game => game.id === gameSelect.value);
+  const showWinner = () => {
+    const game = selectedGame();
+    winnerSelect.replaceChildren(new Option('Leave outcome open', ''),
+      ...game.teams.map(id => new Option(game.names[id], id)));
+    winnerSelect.value = game.teams.includes(getChoices().games[game.id]) ? getChoices().games[game.id] : '';
+  };
+  if (gameSelect) {
+    gameSelect.value = (games.find(game => Object.hasOwn(getChoices().games,game.id))
+      ?? games.find(game => game.teams.includes(defaultTeam)) ?? games[0]).id;
+    showWinner();
+    gameSelect.addEventListener('change',showWinner);
+    winnerSelect.addEventListener('change',() => {
+      updateGame(gameSelect.value,winnerSelect.value);
+      refresh();
+    });
+  }
   let worker, scenario, signature;
   const stop = () => { worker?.terminate(); worker = null; };
   signal?.addEventListener('abort',stop,{once:true});
@@ -134,7 +159,17 @@ export async function mountSimulator(panel, getChoices, {focus, fixedTeam = fals
     signature = key;
     stop();
     scenario = null;
-    status.textContent = anyPicks(getChoices()) ? 'Scenario picks ready. Run the comparison.' : explorerHref ? 'Choose outcomes in Playoff Explorer to run a comparison.' : 'Choose an outcome above to compare against the baseline.';
+    if (gameSelect) {
+      const locked = games.flatMap(game => {
+        const winner = getChoices().games[game.id];
+        return game.teams.includes(winner) ? [game.names[winner] + ' over ' + game.names[game.teams.find(id => id !== winner)]] : [];
+      });
+      panel.querySelector('.sim-picks').textContent = locked.length ? 'Locked outcomes: ' + locked.join(' · ') : 'No game winners locked.';
+    }
+    if (explorerHref) panel.querySelector('.sim-explorer-link').href = explorerHref();
+    status.textContent = anyPicks(getChoices()) ? 'Scenario picks ready. Run the comparison.'
+      : explorerHref && !gameSelect ? 'Choose outcomes in Playoff Explorer to run a comparison.'
+      : 'Choose an outcome above to compare against the baseline.';
     run.disabled = !anyPicks(getChoices());
     draw();
   };

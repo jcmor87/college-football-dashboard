@@ -222,6 +222,28 @@ const root = resolve(__dirname, '..');
     assert.equal(await standalone.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
     const snapshot = JSON.parse(readFileSync(resolve(root,'data/playoff-simulation.json'),'utf8'));
     const game = snapshot.input.events.find(row => row.scheduled && Date.parse(row.date) > snapshot.input.asOf);
+    if (game) {
+      const matchup = snapshot.input.events.find(row => row.scheduled &&
+        Date.parse(row.date) > snapshot.input.asOf && row.teams.includes('87')) ?? game;
+      const run = standalonePanel.getByRole('button',{name:'Run what-if comparison'});
+      assert.equal(await run.isDisabled(),true);
+      await standalonePanel.locator('.sim-game').selectOption(matchup.id);
+      await standalonePanel.locator('.sim-winner').selectOption(matchup.teams[0]);
+      assert.match(new URL(standalone.url()).hash,/[?&]g=/);
+      assert.match(await standalonePanel.locator('.sim-picks').innerText(),/Locked outcomes/);
+      await run.click();
+      await standalonePanel.getByText('Scenario complete: 1,000 draws.').waitFor({timeout:20000});
+      assert.match(await standalonePanel.locator('.sim-results').innerText(),/1 regular-season picks applied/);
+      await standalonePanel.locator('.sim-winner').selectOption(matchup.teams[1]);
+      assert.match(await standalonePanel.locator('.sim-status').innerText(),/Scenario picks ready/);
+      await run.click();
+      await standalonePanel.getByText('Scenario complete: 1,000 draws.').waitFor({timeout:20000});
+      await standalone.reload();
+      await standalonePanel.locator('.sim-winner').waitFor();
+      assert.equal(await standalonePanel.locator('.sim-winner').inputValue(),matchup.teams[1]);
+      await standalonePanel.locator('.sim-winner').selectOption('');
+      assert.equal(await run.isDisabled(),true);
+    }
     const pick = game ? game.id + '=' + game.teams[0] : '123=87';
     const selection = '?'+new URLSearchParams({team:'87',g:pick});
     await standalone.goto(url+'#simulator'+selection);

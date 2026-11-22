@@ -74,6 +74,7 @@
   .playoff-sim-details summary,.nd-playoff summary{cursor:pointer;color:#f2bc45}
   .tabs button[data-tab="simulator"]:not(.active){border-color:#b8954d;color:#f2bc45}
   @media(max-width:420px){.tabs button[data-tab="rankings"],.tabs button[data-tab="simulator"]{padding-inline:10px}}
+  #simulatorPanel .simulator-controls label{min-width:0;max-width:100%}
   #simulatorPanel .simulator-controls select,#simulatorPanel .simulator-controls button{min-height:44px;font-size:16px}
   </style>
 </head>
@@ -210,9 +211,14 @@ function render(){
       .then(([ui, model]) => {
         if (!current()) return;
         const picks = model.decodeScenario(location.hash);
-        const explorer = model.encodeScenario(picks, picks.team);
+        const explorer = () => model.encodeScenario(picks, picks.team);
+        const updateGame = (id, winner) => {
+          if (winner) picks.games[id] = winner;
+          else delete picks.games[id];
+          history.replaceState(history.state, '', explorer().replace(/^#playoff/, '#simulator'));
+        };
         return ui.mountSimulator(panel, () => picks, {focus:picks.team, isCurrent:current,
-          signal:controller.signal, explorerHref:explorer});
+          signal:controller.signal, explorerHref:explorer, updateGame});
       }).catch(error => {
         if (current()) panel.innerHTML = '<p class="notice" role="alert">Playoff simulator could not load. Reload to try again.</p>';
         console.error(error);
