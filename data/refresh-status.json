@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T09:57:26.152319+00:00",
+  "checked_at": "2026-11-22T13:06:02.390913+00:00",
   "dashboard_updated_at": "2026-11-22T07:21:05+00:00",
   "archive_count": 78,
   "power_cutoff": "2026-11-22T00:00:00+00:00",
@@ -23,6 +23,6 @@
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "4f62722bf34d403e2fd32ec731974c83686e0281ab07307d42e85598933f59f6"
+    "data/playoff-simulation.json": "a782a730301f84924199c39f0eef24d5e0a5883e6ad4741cf6e5cf5a3d3442dd"
   }
 }
