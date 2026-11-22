@@ -16,7 +16,8 @@ FILES = (
     "index.html", "ranking-history.mjs", "team-profiles.mjs", "nd-command.mjs",
     "power-rankings.mjs", "game-predictions.mjs", "data/dashboard.json", "data/team-profiles.json",
     "data/ap-rankings/2026/index.json", "data/power-rankings/latest.json",
-    "data/predictions/latest.json",
+    "data/predictions/latest.json", "playoff-model.mjs", "playoff-explorer.mjs",
+    "data/cfp-title-games.json", "data/cfp-official-bracket.json",
 )
 
 

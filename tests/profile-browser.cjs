@@ -139,6 +139,34 @@ const root = resolve(__dirname, '..');
     await page.unroute('**/data/predictions/latest.json');
     await page.getByRole('button',{name:'National Rankings',exact:true}).click();
     await page.locator('#teamList .team').first().waitFor();
+    await page.goto(url+'#notre-dame');
+    await command.getByText('Explore Notre Dame outcomes',{exact:true}).click();
+    await command.locator('.nd-playoff-result').waitFor();
+    await command.getByRole('link',{name:'Open full Playoff Explorer'}).click();
+    const playoff = page.locator('#playoffPanel');
+    await playoff.getByRole('heading',{name:'12-Team Bracket'}).waitFor();
+    assert.match(new URL(page.url()).hash,/team=87/);
+    assert.equal(await playoff.locator('.playoff-bracket .playoff-match').count(),11);
+    await page.setViewportSize({width:320,height:720});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    await page.setViewportSize({width:768,height:900});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    const remaining = playoff.locator('select[data-kind="games"]').first();
+    if (await remaining.count()) {
+      await remaining.selectOption({index:1});
+      assert.match(new URL(page.url()).hash, /[?&]g=/);
+      const shared = new URL(page.url()).hash;
+      await page.reload();
+      await playoff.locator('select[data-kind="games"]').first().waitFor();
+      assert.equal(new URL(page.url()).hash,shared);
+    }
+    const title = playoff.locator('select[data-kind="titles"]').first();
+    if (await title.count()) {
+      await title.selectOption({index:1});
+      assert.match(new URL(page.url()).hash, /[?&]t=/);
+    }
+    await playoff.getByRole('button',{name:'Reset scenario'}).click();
+    assert.equal(new URL(page.url()).hash,'#playoff?team=87');
     await page.goto(url+'#team=999999');
     await page.getByRole('alert').filter({hasText:'not found'}).waitFor();
     await page.route('**/data/team-profiles.json',route=>route.fulfill({status:503,body:'Unavailable'}));
