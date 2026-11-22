@@ -30,7 +30,6 @@ const root = resolve(__dirname, '..');
     let profileFetches = 0;
     page.on('request', r => {if (r.url().endsWith('/data/team-profiles.json')) profileFetches++;});
     await page.goto(url);
-    await page.getByRole('button', {name:'All FBS Teams', exact:true}).click();
     await page.locator('#teamList .team').first().waitFor();
     assert.equal(profileFetches, 0);
     await page.locator('#teamList .team').filter({hasText:'Notre Dame'}).click();
@@ -184,59 +183,6 @@ const root = resolve(__dirname, '..');
     await roster.getByRole('link', {name: 'Official Notre Dame roster'}).waitFor();
     await command.getByRole('heading', {name: 'Notre Dame in the News'}).waitFor();
     await page.unroute(rosterRoute);
-    const injuryRoute = '**/data/injury-availability.json';
-    const injuryData = JSON.parse(readFileSync(resolve(root, 'data/injury-availability.json'), 'utf8'));
-    const injuryPreview = await browser.newPage({
-      viewport: {width: 390, height: 844}, isMobile: true, hasTouch: true,
-    });
-    // Freeze the clock before Syracuse's kickoff so the upcoming selection is deterministic.
-    await injuryPreview.clock.setFixedTime(new Date('2026-11-22T21:00:00Z'));
-    await injuryPreview.route(injuryRoute, route => route.fulfill({
-      json: {...injuryData, refresh_status: 'stale'},
-    }));
-    await injuryPreview.goto(url+'#notre-dame');
-    const injuryPanel = injuryPreview.getByRole('region', {name: 'Injury Impact Index'});
-    const picker = injuryPanel.getByLabel('Availability matchup');
-    await injuryPanel.getByText(/Next scheduled matchup/).waitFor();
-    assert.equal(await picker.inputValue(), '401858314');
-    assert.equal(await injuryPanel.getByText('No verified report available.', {exact: true}).count(), 2);
-    await injuryPanel.getByText('Experimental — availability data only', {exact: true}).waitFor();
-    const coverage = injuryPanel.locator('.notice');
-    await coverage.getByText('Injury coverage is partial', {exact: true}).waitFor();
-    await coverage.getByText(/New injury reports are found, reviewed, and entered manually/).waitFor();
-    await coverage.getByText(/GitHub Actions refresh only validates and republishes existing reviewed reports/).waitFor();
-    assert.equal(await injuryPanel.getByText('Verified reported outs', {exact: true}).count(), 0);
-    await picker.selectOption('401858307');
-    await injuryPanel.getByText('Verified reported outs · 1', {exact: true}).waitFor();
-    await injuryPanel.getByText('Verified reported outs · 2', {exact: true}).waitFor();
-    await coverage.getByText('Injury coverage is partial', {exact: true}).waitFor();
-    await injuryPanel.getByText(/Saved availability snapshot/).waitFor();
-    await injuryPanel.getByText(/Historical pregame reports/).first().waitFor();
-    await injuryPanel.getByText(/Earlier report/).first().waitFor();
-    const injuryLink = injuryPanel.getByRole('link', {name: 'South Bend Tribune via Yahoo Sports'}).first();
-    assert.ok((await injuryLink.getAttribute('href')).startsWith('https://sports.yahoo.com/'));
-    assert.equal(await injuryLink.getAttribute('target'), '_blank');
-    assert.equal(await injuryLink.getAttribute('rel'), 'noopener noreferrer');
-    await injuryPanel.getByRole('heading', {name: 'Offense', exact: true}).waitFor();
-    await injuryPanel.getByRole('heading', {name: 'Defense', exact: true}).first().waitFor();
-    assert.ok(await injuryPreview.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
-    await injuryPreview.unroute(injuryRoute);
-    await injuryPreview.route(injuryRoute, route => route.fulfill({status: 503, body: 'Unavailable'}));
-    await injuryPreview.reload();
-    await injuryPanel.getByText(/Availability data could not be loaded/).waitFor();
-    assert.equal(await injuryPanel.getByText('No verified report available.', {exact: true}).count(), 2);
-    await injuryPreview.getByRole('heading', {name: 'Notre Dame in the News'}).waitFor();
-    await injuryPreview.getByRole('heading', {name: 'Notre Dame Roster & Depth Chart'}).waitFor();
-    await injuryPreview.close();
-
-    for (const width of [768, 1280]) {
-      const injuryWide = await browser.newPage({viewport: {width, height: 1024}, hasTouch: width === 768});
-      await injuryWide.goto(url+'#notre-dame');
-      await injuryWide.getByLabel('Availability matchup').selectOption('401858307');
-      await injuryWide.getByRole('region', {name: 'Injury Impact Index'}).getByText('Will Black', {exact: true}).waitFor();
-      assert.ok(await injuryWide.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
-      await injuryWide.close();
-    }
     await command.getByRole('link', {name:'Full team profile'}).click();
     await page.getByRole('heading',{name:'Notre Dame',exact:true}).waitFor();
     await page.getByRole('button', {name:'Power Rankings', exact:true}).click();
@@ -304,7 +250,7 @@ const root = resolve(__dirname, '..');
     await predictions.getByRole('alert').filter({hasText:'could not load'}).waitFor();
     await page.unroute('**/data/predictions/latest.json');
     await page.getByRole('button',{name:'National Rankings',exact:true}).click();
-    await page.getByRole('heading',{name:'National Poll Rankings',exact:true}).waitFor();
+    await page.locator('#teamList .team').first().waitFor();
     await page.goto(url+'#notre-dame');
     await command.getByText('Explore Notre Dame outcomes',{exact:true}).click();
     await command.locator('.nd-playoff-result').waitFor();
@@ -422,7 +368,7 @@ const root = resolve(__dirname, '..');
       assert.match(await standalonePanel.locator('.sim-results').innerText(), /1 regular-season picks applied/);
     }
     await standalone.getByRole('button',{name:'National Rankings',exact:true}).click();
-    await standalone.getByRole('heading',{name:'National Poll Rankings',exact:true}).waitFor();
+    await standalone.locator('#teamList .team').first().waitFor();
     assert.equal(await standalonePanel.isVisible(),false);
     await standalone.goBack();
     await standalonePanel.getByRole('heading',{name:'Seed Distribution'}).waitFor();

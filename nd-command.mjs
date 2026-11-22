@@ -1,10 +1,9 @@
 import {loadPredictions, predictionCard} from './game-predictions.mjs';
-import {mountAvailability} from './injury-availability.mjs';
 import {mountRoster} from './notre-dame-roster.mjs';
 import {mountNews} from './notre-dame-news.mjs';
 import {drawChart, loadWeeks, movement, rankAt} from './ranking-history.mjs';
 import {
-  advantage, escapeHtml, format, loadProfileSnapshot, metric, metrics, mountTrends,
+  advantage, escapeHtml, format, loadProfiles, metric, metrics, mountTrends,
   profileHref, shortDate, trendGames, trendSection,
 } from './team-profiles.mjs';
 
@@ -141,16 +140,15 @@ function outlookNotes(nd, opponent) {
 export async function mountCommand(panel, dashboard, isCurrent) {
   const directory = new Map(dashboard.teams.map(team => [String(team.id), team]));
   const team = directory.get(NOTRE_DAME);
-  let profileSnapshot;
+  let profiles;
   try {
-    profileSnapshot = await loadProfileSnapshot();
+    profiles = await loadProfiles();
   } catch (error) {
     if (isCurrent()) panel.innerHTML = '<p class="notice" role="alert">Team data unavailable. Reload to try again.</p>';
     console.error(error);
     return;
   }
   if (!isCurrent()) return;
-  const profiles = profileSnapshot.teams;
   const nd = profiles[NOTRE_DAME];
   if (!team || !nd) {
     panel.innerHTML = '<p class="notice" role="alert">Notre Dame data is unavailable in this snapshot.</p>';
@@ -193,18 +191,6 @@ export async function mountCommand(panel, dashboard, isCurrent) {
       </div>
       <div class="nd-roster-content" id="nd-roster-content"></div>
     </section>
-    <section class="profile-section nd-injury" aria-labelledby="nd-injury-heading">
-      <h3 id="nd-injury-heading">Injury Impact Index</h3>
-      <p class="nd-injury-label">Experimental — availability data only</p>
-      <div class="notice">
-        <strong>Injury coverage is partial</strong>
-        <p>New injury reports are found, reviewed, and entered manually. The scheduled GitHub Actions refresh only validates and republishes existing reviewed reports.</p>
-      </div>
-      <p class="muted">Verified reported outs count players explicitly listed as out in each team’s latest verified report. These counts cannot measure player or team impact.</p>
-      <p class="muted" role="status">Loading availability reports…</p>
-      <label hidden>Availability matchup<select></select></label>
-      <div class="nd-injury-results" aria-live="polite"></div>
-    </section>
     <section class="profile-section"><h3>Recent Form</h3>${recent(nd.games)}</section>
     <section class="profile-section nd-trajectory"><h3>AP Ranking Trajectory</h3>
       <label hidden>Archived poll<select></select></label>
@@ -246,10 +232,6 @@ export async function mountCommand(panel, dashboard, isCurrent) {
 
   void mountNews(panel.querySelector('.nd-news'), isCurrent);
   void mountRoster(panel.querySelector('.nd-roster'), isCurrent);
-  void mountAvailability(panel.querySelector('.nd-injury'), {
-    season: dashboard.season === profileSnapshot.season ? dashboard.season : null,
-    games: nd.games, nextGame, scheduleStatus: nd.schedule_status,
-  }, isCurrent);
   const playoff = panel.querySelector('.nd-playoff');
   playoff.addEventListener('toggle', () => {
     if (!playoff.open || playoff.dataset.loaded) return;
