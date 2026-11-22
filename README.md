@@ -181,3 +181,104 @@ to a rolling chart, and opening a poll in the AP trajectory. Run
 `node --test tests/*.test.mjs` and `python3 -m unittest discover -s tests`
 for automated checks. The pull request workflow also exercises the share
 link and controls in Chromium without publishing the branch.
+
+## Power ranking methodology
+
+**Power Rankings** shows Saturday HQ's experimental model alongside the
+official AP Top 25 and CFP selection committee poll from [ESPN](https://www.espn.com/college-football/rankings).
+Each poll shows its own publication date. Neither poll enters the model.
+A positive HQ-versus-poll difference means HQ ranks that team higher. Teams
+must have ranks in both lists to appear in the disagreement calculation.
+The existing AP history and Notre Dame Command Center remain available.
+The Command Center links to the dedicated Notre Dame breakdown at `#power=87`.
+
+### Inputs and cutoffs
+
+The model uses ESPN final scores and third-down box scores already stored
+in `data/team-profiles.json`. An FBS-vs-FBS game is counted once by ESPN
+event ID. Conflicting final scores or kickoff dates exclude the event.
+Conflicting third-down counts make the affected input unavailable.
+Scores from available saved schedules, including stale schedules, can still
+count if marked final. The snapshot reports stale and unavailable schedules.
+Team membership comes from the 2026 FBS directory. Polls, live scores,
+unplayed games, and non-FBS results are excluded from the model.
+
+The daily model cutoff is 00:00 UTC. A game's kickoff must be at least 24
+hours before the cutoff and its score must be a verified final. The
+delay also applies to box-score statistics and opponent records. This
+conservative buffer compensates for the absence of ESPN finalization
+timestamps and can delay inclusion of a result by up to about two days.
+History is reconstructed from the same rules at fixed weekly Tuesday
+00:00 UTC cutoffs starting August 25. Earlier dates with no eligible teams
+appear as gaps. After the first eligible rankings at a cutoff, that dated
+file is immutable under its model version and configuration hash.
+The live movement number compares to the most recent ranked archived cutoff
+strictly earlier than the live cutoff. Teams need at least three admissible
+FBS games for a numeric rating.
+
+### Formulas
+
+Let `m` be points scored minus points allowed, `c(m)` be `m` capped
+to ±28, and `w(m)` be 1 for a win, 0.5 for a tie and 0 for a loss.
+Opponent context excludes **all** meetings with the team being rated.
+Averages count each meeting once.
+
+| Component | Weight | Raw input |
+| --- | ---: | --- |
+| Strength of schedule | 30% | Mean opponent win rate, using `(sum(w) + 1) / (opponent_games + 2)` for each opponent outside head-to-head play. Two neutral pseudo-games temper small samples. |
+| Opponent-adjusted margin | 30% | For each game, add the opponent's capped margin total outside head-to-head play divided by `opponent_games + 3` to the team's capped margin for that game. Divide the sum by `team_games + 3` to shrink the rating toward zero early in the season. |
+| Win/loss performance | 20% | `(sum(w) + 1) / (team_games + 2)` using admissible games. |
+| Net third-down efficiency | 15% | Offensive conversions divided by attempts minus opponent conversions divided by attempts. Both sides must report counts in the same games. Require at least three paired games, coverage of at least 70% of admissible games, and at least 15 attempts on each side. This is a narrow efficiency proxy. |
+| Recent margin improvement | 5% | Mean capped margin over the last three admissible games minus mean capped margin over all earlier admissible games. Requires at least six games. This measures change in performance. |
+
+For each component, round raw values to 10 decimals before comparing them.
+Among eligible teams with an observed value, convert each to the empirical
+midrank percentile `100 × (number below + 0.5 × number tied) / observed count`.
+If a component is unavailable, use percentile 50 and display the raw value
+as N/A. This keeps its contribution neutral and preserves every configured
+weight. The score is the weighted sum of percentiles on a 0–100 scale.
+Scores equal to six decimal places share competition rank, such as 1, 1, 3.
+Team ID gives stable ordering within ties.
+
+Weights are experimental. Schedule and adjusted margin use different
+opponent measures, and recent form uses a change in margin. Results, margin,
+and third downs still correlate. The weights carry no estimated confidence
+intervals and are not fitted coefficients. The third-down proxy does not
+cover possession efficiency, field position, or special teams.
+
+Edit `power-model.json` to test weights or thresholds. The five weights
+must sum to 100. Use a separate output directory for experiments:
+
+```sh
+python3 update_power.py --config power-model.json --cutoff 2026-11-22 --output /tmp/saturday-hq-power
+python3 -m unittest discover -s tests
+node --test tests/*.test.mjs
+```
+
+A cutoff date refers to UTC. To reproduce a rating exactly, also use the
+same input snapshots from Git and model revision. Changing configuration
+creates a separate weekly archive namespace and leaves earlier files intact.
+
+### Backtest
+
+For each completed Tuesday-to-Tuesday window, freeze model inputs at the
+start and score subsequent FBS games in that window whose finals are
+available by the report cutoff. Predictions choose the higher pregame
+rating. Compare on the same eligible, non-tied games against simple prior
+FBS win percentage, prior raw mean margin, and a home-team pick. Tied picks,
+neutral venues, and unknown venues for the home-team baseline get half
+credit. No games from within a prediction window train that window's model.
+
+The initial report, through the November 22 UTC cutoff, covered 405 games.
+Saturday HQ scored 59.5% winner accuracy, prior win percentage 62.8%, raw
+margin 64.1%, and the home-team baseline 56.5%. The two performance baselines
+outscored this experimental weighting. These are retrospective, single-season
+point estimates. No tuning, uncertainty estimates, or out-of-season
+validation were performed. The reconstruction assumes scores and box scores
+were available within the configured buffer. ESPN can backfill or correct
+records, and the available snapshot has no historical field-level
+publication timestamps. Early games with ineligible teams are left out.
+
+The default-branch refresh generates ratings after team profiles, commits
+`data/power-rankings/`, and publishes the module and snapshots in the
+existing Pages artifact. Pull requests run tests without deploying.

@@ -1,0 +1,12 @@
+{
+  "weights": {"schedule": 30, "margin": 30, "results": 20, "efficiency": 15, "recent": 5},
+  "minimum_games": 3,
+  "margin_cap": 28,
+  "margin_prior_games": 3,
+  "record_prior_games": 2,
+  "efficiency_minimum_games": 3,
+  "efficiency_minimum_coverage": 0.7,
+  "efficiency_minimum_attempts": 15,
+  "recent_games": 3,
+  "result_delay_hours": 24
+}

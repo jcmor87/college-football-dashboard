@@ -1,0 +1,697 @@
+{
+  "model": "v1-d3da59079def",
+  "season": 2026,
+  "cutoff": "2026-09-22T00:00:00+00:00",
+  "teams": {
+    "103": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "113": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "12": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "120": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "127": {
+      "rank": 11,
+      "rating": 68.780488,
+      "games": 3
+    },
+    "130": {
+      "rank": 8,
+      "rating": 74.390244,
+      "games": 3
+    },
+    "135": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "142": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "145": {
+      "rank": 7,
+      "rating": 76.585366,
+      "games": 3
+    },
+    "150": {
+      "rank": 10,
+      "rating": 69.268293,
+      "games": 3
+    },
+    "151": {
+      "rank": 26,
+      "rating": 40.365854,
+      "games": 3
+    },
+    "152": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "153": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "154": {
+      "rank": 24,
+      "rating": 41.341463,
+      "games": 3
+    },
+    "158": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "16": {
+      "rank": 39,
+      "rating": 17.682927,
+      "games": 3
+    },
+    "164": {
+      "rank": 33,
+      "rating": 33.780488,
+      "games": 3
+    },
+    "166": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "167": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "183": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "189": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "193": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "194": {
+      "rank": 16,
+      "rating": 54.146341,
+      "games": 3
+    },
+    "195": {
+      "rank": 34,
+      "rating": 28.658537,
+      "games": 3
+    },
+    "197": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2": {
+      "rank": 14,
+      "rating": 61.097561,
+      "games": 3
+    },
+    "2005": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2006": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "201": {
+      "rank": 11,
+      "rating": 68.780488,
+      "games": 3
+    },
+    "202": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2026": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2032": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "204": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2050": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2084": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "21": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2116": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2117": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "213": {
+      "rank": 9,
+      "rating": 70.731707,
+      "games": 3
+    },
+    "2132": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "218": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2199": {
+      "rank": 41,
+      "rating": 9.146341,
+      "games": 4
+    },
+    "221": {
+      "rank": 15,
+      "rating": 58.658537,
+      "games": 3
+    },
+    "2226": {
+      "rank": 18,
+      "rating": 52.317073,
+      "games": 3
+    },
+    "2229": {
+      "rank": 27,
+      "rating": 40.0,
+      "games": 3
+    },
+    "2247": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "228": {
+      "rank": 24,
+      "rating": 41.341463,
+      "games": 3
+    },
+    "2294": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "23": {
+      "rank": 23,
+      "rating": 42.195122,
+      "games": 3
+    },
+    "2305": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2306": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2309": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2335": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2348": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "235": {
+      "rank": 32,
+      "rating": 34.390244,
+      "games": 3
+    },
+    "238": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "239": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2390": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2393": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "24": {
+      "rank": 27,
+      "rating": 40.0,
+      "games": 3
+    },
+    "242": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2426": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2429": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2433": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2439": {
+      "rank": 38,
+      "rating": 21.707317,
+      "games": 3
+    },
+    "2440": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2449": {
+      "rank": 21,
+      "rating": 50.609756,
+      "games": 3
+    },
+    "245": {
+      "rank": 17,
+      "rating": 53.414634,
+      "games": 3
+    },
+    "2459": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "248": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2483": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "249": {
+      "rank": 30,
+      "rating": 37.073171,
+      "games": 3
+    },
+    "25": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2509": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "251": {
+      "rank": 1,
+      "rating": 86.463415,
+      "games": 3
+    },
+    "252": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2534": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "254": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "256": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2567": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2572": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2579": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "258": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "259": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "26": {
+      "rank": 13,
+      "rating": 61.219512,
+      "games": 3
+    },
+    "2623": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2628": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2633": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2636": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2638": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "264": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2641": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2649": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "265": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2653": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2655": {
+      "rank": 20,
+      "rating": 50.97561,
+      "games": 3
+    },
+    "2711": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "275": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2751": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "276": {
+      "rank": 19,
+      "rating": 51.585366,
+      "games": 3
+    },
+    "277": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "278": {
+      "rank": 22,
+      "rating": 49.390244,
+      "games": 3
+    },
+    "290": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "295": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "30": {
+      "rank": 6,
+      "rating": 78.780488,
+      "games": 4
+    },
+    "309": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "324": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "326": {
+      "rank": 29,
+      "rating": 39.268293,
+      "games": 3
+    },
+    "328": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "333": {
+      "rank": 4,
+      "rating": 80.243902,
+      "games": 3
+    },
+    "338": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "344": {
+      "rank": 3,
+      "rating": 80.609756,
+      "games": 3
+    },
+    "349": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "356": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "36": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "38": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "41": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "48": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "5": {
+      "rank": 36,
+      "rating": 22.804878,
+      "games": 3
+    },
+    "52": {
+      "rank": 31,
+      "rating": 34.512195,
+      "games": 3
+    },
+    "55": {
+      "rank": 37,
+      "rating": 22.439024,
+      "games": 3
+    },
+    "57": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "58": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "59": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "6": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "61": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "62": {
+      "rank": 40,
+      "rating": 16.585366,
+      "games": 3
+    },
+    "66": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "68": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "77": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "8": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "84": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "87": {
+      "rank": 2,
+      "rating": 83.170732,
+      "games": 3
+    },
+    "9": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "96": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "97": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "98": {
+      "rank": 35,
+      "rating": 25.365854,
+      "games": 3
+    },
+    "99": {
+      "rank": 5,
+      "rating": 80.121951,
+      "games": 3
+    }
+  }
+}
