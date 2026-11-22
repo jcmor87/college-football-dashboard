@@ -459,7 +459,7 @@ Run `node --test tests/*.test.mjs` and
 ## Monte Carlo Playoff Simulator
 
 Open the **Playoff Simulator** tab or share the direct URL with
-`#simulator`. To carry your picks into the tab, choose **Open Playoff
+`#simulator`. In the tab, choose a game and winner, then tap **Run what-if comparison**. To carry your picks into the tab, choose **Open Playoff
 Simulator** from Playoff Explorer. The simulator also remains available
 inside **Playoff Explorer → Monte Carlo Playoff Simulator**. The Notre Dame
 Command Center shows Notre Dame's dashboard inside **Explore Notre Dame
