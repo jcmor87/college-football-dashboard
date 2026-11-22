@@ -142,6 +142,9 @@ const root = resolve(__dirname, '..');
     await page.goto(url+'#notre-dame');
     await command.getByText('Explore Notre Dame outcomes',{exact:true}).click();
     await command.locator('.nd-playoff-result').waitFor();
+    await command.getByRole('heading',{name:'Notre Dame Playoff Probabilities'}).waitFor();
+    await command.locator('.nd-simulator .sim-count').selectOption('10000');
+    assert.match(await command.locator('.nd-simulator .sim-results').innerText(),/Committee Sensitivity/);
     await command.getByRole('link',{name:'Open full Playoff Explorer'}).click();
     const playoff = page.locator('#playoffPanel');
     await playoff.getByRole('heading',{name:'12-Team Bracket'}).waitFor();
@@ -165,6 +168,22 @@ const root = resolve(__dirname, '..');
       await title.selectOption({index:1});
       assert.match(new URL(page.url()).hash, /[?&]t=/);
     }
+    await playoff.locator('.playoff-sim-details summary').click();
+    const simulator = playoff.locator('.playoff-sim-target');
+    await simulator.getByRole('heading',{name:'Seed Distribution'}).waitFor();
+    await page.setViewportSize({width:320,height:720});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
+    await simulator.locator('.sim-count').selectOption('50000');
+    if (/[?&][gtb]=/.test(new URL(page.url()).hash)) {
+      await simulator.getByRole('button',{name:'Run what-if comparison'}).click();
+      await simulator.locator('.sim-team').selectOption('61');
+      await simulator.locator('.sim-count').selectOption('1000');
+      await simulator.getByRole('button',{name:'Run what-if comparison'}).click();
+      await simulator.getByText('Scenario complete: 1,000 draws.').waitFor({timeout:20000});
+      assert.match(await simulator.locator('.sim-results').innerText(),/Scenario resolved/);
+    }
+    await page.setViewportSize({width:768,height:900});
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
     await playoff.getByRole('button',{name:'Reset scenario'}).click();
     assert.equal(new URL(page.url()).hash,'#playoff?team=87');
     await page.goto(url+'#team=999999');

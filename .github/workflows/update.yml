@@ -39,6 +39,8 @@ jobs:
         run: python update_power.py --output "$RUNNER_TEMP/power-rankings"
       - name: Regenerate prediction preview without archiving
         run: python update_predictions.py --output "$RUNNER_TEMP/predictions"
+      - name: Precompute simulator preview without publishing
+        run: node update_simulation.mjs "$RUNNER_TEMP/playoff-simulation.json"
       - name: Install Chromium for browser tests
         run: |
           npm install --no-save --no-package-lock playwright@1.56.1
@@ -65,6 +67,9 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Refresh ESPN snapshot
         run: python update_data.py
       - name: Archive weekly AP rankings
@@ -77,11 +82,13 @@ jobs:
         run: python update_predictions.py --archive-live
       - name: Refresh conference title fixtures
         run: python update_playoff.py
+      - name: Precompute playoff simulation baselines
+        run: node update_simulation.mjs
       - name: Verify pregame records and data consistency
         run: python verify_release.py --write-manifest
       - name: Commit updated data
         run: |
-          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions data/refresh-status.json data/cfp-title-games.json
+          git add -- data/dashboard.json data/ap-rankings data/team-profiles.json data/power-rankings data/predictions data/refresh-status.json data/cfp-title-games.json data/playoff-simulation.json
           if git diff --cached --quiet; then
             echo "Dashboard data is already current."
             exit 0
@@ -95,8 +102,8 @@ jobs:
       - name: Stage dashboard files
         run: |
           mkdir -p _site/data
-          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs game-predictions.mjs playoff-model.mjs playoff-explorer.mjs _site/
-          cp data/dashboard.json data/team-profiles.json data/refresh-status.json data/cfp-title-games.json data/cfp-official-bracket.json _site/data/
+          cp index.html ranking-history.mjs team-profiles.mjs nd-command.mjs power-rankings.mjs game-predictions.mjs playoff-model.mjs playoff-explorer.mjs playoff-simulation.mjs playoff-simulator-ui.mjs playoff-worker.mjs _site/
+          cp data/dashboard.json data/team-profiles.json data/refresh-status.json data/cfp-title-games.json data/cfp-official-bracket.json data/playoff-simulation.json _site/data/
           cp -R data/ap-rankings data/power-rankings data/predictions _site/data/
       - name: Verify staged Pages files
         run: python verify_release.py --staged _site

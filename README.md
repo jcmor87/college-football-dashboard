@@ -455,3 +455,63 @@ functions. It accepts explicit outcomes independent of how they are generated.
 A future simulation can supply sampled outcomes through the same functions.
 Run `node --test tests/*.test.mjs` and
 `python3 -m unittest discover -s tests` for automated checks.
+
+## Monte Carlo Playoff Simulator
+
+Open **Playoff Explorer → Monte Carlo Playoff Simulator**. The Notre Dame
+Command Center shows Notre Dame's dashboard inside **Explore Notre Dame
+outcomes**. Choose 1,000, 10,000, or 50,000 seasons. The baseline loads from
+the current Pages snapshot. Choose winners in the explorer or the Notre Dame
+picker, then run a what-if comparison. The comparison uses a dedicated
+browser worker so controls stay responsive and changing the count or picks
+cancels the prior computation. No backend is required.
+
+- **Rules and selection.** The simulator uses the explorer's existing
+  [2026–27 CFP rules](https://collegefootballplayoff.com/sports/2024/5/29/12-team-format)
+  and deterministic selection and bracket functions. Primary selections use
+  the documented scenario rank-point adjustment. A separately reported
+  sensitivity policy retains the published ranked order and uses modeled
+  records for the unranked fallback while dropping winner/loser rank-point
+  adjustments. Both use identical outcomes and automatic bids. The gap is
+  sensitivity to these two assumptions. It assigns no probabilities to
+  committee choices or to conference tiebreak procedures.
+- **Games and title fixtures.** For known, unfinished regular-season games
+  the simulator uses matching published pregame probabilities for the
+  exact game, participants and kickoff. Verified finals stay fixed. Missing
+  probabilities and other unresolved games remain unresolved. A user can
+  supply an admissible winner for a known upcoming game. For an ESPN-listed
+  conference title fixture, verified participants are pinned and provisional
+  participants come from the explorer's simulated standings. If no forecast
+  matches those participants, the existing Game Predictions equation uses
+  the current ratings and an explicitly assumed zero venue adjustment.
+  A missing or already-started fixture is not simulated.
+- **Bracket.** First-round games use the higher seed's home advantage.
+  Quarterfinals and later games use the Game Predictions equation with a
+  neutral venue. Official seeds and verified postseason winners take priority
+  when entered in the existing official bracket file. After the scheduled
+  Selection Day cutoff, the simulator waits for that official field.
+- **Sampling and interpretation.** The seed is fixed and printed with the
+  snapshot fingerprint, model version, rating cutoff, and frozen schedule
+  time. Draws are keyed by draw number and matchup so baseline and what-if
+  runs share random numbers. Picks for a specific conference title or
+  bracket matchup apply only when that pair occurs, and the dashboard reports
+  how many draws honored the pick. Matchup outcomes are modeled independently
+  conditional on ratings and venue. Missing schedules, roster changes,
+  cross-game dependencies, and committee uncertainty remain limitations.
+- **Denominators.** Qualification and seed shares use complete-field draws.
+  Semifinal, final and title probabilities each use draws where that stage
+  resolves fully. Any metric with zero resolved draws displays N/A. The
+  dashboard shows input coverage and resolved counts. These conditional
+  estimates can exclude meaningful unknown outcomes. A result of 100% means
+  every eligible draw under the stated inputs, and the audited models have
+  not established predictive superiority. See the [audit](AUDIT.md).
+
+The default-branch workflow precomputes all three baselines from one seeded
+50,000-draw stream and publishes its prefixes, input snapshot, and worker
+with the existing Pages artifact. Prediction archives remain append-only.
+Rebuild locally with `node update_simulation.mjs`. For an exact replay,
+use the same source files and pass the original snapshot time as the second
+argument, for example `node update_simulation.mjs /tmp/playoff-simulation.json
+2026-11-22T02:45:00Z`. Source files and snapshot time must match to reproduce
+the fingerprint and counts. Run `node --test tests/*.test.mjs` and the
+Chromium integration suite in the PR workflow for regression checks.
