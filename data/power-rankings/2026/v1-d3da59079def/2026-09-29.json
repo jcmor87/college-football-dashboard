@@ -1,0 +1,697 @@
+{
+  "model": "v1-d3da59079def",
+  "season": 2026,
+  "cutoff": "2026-09-29T00:00:00+00:00",
+  "teams": {
+    "103": {
+      "rank": 68,
+      "rating": 48.472222,
+      "games": 3
+    },
+    "113": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "12": {
+      "rank": 63,
+      "rating": 50.77381,
+      "games": 3
+    },
+    "120": {
+      "rank": 42,
+      "rating": 61.09127,
+      "games": 3
+    },
+    "127": {
+      "rank": 17,
+      "rating": 72.202381,
+      "games": 4
+    },
+    "130": {
+      "rank": 29,
+      "rating": 67.003968,
+      "games": 4
+    },
+    "135": {
+      "rank": 34,
+      "rating": 65.297619,
+      "games": 3
+    },
+    "142": {
+      "rank": 36,
+      "rating": 64.940476,
+      "games": 3
+    },
+    "145": {
+      "rank": 26,
+      "rating": 69.146825,
+      "games": 4
+    },
+    "150": {
+      "rank": 11,
+      "rating": 77.956349,
+      "games": 3
+    },
+    "151": {
+      "rank": 93,
+      "rating": 34.424603,
+      "games": 3
+    },
+    "152": {
+      "rank": 53,
+      "rating": 56.805556,
+      "games": 3
+    },
+    "153": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "154": {
+      "rank": 73,
+      "rating": 46.051587,
+      "games": 4
+    },
+    "158": {
+      "rank": 15,
+      "rating": 72.480159,
+      "games": 3
+    },
+    "16": {
+      "rank": 108,
+      "rating": 27.519841,
+      "games": 4
+    },
+    "164": {
+      "rank": 86,
+      "rating": 37.996032,
+      "games": 3
+    },
+    "166": {
+      "rank": 120,
+      "rating": 17.876984,
+      "games": 3
+    },
+    "167": {
+      "rank": 61,
+      "rating": 51.72619,
+      "games": 3
+    },
+    "183": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "189": {
+      "rank": 101,
+      "rating": 31.686508,
+      "games": 3
+    },
+    "193": {
+      "rank": 67,
+      "rating": 48.59127,
+      "games": 3
+    },
+    "194": {
+      "rank": 18,
+      "rating": 72.003968,
+      "games": 4
+    },
+    "195": {
+      "rank": 84,
+      "rating": 38.59127,
+      "games": 3
+    },
+    "197": {
+      "rank": 30,
+      "rating": 66.72619,
+      "games": 3
+    },
+    "2": {
+      "rank": 7,
+      "rating": 81.40873,
+      "games": 4
+    },
+    "2005": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2006": {
+      "rank": 112,
+      "rating": 23.115079,
+      "games": 3
+    },
+    "201": {
+      "rank": 28,
+      "rating": 68.511905,
+      "games": 4
+    },
+    "202": {
+      "rank": 98,
+      "rating": 32.678571,
+      "games": 3
+    },
+    "2026": {
+      "rank": 89,
+      "rating": 35.892857,
+      "games": 3
+    },
+    "2032": {
+      "rank": 121,
+      "rating": 17.400794,
+      "games": 3
+    },
+    "204": {
+      "rank": 82,
+      "rating": 39.781746,
+      "games": 3
+    },
+    "2050": {
+      "rank": 123,
+      "rating": 14.781746,
+      "games": 3
+    },
+    "2084": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "21": {
+      "rank": 81,
+      "rating": 40.138889,
+      "games": 3
+    },
+    "2116": {
+      "rank": 25,
+      "rating": 69.702381,
+      "games": 3
+    },
+    "2117": {
+      "rank": 80,
+      "rating": 40.376984,
+      "games": 3
+    },
+    "213": {
+      "rank": 27,
+      "rating": 68.90873,
+      "games": 4
+    },
+    "2132": {
+      "rank": 16,
+      "rating": 72.242063,
+      "games": 3
+    },
+    "218": {
+      "rank": 102,
+      "rating": 31.56746,
+      "games": 3
+    },
+    "2199": {
+      "rank": 125,
+      "rating": 12.599206,
+      "games": 4
+    },
+    "221": {
+      "rank": 13,
+      "rating": 76.051587,
+      "games": 3
+    },
+    "2226": {
+      "rank": 49,
+      "rating": 57.718254,
+      "games": 4
+    },
+    "2229": {
+      "rank": 58,
+      "rating": 53.710317,
+      "games": 3
+    },
+    "2247": {
+      "rank": 69,
+      "rating": 47.797619,
+      "games": 3
+    },
+    "228": {
+      "rank": 59,
+      "rating": 53.313492,
+      "games": 4
+    },
+    "2294": {
+      "rank": 22,
+      "rating": 70.813492,
+      "games": 3
+    },
+    "23": {
+      "rank": 75,
+      "rating": 44.900794,
+      "games": 3
+    },
+    "2305": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2306": {
+      "rank": 24,
+      "rating": 70.535714,
+      "games": 3
+    },
+    "2309": {
+      "rank": 118,
+      "rating": 19.424603,
+      "games": 3
+    },
+    "2335": {
+      "rank": 45,
+      "rating": 59.702381,
+      "games": 3
+    },
+    "2348": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "235": {
+      "rank": 54,
+      "rating": 56.488095,
+      "games": 3
+    },
+    "238": {
+      "rank": 57,
+      "rating": 54.22619,
+      "games": 3
+    },
+    "239": {
+      "rank": 60,
+      "rating": 52.559524,
+      "games": 3
+    },
+    "2390": {
+      "rank": 3,
+      "rating": 88.43254,
+      "games": 3
+    },
+    "2393": {
+      "rank": 86,
+      "rating": 37.996032,
+      "games": 3
+    },
+    "24": {
+      "rank": 79,
+      "rating": 41.488095,
+      "games": 4
+    },
+    "242": {
+      "rank": 104,
+      "rating": 29.543651,
+      "games": 3
+    },
+    "2426": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2429": {
+      "rank": 109,
+      "rating": 25.496032,
+      "games": 3
+    },
+    "2433": {
+      "rank": 100,
+      "rating": 32.162698,
+      "games": 3
+    },
+    "2439": {
+      "rank": 92,
+      "rating": 34.464286,
+      "games": 4
+    },
+    "2440": {
+      "rank": 96,
+      "rating": 33.59127,
+      "games": 3
+    },
+    "2449": {
+      "rank": 32,
+      "rating": 66.40873,
+      "games": 3
+    },
+    "245": {
+      "rank": 44,
+      "rating": 60.178571,
+      "games": 4
+    },
+    "2459": {
+      "rank": 105,
+      "rating": 29.06746,
+      "games": 3
+    },
+    "248": {
+      "rank": 33,
+      "rating": 65.535714,
+      "games": 3
+    },
+    "2483": {
+      "rank": 8,
+      "rating": 79.702381,
+      "games": 3
+    },
+    "249": {
+      "rank": 66,
+      "rating": 49.543651,
+      "games": 3
+    },
+    "25": {
+      "rank": 77,
+      "rating": 43.115079,
+      "games": 3
+    },
+    "2509": {
+      "rank": 71,
+      "rating": 46.56746,
+      "games": 3
+    },
+    "251": {
+      "rank": 1,
+      "rating": 92.519841,
+      "games": 4
+    },
+    "252": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2534": {
+      "rank": 102,
+      "rating": 31.56746,
+      "games": 3
+    },
+    "254": {
+      "rank": 12,
+      "rating": 76.527778,
+      "games": 3
+    },
+    "256": {
+      "rank": 48,
+      "rating": 58.194444,
+      "games": 3
+    },
+    "2567": {
+      "rank": 72,
+      "rating": 46.25,
+      "games": 3
+    },
+    "2572": {
+      "rank": 124,
+      "rating": 14.186508,
+      "games": 3
+    },
+    "2579": {
+      "rank": 38,
+      "rating": 62.519841,
+      "games": 3
+    },
+    "258": {
+      "rank": 41,
+      "rating": 61.488095,
+      "games": 3
+    },
+    "259": {
+      "rank": 43,
+      "rating": 60.93254,
+      "games": 3
+    },
+    "26": {
+      "rank": 31,
+      "rating": 66.686508,
+      "games": 4
+    },
+    "2623": {
+      "rank": 119,
+      "rating": 18.948413,
+      "games": 3
+    },
+    "2628": {
+      "rank": 70,
+      "rating": 46.924603,
+      "games": 3
+    },
+    "2633": {
+      "rank": 50,
+      "rating": 57.202381,
+      "games": 3
+    },
+    "2636": {
+      "rank": 51,
+      "rating": 57.083333,
+      "games": 3
+    },
+    "2638": {
+      "rank": 126,
+      "rating": 10.853175,
+      "games": 3
+    },
+    "264": {
+      "rank": 76,
+      "rating": 44.107143,
+      "games": 3
+    },
+    "2641": {
+      "rank": 21,
+      "rating": 71.40873,
+      "games": 3
+    },
+    "2649": {
+      "rank": 78,
+      "rating": 42.202381,
+      "games": 3
+    },
+    "265": {
+      "rank": 112,
+      "rating": 23.115079,
+      "games": 3
+    },
+    "2653": {
+      "rank": 106,
+      "rating": 28.829365,
+      "games": 3
+    },
+    "2655": {
+      "rank": 83,
+      "rating": 39.22619,
+      "games": 4
+    },
+    "2711": {
+      "rank": 91,
+      "rating": 35.376984,
+      "games": 3
+    },
+    "275": {
+      "rank": 14,
+      "rating": 74.940476,
+      "games": 3
+    },
+    "2751": {
+      "rank": 114,
+      "rating": 22.043651,
+      "games": 3
+    },
+    "276": {
+      "rank": 85,
+      "rating": 38.035714,
+      "games": 3
+    },
+    "277": {
+      "rank": 47,
+      "rating": 58.75,
+      "games": 3
+    },
+    "278": {
+      "rank": 65,
+      "rating": 49.861111,
+      "games": 4
+    },
+    "290": {
+      "rank": 94,
+      "rating": 33.829365,
+      "games": 3
+    },
+    "295": {
+      "rank": 88,
+      "rating": 35.972222,
+      "games": 3
+    },
+    "30": {
+      "rank": 10,
+      "rating": 78.234127,
+      "games": 5
+    },
+    "309": {
+      "rank": 55,
+      "rating": 56.25,
+      "games": 3
+    },
+    "324": {
+      "rank": 117,
+      "rating": 20.019841,
+      "games": 3
+    },
+    "326": {
+      "rank": 56,
+      "rating": 54.662698,
+      "games": 3
+    },
+    "328": {
+      "rank": 64,
+      "rating": 50.138889,
+      "games": 3
+    },
+    "333": {
+      "rank": 4,
+      "rating": 86.924603,
+      "games": 4
+    },
+    "338": {
+      "rank": 115,
+      "rating": 21.56746,
+      "games": 3
+    },
+    "344": {
+      "rank": 6,
+      "rating": 83.59127,
+      "games": 4
+    },
+    "349": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "356": {
+      "rank": 46,
+      "rating": 58.948413,
+      "games": 3
+    },
+    "36": {
+      "rank": 62,
+      "rating": 51.09127,
+      "games": 3
+    },
+    "38": {
+      "rank": 111,
+      "rating": 23.353175,
+      "games": 3
+    },
+    "41": {
+      "rank": 107,
+      "rating": 28.472222,
+      "games": 3
+    },
+    "48": {
+      "rank": 110,
+      "rating": 24.424603,
+      "games": 3
+    },
+    "5": {
+      "rank": 97,
+      "rating": 33.035714,
+      "games": 4
+    },
+    "52": {
+      "rank": 74,
+      "rating": 45.257937,
+      "games": 3
+    },
+    "55": {
+      "rank": 90,
+      "rating": 35.77381,
+      "games": 4
+    },
+    "57": {
+      "rank": 2,
+      "rating": 89.265873,
+      "games": 3
+    },
+    "58": {
+      "rank": 40,
+      "rating": 61.646825,
+      "games": 3
+    },
+    "59": {
+      "rank": 116,
+      "rating": 20.734127,
+      "games": 3
+    },
+    "6": {
+      "rank": 95,
+      "rating": 33.710317,
+      "games": 3
+    },
+    "61": {
+      "rank": 18,
+      "rating": 72.003968,
+      "games": 3
+    },
+    "62": {
+      "rank": 122,
+      "rating": 17.361111,
+      "games": 4
+    },
+    "66": {
+      "rank": 39,
+      "rating": 61.686508,
+      "games": 3
+    },
+    "68": {
+      "rank": 9,
+      "rating": 78.392857,
+      "games": 3
+    },
+    "77": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "8": {
+      "rank": 52,
+      "rating": 56.924603,
+      "games": 3
+    },
+    "84": {
+      "rank": 22,
+      "rating": 70.813492,
+      "games": 3
+    },
+    "87": {
+      "rank": 20,
+      "rating": 71.924603,
+      "games": 4
+    },
+    "9": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "96": {
+      "rank": 37,
+      "rating": 63.392857,
+      "games": 3
+    },
+    "97": {
+      "rank": 35,
+      "rating": 65.257937,
+      "games": 3
+    },
+    "98": {
+      "rank": 99,
+      "rating": 32.519841,
+      "games": 3
+    },
+    "99": {
+      "rank": 5,
+      "rating": 84.027778,
+      "games": 4
+    }
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "model": "v1-d3da59079def",
+  "season": 2026,
+  "cutoff": "2026-09-15T00:00:00+00:00",
+  "teams": {
+    "103": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "113": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "12": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "120": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "127": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "130": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "135": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "142": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "145": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "150": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "151": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "152": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "153": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "154": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "158": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "16": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "164": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "166": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "167": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "183": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "189": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "193": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "194": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "195": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "197": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2005": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2006": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "201": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "202": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2026": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2032": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "204": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2050": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2084": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "21": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2116": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2117": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "213": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2132": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "218": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2199": {
+      "rank": 4,
+      "rating": 34.0,
+      "games": 3
+    },
+    "221": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2226": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2229": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2247": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "228": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2294": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "23": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2305": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2306": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2309": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2335": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2348": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "235": {
+      "rank": 2,
+      "rating": 60.0,
+      "games": 3
+    },
+    "238": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "239": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2390": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2393": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "24": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "242": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2426": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2429": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2433": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2439": {
+      "rank": 3,
+      "rating": 43.0,
+      "games": 3
+    },
+    "2440": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2449": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "245": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2459": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "248": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2483": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "249": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "25": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2509": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "251": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "252": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2534": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "254": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "256": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2567": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2572": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2579": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "258": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "259": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "26": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2623": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2628": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2633": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2636": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2638": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "264": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2641": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2649": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "265": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2653": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2655": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "2711": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "275": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "2751": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "276": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "277": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "278": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "290": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "295": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "30": {
+      "rank": 1,
+      "rating": 88.0,
+      "games": 3
+    },
+    "309": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "324": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "326": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "328": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "333": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "338": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "344": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "349": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "356": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "36": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "38": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "41": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "48": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "5": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "52": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "55": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "57": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "58": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "59": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "6": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "61": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "62": {
+      "rank": 5,
+      "rating": 25.0,
+      "games": 3
+    },
+    "66": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "68": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "77": {
+      "rank": null,
+      "rating": null,
+      "games": 0
+    },
+    "8": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "84": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "87": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "9": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "96": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "97": {
+      "rank": null,
+      "rating": null,
+      "games": 1
+    },
+    "98": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    },
+    "99": {
+      "rank": null,
+      "rating": null,
+      "games": 2
+    }
+  }
+}

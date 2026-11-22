@@ -53,7 +53,7 @@ async function fetchWeeks() {
   }));
 }
 
-export function drawChart(canvas, weeks, teams, activeWeek) {
+export function drawChart(canvas, weeks, teams, activeWeek, maxRank = 25) {
   const width = Math.max(480, weeks.length * 45 + 55);
   const height = 280;
   const density = window.devicePixelRatio || 1;
@@ -65,11 +65,12 @@ export function drawChart(canvas, weeks, teams, activeWeek) {
   ctx.font = '12px system-ui';
   const left = 42, right = width - 28, top = 23, bottom = 234;
   const x = i => weeks.length === 1 ? (left + right) / 2 : left + i * (right - left) / (weeks.length - 1);
-  const y = rank => top + (rank - 1) * (bottom - top) / 24;
+  const y = rank => top + (rank - 1) * (bottom - top) / Math.max(1, maxRank - 1);
 
   ctx.fillStyle = '#243b54';
-  ctx.fillRect(x(activeWeek) - 12, top - 10, 24, bottom - top + 20);
-  for (const rank of [1, 5, 10, 15, 20, 25]) {
+  if (activeWeek >= 0) ctx.fillRect(x(activeWeek) - 12, top - 10, 24, bottom - top + 20);
+  const grid = maxRank === 25 ? [1, 5, 10, 15, 20, 25] : [1, 25, 50, 75, 100, 125, maxRank];
+  for (const rank of new Set(grid.filter(rank => rank <= maxRank))) {
     ctx.strokeStyle = '#34465d';
     ctx.beginPath();
     ctx.moveTo(left, y(rank));

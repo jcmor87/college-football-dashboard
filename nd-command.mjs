@@ -165,7 +165,7 @@ export async function mountCommand(panel, dashboard, isCurrent) {
     '<p class="notice">Current Notre Dame schedule data is unavailable. Saved results and statistics are shown where available.</p>';
   panel.innerHTML = `
     <div class="panel-head"><h2>Notre Dame Command Center</h2>
-      <a href="${profileHref(NOTRE_DAME)}">Full team profile</a></div>
+      <div><a href="${profileHref(NOTRE_DAME)}">Full team profile</a> · <a href="#power=87">Power ranking analysis</a></div></div>
     ${status}
     <div class="statrow">
       <div class="stat"><strong>${escapeHtml(format(team.record))}</strong><span>Overall record</span></div>

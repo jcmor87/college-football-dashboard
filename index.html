@@ -43,6 +43,10 @@
   .nd-results{list-style:none;padding:0;display:flex;gap:8px;flex-wrap:wrap}
   .nd-results li{padding:8px 10px;background:#192c42;border-radius:8px}
   .nd-results li strong{color:#f2bc45}.history-table td.nd-context{min-width:230px}
+  #powerPanel label{display:grid;gap:5px;color:#c9d8e9;font-size:13px;max-width:100%;width:max-content}
+  #powerPanel select{width:100%;max-width:100%;padding:9px;border:1px solid #3c516b;border-radius:9px;background:#15263a;color:#eaf1fb}
+  #powerPanel .nd-split ul{padding-left:20px}#powerPanel .nd-split li{margin:8px 0}
+  #powerPanel .nd-split strong{margin-left:8px}#powerPanel .profile-controls{align-items:end}
   </style>
 </head>
 <body>
@@ -64,6 +68,7 @@
   <div class="notice hidden" id="dataError" role="alert"></div>
   <nav class="tabs" aria-label="Dashboard sections">
     <button class="active" data-tab="rankings">National Rankings</button>
+    <button data-tab="power">Power Rankings</button>
     <button data-tab="history">AP Ranking History</button>
     <button data-tab="command">Notre Dame</button>
     <button data-tab="games">This Week's Games</button>
@@ -96,6 +101,7 @@
       </div>
     </div>
   </section>
+  <section class="panel hidden" id="powerPanel" aria-label="Saturday HQ Power Rankings"></section>
   <section class="panel hidden" id="ndPanel" aria-label="Notre Dame Command Center"></section>
   <section class="panel hidden" id="profilePanel" aria-label="Team profile"></section>
   <div class="grid" id="dashboardGrid">
@@ -125,12 +131,12 @@ const $=s=>document.querySelector(s);let state={tab:'rankings',conference:'All',
 let profileView = 0;
 const readTeamHash = () => location.hash.startsWith('#team=');
 const commandHash = '#notre-dame';
-if (location.hash === commandHash) state.tab = 'command';
-else if (readTeamHash()) state.tab = 'profile';
+const powerHash = '#power';
+const isPowerHash = () => location.hash === powerHash || /^#power=[0-9]+$/.test(location.hash);
+const tabFromHash = () => isPowerHash() ? 'power' : location.hash === commandHash ? 'command' : readTeamHash() ? 'profile' : null;
+state.tab = tabFromHash() ?? 'rankings';
 window.addEventListener('hashchange', () => {
-  if (location.hash === commandHash) state.tab = 'command';
-  else if (readTeamHash()) state.tab = 'profile';
-  else state.tab = history.state?.dashboardTab ?? 'rankings';
+  state.tab = tabFromHash() ?? history.state?.dashboardTab ?? 'rankings';
   render();
 });
 function render(){
@@ -141,9 +147,29 @@ function render(){
   $('#profilePanel').classList.toggle('hidden', !showProfile);
   const showCommand = state.tab === 'command';
   $('#ndPanel').classList.toggle('hidden', !showCommand);
-  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand);
+  const showPower = state.tab === 'power';
+  $('#powerPanel').classList.toggle('hidden', !showPower);
+  $('#dashboardGrid').classList.toggle('hidden',showHistory || showProfile || showCommand || showPower);
   const currentView = ++profileView;
   if (d) updateSpotlight(d);
+  if (showPower) {
+    document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'power'));
+    const panel = $('#powerPanel');
+    const showError = () => {
+      panel.innerHTML = '<p class="notice" role="alert">Power rankings could not load. Reload to try again.</p>';
+    };
+    if ($('#dataError').textContent) showError();
+    else panel.innerHTML = '<p class="notice" role="status">Loading power rankings…</p>';
+    if (d) import('./power-rankings.mjs').then(module => {
+      if (profileView === currentView) {
+        return module.mountPower(panel, d.teams, location.hash.split('=')[1], () => profileView === currentView);
+      }
+    }).catch(error => {
+      if (profileView === currentView) showError();
+      console.error(error);
+    });
+    return;
+  }
   if (showCommand) {
     document.querySelectorAll('[data-tab]').forEach(button => button.classList.toggle('active', button.dataset.tab === 'command'));
     const panel = $('#ndPanel');
@@ -195,6 +221,10 @@ function render(){
   if(!d)return;document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.tab));$('#mainTitle').textContent={rankings:'National Poll Rankings',games:'This Week’s Games',teams:'FBS Team Directory',about:'About & Methodology'}[state.tab];$('#search').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#filters').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#teamList').classList.toggle('hidden',!['rankings','teams'].includes(state.tab));$('#mainExtra').classList.toggle('hidden',['rankings','teams'].includes(state.tab));if(['rankings','teams'].includes(state.tab)){let cs=['All',...new Set((d.teams||[]).map(conf))].sort((a,b)=>a==='All'?-1:b==='All'?1:a.localeCompare(b));$('#filters').innerHTML=cs.map(c=>`<button class="${state.conference===c?'active':''}" data-conf="${esc(c)}">${esc(c)}</button>`).join('');$('#teamList').innerHTML=filtered().map(t=>`<a class="team" href="#team=${encodeURIComponent(t.id)}"><div class="rank">${rank(t)??'–'}</div><div><div class="team-name">${esc(t.name)}</div><small>${esc(conf(t))}</small></div><div class="muted">${esc(t.abbreviation||'')}</div><div class="record">${esc(t.record||'—')}</div></a>`).join('')||'<div class="empty">No teams match your filters. Rankings are shown only when a verified poll is available.</div>'}else if(state.tab==='games'){$('#mainExtra').innerHTML=gamesHtml(d.games||[])}else{$('#mainExtra').innerHTML='<div class="notice"><strong>Version 1.0</strong><p>Team directory: ESPN FBS standings endpoint. Poll ranks: ESPN rankings endpoint, with the selected poll identified in the data file. Scores: ESPN scoreboard endpoint.</p><p>These are published poll positions, not our own power rankings. Missing records or rankings are shown as unavailable, never invented. The data pipeline runs automatically on GitHub Actions and saves a static JSON snapshot for reliable GitHub Pages hosting.</p><p>The AP Ranking History tab archives published weekly polls. Future features include explainable power scores, playoff projections, and team analysis with cited evidence.</p></div>'}$('#gamesSidebar').innerHTML=gamesHtml((d.games||[]).slice(0,5));}
 function updateSpotlight(d){const nd=(d.teams||[]).find(t=>String(t.id)==='87');$('#ndRecord').textContent=nd?.record||'—';$('#ndRank').textContent=nd?.rank?'#'+nd.rank:'—';$('#ndDetails').textContent=nd?'Notre Dame is included in the national team directory. Select Notre Dame in the team directory to open its profile.':'Notre Dame data is not available in the latest snapshot.';$('#ndSummary').textContent=nd?`2026 season • ${nd.record||'Record unavailable'} • ${nd.rank?'#'+nd.rank+' in '+(d.poll||'selected poll'):'No published poll position'}`:'2026 season • Awaiting verified team data';}function gamesHtml(g){return g.length?g.map(x=>`<div class="score"><strong>${esc(x.away)} @ ${esc(x.home)}</strong><div class="meta">${esc(x.date?new Date(x.date).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Date unavailable')} • ${esc(x.status||'Scheduled')}</div><div class="result">${x.away_score!=null&&x.home_score!=null?`${esc(x.away_score)} – ${esc(x.home_score)}`:'Score pending'}</div></div>`).join(''):'<div class="empty">No games available in this snapshot.</div>'}document.addEventListener('click', event => {
   const tab = event.target.closest('[data-tab]');
+  if (tab?.dataset.tab === 'power') {
+    if (!isPowerHash()) location.hash = powerHash;
+    return;
+  }
   if (tab?.dataset.tab === 'command') {
     if (location.hash !== commandHash) location.hash = commandHash;
     return;
@@ -202,11 +232,11 @@ function updateSpotlight(d){const nd=(d.teams||[]).find(t=>String(t.id)==='87');
   if (tab) {
     state.tab = tab.dataset.tab;
     state.conference = 'All';
-    if (state.tab === 'profile' && location.hash === commandHash) {
+    if (state.tab === 'profile' && (location.hash === commandHash || isPowerHash())) {
       history.pushState({dashboardTab: 'profile'}, '', location.pathname + location.search);
     } else if (state.tab !== 'profile') {
       const entry = {dashboardTab: state.tab};
-      if (readTeamHash() || location.hash === commandHash) history.pushState(entry, '', location.pathname + location.search);
+      if (tabFromHash()) history.pushState(entry, '', location.pathname + location.search);
       else history.replaceState(entry, '');
     }
     render();
@@ -242,7 +272,7 @@ async function loadDashboard() {
     const notice = $('#dataError');
     notice.textContent = 'The dashboard could not load its data. Reload this page to try again. If the problem continues, check the latest Update dashboard data run in GitHub Actions and confirm that the Pages deployment succeeded.';
     notice.classList.remove('hidden');
-    if (['history', 'profile', 'command'].includes(state.tab)) render();
+    if (['history', 'profile', 'command', 'power'].includes(state.tab)) render();
     console.error('Dashboard snapshot could not be loaded', snapshotUrl.href, error);
   }
 }
