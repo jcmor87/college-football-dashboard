@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "verified_at": "2026-11-23T16:20:08+00:00",
+  "verified_at": "2026-11-23T19:13:38+00:00",
   "roster_status": "current",
   "players": {
     "15287": {
@@ -678,9 +678,9 @@
   },
   "depth_status": "current",
   "depth": {
-    "opponent": "SMU",
-    "url": "https://fightingirish.com/documents/aa43c6ef-58fa-470d-af24-4b9f15ceeb3a.pdf",
-    "verified_at": "2026-11-23T16:20:08+00:00",
+    "opponent": "at Syracuse",
+    "url": "https://fightingirish.com/documents/7e31f110-e73d-4ce2-a60b-e4d09c544819.pdf",
+    "verified_at": "2026-11-23T19:13:38+00:00",
     "sides": {
       "offense": [
         {
@@ -702,7 +702,6 @@
           "position": "WR",
           "tiers": [
             [
-              "15573",
               "15288"
             ],
             [
@@ -879,10 +878,11 @@
           "position": "WILL",
           "tiers": [
             [
-              "15580"
+              "15586"
             ],
             [
-              "15586"
+              "15405",
+              "15514"
             ]
           ]
         },
@@ -890,13 +890,10 @@
           "position": "MIKE",
           "tiers": [
             [
-              "15504"
+              "15580"
             ],
             [
               "15414"
-            ],
-            [
-              "15405"
             ]
           ]
         },
@@ -938,7 +935,7 @@
           "position": "FIELD",
           "tiers": [
             [
-              "15554"
+              "15497"
             ],
             [
               "15313"
