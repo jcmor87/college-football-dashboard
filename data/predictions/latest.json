@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "input_cutoff": "2026-11-22T00:00:00+00:00",
+  "input_cutoff": "2026-11-23T00:00:00+00:00",
   "model": "prediction-v1-24e29e8cb124071b",
   "parameters": {
     "rating_points": 0.37271927,
@@ -324,7 +324,7 @@
         "first": "2199",
         "second": "2309",
         "kickoff": "2026-11-25T00:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -332,13 +332,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 12.391304,
-        "rating_second": 10.942029,
+        "rating_first": 13.731884,
+        "rating_second": 9.710145,
         "venue": 1,
-        "margin": 4.513,
-        "probability": 0.574654,
+        "margin": 5.472,
+        "probability": 0.590202,
         "confidence": "low",
-        "rating_points": 0.54,
+        "rating_points": 1.499,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -350,10 +350,10 @@
             "probability": 0.6504080534966186
           }
         },
-        "generated_at": "2026-11-22T01:50:53.861974+00:00",
-        "revision": "712cd14d39d81b05"
+        "generated_at": "2026-11-23T01:26:15.556174+00:00",
+        "revision": "a443cdd04135533e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -362,6 +362,14 @@
           "id": "712cd14d39d81b05",
           "margin": 4.513,
           "probability": 0.574654,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.556174+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "a443cdd04135533e",
+          "margin": 5.472,
+          "probability": 0.590202,
           "selected": true
         }
       ]
@@ -380,7 +388,7 @@
         "first": "193",
         "second": "2711",
         "kickoff": "2026-11-25T00:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -388,13 +396,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 41.086957,
-        "rating_second": 61.666667,
+        "rating_first": 41.304348,
+        "rating_second": 61.086957,
         "venue": -1,
-        "margin": -11.643,
-        "probability": 0.315139,
+        "margin": -11.346,
+        "probability": 0.319428,
         "confidence": "moderate",
-        "rating_points": -7.67,
+        "rating_points": -7.373,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -406,10 +414,10 @@
             "probability": 0.3775406687981454
           }
         },
-        "generated_at": "2026-11-22T01:50:53.856825+00:00",
-        "revision": "8867f050d8d6d7ef"
+        "generated_at": "2026-11-23T01:26:15.552807+00:00",
+        "revision": "7db62ff046a2640a"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -418,6 +426,14 @@
           "id": "8867f050d8d6d7ef",
           "margin": -11.643,
           "probability": 0.315139,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.552807+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "7db62ff046a2640a",
+          "margin": -11.346,
+          "probability": 0.319428,
           "selected": true
         }
       ]
@@ -436,7 +452,7 @@
         "first": "2628",
         "second": "2641",
         "kickoff": "2026-11-27T01:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -444,13 +460,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 57.065217,
-        "rating_second": 72.518116,
+        "rating_first": 52.028986,
+        "rating_second": 74.202899,
         "venue": -1,
-        "margin": -9.733,
-        "probability": 0.343245,
+        "margin": -12.238,
+        "probability": 0.306642,
         "confidence": "moderate",
-        "rating_points": -5.76,
+        "rating_points": -8.265,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -458,14 +474,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -8.38888888888889,
-            "probability": 0.3320175494892807
+            "margin": -8.205555555555556,
+            "probability": 0.3354145359634575
           }
         },
-        "generated_at": "2026-11-22T01:50:53.871122+00:00",
-        "revision": "610255b941afaa80"
+        "generated_at": "2026-11-23T01:26:15.562326+00:00",
+        "revision": "674c23f91ee2ed14"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -474,6 +490,14 @@
           "id": "610255b941afaa80",
           "margin": -9.733,
           "probability": 0.343245,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.562326+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "674c23f91ee2ed14",
+          "margin": -12.238,
+          "probability": 0.306642,
           "selected": true
         }
       ]
@@ -492,7 +516,7 @@
         "first": "145",
         "second": "344",
         "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -500,13 +524,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 73.043478,
-        "rating_second": 44.492754,
+        "rating_first": 74.166667,
+        "rating_second": 44.23913,
         "venue": 1,
-        "margin": 14.614,
-        "probability": 0.725969,
+        "margin": 15.128,
+        "probability": 0.732733,
         "confidence": "moderate",
-        "rating_points": 10.641,
+        "rating_points": 11.155,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -518,10 +542,10 @@
             "probability": 0.6691109275402817
           }
         },
-        "generated_at": "2026-11-22T01:50:53.853925+00:00",
-        "revision": "c378c4d81c71c827"
+        "generated_at": "2026-11-23T01:26:15.550634+00:00",
+        "revision": "82b823d016d95c67"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -530,6 +554,14 @@
           "id": "c378c4d81c71c827",
           "margin": 14.614,
           "probability": 0.725969,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.550634+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "82b823d016d95c67",
+          "margin": 15.128,
+          "probability": 0.732733,
           "selected": true
         }
       ]
@@ -548,7 +580,7 @@
         "first": "158",
         "second": "2294",
         "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -556,13 +588,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 68.478261,
-        "rating_second": 70.289855,
+        "rating_first": 72.934783,
+        "rating_second": 71.956522,
         "venue": -1,
-        "margin": -4.648,
-        "probability": 0.423147,
+        "margin": -3.608,
+        "probability": 0.440155,
         "confidence": "low",
-        "rating_points": -0.675,
+        "rating_points": 0.365,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -570,14 +602,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -1.833333333333334,
-            "probability": 0.46187967409440756
+            "margin": -2.6500000000000004,
+            "probability": 0.4450149416042306
           }
         },
-        "generated_at": "2026-11-22T01:50:53.855017+00:00",
-        "revision": "b68dfce2c68f6f69"
+        "generated_at": "2026-11-23T01:26:15.551721+00:00",
+        "revision": "910af0ed91626efa"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -586,6 +618,14 @@
           "id": "b68dfce2c68f6f69",
           "margin": -4.648,
           "probability": 0.423147,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551721+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "910af0ed91626efa",
+          "margin": -3.608,
+          "probability": 0.440155,
           "selected": true
         }
       ]
@@ -604,7 +644,7 @@
         "first": "202",
         "second": "2636",
         "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -612,13 +652,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 41.105072,
-        "rating_second": 61.068841,
+        "rating_first": 44.891304,
+        "rating_second": 63.623188,
         "venue": -1,
-        "margin": -11.414,
-        "probability": 0.318444,
+        "margin": -10.955,
+        "probability": 0.325122,
         "confidence": "moderate",
-        "rating_points": -7.441,
+        "rating_points": -6.982,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -626,14 +666,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -0.2777777777777777,
-            "probability": 0.49421322135804985
+            "margin": 0.7444444444444445,
+            "probability": 0.5155042871027004
           }
         },
-        "generated_at": "2026-11-22T01:50:53.858733+00:00",
-        "revision": "e0208c8ea81469b4"
+        "generated_at": "2026-11-23T01:26:15.553987+00:00",
+        "revision": "11f7ea4c0136b1ae"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -642,6 +682,14 @@
           "id": "e0208c8ea81469b4",
           "margin": -11.414,
           "probability": 0.318444,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.553987+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "11f7ea4c0136b1ae",
+          "margin": -10.955,
+          "probability": 0.325122,
           "selected": true
         }
       ]
@@ -660,7 +708,7 @@
         "first": "2006",
         "second": "2084",
         "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -668,13 +716,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 18.985507,
-        "rating_second": 60.181159,
+        "rating_first": 21.811594,
+        "rating_second": 57.681159,
         "venue": 1,
-        "margin": -11.381,
-        "probability": 0.318921,
+        "margin": -9.396,
+        "probability": 0.348327,
         "confidence": "moderate",
-        "rating_points": -15.354,
+        "rating_points": -13.369,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -686,10 +734,10 @@
             "probability": 0.3624341380718588
           }
         },
-        "generated_at": "2026-11-22T01:50:53.858375+00:00",
-        "revision": "ece9667101032dac"
+        "generated_at": "2026-11-23T01:26:15.553779+00:00",
+        "revision": "810f79d057a8eb7e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -698,6 +746,14 @@
           "id": "ece9667101032dac",
           "margin": -11.381,
           "probability": 0.318921,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.553779+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "810f79d057a8eb7e",
+          "margin": -9.396,
+          "probability": 0.348327,
           "selected": true
         }
       ]
@@ -716,7 +772,7 @@
         "first": "195",
         "second": "2649",
         "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -724,13 +780,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 42.101449,
-        "rating_second": 54.130435,
+        "rating_first": 42.735507,
+        "rating_second": 56.195652,
         "venue": 1,
-        "margin": -0.51,
-        "probability": 0.491501,
+        "margin": -1.044,
+        "probability": 0.482607,
         "confidence": "low",
-        "rating_points": -4.483,
+        "rating_points": -5.017,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -738,14 +794,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 0.7111111111111112,
-            "probability": 0.5148104809542339
+            "margin": 0.1499999999999999,
+            "probability": 0.5031249593105316
           }
         },
-        "generated_at": "2026-11-22T01:50:53.857189+00:00",
-        "revision": "0ea02e3ef04041b3"
+        "generated_at": "2026-11-23T01:26:15.553124+00:00",
+        "revision": "2061ace754249434"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -754,6 +810,14 @@
           "id": "0ea02e3ef04041b3",
           "margin": -0.51,
           "probability": 0.491501,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.553124+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "2061ace754249434",
+          "margin": -1.044,
+          "probability": 0.482607,
           "selected": true
         }
       ]
@@ -772,7 +836,7 @@
         "first": "2026",
         "second": "6",
         "kickoff": "2026-11-27T20:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -780,13 +844,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 29.818841,
-        "rating_second": 44.764493,
+        "rating_first": 31.34058,
+        "rating_second": 43.26087,
         "venue": -1,
-        "margin": -9.544,
-        "probability": 0.346091,
+        "margin": -8.416,
+        "probability": 0.363301,
         "confidence": "moderate",
-        "rating_points": -5.571,
+        "rating_points": -4.443,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -794,14 +858,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -4.166666666666667,
-            "probability": 0.4140561866354455
+            "margin": -4.25,
+            "probability": 0.4123723812613766
           }
         },
-        "generated_at": "2026-11-22T01:50:53.859086+00:00",
-        "revision": "4065e0330c81ae88"
+        "generated_at": "2026-11-23T01:26:15.554243+00:00",
+        "revision": "59748de65d97c68a"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -810,6 +874,14 @@
           "id": "4065e0330c81ae88",
           "margin": -9.544,
           "probability": 0.346091,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.554243+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "59748de65d97c68a",
+          "margin": -8.416,
+          "probability": 0.363301,
           "selected": true
         }
       ]
@@ -828,7 +900,7 @@
         "first": "52",
         "second": "57",
         "kickoff": "2026-11-27T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -836,13 +908,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 58.913043,
-        "rating_second": 64.601449,
+        "rating_first": 53.985507,
+        "rating_second": 69.927536,
         "venue": 1,
-        "margin": 1.853,
-        "probability": 0.530844,
+        "margin": -1.969,
+        "probability": 0.46723,
         "confidence": "low",
-        "rating_points": -2.12,
+        "rating_points": -5.942,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -850,14 +922,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 2.888888888888889,
-            "probability": 0.5598961850960397
+            "margin": 1.65,
+            "probability": 0.5343209436693046
           }
         },
-        "generated_at": "2026-11-22T01:50:53.873400+00:00",
-        "revision": "a915bcc7d8546317"
+        "generated_at": "2026-11-23T01:26:15.564083+00:00",
+        "revision": "7f749e7cae769a88"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -866,6 +938,14 @@
           "id": "a915bcc7d8546317",
           "margin": 1.853,
           "probability": 0.530844,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.564083+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "7f749e7cae769a88",
+          "margin": -1.969,
+          "probability": 0.46723,
           "selected": true
         }
       ]
@@ -884,7 +964,7 @@
         "first": "218",
         "second": "235",
         "kickoff": "2026-11-27T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -892,13 +972,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 12.717391,
-        "rating_second": 82.699275,
+        "rating_first": 13.532609,
+        "rating_second": 74.927536,
         "venue": -1,
-        "margin": -30.057,
-        "probability": 0.118805,
+        "margin": -26.856,
+        "probability": 0.143024,
         "confidence": "high",
-        "rating_points": -26.084,
+        "rating_points": -22.883,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -906,14 +986,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -13.527777777777779,
-            "probability": 0.2446569826797664
+            "margin": -12.7,
+            "probability": 0.25762808567013246
           }
         },
-        "generated_at": "2026-11-22T01:50:53.861624+00:00",
-        "revision": "332d8a4c5e98ebcb"
+        "generated_at": "2026-11-23T01:26:15.555951+00:00",
+        "revision": "781b88ed94894271"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -922,6 +1002,14 @@
           "id": "332d8a4c5e98ebcb",
           "margin": -30.057,
           "probability": 0.118805,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.555951+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "781b88ed94894271",
+          "margin": -26.856,
+          "probability": 0.143024,
           "selected": true
         }
       ]
@@ -940,7 +1028,7 @@
         "first": "23",
         "second": "2449",
         "kickoff": "2026-11-27T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -948,13 +1036,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 25.76087,
-        "rating_second": 73.623188,
+        "rating_first": 26.73913,
+        "rating_second": 66.557971,
         "venue": 1,
-        "margin": -13.866,
-        "probability": 0.284062,
+        "margin": -10.868,
+        "probability": 0.326395,
         "confidence": "moderate",
-        "rating_points": -17.839,
+        "rating_points": -14.841,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -962,14 +1050,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -5.544444444444444,
-            "probability": 0.38650269344449417
+            "margin": -5.1,
+            "probability": 0.39532091528599067
           }
         },
-        "generated_at": "2026-11-22T01:50:53.863417+00:00",
-        "revision": "65264ad90bb7d80a"
+        "generated_at": "2026-11-23T01:26:15.557263+00:00",
+        "revision": "6bfc2e7d655f50fc"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -978,6 +1066,14 @@
           "id": "65264ad90bb7d80a",
           "margin": -13.866,
           "probability": 0.284062,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.557263+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "6bfc2e7d655f50fc",
+          "margin": -10.868,
+          "probability": 0.326395,
           "selected": true
         }
       ]
@@ -996,7 +1092,7 @@
         "first": "167",
         "second": "2005",
         "kickoff": "2026-11-27T21:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1004,13 +1100,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 63.514493,
-        "rating_second": 69.202899,
+        "rating_first": 66.73913,
+        "rating_second": 64.474638,
         "venue": 1,
-        "margin": 1.853,
-        "probability": 0.530844,
+        "margin": 4.817,
+        "probability": 0.5796,
         "confidence": "low",
-        "rating_points": -2.12,
+        "rating_points": 0.844,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1018,14 +1114,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 8.222222222222221,
-            "probability": 0.6648949927105456
+            "margin": 5.6000000000000005,
+            "probability": 0.6145944982675495
           }
         },
-        "generated_at": "2026-11-22T01:50:53.856098+00:00",
-        "revision": "fec21da9e929a5fa"
+        "generated_at": "2026-11-23T01:26:15.552370+00:00",
+        "revision": "b719326fe524e743"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1034,6 +1130,14 @@
           "id": "fec21da9e929a5fa",
           "margin": 1.853,
           "probability": 0.530844,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.552370+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "b719326fe524e743",
+          "margin": 4.817,
+          "probability": 0.5796,
           "selected": true
         }
       ]
@@ -1052,7 +1156,7 @@
         "first": "245",
         "second": "251",
         "kickoff": "2026-11-28T00:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1060,13 +1164,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 56.73913,
-        "rating_second": 90.543478,
+        "rating_first": 51.884058,
+        "rating_second": 92.282609,
         "venue": 1,
-        "margin": -8.626,
-        "probability": 0.360069,
+        "margin": -11.084,
+        "probability": 0.323237,
         "confidence": "moderate",
-        "rating_points": -12.6,
+        "rating_points": -15.057,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1074,14 +1178,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -2.5888888888888886,
-            "probability": 0.446273042598736
+            "margin": -5.045454545454547,
+            "probability": 0.39640798651815323
           }
         },
-        "generated_at": "2026-11-22T01:50:53.867816+00:00",
-        "revision": "d234e2e4c91ced4c"
+        "generated_at": "2026-11-23T01:26:15.560102+00:00",
+        "revision": "758bc74cf118c868"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1090,6 +1194,14 @@
           "id": "d234e2e4c91ced4c",
           "margin": -8.626,
           "probability": 0.360069,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.560102+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "758bc74cf118c868",
+          "margin": -11.084,
+          "probability": 0.323237,
           "selected": true
         }
       ]
@@ -1108,7 +1220,7 @@
         "first": "135",
         "second": "275",
         "kickoff": "2026-11-28T00:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1116,13 +1228,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 44.565217,
-        "rating_second": 66.286232,
+        "rating_first": 45.869565,
+        "rating_second": 71.594203,
         "venue": -1,
-        "margin": -12.069,
-        "probability": 0.309042,
+        "margin": -13.561,
+        "probability": 0.288216,
         "confidence": "moderate",
-        "rating_points": -8.096,
+        "rating_points": -9.588,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1130,14 +1242,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -8.5,
-            "probability": 0.3299672171335157
+            "margin": -9.4,
+            "probability": 0.31360192144807275
           }
         },
-        "generated_at": "2026-11-22T01:50:53.853182+00:00",
-        "revision": "e600c070847c6ad6"
+        "generated_at": "2026-11-23T01:26:15.550188+00:00",
+        "revision": "080a8a7493f77285"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1146,6 +1258,14 @@
           "id": "e600c070847c6ad6",
           "margin": -12.069,
           "probability": 0.309042,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.550188+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "080a8a7493f77285",
+          "margin": -13.561,
+          "probability": 0.288216,
           "selected": true
         }
       ]
@@ -1164,7 +1284,7 @@
         "first": "254",
         "second": "277",
         "kickoff": "2026-11-28T02:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1172,13 +1292,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 86.485507,
-        "rating_second": 42.101449,
+        "rating_first": 85.797101,
+        "rating_second": 45.072464,
         "venue": 1,
-        "margin": 20.516,
-        "probability": 0.797014,
+        "margin": 19.152,
+        "probability": 0.781905,
         "confidence": "high",
-        "rating_points": 16.543,
+        "rating_points": 15.179,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1186,14 +1306,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 13.277777777777779,
-            "probability": 0.751472569071056
+            "margin": 13.183333333333334,
+            "probability": 0.7499997792079978
           }
         },
-        "generated_at": "2026-11-22T01:50:53.869269+00:00",
-        "revision": "d6432d5dbaa6a0ee"
+        "generated_at": "2026-11-23T01:26:15.561174+00:00",
+        "revision": "fafffc6ae748b6f3"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1202,6 +1322,14 @@
           "id": "d6432d5dbaa6a0ee",
           "margin": 20.516,
           "probability": 0.797014,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.561174+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "fafffc6ae748b6f3",
+          "margin": 19.152,
+          "probability": 0.781905,
           "selected": true
         }
       ]
@@ -1220,7 +1348,7 @@
         "first": "96",
         "second": "97",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1228,13 +1356,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 60.887681,
-        "rating_second": 76.974638,
+        "rating_first": 61.702899,
+        "rating_second": 74.365942,
         "venue": 1,
-        "margin": -2.023,
-        "probability": 0.466334,
+        "margin": -0.747,
+        "probability": 0.487553,
         "confidence": "low",
-        "rating_points": -5.996,
+        "rating_points": -4.72,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1246,10 +1374,10 @@
             "probability": 0.45613160385268364
           }
         },
-        "generated_at": "2026-11-22T07:22:17.514805+00:00",
-        "revision": "3e37fd3437bab4ab"
+        "generated_at": "2026-11-23T01:26:15.564711+00:00",
+        "revision": "5d55a2d6b18c2fe2"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1258,6 +1386,14 @@
           "id": "3e37fd3437bab4ab",
           "margin": -2.023,
           "probability": 0.466334,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.564711+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "5d55a2d6b18c2fe2",
+          "margin": -0.747,
+          "probability": 0.487553,
           "selected": true
         }
       ]
@@ -1276,7 +1412,7 @@
         "first": "103",
         "second": "2390",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1284,13 +1420,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 29.130435,
-        "rating_second": 91.485507,
+        "rating_first": 31.974638,
+        "rating_second": 91.73913,
         "venue": -1,
-        "margin": -27.214,
-        "probability": 0.140123,
+        "margin": -26.248,
+        "probability": 0.148064,
         "confidence": "high",
-        "rating_points": -23.241,
+        "rating_points": -22.275,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1298,14 +1434,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -17.38888888888889,
-            "probability": 0.1901441078187058
+            "margin": -15.75,
+            "probability": 0.21206880435710532
           }
         },
-        "generated_at": "2026-11-22T01:50:53.850608+00:00",
-        "revision": "99f7c1daf859f969"
+        "generated_at": "2026-11-23T01:26:15.548232+00:00",
+        "revision": "85884cdf3a3c1a33"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1314,6 +1450,14 @@
           "id": "99f7c1daf859f969",
           "margin": -27.214,
           "probability": 0.140123,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.548232+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "85884cdf3a3c1a33",
+          "margin": -26.248,
+          "probability": 0.148064,
           "selected": true
         }
       ]
@@ -1332,7 +1476,7 @@
         "first": "152",
         "second": "153",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1340,13 +1484,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 42.246377,
-        "rating_second": 71.557971,
+        "rating_first": 44.42029,
+        "rating_second": 66.503623,
         "venue": -1,
-        "margin": -14.898,
-        "probability": 0.27028,
+        "margin": -12.204,
+        "probability": 0.307124,
         "confidence": "moderate",
-        "rating_points": -10.925,
+        "rating_points": -8.231,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1354,14 +1498,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -6.833333333333333,
-            "probability": 0.36136502627611594
+            "margin": -4.699999999999999,
+            "probability": 0.40331614909964314
           }
         },
-        "generated_at": "2026-11-22T01:50:53.854659+00:00",
-        "revision": "f9734f996c5cbb51"
+        "generated_at": "2026-11-23T01:26:15.551293+00:00",
+        "revision": "6d29fe1f450214d4"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1370,6 +1514,14 @@
           "id": "f9734f996c5cbb51",
           "margin": -14.898,
           "probability": 0.27028,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551293+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "6d29fe1f450214d4",
+          "margin": -12.204,
+          "probability": 0.307124,
           "selected": true
         }
       ]
@@ -1388,7 +1540,7 @@
         "first": "183",
         "second": "87",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1396,13 +1548,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 40.434783,
-        "rating_second": 74.456522,
+        "rating_first": 37.40942,
+        "rating_second": 76.73913,
         "venue": 1,
-        "margin": -8.708,
-        "probability": 0.35881,
+        "margin": -10.686,
+        "probability": 0.329069,
         "confidence": "moderate",
-        "rating_points": -12.681,
+        "rating_points": -14.659,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1410,14 +1562,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -11.238888888888889,
-            "probability": 0.28159288281288003
+            "margin": -11.7,
+            "probability": 0.2738850187392209
           }
         },
-        "generated_at": "2026-11-22T01:50:53.856464+00:00",
-        "revision": "60cf62718fe1f2f6"
+        "generated_at": "2026-11-23T01:26:15.552597+00:00",
+        "revision": "a8db982f9ae76bf4"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1426,6 +1578,14 @@
           "id": "60cf62718fe1f2f6",
           "margin": -8.708,
           "probability": 0.35881,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.552597+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "a8db982f9ae76bf4",
+          "margin": -10.686,
+          "probability": 0.329069,
           "selected": true
         }
       ]
@@ -1444,7 +1604,7 @@
         "first": "130",
         "second": "194",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1452,13 +1612,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 53.043478,
-        "rating_second": 81.485507,
+        "rating_first": 62.644928,
+        "rating_second": 78.768116,
         "venue": -1,
-        "margin": -14.574,
-        "probability": 0.274562,
+        "margin": -9.982,
+        "probability": 0.339513,
         "confidence": "moderate",
-        "rating_points": -10.601,
+        "rating_points": -6.009,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1466,14 +1626,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -10.95,
-            "probability": 0.28648853245736305
+            "margin": -10.0,
+            "probability": 0.3029407160345927
           }
         },
-        "generated_at": "2026-11-22T01:50:53.852801+00:00",
-        "revision": "c26db0fa97af8eeb"
+        "generated_at": "2026-11-23T01:26:15.549928+00:00",
+        "revision": "04cd014d222aafa5"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1482,6 +1642,14 @@
           "id": "c26db0fa97af8eeb",
           "margin": -14.574,
           "probability": 0.274562,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.549928+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "04cd014d222aafa5",
+          "margin": -9.982,
+          "probability": 0.339513,
           "selected": true
         }
       ]
@@ -1500,7 +1668,7 @@
         "first": "2751",
         "second": "41",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1508,13 +1676,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 34.746377,
-        "rating_second": 39.076087,
+        "rating_first": 36.014493,
+        "rating_second": 38.152174,
         "venue": 1,
-        "margin": 2.359,
-        "probability": 0.539236,
+        "margin": 3.176,
+        "probability": 0.552736,
         "confidence": "low",
-        "rating_points": -1.614,
+        "rating_points": -0.797,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1522,14 +1690,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 1.611111111111111,
-            "probability": 0.5335144868481277
+            "margin": 1.0,
+            "probability": 0.520821285372743
           }
         },
-        "generated_at": "2026-11-22T01:50:53.871856+00:00",
-        "revision": "2c627cd3cd3503aa"
+        "generated_at": "2026-11-23T01:26:15.562745+00:00",
+        "revision": "67dc5c853fe17eaf"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1538,6 +1706,14 @@
           "id": "2c627cd3cd3503aa",
           "margin": 2.359,
           "probability": 0.539236,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.562745+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "67dc5c853fe17eaf",
+          "margin": 3.176,
+          "probability": 0.552736,
           "selected": true
         }
       ]
@@ -1556,7 +1732,7 @@
         "first": "2426",
         "second": "2429",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1564,13 +1740,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 47.028986,
-        "rating_second": 24.673913,
+        "rating_first": 55.724638,
+        "rating_second": 25.144928,
         "venue": -1,
-        "margin": 4.359,
-        "probability": 0.572143,
-        "confidence": "low",
-        "rating_points": 8.332,
+        "margin": 7.425,
+        "probability": 0.621284,
+        "confidence": "moderate",
+        "rating_points": 11.398,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1578,14 +1754,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 3.9027777777777786,
-            "probability": 0.5805986725049336
+            "margin": 4.861111111111111,
+            "probability": 0.5999105929467452
           }
         },
-        "generated_at": "2026-11-22T01:50:53.866026+00:00",
-        "revision": "78a62d67d1506e27"
+        "generated_at": "2026-11-23T01:26:15.559268+00:00",
+        "revision": "692a075990f25640"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1594,6 +1770,14 @@
           "id": "78a62d67d1506e27",
           "margin": 4.359,
           "probability": 0.572143,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.559268+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "692a075990f25640",
+          "margin": 7.425,
+          "probability": 0.621284,
           "selected": true
         }
       ]
@@ -1612,7 +1796,7 @@
         "first": "2050",
         "second": "2117",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1620,13 +1804,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 22.246377,
-        "rating_second": 50.398551,
+        "rating_first": 20.76087,
+        "rating_second": 49.855072,
         "venue": 1,
-        "margin": -6.52,
-        "probability": 0.393013,
+        "margin": -6.871,
+        "probability": 0.387445,
         "confidence": "moderate",
-        "rating_points": -10.493,
+        "rating_points": -10.844,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1638,10 +1822,10 @@
             "probability": 0.4357734558260374
           }
         },
-        "generated_at": "2026-11-22T01:50:53.860161+00:00",
-        "revision": "fa38ca421cd18c81"
+        "generated_at": "2026-11-23T01:26:15.554891+00:00",
+        "revision": "c0230a6235e3cb38"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1650,6 +1834,14 @@
           "id": "fa38ca421cd18c81",
           "margin": -6.52,
           "probability": 0.393013,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.554891+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "c0230a6235e3cb38",
+          "margin": -6.871,
+          "probability": 0.387445,
           "selected": true
         }
       ]
@@ -1668,7 +1860,7 @@
         "first": "2348",
         "second": "290",
         "kickoff": "2026-11-28T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1676,13 +1868,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 60.253623,
-        "rating_second": 69.202899,
+        "rating_first": 61.15942,
+        "rating_second": 70.797101,
         "venue": -1,
-        "margin": -7.309,
-        "probability": 0.380538,
+        "margin": -7.565,
+        "probability": 0.376523,
         "confidence": "moderate",
-        "rating_points": -3.336,
+        "rating_points": -3.592,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1690,14 +1882,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -1.4444444444444442,
-            "probability": 0.4699436892027246
+            "margin": -1.25,
+            "probability": 0.4739818553246543
           }
         },
-        "generated_at": "2026-11-22T01:50:53.864930+00:00",
-        "revision": "e163171491a5591d"
+        "generated_at": "2026-11-23T01:26:15.558215+00:00",
+        "revision": "557e926d07e988df"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1706,6 +1898,14 @@
           "id": "e163171491a5591d",
           "margin": -7.309,
           "probability": 0.380538,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.558215+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "557e926d07e988df",
+          "margin": -7.565,
+          "probability": 0.376523,
           "selected": true
         }
       ]
@@ -1724,7 +1924,7 @@
         "first": "356",
         "second": "77",
         "kickoff": "2026-11-28T17:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1732,13 +1932,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 67.282609,
-        "rating_second": 62.644928,
+        "rating_first": 60.688406,
+        "rating_second": 57.137681,
         "venue": -1,
-        "margin": -2.244,
-        "probability": 0.46267,
+        "margin": -2.65,
+        "probability": 0.455948,
         "confidence": "low",
-        "rating_points": 1.729,
+        "rating_points": 1.323,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1746,14 +1946,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -7.277777777777778,
-            "probability": 0.352862236739856
+            "margin": -7.55,
+            "probability": 0.3476995176141103
           }
         },
-        "generated_at": "2026-11-22T01:50:53.872680+00:00",
-        "revision": "27e7cf46f01e40a2"
+        "generated_at": "2026-11-23T01:26:15.563451+00:00",
+        "revision": "f4c1278e14cac91c"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1762,6 +1962,14 @@
           "id": "27e7cf46f01e40a2",
           "margin": -2.244,
           "probability": 0.46267,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.563451+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "f4c1278e14cac91c",
+          "margin": -2.65,
+          "probability": 0.455948,
           "selected": true
         }
       ]
@@ -1780,7 +1988,7 @@
         "first": "8",
         "second": "99",
         "kickoff": "2026-11-28T17:45:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1788,13 +1996,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 55.163043,
-        "rating_second": 84.094203,
+        "rating_first": 51.449275,
+        "rating_second": 81.376812,
         "venue": 1,
-        "margin": -6.81,
-        "probability": 0.38841,
+        "margin": -7.182,
+        "probability": 0.382536,
         "confidence": "moderate",
-        "rating_points": -10.783,
+        "rating_points": -11.155,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1802,14 +2010,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -7.055555555555555,
-            "probability": 0.35710238156675517
+            "margin": -7.449999999999999,
+            "probability": 0.34959194650338143
           }
         },
-        "generated_at": "2026-11-22T07:22:17.514398+00:00",
-        "revision": "06a6a522879d5a50"
+        "generated_at": "2026-11-23T01:26:15.564500+00:00",
+        "revision": "cf1ae7131eeee3e0"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1818,6 +2026,14 @@
           "id": "06a6a522879d5a50",
           "margin": -6.81,
           "probability": 0.38841,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.564500+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "cf1ae7131eeee3e0",
+          "margin": -7.182,
+          "probability": 0.382536,
           "selected": true
         }
       ]
@@ -1836,7 +2052,7 @@
         "first": "151",
         "second": "2226",
         "kickoff": "2026-11-28T18:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1844,13 +2060,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 38.623188,
-        "rating_second": 44.800725,
+        "rating_first": 40.978261,
+        "rating_second": 51.485507,
         "venue": 1,
-        "margin": 1.671,
-        "probability": 0.527821,
+        "margin": 0.057,
+        "probability": 0.50095,
         "confidence": "low",
-        "rating_points": -2.302,
+        "rating_points": -3.916,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1858,14 +2074,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 2.7777777777777777,
-            "probability": 0.55761333862055
+            "margin": 1.95,
+            "probability": 0.5405358392737893
           }
         },
-        "generated_at": "2026-11-22T01:50:53.854276+00:00",
-        "revision": "d25913fadee02995"
+        "generated_at": "2026-11-23T01:26:15.551066+00:00",
+        "revision": "ee0da8bc71f05f8c"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1874,6 +2090,14 @@
           "id": "d25913fadee02995",
           "margin": 1.671,
           "probability": 0.527821,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551066+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "ee0da8bc71f05f8c",
+          "margin": 0.057,
+          "probability": 0.50095,
           "selected": true
         }
       ]
@@ -1892,7 +2116,7 @@
         "first": "338",
         "second": "98",
         "kickoff": "2026-11-28T18:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1900,13 +2124,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 32.427536,
-        "rating_second": 31.25,
+        "rating_first": 36.775362,
+        "rating_second": 33.84058,
         "venue": -1,
-        "margin": -3.534,
-        "probability": 0.441371,
+        "margin": -2.879,
+        "probability": 0.452163,
         "confidence": "low",
-        "rating_points": 0.439,
+        "rating_points": 1.094,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -1914,14 +2138,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 1.333333333333333,
-            "probability": 0.5277492350545132
+            "margin": 3.0,
+            "probability": 0.5621765008857981
           }
         },
-        "generated_at": "2026-11-22T01:50:53.872291+00:00",
-        "revision": "74bc6d50b7d0e305"
+        "generated_at": "2026-11-23T01:26:15.563221+00:00",
+        "revision": "aa9b9f7d32cb997e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1930,6 +2154,14 @@
           "id": "74bc6d50b7d0e305",
           "margin": -3.534,
           "probability": 0.441371,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.563221+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "aa9b9f7d32cb997e",
+          "margin": -2.879,
+          "probability": 0.452163,
           "selected": true
         }
       ]
@@ -1948,7 +2180,7 @@
         "first": "2433",
         "second": "276",
         "kickoff": "2026-11-28T18:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -1956,13 +2188,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 16.775362,
-        "rating_second": 32.5,
+        "rating_first": 19.021739,
+        "rating_second": 34.51087,
         "venue": 1,
-        "margin": -1.888,
-        "probability": 0.468575,
+        "margin": -1.8,
+        "probability": 0.470036,
         "confidence": "low",
-        "rating_points": -5.861,
+        "rating_points": -5.773,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -1970,14 +2202,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -0.27777777777777857,
-            "probability": 0.49421322135804974
+            "margin": -0.04999999999999982,
+            "probability": 0.49895833484037155
           }
         },
-        "generated_at": "2026-11-22T01:50:53.866757+00:00",
-        "revision": "78394ec69123bcbc"
+        "generated_at": "2026-11-23T01:26:15.559681+00:00",
+        "revision": "2e2018cb72460027"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -1986,6 +2218,14 @@
           "id": "78394ec69123bcbc",
           "margin": -1.888,
           "probability": 0.468575,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.559681+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "2e2018cb72460027",
+          "margin": -1.8,
+          "probability": 0.470036,
           "selected": true
         }
       ]
@@ -2004,7 +2244,7 @@
         "first": "2572",
         "second": "295",
         "kickoff": "2026-11-28T18:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2012,13 +2252,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 18.876812,
-        "rating_second": 35.307971,
+        "rating_first": 19.166667,
+        "rating_second": 36.376812,
         "venue": -1,
-        "margin": -10.097,
-        "probability": 0.337796,
+        "margin": -10.388,
+        "probability": 0.33347,
         "confidence": "moderate",
-        "rating_points": -6.124,
+        "rating_points": -6.415,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2026,14 +2266,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -4.722222222222222,
-            "probability": 0.4028705767208275
+            "margin": -4.3999999999999995,
+            "probability": 0.40934671729911415
           }
         },
-        "generated_at": "2026-11-22T01:50:53.870031+00:00",
-        "revision": "98158b2dede32d9b"
+        "generated_at": "2026-11-23T01:26:15.561610+00:00",
+        "revision": "ee5c303c24bc1903"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2042,6 +2282,14 @@
           "id": "98158b2dede32d9b",
           "margin": -10.097,
           "probability": 0.337796,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.561610+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "ee5c303c24bc1903",
+          "margin": -10.388,
+          "probability": 0.33347,
           "selected": true
         }
       ]
@@ -2060,7 +2308,7 @@
         "first": "2116",
         "second": "38",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2068,13 +2316,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 52.644928,
-        "rating_second": 48.224638,
+        "rating_first": 51.521739,
+        "rating_second": 43.333333,
         "venue": -1,
-        "margin": -2.326,
-        "probability": 0.461311,
+        "margin": -0.921,
+        "probability": 0.484655,
         "confidence": "low",
-        "rating_points": 1.648,
+        "rating_points": 3.052,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2082,14 +2330,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 1.844444444444445,
-            "probability": 0.5383504537300817
+            "margin": 1.6500000000000004,
+            "probability": 0.5343209436693046
           }
         },
-        "generated_at": "2026-11-22T01:50:53.860897+00:00",
-        "revision": "785339635f34f74e"
+        "generated_at": "2026-11-23T01:26:15.555537+00:00",
+        "revision": "cd431220ab187889"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2098,6 +2346,14 @@
           "id": "785339635f34f74e",
           "margin": -2.326,
           "probability": 0.461311,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.555537+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "cd431220ab187889",
+          "margin": -0.921,
+          "probability": 0.484655,
           "selected": true
         }
       ]
@@ -2116,7 +2372,7 @@
         "first": "2306",
         "second": "66",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2124,13 +2380,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 28.876812,
-        "rating_second": 53.623188,
+        "rating_first": 30.217391,
+        "rating_second": 54.057971,
         "venue": -1,
-        "margin": -13.196,
-        "probability": 0.293233,
+        "margin": -12.859,
+        "probability": 0.297911,
         "confidence": "moderate",
-        "rating_points": -9.223,
+        "rating_points": -8.886,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2138,14 +2394,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -3.6555555555555554,
-            "probability": 0.4244261236792654
+            "margin": -3.8000000000000003,
+            "probability": 0.4214883208314183
           }
         },
-        "generated_at": "2026-11-22T01:50:53.863779+00:00",
-        "revision": "2be8b22820e3de34"
+        "generated_at": "2026-11-23T01:26:15.557475+00:00",
+        "revision": "1bcff17ef51b4ace"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2154,6 +2410,14 @@
           "id": "2be8b22820e3de34",
           "margin": -13.196,
           "probability": 0.293233,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.557475+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "1bcff17ef51b4ace",
+          "margin": -12.859,
+          "probability": 0.297911,
           "selected": true
         }
       ]
@@ -2172,7 +2436,7 @@
         "first": "242",
         "second": "349",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2180,13 +2444,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 29.782609,
-        "rating_second": 54.746377,
+        "rating_first": 32.862319,
+        "rating_second": 54.076087,
         "venue": 1,
-        "margin": -5.331,
-        "probability": 0.412074,
+        "margin": -3.934,
+        "probability": 0.434807,
         "confidence": "low",
-        "rating_points": -9.304,
+        "rating_points": -7.907,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2194,14 +2458,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -4.475,
-            "probability": 0.4078364405229514
+            "margin": -4.21111111111111,
+            "probability": 0.4131579044802494
           }
         },
-        "generated_at": "2026-11-22T01:50:53.865677+00:00",
-        "revision": "7e8d0b6b2074ca59"
+        "generated_at": "2026-11-23T01:26:15.559060+00:00",
+        "revision": "7a1032fa85b940cc"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2210,6 +2474,14 @@
           "id": "7e8d0b6b2074ca59",
           "margin": -5.331,
           "probability": 0.412074,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.559060+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "7a1032fa85b940cc",
+          "margin": -3.934,
+          "probability": 0.434807,
           "selected": true
         }
       ]
@@ -2228,7 +2500,7 @@
         "first": "256",
         "second": "324",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2236,13 +2508,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 59.637681,
-        "rating_second": 27.5,
+        "rating_first": 60.615942,
+        "rating_second": 28.949275,
         "venue": 1,
-        "margin": 15.951,
-        "probability": 0.74334,
+        "margin": 15.776,
+        "probability": 0.741108,
         "confidence": "moderate",
-        "rating_points": 11.978,
+        "rating_points": 11.803,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2250,14 +2522,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 9.972222222222221,
-            "probability": 0.6965702471285643
+            "margin": 10.5,
+            "probability": 0.7057850278370112
           }
         },
-        "generated_at": "2026-11-22T01:50:53.869673+00:00",
-        "revision": "52ca6e9102c6842d"
+        "generated_at": "2026-11-23T01:26:15.561399+00:00",
+        "revision": "bf756581cd5ffa17"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2266,6 +2538,14 @@
           "id": "52ca6e9102c6842d",
           "margin": 15.951,
           "probability": 0.74334,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.561399+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "bf756581cd5ffa17",
+          "margin": 15.776,
+          "probability": 0.741108,
           "selected": true
         }
       ]
@@ -2284,7 +2564,7 @@
         "first": "2247",
         "second": "309",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2292,13 +2572,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 35.833333,
-        "rating_second": 53.369565,
+        "rating_first": 34.800725,
+        "rating_second": 54.021739,
         "venue": 1,
-        "margin": -2.563,
-        "probability": 0.457387,
+        "margin": -3.191,
+        "probability": 0.447016,
         "confidence": "low",
-        "rating_points": -6.536,
+        "rating_points": -7.164,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2306,14 +2586,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -0.05555555555555536,
-            "probability": 0.49884259465985964
+            "margin": -0.5,
+            "probability": 0.48958484011263537
           }
         },
-        "generated_at": "2026-11-22T01:50:53.863041+00:00",
-        "revision": "1353d57747f7439d"
+        "generated_at": "2026-11-23T01:26:15.556817+00:00",
+        "revision": "6358e69eaec422a6"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2322,6 +2602,14 @@
           "id": "1353d57747f7439d",
           "margin": -2.563,
           "probability": 0.457387,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.556817+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "6358e69eaec422a6",
+          "margin": -3.191,
+          "probability": 0.447016,
           "selected": true
         }
       ]
@@ -2340,7 +2628,7 @@
         "first": "2335",
         "second": "2623",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2348,13 +2636,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 65.289855,
-        "rating_second": 14.746377,
+        "rating_first": 65.887681,
+        "rating_second": 13.623188,
         "venue": -1,
-        "margin": 14.865,
-        "probability": 0.729285,
+        "margin": 15.507,
+        "probability": 0.737652,
         "confidence": "moderate",
-        "rating_points": 18.839,
+        "rating_points": 19.48,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2362,14 +2650,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 11.722222222222221,
-            "probability": 0.7264831085188377
+            "margin": 12.05,
+            "probability": 0.7318770058984386
           }
         },
-        "generated_at": "2026-11-22T01:50:53.864128+00:00",
-        "revision": "cadeb85e2a9a8c63"
+        "generated_at": "2026-11-23T01:26:15.557762+00:00",
+        "revision": "7c5690ef57ca2c4a"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2378,6 +2666,14 @@
           "id": "cadeb85e2a9a8c63",
           "margin": 14.865,
           "probability": 0.729285,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.557762+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "7c5690ef57ca2c4a",
+          "margin": 15.507,
+          "probability": 0.737652,
           "selected": true
         }
       ]
@@ -2396,7 +2692,7 @@
         "first": "2229",
         "second": "2534",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2404,13 +2700,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 47.318841,
-        "rating_second": 15.018116,
+        "rating_first": 43.876812,
+        "rating_second": 17.717391,
         "venue": 1,
-        "margin": 16.012,
-        "probability": 0.744115,
+        "margin": 13.723,
+        "probability": 0.713995,
         "confidence": "moderate",
-        "rating_points": 12.039,
+        "rating_points": 9.75,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2418,14 +2714,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 10.444444444444445,
-            "probability": 0.7048227585236324
+            "margin": 9.3,
+            "probability": 0.6846015003234307
           }
         },
-        "generated_at": "2026-11-22T01:50:53.862695+00:00",
-        "revision": "254384b34b99d84d"
+        "generated_at": "2026-11-23T01:26:15.556599+00:00",
+        "revision": "215008df88b8d4cf"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2434,6 +2730,14 @@
           "id": "254384b34b99d84d",
           "margin": 16.012,
           "probability": 0.744115,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.556599+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "215008df88b8d4cf",
+          "margin": 13.723,
+          "probability": 0.713995,
           "selected": true
         }
       ]
@@ -2452,7 +2756,7 @@
         "first": "166",
         "second": "2393",
         "kickoff": "2026-11-28T19:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2460,13 +2764,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 17.934783,
-        "rating_second": 31.322464,
+        "rating_first": 19.311594,
+        "rating_second": 28.65942,
         "venue": -1,
-        "margin": -8.963,
-        "probability": 0.354908,
+        "margin": -7.457,
+        "probability": 0.378215,
         "confidence": "moderate",
-        "rating_points": -4.99,
+        "rating_points": -3.484,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2474,14 +2778,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -4.277777777777779,
-            "probability": 0.4118115661008321
+            "margin": -4.9,
+            "probability": 0.3993118238021782
           }
         },
-        "generated_at": "2026-11-22T01:50:53.855741+00:00",
-        "revision": "f8f22add553d1435"
+        "generated_at": "2026-11-23T01:26:15.552161+00:00",
+        "revision": "e62ad028e99ad858"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2490,6 +2794,14 @@
           "id": "f8f22add553d1435",
           "margin": -8.963,
           "probability": 0.354908,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.552161+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "e62ad028e99ad858",
+          "margin": -7.457,
+          "probability": 0.378215,
           "selected": true
         }
       ]
@@ -2508,7 +2820,7 @@
         "first": "228",
         "second": "2579",
         "kickoff": "2026-11-28T20:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2516,13 +2828,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 45.452899,
-        "rating_second": 60.688406,
+        "rating_first": 47.536232,
+        "rating_second": 60.57971,
         "venue": 1,
-        "margin": -1.706,
-        "probability": 0.471597,
+        "margin": -0.889,
+        "probability": 0.485188,
         "confidence": "low",
-        "rating_points": -5.679,
+        "rating_points": -4.862,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2530,14 +2842,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -0.8888888888888884,
-            "probability": 0.4814899443818492
+            "margin": -0.20555555555555527,
+            "probability": 0.4957176973030214
           }
         },
-        "generated_at": "2026-11-22T07:22:17.506585+00:00",
-        "revision": "ba8afeab47ecb7ac"
+        "generated_at": "2026-11-23T01:26:15.557024+00:00",
+        "revision": "a0095cdc88d42de4"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2546,6 +2858,14 @@
           "id": "ba8afeab47ecb7ac",
           "margin": -1.706,
           "probability": 0.471597,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.557024+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "a0095cdc88d42de4",
+          "margin": -0.889,
+          "probability": 0.485188,
           "selected": true
         }
       ]
@@ -2564,7 +2884,7 @@
         "first": "258",
         "second": "259",
         "kickoff": "2026-11-28T20:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2572,13 +2892,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 43.423913,
-        "rating_second": 33.568841,
+        "rating_first": 47.282609,
+        "rating_second": 33.514493,
         "venue": -1,
-        "margin": -0.3,
-        "probability": 0.495,
+        "margin": 1.159,
+        "probability": 0.519307,
         "confidence": "low",
-        "rating_points": 3.673,
+        "rating_points": 5.132,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2586,14 +2906,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -3.388888888888889,
-            "probability": 0.42986366714622665
+            "margin": -2.1,
+            "probability": 0.4563613127629212
           }
         },
-        "generated_at": "2026-11-22T01:50:53.870401+00:00",
-        "revision": "42193292a40e6a90"
+        "generated_at": "2026-11-23T01:26:15.561818+00:00",
+        "revision": "c3d233d8c4e2ffae"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2602,6 +2922,14 @@
           "id": "42193292a40e6a90",
           "margin": -0.3,
           "probability": 0.495,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.561818+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "c3d233d8c4e2ffae",
+          "margin": 1.159,
+          "probability": 0.519307,
           "selected": true
         }
       ]
@@ -2620,7 +2948,7 @@
         "first": "2032",
         "second": "2653",
         "kickoff": "2026-11-28T20:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2628,13 +2956,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 24.347826,
-        "rating_second": 21.684783,
+        "rating_first": 21.304348,
+        "rating_second": 18.623188,
         "venue": 1,
-        "margin": 4.966,
-        "probability": 0.582019,
+        "margin": 4.972,
+        "probability": 0.582116,
         "confidence": "low",
-        "rating_points": 0.993,
+        "rating_points": 0.999,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2642,14 +2970,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 4.277777777777778,
-            "probability": 0.5881884338991679
+            "margin": 3.8000000000000007,
+            "probability": 0.5785116791685817
           }
         },
-        "generated_at": "2026-11-22T01:50:53.859469+00:00",
-        "revision": "8ee45a6a0bd090f8"
+        "generated_at": "2026-11-23T01:26:15.554461+00:00",
+        "revision": "545d5651e88728ec"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2658,6 +2986,14 @@
           "id": "8ee45a6a0bd090f8",
           "margin": 4.966,
           "probability": 0.582019,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.554461+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "545d5651e88728ec",
+          "margin": 4.972,
+          "probability": 0.582116,
           "selected": true
         }
       ]
@@ -2676,7 +3012,7 @@
         "first": "59",
         "second": "61",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2684,13 +3020,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 28.025362,
-        "rating_second": 91.557971,
+        "rating_first": 34.202899,
+        "rating_second": 91.630435,
         "venue": -1,
-        "margin": -27.653,
-        "probability": 0.136634,
+        "margin": -25.377,
+        "probability": 0.155539,
         "confidence": "high",
-        "rating_points": -23.68,
+        "rating_points": -21.404,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2698,14 +3034,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -19.944444444444443,
-            "probability": 0.15948873844337344
+            "margin": -20.47222222222222,
+            "probability": 0.15368084562894557
           }
         },
-        "generated_at": "2026-11-22T07:22:17.513993+00:00",
-        "revision": "d2fdd79ce6e7626c"
+        "generated_at": "2026-11-23T01:26:15.564292+00:00",
+        "revision": "16bea47056edbbd2"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2714,6 +3050,14 @@
           "id": "d2fdd79ce6e7626c",
           "margin": -27.653,
           "probability": 0.136634,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.564292+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "16bea47056edbbd2",
+          "margin": -25.377,
+          "probability": 0.155539,
           "selected": true
         }
       ]
@@ -2732,7 +3076,7 @@
         "first": "2132",
         "second": "252",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2740,13 +3084,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 51.485507,
-        "rating_second": 84.710145,
+        "rating_first": 55.181159,
+        "rating_second": 83.405797,
         "venue": -1,
-        "margin": -16.357,
-        "probability": 0.25153,
+        "margin": -14.493,
+        "probability": 0.275639,
         "confidence": "moderate",
-        "rating_points": -12.383,
+        "rating_points": -10.52,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2754,14 +3098,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -9.333333333333332,
-            "probability": 0.3147990233346844
+            "margin": -8.45,
+            "probability": 0.33088907245971827
           }
         },
-        "generated_at": "2026-11-22T01:50:53.861248+00:00",
-        "revision": "2962c790b4ad6278"
+        "generated_at": "2026-11-23T01:26:15.555746+00:00",
+        "revision": "4dc687533241ff5d"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2770,6 +3114,14 @@
           "id": "2962c790b4ad6278",
           "margin": -16.357,
           "probability": 0.25153,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.555746+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "4dc687533241ff5d",
+          "margin": -14.493,
+          "probability": 0.275639,
           "selected": true
         }
       ]
@@ -2788,7 +3140,7 @@
         "first": "150",
         "second": "154",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2796,13 +3148,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 67.355072,
-        "rating_second": 79.311594,
+        "rating_first": 63.369565,
+        "rating_second": 75.905797,
         "venue": -1,
-        "margin": -8.429,
-        "probability": 0.3631,
+        "margin": -8.646,
+        "probability": 0.359761,
         "confidence": "moderate",
-        "rating_points": -4.456,
+        "rating_points": -4.672,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -2810,14 +3162,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -8.444444444444446,
-            "probability": 0.33099158117526256
+            "margin": -9.45,
+            "probability": 0.31270571980279593
           }
         },
-        "generated_at": "2026-11-22T07:22:17.500412+00:00",
-        "revision": "8fd3282fa06dce8a"
+        "generated_at": "2026-11-23T01:26:15.550844+00:00",
+        "revision": "cda5a2a7137da9f6"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2826,6 +3178,14 @@
           "id": "8fd3282fa06dce8a",
           "margin": -8.429,
           "probability": 0.3631,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.550844+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "cda5a2a7137da9f6",
+          "margin": -8.646,
+          "probability": 0.359761,
           "selected": true
         }
       ]
@@ -2844,7 +3204,7 @@
         "first": "24",
         "second": "2567",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2852,13 +3212,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 46.105072,
-        "rating_second": 65.57971,
+        "rating_first": 46.394928,
+        "rating_second": 63.65942,
         "venue": 1,
-        "margin": -3.286,
-        "probability": 0.445451,
+        "margin": -2.462,
+        "probability": 0.459059,
         "confidence": "low",
-        "rating_points": -7.259,
+        "rating_points": -6.435,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2870,10 +3230,10 @@
             "probability": 0.3361373196331898
           }
         },
-        "generated_at": "2026-11-22T07:22:17.508630+00:00",
-        "revision": "1f81c9f21a7b6980"
+        "generated_at": "2026-11-23T01:26:15.558834+00:00",
+        "revision": "457a6c49b21a2b7b"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2882,6 +3242,14 @@
           "id": "1f81c9f21a7b6980",
           "margin": -3.286,
           "probability": 0.445451,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.558834+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "457a6c49b21a2b7b",
+          "margin": -2.462,
+          "probability": 0.459059,
           "selected": true
         }
       ]
@@ -2900,7 +3268,7 @@
         "first": "120",
         "second": "213",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2908,13 +3276,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 35.398551,
-        "rating_second": 67.5,
+        "rating_first": 35.76087,
+        "rating_second": 60.289855,
         "venue": 1,
-        "margin": -7.992,
-        "probability": 0.369864,
-        "confidence": "moderate",
-        "rating_points": -11.965,
+        "margin": -5.169,
+        "probability": 0.414693,
+        "confidence": "low",
+        "rating_points": -9.142,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2922,14 +3290,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -7.81111111111111,
-            "probability": 0.34278091238000674
+            "margin": -7.436363636363637,
+            "probability": 0.34985037407447117
           }
         },
-        "generated_at": "2026-11-22T01:50:53.852047+00:00",
-        "revision": "781c635eb07e88ba"
+        "generated_at": "2026-11-23T01:26:15.549457+00:00",
+        "revision": "dcec0c422d26b3ce"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2938,6 +3306,14 @@
           "id": "781c635eb07e88ba",
           "margin": -7.992,
           "probability": 0.369864,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.549457+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "dcec0c422d26b3ce",
+          "margin": -5.169,
+          "probability": 0.414693,
           "selected": true
         }
       ]
@@ -2956,7 +3332,7 @@
         "first": "26",
         "second": "30",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -2964,13 +3340,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 74.673913,
-        "rating_second": 79.746377,
+        "rating_first": 71.557971,
+        "rating_second": 80.253623,
         "venue": 1,
-        "margin": 2.082,
-        "probability": 0.534644,
+        "margin": 0.732,
+        "probability": 0.512198,
         "confidence": "low",
-        "rating_points": -1.891,
+        "rating_points": -3.241,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -2978,14 +3354,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 9.15,
-            "probability": 0.6818962645895935
+            "margin": 7.863636363636363,
+            "probability": 0.6582044914489201
           }
         },
-        "generated_at": "2026-11-22T01:50:53.870765+00:00",
-        "revision": "450825b87bba456e"
+        "generated_at": "2026-11-23T01:26:15.562024+00:00",
+        "revision": "5c4b52ccce9a2a3b"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -2994,6 +3370,14 @@
           "id": "450825b87bba456e",
           "margin": 2.082,
           "probability": 0.534644,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.562024+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "5c4b52ccce9a2a3b",
+          "margin": 0.732,
+          "probability": 0.512198,
           "selected": true
         }
       ]
@@ -3012,7 +3396,7 @@
         "first": "2655",
         "second": "58",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3020,13 +3404,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 29.42029,
-        "rating_second": 48.297101,
+        "rating_first": 29.384058,
+        "rating_second": 38.152174,
         "venue": -1,
-        "margin": -11.009,
-        "probability": 0.324332,
+        "margin": -7.241,
+        "probability": 0.381607,
         "confidence": "moderate",
-        "rating_points": -7.036,
+        "rating_points": -3.268,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3034,14 +3418,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -8.944444444444445,
-            "probability": 0.3218309096424174
+            "margin": -7.15,
+            "probability": 0.3552975389526459
           }
         },
-        "generated_at": "2026-11-22T01:50:53.871501+00:00",
-        "revision": "ba6e4312755d65db"
+        "generated_at": "2026-11-23T01:26:15.562539+00:00",
+        "revision": "6116e5fa0c5a442e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3050,6 +3434,14 @@
           "id": "ba6e4312755d65db",
           "margin": -11.009,
           "probability": 0.324332,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.562539+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "6116e5fa0c5a442e",
+          "margin": -7.241,
+          "probability": 0.381607,
           "selected": true
         }
       ]
@@ -3068,7 +3460,7 @@
         "first": "2459",
         "second": "2638",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3076,13 +3468,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 21.956522,
-        "rating_second": 18.532609,
+        "rating_first": 26.050725,
+        "rating_second": 23.949275,
         "venue": 1,
-        "margin": 5.249,
-        "probability": 0.586601,
+        "margin": 4.756,
+        "probability": 0.578609,
         "confidence": "low",
-        "rating_points": 1.276,
+        "rating_points": 0.783,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3090,14 +3482,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 5.0,
-            "probability": 0.6026853379784917
+            "margin": 6.949999999999999,
+            "probability": 0.6408756338128132
           }
         },
-        "generated_at": "2026-11-22T01:50:53.868179+00:00",
-        "revision": "cd955943a5909f38"
+        "generated_at": "2026-11-23T01:26:15.560311+00:00",
+        "revision": "8bb7c86eb25614ee"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3106,6 +3498,14 @@
           "id": "cd955943a5909f38",
           "margin": 5.249,
           "probability": 0.586601,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.560311+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "8bb7c86eb25614ee",
+          "margin": 4.756,
+          "probability": 0.578609,
           "selected": true
         }
       ]
@@ -3124,7 +3524,7 @@
         "first": "113",
         "second": "189",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3132,13 +3532,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 14.057971,
-        "rating_second": 27.518116,
+        "rating_first": 15.326087,
+        "rating_second": 26.268116,
         "venue": -1,
-        "margin": -8.99,
-        "probability": 0.354496,
+        "margin": -8.051,
+        "probability": 0.368948,
         "confidence": "moderate",
-        "rating_points": -5.017,
+        "rating_points": -4.078,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3146,14 +3546,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 0.2777777777777777,
-            "probability": 0.5057867786419502
+            "margin": 0.7333333333333334,
+            "probability": 0.5152730248945588
           }
         },
-        "generated_at": "2026-11-22T01:50:53.851227+00:00",
-        "revision": "073435574f704334"
+        "generated_at": "2026-11-23T01:26:15.548812+00:00",
+        "revision": "b3b60ff8d2f24bd9"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3162,6 +3562,14 @@
           "id": "073435574f704334",
           "margin": -8.99,
           "probability": 0.354496,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.548812+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "b3b60ff8d2f24bd9",
+          "margin": -8.051,
+          "probability": 0.368948,
           "selected": true
         }
       ]
@@ -3180,7 +3588,7 @@
         "first": "48",
         "second": "55",
         "kickoff": "2026-11-28T20:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3188,13 +3596,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 31.123188,
-        "rating_second": 46.557971,
+        "rating_first": 30.76087,
+        "rating_second": 46.449275,
         "venue": 1,
-        "margin": -1.78,
-        "probability": 0.470368,
+        "margin": -1.874,
+        "probability": 0.468807,
         "confidence": "low",
-        "rating_points": -5.753,
+        "rating_points": -5.847,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3202,14 +3610,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 0.0555555555555558,
-            "probability": 0.5011574053401404
+            "margin": 0.6999999999999997,
+            "probability": 0.5145791994197906
           }
         },
-        "generated_at": "2026-11-22T01:50:53.873035+00:00",
-        "revision": "90fa8707329003ea"
+        "generated_at": "2026-11-23T01:26:15.563865+00:00",
+        "revision": "ada862c1d7df6365"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3218,6 +3626,14 @@
           "id": "90fa8707329003ea",
           "margin": -1.78,
           "probability": 0.470368,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.563865+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "ada862c1d7df6365",
+          "margin": -1.874,
+          "probability": 0.468807,
           "selected": true
         }
       ]
@@ -3236,7 +3652,7 @@
         "first": "249",
         "second": "5",
         "kickoff": "2026-11-28T21:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3244,13 +3660,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 67.210145,
-        "rating_second": 40.778986,
+        "rating_first": 65.797101,
+        "rating_second": 40.326087,
         "venue": 1,
-        "margin": 13.824,
-        "probability": 0.715368,
+        "margin": 13.467,
+        "probability": 0.710497,
         "confidence": "moderate",
-        "rating_points": 9.851,
+        "rating_points": 9.494,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3258,14 +3674,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 6.722222222222222,
-            "probability": 0.6364953874773035
+            "margin": 6.211111111111111,
+            "probability": 0.6265846618520182
           }
         },
-        "generated_at": "2026-11-22T01:50:53.868555+00:00",
-        "revision": "e89a70a4c4486934"
+        "generated_at": "2026-11-23T01:26:15.560728+00:00",
+        "revision": "3ec8e1131e488c10"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3274,6 +3690,14 @@
           "id": "e89a70a4c4486934",
           "margin": 13.824,
           "probability": 0.715368,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.560728+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "3ec8e1131e488c10",
+          "margin": 13.467,
+          "probability": 0.710497,
           "selected": true
         }
       ]
@@ -3292,7 +3716,7 @@
         "first": "142",
         "second": "201",
         "kickoff": "2026-11-28T21:15:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3300,13 +3724,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 57.644928,
-        "rating_second": 76.376812,
+        "rating_first": 53.768116,
+        "rating_second": 81.268116,
         "venue": 1,
-        "margin": -3.009,
-        "probability": 0.450017,
-        "confidence": "low",
-        "rating_points": -6.982,
+        "margin": -6.277,
+        "probability": 0.396884,
+        "confidence": "moderate",
+        "rating_points": -10.25,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3314,14 +3738,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 2.6833333333333336,
-            "probability": 0.5556709994181677
+            "margin": 1.8787878787878787,
+            "probability": 0.5390616541627006
           }
         },
-        "generated_at": "2026-11-22T01:50:53.853564+00:00",
-        "revision": "572e80c23ce8e005"
+        "generated_at": "2026-11-23T01:26:15.550415+00:00",
+        "revision": "fcec5b0f5ba928cb"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3330,6 +3754,14 @@
           "id": "572e80c23ce8e005",
           "margin": -3.009,
           "probability": 0.450017,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.550415+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "fcec5b0f5ba928cb",
+          "margin": -6.277,
+          "probability": 0.396884,
           "selected": true
         }
       ]
@@ -3348,7 +3780,7 @@
         "first": "127",
         "second": "164",
         "kickoff": "2026-11-28T21:15:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3356,13 +3788,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 54.673913,
-        "rating_second": 18.496377,
+        "rating_first": 51.304348,
+        "rating_second": 22.717391,
         "venue": -1,
-        "margin": 9.511,
-        "probability": 0.653411,
+        "margin": 6.682,
+        "probability": 0.609561,
         "confidence": "moderate",
-        "rating_points": 13.484,
+        "rating_points": 10.655,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3370,14 +3802,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 2.6388888888888893,
-            "probability": 0.5547563646916547
+            "margin": 0.2772727272727269,
+            "probability": 0.5057762581632449
           }
         },
-        "generated_at": "2026-11-22T01:50:53.852435+00:00",
-        "revision": "ba1d21394505aa14"
+        "generated_at": "2026-11-23T01:26:15.549699+00:00",
+        "revision": "746d7ec2cb4e32be"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3386,6 +3818,14 @@
           "id": "ba1d21394505aa14",
           "margin": 9.511,
           "probability": 0.653411,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.549699+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "746d7ec2cb4e32be",
+          "margin": 6.682,
+          "probability": 0.609561,
           "selected": true
         }
       ]
@@ -3404,7 +3844,7 @@
         "first": "36",
         "second": "68",
         "kickoff": "2026-11-28T23:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3412,13 +3852,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 26.847826,
-        "rating_second": 83.949275,
+        "rating_first": 27.463768,
+        "rating_second": 83.550725,
         "venue": 1,
-        "margin": -17.31,
-        "probability": 0.239759,
+        "margin": -16.932,
+        "probability": 0.244383,
         "confidence": "high",
-        "rating_points": -21.283,
+        "rating_points": -20.905,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3430,10 +3870,10 @@
             "probability": 0.24594259011311184
           }
         },
-        "generated_at": "2026-11-22T09:57:05.282137+00:00",
-        "revision": "0c1572d860960dd4"
+        "generated_at": "2026-11-23T01:26:15.563662+00:00",
+        "revision": "68ceabf3f78d2ec8"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3442,6 +3882,14 @@
           "id": "0c1572d860960dd4",
           "margin": -17.31,
           "probability": 0.239759,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.563662+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "68ceabf3f78d2ec8",
+          "margin": -16.932,
+          "probability": 0.244383,
           "selected": true
         }
       ]
@@ -3460,7 +3908,7 @@
         "first": "197",
         "second": "2305",
         "kickoff": "2026-11-28T23:15:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3468,13 +3916,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 61.594203,
-        "rating_second": 50.869565,
+        "rating_first": 62.391304,
+        "rating_second": 50.57971,
         "venue": 1,
-        "margin": 7.97,
-        "probability": 0.629794,
+        "margin": 8.375,
+        "probability": 0.636067,
         "confidence": "moderate",
-        "rating_points": 3.997,
+        "rating_points": 4.402,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3482,14 +3930,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 5.555555555555555,
-            "probability": 0.6137168375076296
+            "margin": 5.766666666666667,
+            "probability": 0.6178790525392549
           }
         },
-        "generated_at": "2026-11-22T01:50:53.858006+00:00",
-        "revision": "0b5d0f3237cb4ba5"
+        "generated_at": "2026-11-23T01:26:15.553357+00:00",
+        "revision": "e0908fa2a60b282e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3498,6 +3946,14 @@
           "id": "0b5d0f3237cb4ba5",
           "margin": 7.97,
           "probability": 0.629794,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.553357+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "e0908fa2a60b282e",
+          "margin": 8.375,
+          "probability": 0.636067,
           "selected": true
         }
       ]
@@ -3516,7 +3972,7 @@
         "first": "21",
         "second": "265",
         "kickoff": "2026-11-28T23:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3524,13 +3980,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 41.92029,
-        "rating_second": 22.753623,
+        "rating_first": 39.782609,
+        "rating_second": 21.630435,
         "venue": -1,
-        "margin": 3.171,
-        "probability": 0.552654,
+        "margin": 2.793,
+        "probability": 0.546416,
         "confidence": "low",
-        "rating_points": 7.144,
+        "rating_points": 6.766,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3538,14 +3994,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -5.0,
-            "probability": 0.39731466202150834
+            "margin": -3.883333333333333,
+            "probability": 0.4197959453757783
           }
         },
-        "generated_at": "2026-11-22T09:57:05.278398+00:00",
-        "revision": "8bc5522a3a911ce9"
+        "generated_at": "2026-11-23T01:26:15.555114+00:00",
+        "revision": "e447ff33c217da09"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3554,6 +4010,14 @@
           "id": "8bc5522a3a911ce9",
           "margin": 3.171,
           "probability": 0.552654,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.555114+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "e447ff33c217da09",
+          "margin": 2.793,
+          "probability": 0.546416,
           "selected": true
         }
       ]
@@ -3572,7 +4036,7 @@
         "first": "238",
         "second": "2633",
         "kickoff": "2026-11-29T00:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3580,13 +4044,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 37.681159,
-        "rating_second": 80.57971,
+        "rating_first": 38.804348,
+        "rating_second": 81.014493,
         "venue": 1,
-        "margin": -12.016,
-        "probability": 0.309797,
+        "margin": -11.759,
+        "probability": 0.313473,
         "confidence": "moderate",
-        "rating_points": -15.989,
+        "rating_points": -15.733,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3594,14 +4058,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": -9.0,
-            "probability": 0.320821300824607
+            "margin": -8.850000000000001,
+            "probability": 0.32355106665152034
           }
         },
-        "generated_at": "2026-11-22T07:22:17.508023+00:00",
-        "revision": "952c169b02042df0"
+        "generated_at": "2026-11-23T01:26:15.558424+00:00",
+        "revision": "e910971e75cf53c8"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3610,6 +4074,14 @@
           "id": "952c169b02042df0",
           "margin": -12.016,
           "probability": 0.309797,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.558424+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "e910971e75cf53c8",
+          "margin": -11.759,
+          "probability": 0.313473,
           "selected": true
         }
       ]
@@ -3628,7 +4100,7 @@
         "first": "2509",
         "second": "84",
         "kickoff": "2026-11-29T00:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3636,13 +4108,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 47.554348,
-        "rating_second": 83.496377,
+        "rating_first": 42.137681,
+        "rating_second": 79.528986,
         "venue": -1,
-        "margin": -17.369,
-        "probability": 0.239043,
+        "margin": -17.909,
+        "probability": 0.232556,
         "confidence": "high",
-        "rating_points": -13.396,
+        "rating_points": -13.936,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3650,14 +4122,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -14.722222222222221,
-            "probability": 0.22673290021393572
+            "margin": -15.0,
+            "probability": 0.22270013882530884
           }
         },
-        "generated_at": "2026-11-22T07:22:17.511104+00:00",
-        "revision": "266ce473a4f4766b"
+        "generated_at": "2026-11-23T01:26:15.560934+00:00",
+        "revision": "a2777465576f2e9e"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3666,6 +4138,14 @@
           "id": "266ce473a4f4766b",
           "margin": -17.369,
           "probability": 0.239043,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.560934+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "a2777465576f2e9e",
+          "margin": -17.909,
+          "probability": 0.232556,
           "selected": true
         }
       ]
@@ -3684,7 +4164,7 @@
         "first": "2",
         "second": "333",
         "kickoff": "2026-11-29T00:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3692,13 +4172,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 63.550725,
-        "rating_second": 89.492754,
+        "rating_first": 59.855072,
+        "rating_second": 88.224638,
         "venue": -1,
-        "margin": -13.642,
-        "probability": 0.287109,
+        "margin": -14.547,
+        "probability": 0.27492,
         "confidence": "moderate",
-        "rating_points": -9.669,
+        "rating_points": -10.574,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3710,10 +4190,10 @@
             "probability": 0.2899075006841359
           }
         },
-        "generated_at": "2026-11-22T07:22:17.503234+00:00",
-        "revision": "dc56b836b70122c7"
+        "generated_at": "2026-11-23T01:26:15.553570+00:00",
+        "revision": "1298f26dc6657d6c"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3722,6 +4202,14 @@
           "id": "dc56b836b70122c7",
           "margin": -13.642,
           "probability": 0.287109,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.553570+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "1298f26dc6657d6c",
+          "margin": -14.547,
+          "probability": 0.27492,
           "selected": true
         }
       ]
@@ -3740,7 +4228,7 @@
         "first": "221",
         "second": "25",
         "kickoff": "2026-11-29T00:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3748,13 +4236,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 54.166667,
-        "rating_second": 34.42029,
+        "rating_first": 50.797101,
+        "rating_second": 36.376812,
         "venue": -1,
-        "margin": 3.387,
-        "probability": 0.556211,
+        "margin": 1.402,
+        "probability": 0.52335,
         "confidence": "low",
-        "rating_points": 7.36,
+        "rating_points": 5.375,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3766,10 +4254,10 @@
             "probability": 0.6648949927105458
           }
         },
-        "generated_at": "2026-11-22T01:50:53.862331+00:00",
-        "revision": "5b597f4a784cf1e1"
+        "generated_at": "2026-11-23T01:26:15.556381+00:00",
+        "revision": "1ab27226054c5f32"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3778,6 +4266,14 @@
           "id": "5b597f4a784cf1e1",
           "margin": 3.387,
           "probability": 0.556211,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.556381+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "1ab27226054c5f32",
+          "margin": 1.402,
+          "probability": 0.52335,
           "selected": true
         }
       ]
@@ -3796,7 +4292,7 @@
         "first": "2483",
         "second": "264",
         "kickoff": "2026-11-29T00:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3804,13 +4300,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 82.753623,
-        "rating_second": 47.862319,
+        "rating_first": 86.050725,
+        "rating_second": 59.148551,
         "venue": 1,
-        "margin": 16.978,
-        "probability": 0.756183,
-        "confidence": "high",
-        "rating_points": 13.005,
+        "margin": 14.0,
+        "probability": 0.717751,
+        "confidence": "moderate",
+        "rating_points": 10.027,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3818,14 +4314,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 4.833333333333333,
-            "probability": 0.5993548677406068
+            "margin": 6.4,
+            "probability": 0.6302602229177513
           }
         },
-        "generated_at": "2026-11-22T07:22:17.510459+00:00",
-        "revision": "093fcbd00eb044a1"
+        "generated_at": "2026-11-23T01:26:15.560521+00:00",
+        "revision": "7bd4f5499d2e5391"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3834,6 +4330,14 @@
           "id": "093fcbd00eb044a1",
           "margin": 16.978,
           "probability": 0.756183,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.560521+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "7bd4f5499d2e5391",
+          "margin": 14.0,
+          "probability": 0.717751,
           "selected": true
         }
       ]
@@ -3852,7 +4356,7 @@
         "first": "12",
         "second": "9",
         "kickoff": "2026-11-29T02:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3860,13 +4364,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 72.192029,
-        "rating_second": 46.322464,
+        "rating_first": 69.528986,
+        "rating_second": 42.59058,
         "venue": 1,
-        "margin": 13.615,
-        "probability": 0.712522,
+        "margin": 14.014,
+        "probability": 0.71794,
         "confidence": "moderate",
-        "rating_points": 9.642,
+        "rating_points": 10.04,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3874,14 +4378,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 10.777777777777779,
-            "probability": 0.7105687978878438
+            "margin": 10.572222222222223,
+            "probability": 0.7070332386848703
           }
         },
-        "generated_at": "2026-11-22T01:50:53.851646+00:00",
-        "revision": "43c989ba0aa015ab"
+        "generated_at": "2026-11-23T01:26:15.549175+00:00",
+        "revision": "9c806a37a6dee475"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3890,6 +4394,14 @@
           "id": "43c989ba0aa015ab",
           "margin": 13.615,
           "probability": 0.712522,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.549175+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "9c806a37a6dee475",
+          "margin": 14.014,
+          "probability": 0.71794,
           "selected": true
         }
       ]
@@ -3908,7 +4420,7 @@
         "first": "2439",
         "second": "2440",
         "kickoff": "2026-11-29T02:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3916,13 +4428,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 60.905797,
-        "rating_second": 46.268116,
+        "rating_first": 58.043478,
+        "rating_second": 45.507246,
         "venue": 1,
-        "margin": 9.429,
-        "probability": 0.652172,
+        "margin": 8.646,
+        "probability": 0.640239,
         "confidence": "moderate",
-        "rating_points": 5.456,
+        "rating_points": 4.672,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -3930,14 +4442,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 2.9,
-            "probability": 0.5601243320999951
+            "margin": 2.9545454545454546,
+            "probability": 0.5612439562996877
           }
         },
-        "generated_at": "2026-11-22T01:50:53.867103+00:00",
-        "revision": "dc6b5debc7623ec6"
+        "generated_at": "2026-11-23T01:26:15.559881+00:00",
+        "revision": "d7e8b3a783dd6184"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -3946,6 +4458,14 @@
           "id": "dc6b5debc7623ec6",
           "margin": 9.429,
           "probability": 0.652172,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.559881+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "d7e8b3a783dd6184",
+          "margin": 8.646,
+          "probability": 0.640239,
           "selected": true
         }
       ]
@@ -3964,7 +4484,7 @@
         "first": "239",
         "second": "248",
         "kickoff": "2026-11-29T02:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -3972,13 +4492,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 67.572464,
-        "rating_second": 76.847826,
+        "rating_first": 66.286232,
+        "rating_second": 78.985507,
         "venue": -1,
-        "margin": -7.43,
-        "probability": 0.378638,
+        "margin": -8.706,
+        "probability": 0.358841,
         "confidence": "moderate",
-        "rating_points": -3.457,
+        "rating_points": -4.733,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -3986,14 +4506,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": -1.5555555555555554,
-            "probability": 0.467637897208072
+            "margin": -2.35,
+            "probability": 0.4511975344370706
           }
         },
-        "generated_at": "2026-11-22T01:50:53.865302+00:00",
-        "revision": "59ecbaa89a7cc533"
+        "generated_at": "2026-11-23T01:26:15.558623+00:00",
+        "revision": "83009ae17e56149c"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4002,6 +4522,14 @@
           "id": "59ecbaa89a7cc533",
           "margin": -7.43,
           "probability": 0.378638,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.558623+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "83009ae17e56149c",
+          "margin": -8.706,
+          "probability": 0.358841,
           "selected": true
         }
       ]
@@ -4020,7 +4548,7 @@
         "first": "326",
         "second": "328",
         "kickoff": "2026-11-29T02:30:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4028,13 +4556,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 75.869565,
-        "rating_second": 40.48913,
+        "rating_first": 74.855072,
+        "rating_second": 41.34058,
         "venue": -1,
-        "margin": 9.214,
-        "probability": 0.648913,
+        "margin": 8.518,
+        "probability": 0.638271,
         "confidence": "moderate",
-        "rating_points": 13.187,
+        "rating_points": 12.491,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -4042,14 +4570,14 @@
             "probability": 0.43782349911420193
           },
           "raw_margin": {
-            "margin": 0.16666666666666696,
-            "probability": 0.5034721664069695
+            "margin": 1.4611111111111112,
+            "probability": 0.5304022638251487
           }
         },
-        "generated_at": "2026-11-22T09:57:05.281666+00:00",
-        "revision": "7e68d0434f32a514"
+        "generated_at": "2026-11-23T01:26:15.562953+00:00",
+        "revision": "d14a7c9e12213e18"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4058,6 +4586,14 @@
           "id": "7e68d0434f32a514",
           "margin": 9.214,
           "probability": 0.648913,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.562953+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "d14a7c9e12213e18",
+          "margin": 8.518,
+          "probability": 0.638271,
           "selected": true
         }
       ]
@@ -4076,7 +4612,7 @@
         "first": "204",
         "second": "278",
         "kickoff": "2026-11-29T03:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4084,13 +4620,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 45.76087,
-        "rating_second": 41.34058,
+        "rating_first": 47.028986,
+        "rating_second": 42.735507,
         "venue": -1,
-        "margin": -2.326,
-        "probability": 0.461311,
+        "margin": -2.373,
+        "probability": 0.460532,
         "confidence": "low",
-        "rating_points": 1.648,
+        "rating_points": 1.6,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -4102,10 +4638,10 @@
             "probability": 0.4508536434692572
           }
         },
-        "generated_at": "2026-11-22T09:57:05.277809+00:00",
-        "revision": "99a1263d6895a5e3"
+        "generated_at": "2026-11-23T01:26:15.554670+00:00",
+        "revision": "18ec63ccff0d9ff6"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4114,6 +4650,14 @@
           "id": "99a1263d6895a5e3",
           "margin": -2.326,
           "probability": 0.461311,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.554670+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "18ec63ccff0d9ff6",
+          "margin": -2.373,
+          "probability": 0.460532,
           "selected": true
         }
       ]
@@ -4132,7 +4676,7 @@
         "first": "16",
         "second": "62",
         "kickoff": "2026-11-29T04:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4140,13 +4684,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 9.130435,
-        "rating_second": 27.717391,
+        "rating_first": 9.492754,
+        "rating_second": 27.789855,
         "venue": -1,
-        "margin": -10.901,
-        "probability": 0.325912,
+        "margin": -10.793,
+        "probability": 0.327496,
         "confidence": "moderate",
-        "rating_points": -6.928,
+        "rating_points": -6.82,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -4158,10 +4702,10 @@
             "probability": 0.2847881273207287
           }
         },
-        "generated_at": "2026-11-22T01:50:53.855389+00:00",
-        "revision": "94251d6b40af1c90"
+        "generated_at": "2026-11-23T01:26:15.551932+00:00",
+        "revision": "8682c8bfd0c62f48"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4170,6 +4714,14 @@
           "id": "94251d6b40af1c90",
           "margin": -10.901,
           "probability": 0.325912,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551932+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "8682c8bfd0c62f48",
+          "margin": -10.793,
+          "probability": 0.327496,
           "selected": true
         }
       ]
@@ -4188,7 +4740,7 @@
         "first": "2335",
         "second": "55",
         "kickoff": "2026-12-05T00:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4196,13 +4748,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 65.289855,
-        "rating_second": 46.557971,
+        "rating_first": 65.887681,
+        "rating_second": 46.449275,
         "venue": 1,
-        "margin": 10.955,
-        "probability": 0.674878,
+        "margin": 11.218,
+        "probability": 0.678714,
         "confidence": "moderate",
-        "rating_points": 6.982,
+        "rating_points": 7.245,
         "venue_points": 3.973,
         "baselines": {
           "home": {
@@ -4210,14 +4762,14 @@
             "probability": 0.5621765008857981
           },
           "raw_margin": {
-            "margin": 11.055555555555555,
-            "probability": 0.7153061613617603
+            "margin": 11.55,
+            "probability": 0.7236220674654401
           }
         },
-        "generated_at": "2026-11-22T01:50:53.864496+00:00",
-        "revision": "067414dff99f4554"
+        "generated_at": "2026-11-23T01:26:15.557982+00:00",
+        "revision": "b33574314ad542be"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4226,6 +4778,14 @@
           "id": "067414dff99f4554",
           "margin": 10.955,
           "probability": 0.674878,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.557982+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "b33574314ad542be",
+          "margin": 11.218,
+          "probability": 0.678714,
           "selected": true
         }
       ]
@@ -4244,7 +4804,7 @@
         "first": "21",
         "second": "68",
         "kickoff": "2026-12-05T01:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4252,13 +4812,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 41.92029,
-        "rating_second": 83.949275,
+        "rating_first": 39.782609,
+        "rating_second": 83.550725,
         "venue": -1,
-        "margin": -19.638,
-        "probability": 0.212621,
+        "margin": -20.286,
+        "probability": 0.205478,
         "confidence": "high",
-        "rating_points": -15.665,
+        "rating_points": -16.313,
         "venue_points": -3.973,
         "baselines": {
           "home": {
@@ -4270,10 +4830,10 @@
             "probability": 0.2341211672774603
           }
         },
-        "generated_at": "2026-11-22T07:22:17.504727+00:00",
-        "revision": "23a0efbc04ca5fbf"
+        "generated_at": "2026-11-23T01:26:15.555330+00:00",
+        "revision": "08f2ff4df7eb7d29"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4282,6 +4842,14 @@
           "id": "23a0efbc04ca5fbf",
           "margin": -19.638,
           "probability": 0.212621,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.555330+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "08f2ff4df7eb7d29",
+          "margin": -20.286,
+          "probability": 0.205478,
           "selected": true
         }
       ]
@@ -4300,7 +4868,7 @@
         "first": "154",
         "second": "2390",
         "kickoff": "2026-12-05T17:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4308,13 +4876,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 79.311594,
-        "rating_second": 91.485507,
+        "rating_first": 75.905797,
+        "rating_second": 91.73913,
         "venue": 0,
-        "margin": -4.537,
-        "probability": 0.424955,
+        "margin": -5.901,
+        "probability": 0.402899,
         "confidence": "low",
-        "rating_points": -4.537,
+        "rating_points": -5.901,
         "venue_points": 0.0,
         "baselines": {
           "home": {
@@ -4322,14 +4890,14 @@
             "probability": 0.5
           },
           "raw_margin": {
-            "margin": 2.166666666666668,
-            "probability": 0.5450166588712653
+            "margin": 2.5999999999999996,
+            "probability": 0.5539557547196071
           }
         },
-        "generated_at": "2026-11-22T03:54:04.664233+00:00",
-        "revision": "388efc3031e78b25"
+        "generated_at": "2026-11-23T01:26:15.551506+00:00",
+        "revision": "ecab095db6922c98"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4338,6 +4906,14 @@
           "id": "388efc3031e78b25",
           "margin": -4.537,
           "probability": 0.424955,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551506+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "ecab095db6922c98",
+          "margin": -5.901,
+          "probability": 0.402899,
           "selected": true
         }
       ]
@@ -4356,7 +4932,7 @@
         "first": "2426",
         "second": "349",
         "kickoff": "2026-12-12T20:00:00+00:00",
-        "input_cutoff": "2026-11-22T00:00:00+00:00",
+        "input_cutoff": "2026-11-23T00:00:00+00:00",
         "model": "prediction-v1-24e29e8cb124071b",
         "power_model": "v1-d3da59079def",
         "parameters": {
@@ -4364,13 +4940,13 @@
           "home_points": 3.97303898,
           "scale": 15
         },
-        "rating_first": 47.028986,
-        "rating_second": 54.746377,
+        "rating_first": 55.724638,
+        "rating_second": 54.076087,
         "venue": 0,
-        "margin": -2.876,
-        "probability": 0.452213,
+        "margin": 0.614,
+        "probability": 0.510232,
         "confidence": "low",
-        "rating_points": -2.876,
+        "rating_points": 0.614,
         "venue_points": 0.0,
         "baselines": {
           "home": {
@@ -4378,14 +4954,14 @@
             "probability": 0.5
           },
           "raw_margin": {
-            "margin": -2.75,
-            "probability": 0.44295775743453863
+            "margin": -2.0,
+            "probability": 0.45842951678320015
           }
         },
-        "generated_at": "2026-11-22T01:50:53.866401+00:00",
-        "revision": "499eef1b5e0d81fc"
+        "generated_at": "2026-11-23T01:26:15.559474+00:00",
+        "revision": "6bdf43a2312bd7eb"
       },
-      "revisions": 1,
+      "revisions": 2,
       "is_preview": false,
       "history": [
         {
@@ -4394,6 +4970,14 @@
           "id": "499eef1b5e0d81fc",
           "margin": -2.876,
           "probability": 0.452213,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.559474+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "6bdf43a2312bd7eb",
+          "margin": 0.614,
+          "probability": 0.510232,
           "selected": true
         }
       ]
