@@ -19,9 +19,9 @@
     "recent_games": 3,
     "result_delay_hours": 24
   },
-  "cutoff": "2026-11-23T00:00:00+00:00",
+  "cutoff": "2026-11-24T00:00:00+00:00",
   "eligible": 138,
-  "completed_fbs_games": 683,
+  "completed_fbs_games": 695,
   "conflicting_games_excluded": 0,
   "profile_coverage": {
     "available": 138,
@@ -1262,6 +1262,149 @@
         "98": 109,
         "99": 7
       }
+    },
+    {
+      "cutoff": "2026-11-24T00:00:00+00:00",
+      "ranks": {
+        "103": 111,
+        "113": 133,
+        "12": 29,
+        "120": 101,
+        "127": 65,
+        "130": 39,
+        "135": 78,
+        "142": 48,
+        "145": 21,
+        "150": 41,
+        "151": 91,
+        "152": 80,
+        "153": 33,
+        "154": 19,
+        "158": 23,
+        "16": 137,
+        "164": 123,
+        "166": 129,
+        "167": 31,
+        "183": 103,
+        "189": 119,
+        "193": 92,
+        "194": 15,
+        "195": 86,
+        "197": 37,
+        "2": 44,
+        "2005": 36,
+        "2006": 125,
+        "201": 11,
+        "202": 79,
+        "2026": 109,
+        "2032": 127,
+        "204": 71,
+        "2050": 126,
+        "2084": 50,
+        "21": 66,
+        "2116": 70,
+        "2117": 68,
+        "213": 45,
+        "2132": 55,
+        "218": 136,
+        "2199": 134,
+        "221": 72,
+        "2226": 63,
+        "2229": 83,
+        "2247": 102,
+        "228": 73,
+        "2294": 24,
+        "23": 116,
+        "2305": 66,
+        "2306": 113,
+        "2309": 138,
+        "2335": 35,
+        "2348": 43,
+        "235": 26,
+        "238": 94,
+        "239": 38,
+        "2390": 3,
+        "2393": 115,
+        "24": 76,
+        "242": 106,
+        "2426": 57,
+        "2429": 122,
+        "2433": 131,
+        "2439": 52,
+        "2440": 75,
+        "2449": 32,
+        "245": 69,
+        "2459": 117,
+        "248": 10,
+        "2483": 5,
+        "249": 30,
+        "25": 104,
+        "2509": 87,
+        "251": 2,
+        "252": 7,
+        "2534": 132,
+        "254": 6,
+        "256": 42,
+        "2567": 34,
+        "2572": 128,
+        "2579": 49,
+        "258": 77,
+        "259": 108,
+        "26": 22,
+        "2623": 135,
+        "2628": 58,
+        "2633": 16,
+        "2636": 40,
+        "2638": 121,
+        "264": 51,
+        "2641": 20,
+        "2649": 54,
+        "265": 124,
+        "2653": 130,
+        "2655": 112,
+        "2711": 47,
+        "275": 25,
+        "2751": 100,
+        "276": 107,
+        "277": 82,
+        "278": 85,
+        "290": 28,
+        "295": 98,
+        "30": 9,
+        "309": 61,
+        "324": 114,
+        "326": 18,
+        "328": 97,
+        "333": 4,
+        "338": 96,
+        "344": 81,
+        "349": 60,
+        "356": 46,
+        "36": 118,
+        "38": 84,
+        "41": 93,
+        "48": 110,
+        "5": 90,
+        "52": 62,
+        "55": 74,
+        "57": 27,
+        "58": 95,
+        "59": 105,
+        "6": 89,
+        "61": 1,
+        "62": 120,
+        "66": 59,
+        "68": 13,
+        "77": 56,
+        "8": 64,
+        "84": 14,
+        "87": 12,
+        "9": 88,
+        "96": 53,
+        "97": 17,
+        "98": 99,
+        "99": 8
+      }
     }
   ],
   "teams": {
@@ -1275,19 +1418,19 @@
       "baseline_margin": -7.4,
       "components": {
         "schedule": {
-          "raw": 0.483636,
-          "percentile": 37.318841,
-          "points": 11.195652
+          "raw": 0.474242,
+          "percentile": 32.246377,
+          "points": 9.673913
         },
         "margin": {
-          "raw": -4.281469,
-          "percentile": 26.449275,
-          "points": 7.934783
+          "raw": -4.591716,
+          "percentile": 24.275362,
+          "points": 7.282609
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.053846,
@@ -1296,13 +1439,13 @@
         },
         "recent": {
           "raw": -3.666667,
-          "percentile": 32.608696,
-          "points": 1.630435
+          "percentile": 34.782609,
+          "points": 1.73913
         }
       },
-      "rating": 31.974638,
-      "rank": 109,
-      "movement": 2
+      "rating": 30.054348,
+      "rank": 111,
+      "movement": 0
     },
     "113": {
       "games": 9,
@@ -1315,8 +1458,8 @@
       "components": {
         "schedule": {
           "raw": 0.379798,
-          "percentile": 1.811594,
-          "points": 0.543478
+          "percentile": 1.086957,
+          "points": 0.326087
         },
         "margin": {
           "raw": -6.278409,
@@ -1330,8 +1473,8 @@
         },
         "efficiency": {
           "raw": -0.087598,
-          "percentile": 17.753623,
-          "points": 2.663043
+          "percentile": 17.028986,
+          "points": 2.554348
         },
         "recent": {
           "raw": -6.833333,
@@ -1339,7 +1482,7 @@
           "points": 1.286232
         }
       },
-      "rating": 15.326087,
+      "rating": 15.0,
       "rank": 133,
       "movement": 2
     },
@@ -1353,32 +1496,32 @@
       "baseline_margin": 10.7,
       "components": {
         "schedule": {
-          "raw": 0.503636,
-          "percentile": 51.086957,
-          "points": 15.326087
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 14.23913
         },
         "margin": {
-          "raw": 7.629953,
+          "raw": 7.538462,
           "percentile": 84.42029,
           "points": 25.326087
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.07997,
-          "percentile": 79.347826,
-          "points": 11.902174
+          "percentile": 80.797101,
+          "points": 12.119565
         },
         "recent": {
           "raw": -10.809524,
-          "percentile": 16.304348,
-          "points": 0.815217
+          "percentile": 15.57971,
+          "points": 0.778986
         }
       },
-      "rating": 69.528986,
+      "rating": 68.550725,
       "rank": 29,
       "movement": -6
     },
@@ -1393,33 +1536,33 @@
       "components": {
         "schedule": {
           "raw": 0.517424,
-          "percentile": 60.507246,
-          "points": 18.152174
+          "percentile": 59.782609,
+          "points": 17.934783
         },
         "margin": {
           "raw": -5.095661,
-          "percentile": 22.826087,
-          "points": 6.847826
+          "percentile": 22.101449,
+          "points": 6.630435
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.085175,
-          "percentile": 18.478261,
-          "points": 2.771739
+          "percentile": 17.753623,
+          "points": 2.663043
         },
         "recent": {
           "raw": 8.857143,
-          "percentile": 75.724638,
-          "points": 3.786232
+          "percentile": 76.449275,
+          "points": 3.822464
         }
       },
-      "rating": 35.76087,
-      "rank": 102,
-      "movement": -4
+      "rating": 35.326087,
+      "rank": 101,
+      "movement": -3
     },
     "127": {
       "games": 11,
@@ -1431,24 +1574,24 @@
       "baseline_margin": -7.545454545454546,
       "components": {
         "schedule": {
-          "raw": 0.599862,
+          "raw": 0.60124,
           "percentile": 94.565217,
           "points": 28.369565
         },
         "margin": {
-          "raw": -1.7413,
+          "raw": -1.706502,
           "percentile": 43.115942,
           "points": 12.934783
         },
         "results": {
           "raw": 0.307692,
-          "percentile": 14.855072,
-          "points": 2.971014
+          "percentile": 15.217391,
+          "points": 3.043478
         },
         "efficiency": {
           "raw": -0.044466,
-          "percentile": 33.695652,
-          "points": 5.054348
+          "percentile": 32.971014,
+          "points": 4.945652
         },
         "recent": {
           "raw": -2.791667,
@@ -1456,9 +1599,9 @@
           "points": 1.974638
         }
       },
-      "rating": 51.304348,
-      "rank": 67,
-      "movement": -9
+      "rating": 51.268116,
+      "rank": 65,
+      "movement": -7
     },
     "130": {
       "games": 11,
@@ -1471,18 +1614,18 @@
       "components": {
         "schedule": {
           "raw": 0.550275,
-          "percentile": 80.072464,
-          "points": 24.021739
+          "percentile": 80.797101,
+          "points": 24.23913
         },
         "margin": {
           "raw": 0.919872,
-          "percentile": 53.985507,
-          "points": 16.195652
+          "percentile": 56.15942,
+          "points": 16.847826
         },
         "results": {
           "raw": 0.538462,
-          "percentile": 54.710145,
-          "points": 10.942029
+          "percentile": 57.246377,
+          "points": 11.449275
         },
         "efficiency": {
           "raw": 0.05,
@@ -1491,13 +1634,13 @@
         },
         "recent": {
           "raw": -14.333333,
-          "percentile": 11.231884,
-          "points": 0.561594
+          "percentile": 12.681159,
+          "points": 0.634058
         }
       },
-      "rating": 62.644928,
-      "rank": 40,
-      "movement": 22
+      "rating": 64.094203,
+      "rank": 39,
+      "movement": 23
     },
     "135": {
       "games": 10,
@@ -1510,18 +1653,18 @@
       "components": {
         "schedule": {
           "raw": 0.537121,
-          "percentile": 73.550725,
-          "points": 22.065217
+          "percentile": 74.275362,
+          "points": 22.282609
         },
         "margin": {
           "raw": -3.530572,
-          "percentile": 30.072464,
-          "points": 9.021739
+          "percentile": 29.347826,
+          "points": 8.804348
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.060506,
@@ -1530,52 +1673,52 @@
         },
         "recent": {
           "raw": -10.142857,
-          "percentile": 18.478261,
-          "points": 0.923913
+          "percentile": 17.028986,
+          "points": 0.851449
         }
       },
-      "rating": 45.869565,
-      "rank": 76,
-      "movement": 9
+      "rating": 45.724638,
+      "rank": 78,
+      "movement": 7
     },
     "142": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 5,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 6,
       "losses": 4,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": 2.6666666666666665,
+      "baseline_win_pct": 0.6,
+      "baseline_margin": 3.8,
       "components": {
         "schedule": {
-          "raw": 0.505556,
-          "percentile": 52.536232,
-          "points": 15.76087
+          "raw": 0.520455,
+          "percentile": 63.405797,
+          "points": 19.021739
         },
         "margin": {
-          "raw": 2.842512,
-          "percentile": 68.478261,
-          "points": 20.543478
+          "raw": 3.77712,
+          "percentile": 72.101449,
+          "points": 21.630435
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.583333,
+          "percentile": 66.304348,
+          "points": 13.26087
         },
         "efficiency": {
-          "raw": -0.041907,
-          "percentile": 34.42029,
-          "points": 5.163043
+          "raw": -0.034063,
+          "percentile": 35.869565,
+          "points": 5.380435
         },
         "recent": {
-          "raw": -12.5,
-          "percentile": 14.130435,
-          "points": 0.706522
+          "raw": -18.285714,
+          "percentile": 5.434783,
+          "points": 0.271739
         }
       },
-      "rating": 53.768116,
-      "rank": 61,
-      "movement": -8
+      "rating": 59.565217,
+      "rank": 48,
+      "movement": 5
     },
     "145": {
       "games": 10,
@@ -1587,12 +1730,12 @@
       "baseline_margin": 6.3,
       "components": {
         "schedule": {
-          "raw": 0.570606,
-          "percentile": 89.492754,
-          "points": 26.847826
+          "raw": 0.578788,
+          "percentile": 91.666667,
+          "points": 27.5
         },
         "margin": {
-          "raw": 6.743769,
+          "raw": 7.018245,
           "percentile": 82.246377,
           "points": 24.673913
         },
@@ -1612,9 +1755,9 @@
           "points": 0.742754
         }
       },
-      "rating": 74.166667,
-      "rank": 22,
-      "movement": 0
+      "rating": 74.818841,
+      "rank": 21,
+      "movement": 1
     },
     "150": {
       "games": 10,
@@ -1626,14 +1769,14 @@
       "baseline_margin": 10.4,
       "components": {
         "schedule": {
-          "raw": 0.499242,
-          "percentile": 49.637681,
-          "points": 14.891304
+          "raw": 0.503788,
+          "percentile": 49.275362,
+          "points": 14.782609
         },
         "margin": {
-          "raw": 5.016541,
-          "percentile": 74.275362,
-          "points": 22.282609
+          "raw": 5.162229,
+          "percentile": 75.724638,
+          "points": 22.717391
         },
         "results": {
           "raw": 0.583333,
@@ -1642,18 +1785,18 @@
         },
         "efficiency": {
           "raw": 0.079733,
-          "percentile": 78.623188,
-          "points": 11.793478
+          "percentile": 80.072464,
+          "points": 12.01087
         },
         "recent": {
           "raw": -7.666667,
-          "percentile": 22.826087,
-          "points": 1.141304
+          "percentile": 21.73913,
+          "points": 1.086957
         }
       },
-      "rating": 63.369565,
-      "rank": 39,
-      "movement": -9
+      "rating": 63.858696,
+      "rank": 41,
+      "movement": -11
     },
     "151": {
       "games": 10,
@@ -1665,14 +1808,14 @@
       "baseline_margin": -2.6,
       "components": {
         "schedule": {
-          "raw": 0.427273,
-          "percentile": 13.043478,
-          "points": 3.913043
+          "raw": 0.422727,
+          "percentile": 10.869565,
+          "points": 3.26087
         },
         "margin": {
-          "raw": -2.987179,
-          "percentile": 33.695652,
-          "points": 10.108696
+          "raw": -2.986014,
+          "percentile": 34.42029,
+          "points": 10.326087
         },
         "results": {
           "raw": 0.583333,
@@ -1686,11 +1829,11 @@
         },
         "recent": {
           "raw": 6.095238,
-          "percentile": 68.478261,
-          "points": 3.423913
+          "percentile": 69.927536,
+          "points": 3.496377
         }
       },
-      "rating": 40.978261,
+      "rating": 40.615942,
       "rank": 91,
       "movement": 6
     },
@@ -1704,32 +1847,32 @@
       "baseline_margin": -4.6,
       "components": {
         "schedule": {
-          "raw": 0.494545,
+          "raw": 0.5,
           "percentile": 47.463768,
           "points": 14.23913
         },
         "margin": {
-          "raw": -3.473776,
-          "percentile": 30.797101,
-          "points": 9.23913
+          "raw": -3.217949,
+          "percentile": 31.521739,
+          "points": 9.456522
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": 0.082648,
-          "percentile": 80.072464,
-          "points": 12.01087
+          "percentile": 81.521739,
+          "points": 12.228261
         },
         "recent": {
           "raw": -1.047619,
-          "percentile": 46.73913,
-          "points": 2.336957
+          "percentile": 48.913043,
+          "points": 2.445652
         }
       },
-      "rating": 44.42029,
+      "rating": 45.108696,
       "rank": 80,
       "movement": 6
     },
@@ -1743,34 +1886,34 @@
       "baseline_margin": -1.2,
       "components": {
         "schedule": {
-          "raw": 0.588182,
-          "percentile": 93.115942,
-          "points": 27.934783
+          "raw": 0.583333,
+          "percentile": 92.391304,
+          "points": 27.717391
         },
         "margin": {
-          "raw": 2.780303,
-          "percentile": 67.028986,
-          "points": 20.108696
+          "raw": 2.592209,
+          "percentile": 66.304348,
+          "points": 19.891304
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": 0.02508,
-          "percentile": 60.507246,
-          "points": 9.076087
+          "percentile": 61.231884,
+          "points": 9.184783
         },
         "recent": {
           "raw": 0.761905,
-          "percentile": 55.797101,
-          "points": 2.789855
+          "percentile": 58.695652,
+          "points": 2.934783
         }
       },
-      "rating": 66.503623,
-      "rank": 32,
-      "movement": -6
+      "rating": 66.467391,
+      "rank": 33,
+      "movement": -7
     },
     "154": {
       "games": 10,
@@ -1782,34 +1925,34 @@
       "baseline_margin": 23.3,
       "components": {
         "schedule": {
-          "raw": 0.474545,
-          "percentile": 31.521739,
-          "points": 9.456522
+          "raw": 0.472727,
+          "percentile": 29.710145,
+          "points": 8.913043
         },
         "margin": {
-          "raw": 11.967366,
-          "percentile": 95.289855,
-          "points": 28.586957
+          "raw": 12.025641,
+          "percentile": 94.565217,
+          "points": 28.369565
         },
         "results": {
           "raw": 0.833333,
-          "percentile": 96.73913,
-          "points": 19.347826
+          "percentile": 96.014493,
+          "points": 19.202899
         },
         "efficiency": {
           "raw": 0.148438,
-          "percentile": 95.289855,
-          "points": 14.293478
+          "percentile": 96.014493,
+          "points": 14.402174
         },
         "recent": {
           "raw": 12.238095,
-          "percentile": 84.42029,
-          "points": 4.221014
+          "percentile": 85.144928,
+          "points": 4.257246
         }
       },
-      "rating": 75.905797,
-      "rank": 17,
-      "movement": -2
+      "rating": 75.144928,
+      "rank": 19,
+      "movement": -4
     },
     "158": {
       "games": 10,
@@ -1822,13 +1965,13 @@
       "components": {
         "schedule": {
           "raw": 0.509091,
-          "percentile": 57.246377,
-          "points": 17.173913
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
           "raw": 8.581361,
-          "percentile": 87.318841,
-          "points": 26.195652
+          "percentile": 86.594203,
+          "points": 25.978261
         },
         "results": {
           "raw": 0.583333,
@@ -1842,11 +1985,11 @@
         },
         "recent": {
           "raw": -5.619048,
-          "percentile": 27.173913,
-          "points": 1.358696
+          "percentile": 28.623188,
+          "points": 1.431159
         }
       },
-      "rating": 72.934783,
+      "rating": 72.246377,
       "rank": 23,
       "movement": 8
     },
@@ -1860,12 +2003,12 @@
       "baseline_margin": -19.6,
       "components": {
         "schedule": {
-          "raw": 0.420909,
-          "percentile": 9.057971,
-          "points": 2.717391
+          "raw": 0.425455,
+          "percentile": 12.681159,
+          "points": 3.804348
         },
         "margin": {
-          "raw": -14.790793,
+          "raw": -14.758741,
           "percentile": 1.086957,
           "points": 0.326087
         },
@@ -1885,9 +2028,9 @@
           "points": 4.873188
         }
       },
-      "rating": 9.492754,
-      "rank": 138,
-      "movement": 0
+      "rating": 10.57971,
+      "rank": 137,
+      "movement": 1
     },
     "164": {
       "games": 10,
@@ -1910,8 +2053,8 @@
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.14144,
@@ -1920,11 +2063,11 @@
         },
         "recent": {
           "raw": -3.714286,
-          "percentile": 31.521739,
-          "points": 1.576087
+          "percentile": 33.695652,
+          "points": 1.684783
         }
       },
-      "rating": 22.717391,
+      "rating": 22.971014,
       "rank": 123,
       "movement": 3
     },
@@ -1938,19 +2081,19 @@
       "baseline_margin": -10.1,
       "components": {
         "schedule": {
-          "raw": 0.427273,
-          "percentile": 13.043478,
-          "points": 3.913043
+          "raw": 0.425,
+          "percentile": 11.956522,
+          "points": 3.586957
         },
         "margin": {
-          "raw": -8.897436,
+          "raw": -8.919132,
           "percentile": 10.507246,
           "points": 3.152174
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": 0.014594,
@@ -1959,13 +2102,13 @@
         },
         "recent": {
           "raw": -1.761905,
-          "percentile": 43.84058,
-          "points": 2.192029
+          "percentile": 45.289855,
+          "points": 2.264493
         }
       },
-      "rating": 19.311594,
-      "rank": 128,
-      "movement": 2
+      "rating": 19.202899,
+      "rank": 129,
+      "movement": 1
     },
     "167": {
       "games": 10,
@@ -1977,14 +2120,14 @@
       "baseline_margin": 15.3,
       "components": {
         "schedule": {
-          "raw": 0.47197,
-          "percentile": 30.434783,
-          "points": 9.130435
+          "raw": 0.473485,
+          "percentile": 31.15942,
+          "points": 9.347826
         },
         "margin": {
-          "raw": 8.857226,
-          "percentile": 88.043478,
-          "points": 26.413043
+          "raw": 8.858974,
+          "percentile": 87.318841,
+          "points": 26.195652
         },
         "results": {
           "raw": 0.75,
@@ -1993,8 +2136,8 @@
         },
         "efficiency": {
           "raw": 0.068013,
-          "percentile": 76.449275,
-          "points": 11.467391
+          "percentile": 77.173913,
+          "points": 11.576087
         },
         "recent": {
           "raw": -2.952381,
@@ -2002,9 +2145,9 @@
           "points": 1.902174
         }
       },
-      "rating": 66.73913,
-      "rank": 30,
-      "movement": 11
+      "rating": 66.847826,
+      "rank": 31,
+      "movement": 10
     },
     "183": {
       "games": 10,
@@ -2016,34 +2159,34 @@
       "baseline_margin": -3.7,
       "components": {
         "schedule": {
-          "raw": 0.481818,
-          "percentile": 36.594203,
-          "points": 10.978261
+          "raw": 0.472727,
+          "percentile": 29.710145,
+          "points": 8.913043
         },
         "margin": {
-          "raw": -3.263986,
-          "percentile": 32.246377,
-          "points": 9.673913
+          "raw": -3.5,
+          "percentile": 30.072464,
+          "points": 9.021739
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": 0.011686,
-          "percentile": 52.536232,
-          "points": 7.880435
+          "percentile": 53.26087,
+          "points": 7.98913
         },
         "recent": {
           "raw": -1.380952,
-          "percentile": 45.652174,
-          "points": 2.282609
+          "percentile": 47.101449,
+          "points": 2.355072
         }
       },
-      "rating": 37.40942,
-      "rank": 97,
-      "movement": -7
+      "rating": 35.018116,
+      "rank": 103,
+      "movement": -13
     },
     "189": {
       "games": 10,
@@ -2056,8 +2199,8 @@
       "components": {
         "schedule": {
           "raw": 0.46,
-          "percentile": 24.637681,
-          "points": 7.391304
+          "percentile": 24.275362,
+          "points": 7.282609
         },
         "margin": {
           "raw": -6.385198,
@@ -2066,21 +2209,21 @@
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": 0.01001,
-          "percentile": 51.811594,
-          "points": 7.771739
+          "percentile": 52.536232,
+          "points": 7.880435
         },
         "recent": {
           "raw": -3.285714,
-          "percentile": 35.869565,
-          "points": 1.793478
+          "percentile": 36.594203,
+          "points": 1.82971
         }
       },
-      "rating": 26.268116,
+      "rating": 26.376812,
       "rank": 119,
       "movement": -1
     },
@@ -2094,14 +2237,14 @@
       "baseline_margin": 0.3,
       "components": {
         "schedule": {
-          "raw": 0.440909,
-          "percentile": 16.666667,
-          "points": 5.0
+          "raw": 0.436364,
+          "percentile": 15.217391,
+          "points": 4.565217
         },
         "margin": {
-          "raw": -0.522145,
-          "percentile": 48.188406,
-          "points": 14.456522
+          "raw": -0.701632,
+          "percentile": 46.73913,
+          "points": 14.021739
         },
         "results": {
           "raw": 0.583333,
@@ -2115,13 +2258,13 @@
         },
         "recent": {
           "raw": 11.904762,
-          "percentile": 83.695652,
-          "points": 4.184783
+          "percentile": 84.42029,
+          "points": 4.221014
         }
       },
-      "rating": 41.304348,
-      "rank": 90,
-      "movement": 4
+      "rating": 40.471014,
+      "rank": 92,
+      "movement": 2
     },
     "194": {
       "games": 11,
@@ -2134,31 +2277,31 @@
       "components": {
         "schedule": {
           "raw": 0.566804,
-          "percentile": 88.043478,
-          "points": 26.413043
+          "percentile": 89.492754,
+          "points": 26.847826
         },
         "margin": {
           "raw": 10.156593,
-          "percentile": 91.666667,
-          "points": 27.5
+          "percentile": 92.391304,
+          "points": 27.717391
         },
         "results": {
           "raw": 0.615385,
-          "percentile": 73.550725,
-          "points": 14.710145
+          "percentile": 75.0,
+          "points": 15.0
         },
         "efficiency": {
           "raw": 0.032855,
-          "percentile": 65.57971,
-          "points": 9.836957
+          "percentile": 64.855072,
+          "points": 9.728261
         },
         "recent": {
           "raw": -16.708333,
-          "percentile": 6.15942,
-          "points": 0.307971
+          "percentile": 6.884058,
+          "points": 0.344203
         }
       },
-      "rating": 78.768116,
+      "rating": 79.637681,
       "rank": 15,
       "movement": -3
     },
@@ -2183,8 +2326,8 @@
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.054189,
@@ -2193,52 +2336,52 @@
         },
         "recent": {
           "raw": -3.666667,
-          "percentile": 32.608696,
-          "points": 1.630435
+          "percentile": 34.782609,
+          "points": 1.73913
         }
       },
-      "rating": 42.735507,
-      "rank": 85,
-      "movement": 5
+      "rating": 42.771739,
+      "rank": 86,
+      "movement": 4
     },
     "197": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 5,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 6,
       "losses": 4,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": 7.333333333333333,
+      "baseline_win_pct": 0.6,
+      "baseline_margin": 6.9,
       "components": {
         "schedule": {
-          "raw": 0.535354,
-          "percentile": 72.826087,
-          "points": 21.847826
+          "raw": 0.536364,
+          "percentile": 73.550725,
+          "points": 22.065217
         },
         "margin": {
-          "raw": 5.3125,
-          "percentile": 77.173913,
-          "points": 23.152174
+          "raw": 4.929487,
+          "percentile": 74.275362,
+          "points": 22.282609
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.583333,
+          "percentile": 66.304348,
+          "points": 13.26087
         },
         "efficiency": {
-          "raw": -0.051396,
-          "percentile": 31.521739,
-          "points": 4.728261
+          "raw": -0.032,
+          "percentile": 37.318841,
+          "points": 5.597826
         },
         "recent": {
-          "raw": -8.0,
-          "percentile": 21.376812,
-          "points": 1.068841
+          "raw": -4.857143,
+          "percentile": 31.521739,
+          "points": 1.576087
         }
       },
-      "rating": 62.391304,
-      "rank": 41,
-      "movement": 3
+      "rating": 64.782609,
+      "rank": 37,
+      "movement": 7
     },
     "2": {
       "games": 10,
@@ -2250,14 +2393,14 @@
       "baseline_margin": 1.4,
       "components": {
         "schedule": {
-          "raw": 0.517273,
-          "percentile": 59.782609,
-          "points": 17.934783
+          "raw": 0.518182,
+          "percentile": 61.231884,
+          "points": 18.369565
         },
         "margin": {
-          "raw": 1.460373,
-          "percentile": 58.333333,
-          "points": 17.5
+          "raw": 1.532051,
+          "percentile": 60.507246,
+          "points": 18.152174
         },
         "results": {
           "raw": 0.583333,
@@ -2271,13 +2414,13 @@
         },
         "recent": {
           "raw": 0.714286,
-          "percentile": 54.710145,
-          "points": 2.735507
+          "percentile": 57.608696,
+          "points": 2.880435
         }
       },
-      "rating": 59.855072,
-      "rank": 49,
-      "movement": -7
+      "rating": 61.086957,
+      "rank": 44,
+      "movement": -2
     },
     "2005": {
       "games": 10,
@@ -2289,12 +2432,12 @@
       "baseline_margin": 10.1,
       "components": {
         "schedule": {
-          "raw": 0.448333,
-          "percentile": 18.478261,
-          "points": 5.543478
+          "raw": 0.452879,
+          "percentile": 20.652174,
+          "points": 6.195652
         },
         "margin": {
-          "raw": 4.784427,
+          "raw": 4.832795,
           "percentile": 73.550725,
           "points": 22.065217
         },
@@ -2310,11 +2453,11 @@
         },
         "recent": {
           "raw": 13.333333,
-          "percentile": 86.231884,
-          "points": 4.311594
+          "percentile": 86.594203,
+          "points": 4.32971
         }
       },
-      "rating": 64.474638,
+      "rating": 65.144928,
       "rank": 36,
       "movement": -8
     },
@@ -2329,8 +2472,8 @@
       "components": {
         "schedule": {
           "raw": 0.489242,
-          "percentile": 43.115942,
-          "points": 12.934783
+          "percentile": 42.391304,
+          "points": 12.717391
         },
         "margin": {
           "raw": -14.680204,
@@ -2344,18 +2487,18 @@
         },
         "efficiency": {
           "raw": -0.067122,
-          "percentile": 25.724638,
-          "points": 3.858696
+          "percentile": 24.275362,
+          "points": 3.641304
         },
         "recent": {
           "raw": 8.190476,
-          "percentile": 72.101449,
-          "points": 3.605072
+          "percentile": 72.826087,
+          "points": 3.641304
         }
       },
-      "rating": 21.811594,
-      "rank": 124,
-      "movement": 4
+      "rating": 21.413043,
+      "rank": 125,
+      "movement": 3
     },
     "201": {
       "games": 11,
@@ -2367,24 +2510,24 @@
       "baseline_margin": 4.909090909090909,
       "components": {
         "schedule": {
-          "raw": 0.566667,
-          "percentile": 87.318841,
-          "points": 26.195652
+          "raw": 0.559229,
+          "percentile": 85.869565,
+          "points": 25.76087
         },
         "margin": {
-          "raw": 3.606727,
-          "percentile": 72.101449,
-          "points": 21.630435
+          "raw": 3.448718,
+          "percentile": 70.652174,
+          "points": 21.195652
         },
         "results": {
           "raw": 0.615385,
-          "percentile": 73.550725,
-          "points": 14.710145
+          "percentile": 75.0,
+          "points": 15.0
         },
         "efficiency": {
           "raw": 0.136969,
-          "percentile": 93.84058,
-          "points": 14.076087
+          "percentile": 93.115942,
+          "points": 13.967391
         },
         "recent": {
           "raw": 16.291667,
@@ -2392,9 +2535,9 @@
           "points": 4.655797
         }
       },
-      "rating": 81.268116,
-      "rank": 10,
-      "movement": 7
+      "rating": 80.57971,
+      "rank": 11,
+      "movement": 6
     },
     "202": {
       "games": 10,
@@ -2406,12 +2549,12 @@
       "baseline_margin": 9.6,
       "components": {
         "schedule": {
-          "raw": 0.379242,
-          "percentile": 1.086957,
-          "points": 0.326087
+          "raw": 0.382879,
+          "percentile": 1.811594,
+          "points": 0.543478
         },
         "margin": {
-          "raw": 3.069661,
+          "raw": 3.051013,
           "percentile": 69.202899,
           "points": 20.76087
         },
@@ -2422,8 +2565,8 @@
         },
         "efficiency": {
           "raw": -0.029506,
-          "percentile": 37.318841,
-          "points": 5.597826
+          "percentile": 38.043478,
+          "points": 5.706522
         },
         "recent": {
           "raw": 24.190476,
@@ -2431,7 +2574,7 @@
           "points": 4.945652
         }
       },
-      "rating": 44.891304,
+      "rating": 45.217391,
       "rank": 79,
       "movement": 14
     },
@@ -2446,13 +2589,13 @@
       "components": {
         "schedule": {
           "raw": 0.418182,
-          "percentile": 8.333333,
-          "points": 2.5
+          "percentile": 9.057971,
+          "points": 2.717391
         },
         "margin": {
           "raw": -5.0,
-          "percentile": 23.550725,
-          "points": 7.065217
+          "percentile": 22.826087,
+          "points": 6.847826
         },
         "results": {
           "raw": 0.583333,
@@ -2461,18 +2604,18 @@
         },
         "efficiency": {
           "raw": -0.019521,
-          "percentile": 40.942029,
-          "points": 6.141304
+          "percentile": 41.666667,
+          "points": 6.25
         },
         "recent": {
           "raw": -0.952381,
-          "percentile": 47.463768,
-          "points": 2.373188
+          "percentile": 50.0,
+          "points": 2.5
         }
       },
-      "rating": 31.34058,
-      "rank": 110,
-      "movement": 0
+      "rating": 31.576087,
+      "rank": 109,
+      "movement": 1
     },
     "2032": {
       "games": 10,
@@ -2484,73 +2627,73 @@
       "baseline_margin": -8.7,
       "components": {
         "schedule": {
-          "raw": 0.449091,
-          "percentile": 19.202899,
-          "points": 5.76087
+          "raw": 0.445455,
+          "percentile": 17.753623,
+          "points": 5.326087
         },
         "margin": {
-          "raw": -6.13345,
-          "percentile": 20.652174,
-          "points": 6.195652
+          "raw": -6.269231,
+          "percentile": 18.478261,
+          "points": 5.543478
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.067,
-          "percentile": 26.449275,
-          "points": 3.967391
+          "percentile": 25.0,
+          "points": 3.75
         },
         "recent": {
           "raw": -7.619048,
-          "percentile": 23.550725,
-          "points": 1.177536
+          "percentile": 22.826087,
+          "points": 1.141304
         }
       },
-      "rating": 21.304348,
-      "rank": 126,
-      "movement": -5
+      "rating": 20.036232,
+      "rank": 127,
+      "movement": -6
     },
     "204": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 4,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": 6.666666666666667,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": 6.7,
       "components": {
         "schedule": {
-          "raw": 0.480808,
-          "percentile": 35.869565,
-          "points": 10.76087
+          "raw": 0.477273,
+          "percentile": 34.782609,
+          "points": 10.434783
         },
         "margin": {
-          "raw": 2.219066,
-          "percentile": 63.405797,
-          "points": 19.021739
+          "raw": 2.372288,
+          "percentile": 65.57971,
+          "points": 19.673913
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": 0.026896,
-          "percentile": 61.956522,
-          "points": 9.293478
+          "raw": 0.006511,
+          "percentile": 50.362319,
+          "points": 7.554348
         },
         "recent": {
-          "raw": -26.666667,
-          "percentile": 1.086957,
-          "points": 0.054348
+          "raw": -14.904762,
+          "percentile": 11.956522,
+          "points": 0.597826
         }
       },
-      "rating": 47.028986,
-      "rank": 73,
-      "movement": 2
+      "rating": 47.753623,
+      "rank": 71,
+      "movement": 4
     },
     "2050": {
       "games": 10,
@@ -2563,8 +2706,8 @@
       "components": {
         "schedule": {
           "raw": 0.484697,
-          "percentile": 39.492754,
-          "points": 11.847826
+          "percentile": 40.217391,
+          "points": 12.065217
         },
         "margin": {
           "raw": -9.611709,
@@ -2573,23 +2716,23 @@
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.118668,
-          "percentile": 8.333333,
-          "points": 1.25
+          "percentile": 7.608696,
+          "points": 1.141304
         },
         "recent": {
           "raw": 3.761905,
-          "percentile": 64.130435,
-          "points": 3.206522
+          "percentile": 65.57971,
+          "points": 3.278986
         }
       },
-      "rating": 20.76087,
-      "rank": 127,
-      "movement": -4
+      "rating": 21.086957,
+      "rank": 126,
+      "movement": -3
     },
     "2084": {
       "games": 9,
@@ -2602,8 +2745,8 @@
       "components": {
         "schedule": {
           "raw": 0.483838,
-          "percentile": 38.043478,
-          "points": 11.413043
+          "percentile": 39.492754,
+          "points": 11.847826
         },
         "margin": {
           "raw": 2.365725,
@@ -2612,13 +2755,13 @@
         },
         "results": {
           "raw": 0.636364,
-          "percentile": 76.086957,
-          "points": 15.217391
+          "percentile": 76.449275,
+          "points": 15.289855
         },
         "efficiency": {
           "raw": -0.004932,
-          "percentile": 46.014493,
-          "points": 6.902174
+          "percentile": 46.73913,
+          "points": 7.01087
         },
         "recent": {
           "raw": 16.833333,
@@ -2626,48 +2769,48 @@
           "points": 4.692029
         }
       },
-      "rating": 57.681159,
-      "rank": 52,
-      "movement": 3
+      "rating": 58.297101,
+      "rank": 50,
+      "movement": 5
     },
     "21": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 4,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": -9.666666666666666,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": -8.5,
       "components": {
         "schedule": {
-          "raw": 0.517845,
-          "percentile": 61.956522,
-          "points": 18.586957
+          "raw": 0.550758,
+          "percentile": 81.521739,
+          "points": 24.456522
         },
         "margin": {
-          "raw": -4.396756,
-          "percentile": 25.0,
-          "points": 7.5
+          "raw": -3.109961,
+          "percentile": 32.971014,
+          "points": 9.891304
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": -0.126563,
-          "percentile": 6.884058,
-          "points": 1.032609
+          "raw": -0.106621,
+          "percentile": 11.956522,
+          "points": 1.793478
         },
         "recent": {
-          "raw": 18.5,
-          "percentile": 95.289855,
-          "points": 4.764493
+          "raw": 20.619048,
+          "percentile": 96.73913,
+          "points": 4.836957
         }
       },
-      "rating": 39.782609,
-      "rank": 93,
-      "movement": -6
+      "rating": 50.471014,
+      "rank": 66,
+      "movement": 21
     },
     "2116": {
       "games": 10,
@@ -2679,24 +2822,24 @@
       "baseline_margin": -1.2,
       "components": {
         "schedule": {
-          "raw": 0.518182,
-          "percentile": 63.768116,
-          "points": 19.130435
+          "raw": 0.509091,
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
-          "raw": 0.374709,
+          "raw": 0.032051,
           "percentile": 51.811594,
           "points": 15.543478
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.075004,
-          "percentile": 22.101449,
-          "points": 3.315217
+          "percentile": 21.376812,
+          "points": 3.206522
         },
         "recent": {
           "raw": 9.190476,
@@ -2704,9 +2847,9 @@
           "points": 3.967391
         }
       },
-      "rating": 51.521739,
-      "rank": 64,
-      "movement": 15
+      "rating": 48.84058,
+      "rank": 70,
+      "movement": 9
     },
     "2117": {
       "games": 10,
@@ -2729,8 +2872,8 @@
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.061111,
@@ -2743,9 +2886,9 @@
           "points": 4.619565
         }
       },
-      "rating": 49.855072,
-      "rank": 70,
-      "movement": -3
+      "rating": 50.0,
+      "rank": 68,
+      "movement": -1
     },
     "213": {
       "games": 11,
@@ -2758,33 +2901,33 @@
       "components": {
         "schedule": {
           "raw": 0.475482,
-          "percentile": 34.42029,
-          "points": 10.326087
+          "percentile": 32.971014,
+          "points": 9.891304
         },
         "margin": {
           "raw": 5.178655,
-          "percentile": 75.724638,
-          "points": 22.717391
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "results": {
           "raw": 0.538462,
-          "percentile": 54.710145,
-          "points": 10.942029
+          "percentile": 57.246377,
+          "points": 11.449275
         },
         "efficiency": {
           "raw": 0.108563,
-          "percentile": 88.043478,
-          "points": 13.206522
+          "percentile": 87.318841,
+          "points": 13.097826
         },
         "recent": {
           "raw": 3.5,
-          "percentile": 61.956522,
-          "points": 3.097826
+          "percentile": 63.405797,
+          "points": 3.17029
         }
       },
-      "rating": 60.289855,
-      "rank": 48,
-      "movement": -15
+      "rating": 60.543478,
+      "rank": 45,
+      "movement": -12
     },
     "2132": {
       "games": 10,
@@ -2796,34 +2939,34 @@
       "baseline_margin": -4.1,
       "components": {
         "schedule": {
-          "raw": 0.562727,
-          "percentile": 84.42029,
-          "points": 25.326087
+          "raw": 0.563636,
+          "percentile": 88.043478,
+          "points": 26.413043
         },
         "margin": {
-          "raw": -2.315851,
+          "raw": -2.24359,
           "percentile": 40.217391,
           "points": 12.065217
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.001612,
-          "percentile": 46.73913,
-          "points": 7.01087
+          "percentile": 47.463768,
+          "points": 7.119565
         },
         "recent": {
           "raw": -7.47619,
-          "percentile": 24.275362,
-          "points": 1.213768
+          "percentile": 23.550725,
+          "points": 1.177536
         }
       },
-      "rating": 55.181159,
-      "rank": 56,
-      "movement": 8
+      "rating": 56.268116,
+      "rank": 55,
+      "movement": 9
     },
     "218": {
       "games": 10,
@@ -2835,12 +2978,12 @@
       "baseline_margin": -8.5,
       "components": {
         "schedule": {
-          "raw": 0.415455,
-          "percentile": 6.884058,
-          "points": 2.065217
+          "raw": 0.410909,
+          "percentile": 6.15942,
+          "points": 1.847826
         },
         "margin": {
-          "raw": -7.824099,
+          "raw": -7.815358,
           "percentile": 15.57971,
           "points": 4.673913
         },
@@ -2856,11 +2999,11 @@
         },
         "recent": {
           "raw": -5.47619,
-          "percentile": 28.26087,
-          "points": 1.413043
+          "percentile": 29.710145,
+          "points": 1.485507
         }
       },
-      "rating": 13.532609,
+      "rating": 13.387681,
       "rank": 136,
       "movement": -5
     },
@@ -2875,8 +3018,8 @@
       "components": {
         "schedule": {
           "raw": 0.425606,
-          "percentile": 10.507246,
-          "points": 3.152174
+          "percentile": 13.405797,
+          "points": 4.021739
         },
         "margin": {
           "raw": -8.686032,
@@ -2885,62 +3028,62 @@
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.109994,
-          "percentile": 11.231884,
-          "points": 1.684783
+          "percentile": 9.782609,
+          "points": 1.467391
         },
         "recent": {
           "raw": -6.571429,
-          "percentile": 26.449275,
-          "points": 1.322464
+          "percentile": 27.173913,
+          "points": 1.358696
         }
       },
-      "rating": 13.731884,
+      "rating": 14.492754,
       "rank": 134,
       "movement": 2
     },
     "221": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": 4.888888888888889,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": 1.2,
       "components": {
         "schedule": {
-          "raw": 0.484848,
-          "percentile": 40.217391,
-          "points": 12.065217
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 14.23913
         },
         "margin": {
-          "raw": 1.958333,
-          "percentile": 61.956522,
-          "points": 18.586957
+          "raw": 0.230769,
+          "percentile": 53.26087,
+          "points": 15.978261
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": 0.009696,
-          "percentile": 51.086957,
-          "points": 7.663043
+          "raw": -0.026876,
+          "percentile": 40.942029,
+          "points": 6.141304
         },
         "recent": {
-          "raw": -10.166667,
-          "percentile": 17.753623,
-          "points": 0.887681
+          "raw": -5.238095,
+          "percentile": 30.797101,
+          "points": 1.539855
         }
       },
-      "rating": 50.797101,
-      "rank": 68,
-      "movement": -5
+      "rating": 47.391304,
+      "rank": 72,
+      "movement": -9
     },
     "2226": {
       "games": 10,
@@ -2952,14 +3095,14 @@
       "baseline_margin": -0.5,
       "components": {
         "schedule": {
-          "raw": 0.46,
-          "percentile": 24.637681,
-          "points": 7.391304
+          "raw": 0.461818,
+          "percentile": 25.0,
+          "points": 7.5
         },
         "margin": {
-          "raw": -0.003497,
-          "percentile": 49.637681,
-          "points": 14.891304
+          "raw": -0.019814,
+          "percentile": 51.086957,
+          "points": 15.326087
         },
         "results": {
           "raw": 0.583333,
@@ -2968,8 +3111,8 @@
         },
         "efficiency": {
           "raw": 0.074952,
-          "percentile": 77.173913,
-          "points": 11.576087
+          "percentile": 77.898551,
+          "points": 11.684783
         },
         "recent": {
           "raw": 13.380952,
@@ -2977,9 +3120,9 @@
           "points": 4.365942
         }
       },
-      "rating": 51.485507,
-      "rank": 65,
-      "movement": 19
+      "rating": 52.137681,
+      "rank": 63,
+      "movement": 21
     },
     "2229": {
       "games": 10,
@@ -2992,18 +3135,18 @@
       "components": {
         "schedule": {
           "raw": 0.506364,
-          "percentile": 53.623188,
-          "points": 16.086957
+          "percentile": 52.536232,
+          "points": 15.76087
         },
         "margin": {
           "raw": -2.405594,
-          "percentile": 38.043478,
-          "points": 11.413043
+          "percentile": 38.768116,
+          "points": 11.630435
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": 0.03405,
@@ -3016,9 +3159,9 @@
           "points": 2.01087
         }
       },
-      "rating": 43.876812,
-      "rank": 82,
-      "movement": -10
+      "rating": 43.84058,
+      "rank": 83,
+      "movement": -11
     },
     "2247": {
       "games": 10,
@@ -3041,23 +3184,23 @@
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": 0.084829,
-          "percentile": 80.797101,
-          "points": 12.119565
+          "percentile": 82.246377,
+          "points": 12.336957
         },
         "recent": {
           "raw": -1.380952,
-          "percentile": 45.652174,
-          "points": 2.282609
+          "percentile": 47.101449,
+          "points": 2.355072
         }
       },
-      "rating": 34.800725,
-      "rank": 103,
-      "movement": -2
+      "rating": 35.235507,
+      "rank": 102,
+      "movement": -1
     },
     "228": {
       "games": 10,
@@ -3069,12 +3212,12 @@
       "baseline_margin": -2.3,
       "components": {
         "schedule": {
-          "raw": 0.484545,
-          "percentile": 38.768116,
-          "points": 11.630435
+          "raw": 0.481818,
+          "percentile": 38.405797,
+          "points": 11.521739
         },
         "margin": {
-          "raw": -0.547786,
+          "raw": -0.576923,
           "percentile": 47.463768,
           "points": 14.23913
         },
@@ -3085,18 +3228,18 @@
         },
         "efficiency": {
           "raw": -0.0372,
-          "percentile": 36.594203,
-          "points": 5.48913
+          "percentile": 35.144928,
+          "points": 5.271739
         },
         "recent": {
           "raw": 1.904762,
-          "percentile": 58.333333,
-          "points": 2.916667
+          "percentile": 61.231884,
+          "points": 3.061594
         }
       },
-      "rating": 47.536232,
-      "rank": 71,
-      "movement": 3
+      "rating": 47.355072,
+      "rank": 73,
+      "movement": 1
     },
     "2294": {
       "games": 10,
@@ -3109,13 +3252,13 @@
       "components": {
         "schedule": {
           "raw": 0.480303,
-          "percentile": 35.144928,
-          "points": 10.543478
+          "percentile": 36.594203,
+          "points": 10.978261
         },
         "margin": {
           "raw": 8.184911,
-          "percentile": 86.594203,
-          "points": 25.978261
+          "percentile": 85.869565,
+          "points": 25.76087
         },
         "results": {
           "raw": 0.75,
@@ -3133,7 +3276,7 @@
           "points": 3.967391
         }
       },
-      "rating": 71.956522,
+      "rating": 72.173913,
       "rank": 24,
       "movement": 3
     },
@@ -3147,14 +3290,14 @@
       "baseline_margin": -4,
       "components": {
         "schedule": {
-          "raw": 0.455785,
-          "percentile": 23.550725,
-          "points": 7.065217
+          "raw": 0.462121,
+          "percentile": 25.724638,
+          "points": 7.717391
         },
         "margin": {
-          "raw": -4.536797,
-          "percentile": 24.275362,
-          "points": 7.282609
+          "raw": -4.484432,
+          "percentile": 25.0,
+          "points": 7.5
         },
         "results": {
           "raw": 0.384615,
@@ -3168,13 +3311,13 @@
         },
         "recent": {
           "raw": 0,
-          "percentile": 49.637681,
-          "points": 2.481884
+          "percentile": 51.811594,
+          "points": 2.59058
         }
       },
-      "rating": 26.73913,
-      "rank": 118,
-      "movement": 1
+      "rating": 27.717391,
+      "rank": 116,
+      "movement": 3
     },
     "2305": {
       "games": 10,
@@ -3186,34 +3329,34 @@
       "baseline_margin": 1.8,
       "components": {
         "schedule": {
-          "raw": 0.53,
-          "percentile": 68.478261,
-          "points": 20.543478
+          "raw": 0.527273,
+          "percentile": 65.942029,
+          "points": 19.782609
         },
         "margin": {
-          "raw": 0.200466,
-          "percentile": 51.086957,
-          "points": 15.326087
+          "raw": 0.211538,
+          "percentile": 52.536232,
+          "points": 15.76087
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.012864,
-          "percentile": 42.391304,
-          "points": 6.358696
+          "percentile": 43.115942,
+          "points": 6.467391
         },
         "recent": {
           "raw": 10.809524,
-          "percentile": 82.971014,
-          "points": 4.148551
+          "percentile": 83.695652,
+          "points": 4.184783
         }
       },
-      "rating": 50.57971,
-      "rank": 69,
-      "movement": -3
+      "rating": 50.471014,
+      "rank": 66,
+      "movement": 0
     },
     "2306": {
       "games": 10,
@@ -3225,19 +3368,19 @@
       "baseline_margin": -4.4,
       "components": {
         "schedule": {
-          "raw": 0.452879,
-          "percentile": 20.652174,
-          "points": 6.195652
+          "raw": 0.449242,
+          "percentile": 19.927536,
+          "points": 5.978261
         },
         "margin": {
-          "raw": -3.537341,
-          "percentile": 29.347826,
-          "points": 8.804348
+          "raw": -3.669625,
+          "percentile": 27.898551,
+          "points": 8.369565
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": 0.045185,
@@ -3246,13 +3389,13 @@
         },
         "recent": {
           "raw": -16.571429,
-          "percentile": 8.333333,
-          "points": 0.416667
+          "percentile": 9.057971,
+          "points": 0.452899
         }
       },
-      "rating": 30.217391,
-      "rank": 112,
-      "movement": 0
+      "rating": 29.673913,
+      "rank": 113,
+      "movement": -1
     },
     "2309": {
       "games": 10,
@@ -3264,19 +3407,19 @@
       "baseline_margin": -18.9,
       "components": {
         "schedule": {
-          "raw": 0.417424,
-          "percentile": 7.608696,
-          "points": 2.282609
+          "raw": 0.412879,
+          "percentile": 8.333333,
+          "points": 2.5
         },
         "margin": {
-          "raw": -12.639098,
+          "raw": -12.808679,
           "percentile": 3.985507,
           "points": 1.195652
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.097479,
@@ -3285,13 +3428,13 @@
         },
         "recent": {
           "raw": -2.047619,
-          "percentile": 43.115942,
-          "points": 2.155797
+          "percentile": 44.565217,
+          "points": 2.228261
         }
       },
-      "rating": 9.710145,
-      "rank": 137,
-      "movement": 0
+      "rating": 10.144928,
+      "rank": 138,
+      "movement": -1
     },
     "2335": {
       "games": 10,
@@ -3309,13 +3452,13 @@
         },
         "margin": {
           "raw": 12.211538,
-          "percentile": 96.73913,
-          "points": 29.021739
+          "percentile": 96.014493,
+          "points": 28.804348
         },
         "results": {
           "raw": 0.833333,
-          "percentile": 96.73913,
-          "points": 19.347826
+          "percentile": 96.014493,
+          "points": 19.202899
         },
         "efficiency": {
           "raw": 0.183908,
@@ -3324,13 +3467,13 @@
         },
         "recent": {
           "raw": -3.380952,
-          "percentile": 34.057971,
-          "points": 1.702899
+          "percentile": 35.869565,
+          "points": 1.793478
         }
       },
-      "rating": 65.887681,
-      "rank": 34,
-      "movement": 4
+      "rating": 65.615942,
+      "rank": 35,
+      "movement": 3
     },
     "2348": {
       "games": 10,
@@ -3343,8 +3486,8 @@
       "components": {
         "schedule": {
           "raw": 0.422727,
-          "percentile": 9.782609,
-          "points": 2.934783
+          "percentile": 10.869565,
+          "points": 3.26087
         },
         "margin": {
           "raw": 6.467949,
@@ -3367,7 +3510,7 @@
           "points": 4.90942
         }
       },
-      "rating": 61.15942,
+      "rating": 61.485507,
       "rank": 43,
       "movement": 4
     },
@@ -3381,19 +3524,19 @@
       "baseline_margin": 10.9,
       "components": {
         "schedule": {
-          "raw": 0.509394,
-          "percentile": 59.057971,
-          "points": 17.717391
+          "raw": 0.496667,
+          "percentile": 46.014493,
+          "points": 13.804348
         },
         "margin": {
-          "raw": 6.11776,
+          "raw": 6.027434,
           "percentile": 80.072464,
           "points": 24.021739
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.127967,
@@ -3402,13 +3545,13 @@
         },
         "recent": {
           "raw": 3.904762,
-          "percentile": 65.57971,
-          "points": 3.278986
+          "percentile": 67.028986,
+          "points": 3.351449
         }
       },
-      "rating": 74.927536,
-      "rank": 18,
-      "movement": -7
+      "rating": 71.014493,
+      "rank": 26,
+      "movement": -15
     },
     "238": {
       "games": 10,
@@ -3420,19 +3563,19 @@
       "baseline_margin": -9.9,
       "components": {
         "schedule": {
-          "raw": 0.549091,
-          "percentile": 79.347826,
-          "points": 23.804348
+          "raw": 0.545455,
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "margin": {
-          "raw": -6.162587,
+          "raw": -6.153846,
           "percentile": 19.202899,
           "points": 5.76087
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.104548,
@@ -3441,11 +3584,11 @@
         },
         "recent": {
           "raw": 3.619048,
-          "percentile": 62.681159,
-          "points": 3.134058
+          "percentile": 64.130435,
+          "points": 3.206522
         }
       },
-      "rating": 38.804348,
+      "rating": 38.07971,
       "rank": 94,
       "movement": 2
     },
@@ -3459,34 +3602,34 @@
       "baseline_margin": 6.2,
       "components": {
         "schedule": {
-          "raw": 0.554545,
-          "percentile": 82.246377,
-          "points": 24.673913
+          "raw": 0.545455,
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "margin": {
-          "raw": 5.102564,
+          "raw": 4.942308,
           "percentile": 75.0,
           "points": 22.5
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.025848,
-          "percentile": 61.231884,
-          "points": 9.184783
+          "percentile": 62.681159,
+          "points": 9.402174
         },
         "recent": {
           "raw": -16.666667,
-          "percentile": 7.246377,
-          "points": 0.362319
+          "percentile": 7.971014,
+          "points": 0.398551
         }
       },
-      "rating": 66.286232,
-      "rank": 33,
-      "movement": -1
+      "rating": 64.728261,
+      "rank": 38,
+      "movement": -6
     },
     "2390": {
       "games": 10,
@@ -3498,19 +3641,19 @@
       "baseline_margin": 18.1,
       "components": {
         "schedule": {
-          "raw": 0.600909,
+          "raw": 0.601515,
           "percentile": 95.289855,
           "points": 28.586957
         },
         "margin": {
-          "raw": 14.297203,
+          "raw": 14.263314,
           "percentile": 98.188406,
           "points": 29.456522
         },
         "results": {
           "raw": 0.833333,
-          "percentile": 96.73913,
-          "points": 19.347826
+          "percentile": 96.014493,
+          "points": 19.202899
         },
         "efficiency": {
           "raw": 0.130466,
@@ -3519,13 +3662,13 @@
         },
         "recent": {
           "raw": -15.428571,
-          "percentile": 9.782609,
-          "points": 0.48913
+          "percentile": 10.507246,
+          "points": 0.525362
         }
       },
-      "rating": 91.73913,
-      "rank": 2,
-      "movement": -1
+      "rating": 91.630435,
+      "rank": 3,
+      "movement": -2
     },
     "2393": {
       "games": 10,
@@ -3537,19 +3680,19 @@
       "baseline_margin": -6.3,
       "components": {
         "schedule": {
-          "raw": 0.440909,
-          "percentile": 16.666667,
-          "points": 5.0
+          "raw": 0.445455,
+          "percentile": 17.753623,
+          "points": 5.326087
         },
         "margin": {
-          "raw": -4.090909,
-          "percentile": 27.173913,
-          "points": 8.152174
+          "raw": -4.044872,
+          "percentile": 26.449275,
+          "points": 7.934783
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.094086,
@@ -3558,52 +3701,52 @@
         },
         "recent": {
           "raw": 8.47619,
-          "percentile": 74.275362,
-          "points": 3.713768
+          "percentile": 75.0,
+          "points": 3.75
         }
       },
-      "rating": 28.65942,
+      "rating": 28.731884,
       "rank": 115,
       "movement": -8
     },
     "24": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 4,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": -18,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": -14.6,
       "components": {
         "schedule": {
-          "raw": 0.581818,
-          "percentile": 91.666667,
-          "points": 27.5
+          "raw": 0.55303,
+          "percentile": 82.246377,
+          "points": 24.673913
         },
         "margin": {
-          "raw": -5.815025,
-          "percentile": 21.376812,
-          "points": 6.413043
+          "raw": -4.879684,
+          "percentile": 23.550725,
+          "points": 7.065217
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": -0.20958,
-          "percentile": 1.086957,
-          "points": 0.163043
+          "raw": -0.190806,
+          "percentile": 1.811594,
+          "points": 0.271739
         },
         "recent": {
-          "raw": 13.5,
-          "percentile": 88.405797,
-          "points": 4.42029
+          "raw": 15.142857,
+          "percentile": 90.942029,
+          "points": 4.547101
         }
       },
-      "rating": 46.394928,
-      "rank": 75,
-      "movement": 1
+      "rating": 46.050725,
+      "rank": 76,
+      "movement": 0
     },
     "242": {
       "games": 10,
@@ -3615,12 +3758,12 @@
       "baseline_margin": -14.2,
       "components": {
         "schedule": {
-          "raw": 0.547273,
-          "percentile": 78.623188,
-          "points": 23.586957
+          "raw": 0.556061,
+          "percentile": 83.695652,
+          "points": 25.108696
         },
         "margin": {
-          "raw": -7.785682,
+          "raw": -7.716469,
           "percentile": 16.304348,
           "points": 4.891304
         },
@@ -3631,18 +3774,18 @@
         },
         "efficiency": {
           "raw": -0.202296,
-          "percentile": 1.811594,
-          "points": 0.271739
+          "percentile": 1.086957,
+          "points": 0.163043
         },
         "recent": {
           "raw": 3.857143,
-          "percentile": 64.855072,
-          "points": 3.242754
+          "percentile": 66.304348,
+          "points": 3.315217
         }
       },
-      "rating": 32.862319,
-      "rank": 108,
-      "movement": -4
+      "rating": 34.347826,
+      "rank": 106,
+      "movement": -2
     },
     "2426": {
       "games": 9,
@@ -3654,14 +3797,14 @@
       "baseline_margin": -3.7777777777777777,
       "components": {
         "schedule": {
-          "raw": 0.59798,
+          "raw": 0.597643,
           "percentile": 93.84058,
           "points": 28.152174
         },
         "margin": {
-          "raw": -0.227273,
-          "percentile": 48.913043,
-          "points": 14.673913
+          "raw": -0.185897,
+          "percentile": 48.188406,
+          "points": 14.456522
         },
         "results": {
           "raw": 0.363636,
@@ -3670,18 +3813,18 @@
         },
         "efficiency": {
           "raw": -0.04577,
-          "percentile": 32.246377,
-          "points": 4.836957
+          "percentile": 31.521739,
+          "points": 4.728261
         },
         "recent": {
           "raw": 0.166667,
-          "percentile": 51.086957,
-          "points": 2.554348
+          "percentile": 53.26087,
+          "points": 2.663043
         }
       },
-      "rating": 55.724638,
-      "rank": 55,
-      "movement": 13
+      "rating": 55.507246,
+      "rank": 57,
+      "movement": 11
     },
     "2429": {
       "games": 10,
@@ -3693,9 +3836,9 @@
       "baseline_margin": -19.5,
       "components": {
         "schedule": {
-          "raw": 0.518182,
-          "percentile": 63.768116,
-          "points": 19.130435
+          "raw": 0.513636,
+          "percentile": 59.057971,
+          "points": 17.717391
         },
         "margin": {
           "raw": -12.058185,
@@ -3714,13 +3857,13 @@
         },
         "recent": {
           "raw": 3.238095,
-          "percentile": 60.507246,
-          "points": 3.025362
+          "percentile": 62.681159,
+          "points": 3.134058
         }
       },
-      "rating": 25.144928,
-      "rank": 121,
-      "movement": -1
+      "rating": 23.84058,
+      "rank": 122,
+      "movement": -2
     },
     "2433": {
       "games": 10,
@@ -3732,24 +3875,24 @@
       "baseline_margin": -15.1,
       "components": {
         "schedule": {
-          "raw": 0.468182,
-          "percentile": 28.985507,
-          "points": 8.695652
+          "raw": 0.463636,
+          "percentile": 27.173913,
+          "points": 8.152174
         },
         "margin": {
-          "raw": -12.150932,
+          "raw": -12.153846,
           "percentile": 4.710145,
           "points": 1.413043
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.076258,
-          "percentile": 20.652174,
-          "points": 3.097826
+          "percentile": 19.927536,
+          "points": 2.98913
         },
         "recent": {
           "raw": 9.047619,
@@ -3757,9 +3900,9 @@
           "points": 3.858696
         }
       },
-      "rating": 19.021739,
-      "rank": 130,
-      "movement": 2
+      "rating": 18.514493,
+      "rank": 131,
+      "movement": 1
     },
     "2439": {
       "games": 11,
@@ -3771,19 +3914,19 @@
       "baseline_margin": 0.9090909090909091,
       "components": {
         "schedule": {
-          "raw": 0.494904,
-          "percentile": 48.188406,
-          "points": 14.456522
+          "raw": 0.489669,
+          "percentile": 43.115942,
+          "points": 12.934783
         },
         "margin": {
-          "raw": 0.673993,
-          "percentile": 53.26087,
-          "points": 15.978261
+          "raw": 0.61859,
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "results": {
           "raw": 0.615385,
-          "percentile": 73.550725,
-          "points": 14.710145
+          "percentile": 75.0,
+          "points": 15.0
         },
         "efficiency": {
           "raw": 0.045683,
@@ -3796,48 +3939,48 @@
           "points": 2.083333
         }
       },
-      "rating": 58.043478,
-      "rank": 51,
-      "movement": -1
+      "rating": 57.463768,
+      "rank": 52,
+      "movement": -2
     },
     "2440": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 4,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": 1,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": 1.7,
       "components": {
         "schedule": {
-          "raw": 0.492424,
-          "percentile": 46.014493,
-          "points": 13.804348
+          "raw": 0.476515,
+          "percentile": 33.695652,
+          "points": 10.108696
         },
         "margin": {
-          "raw": -0.575321,
-          "percentile": 46.73913,
-          "points": 14.021739
+          "raw": -0.164201,
+          "percentile": 48.913043,
+          "points": 14.673913
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": 0.029365,
-          "percentile": 63.405797,
-          "points": 9.51087
+          "raw": 0.03308,
+          "percentile": 65.57971,
+          "points": 9.836957
         },
         "recent": {
-          "raw": -17.333333,
-          "percentile": 5.434783,
-          "points": 0.271739
+          "raw": -0.952381,
+          "percentile": 50.0,
+          "points": 2.5
         }
       },
-      "rating": 45.507246,
-      "rank": 77,
-      "movement": -4
+      "rating": 46.612319,
+      "rank": 75,
+      "movement": -2
     },
     "2449": {
       "games": 10,
@@ -3849,14 +3992,14 @@
       "baseline_margin": 12.2,
       "components": {
         "schedule": {
-          "raw": 0.47197,
-          "percentile": 30.434783,
-          "points": 9.130435
+          "raw": 0.473485,
+          "percentile": 31.15942,
+          "points": 9.347826
         },
         "margin": {
-          "raw": 8.008831,
-          "percentile": 85.869565,
-          "points": 25.76087
+          "raw": 8.020217,
+          "percentile": 85.144928,
+          "points": 25.543478
         },
         "results": {
           "raw": 0.75,
@@ -3870,13 +4013,13 @@
         },
         "recent": {
           "raw": 0.666667,
-          "percentile": 53.985507,
-          "points": 2.699275
+          "percentile": 56.884058,
+          "points": 2.844203
         }
       },
-      "rating": 66.557971,
-      "rank": 31,
-      "movement": -10
+      "rating": 66.702899,
+      "rank": 32,
+      "movement": -11
     },
     "245": {
       "games": 10,
@@ -3888,19 +4031,19 @@
       "baseline_margin": -1,
       "components": {
         "schedule": {
-          "raw": 0.54197,
-          "percentile": 76.449275,
-          "points": 22.934783
+          "raw": 0.531061,
+          "percentile": 69.202899,
+          "points": 20.76087
         },
         "margin": {
-          "raw": -0.914605,
+          "raw": -1.107495,
           "percentile": 45.289855,
           "points": 13.586957
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": 0.045475,
@@ -3909,13 +4052,13 @@
         },
         "recent": {
           "raw": -16.52381,
-          "percentile": 9.057971,
-          "points": 0.452899
+          "percentile": 9.782609,
+          "points": 0.48913
         }
       },
-      "rating": 51.884058,
-      "rank": 63,
-      "movement": -9
+      "rating": 49.818841,
+      "rank": 69,
+      "movement": -15
     },
     "2459": {
       "games": 10,
@@ -3927,12 +4070,12 @@
       "baseline_margin": -20.5,
       "components": {
         "schedule": {
-          "raw": 0.531667,
-          "percentile": 69.927536,
-          "points": 20.978261
+          "raw": 0.534848,
+          "percentile": 72.826087,
+          "points": 21.847826
         },
         "margin": {
-          "raw": -13.259593,
+          "raw": -13.210059,
           "percentile": 2.536232,
           "points": 0.76087
         },
@@ -3948,13 +4091,13 @@
         },
         "recent": {
           "raw": 8.47619,
-          "percentile": 74.275362,
-          "points": 3.713768
+          "percentile": 75.0,
+          "points": 3.75
         }
       },
-      "rating": 26.050725,
-      "rank": 120,
-      "movement": 2
+      "rating": 26.956522,
+      "rank": 117,
+      "movement": 5
     },
     "248": {
       "games": 10,
@@ -3966,19 +4109,19 @@
       "baseline_margin": 4.9,
       "components": {
         "schedule": {
-          "raw": 0.563636,
-          "percentile": 85.144928,
-          "points": 25.543478
+          "raw": 0.572727,
+          "percentile": 90.942029,
+          "points": 27.282609
         },
         "margin": {
-          "raw": 5.386946,
+          "raw": 5.455128,
           "percentile": 77.898551,
           "points": 23.369565
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.089683,
@@ -3991,9 +4134,9 @@
           "points": 1.25
         }
       },
-      "rating": 78.985507,
-      "rank": 14,
-      "movement": 4
+      "rating": 80.652174,
+      "rank": 10,
+      "movement": 8
     },
     "2483": {
       "games": 10,
@@ -4005,19 +4148,19 @@
       "baseline_margin": 8.6,
       "components": {
         "schedule": {
-          "raw": 0.620303,
-          "percentile": 98.913043,
-          "points": 29.673913
+          "raw": 0.616667,
+          "percentile": 98.550725,
+          "points": 29.565217
         },
         "margin": {
-          "raw": 10.001972,
+          "raw": 9.912229,
           "percentile": 89.492754,
           "points": 26.847826
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.019636,
@@ -4026,11 +4169,11 @@
         },
         "recent": {
           "raw": 20.095238,
-          "percentile": 96.73913,
-          "points": 4.836957
+          "percentile": 96.014493,
+          "points": 4.800725
         }
       },
-      "rating": 86.050725,
+      "rating": 85.833333,
       "rank": 5,
       "movement": 5
     },
@@ -4044,14 +4187,14 @@
       "baseline_margin": 5.2,
       "components": {
         "schedule": {
-          "raw": 0.517576,
-          "percentile": 61.231884,
-          "points": 18.369565
+          "raw": 0.520303,
+          "percentile": 62.681159,
+          "points": 18.804348
         },
         "margin": {
-          "raw": 2.763403,
-          "percentile": 66.304348,
-          "points": 19.891304
+          "raw": 2.774476,
+          "percentile": 67.753623,
+          "points": 20.326087
         },
         "results": {
           "raw": 0.583333,
@@ -4060,8 +4203,8 @@
         },
         "efficiency": {
           "raw": 0.086859,
-          "percentile": 82.246377,
-          "points": 12.336957
+          "percentile": 83.695652,
+          "points": 12.554348
         },
         "recent": {
           "raw": -2.904762,
@@ -4069,48 +4212,48 @@
           "points": 1.938406
         }
       },
-      "rating": 65.797101,
-      "rank": 35,
-      "movement": 2
+      "rating": 66.884058,
+      "rank": 30,
+      "movement": 7
     },
     "25": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "baseline_win_pct": 0.2222222222222222,
-      "baseline_margin": -17.555555555555557,
+      "baseline_win_pct": 0.2,
+      "baseline_margin": -17.4,
       "components": {
         "schedule": {
-          "raw": 0.577609,
-          "percentile": 90.942029,
-          "points": 27.282609
+          "raw": 0.559848,
+          "percentile": 86.594203,
+          "points": 25.978261
         },
         "margin": {
-          "raw": -10.438811,
-          "percentile": 7.608696,
-          "points": 2.282609
+          "raw": -11.663215,
+          "percentile": 6.15942,
+          "points": 1.847826
         },
         "results": {
-          "raw": 0.272727,
-          "percentile": 13.768116,
-          "points": 2.753623
+          "raw": 0.25,
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
-          "raw": -0.071848,
-          "percentile": 23.550725,
-          "points": 3.532609
+          "raw": -0.062754,
+          "percentile": 26.449275,
+          "points": 3.967391
         },
         "recent": {
-          "raw": -15.166667,
-          "percentile": 10.507246,
-          "points": 0.525362
+          "raw": -8.666667,
+          "percentile": 19.202899,
+          "points": 0.960145
         }
       },
-      "rating": 36.376812,
-      "rank": 99,
-      "movement": 3
+      "rating": 34.855072,
+      "rank": 104,
+      "movement": -2
     },
     "2509": {
       "games": 10,
@@ -4122,19 +4265,19 @@
       "baseline_margin": -10.4,
       "components": {
         "schedule": {
-          "raw": 0.615152,
-          "percentile": 97.463768,
-          "points": 29.23913
+          "raw": 0.616667,
+          "percentile": 98.550725,
+          "points": 29.565217
         },
         "margin": {
-          "raw": -3.463511,
-          "percentile": 31.521739,
-          "points": 9.456522
+          "raw": -3.420611,
+          "percentile": 30.797101,
+          "points": 9.23913
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.14542,
@@ -4143,13 +4286,13 @@
         },
         "recent": {
           "raw": -13,
-          "percentile": 13.405797,
-          "points": 0.67029
+          "percentile": 14.130435,
+          "points": 0.706522
         }
       },
-      "rating": 42.137681,
-      "rank": 88,
-      "movement": -18
+      "rating": 42.427536,
+      "rank": 87,
+      "movement": -17
     },
     "251": {
       "games": 11,
@@ -4161,34 +4304,34 @@
       "baseline_margin": 15.090909090909092,
       "components": {
         "schedule": {
-          "raw": 0.604545,
+          "raw": 0.609504,
           "percentile": 96.014493,
           "points": 28.804348
         },
         "margin": {
-          "raw": 12.173202,
-          "percentile": 96.014493,
-          "points": 28.804348
+          "raw": 12.222985,
+          "percentile": 96.73913,
+          "points": 29.021739
         },
         "results": {
           "raw": 0.769231,
-          "percentile": 93.115942,
-          "points": 18.623188
+          "percentile": 93.84058,
+          "points": 18.768116
         },
         "efficiency": {
           "raw": 0.09112,
-          "percentile": 85.869565,
-          "points": 12.880435
+          "percentile": 85.144928,
+          "points": 12.771739
         },
         "recent": {
           "raw": 3.708333,
-          "percentile": 63.405797,
-          "points": 3.17029
+          "percentile": 64.855072,
+          "points": 3.242754
         }
       },
-      "rating": 92.282609,
-      "rank": 1,
-      "movement": 2
+      "rating": 92.608696,
+      "rank": 2,
+      "movement": 1
     },
     "252": {
       "games": 10,
@@ -4200,12 +4343,12 @@
       "baseline_margin": 6.8,
       "components": {
         "schedule": {
-          "raw": 0.575455,
-          "percentile": 90.217391,
-          "points": 27.065217
+          "raw": 0.564394,
+          "percentile": 88.768116,
+          "points": 26.630435
         },
         "margin": {
-          "raw": 7.472611,
+          "raw": 7.424556,
           "percentile": 83.695652,
           "points": 25.108696
         },
@@ -4216,8 +4359,8 @@
         },
         "efficiency": {
           "raw": 0.06787,
-          "percentile": 75.724638,
-          "points": 11.358696
+          "percentile": 76.449275,
+          "points": 11.467391
         },
         "recent": {
           "raw": -2.571429,
@@ -4225,9 +4368,9 @@
           "points": 2.047101
         }
       },
-      "rating": 83.405797,
-      "rank": 8,
-      "movement": -2
+      "rating": 83.07971,
+      "rank": 7,
+      "movement": -1
     },
     "2534": {
       "games": 10,
@@ -4240,8 +4383,8 @@
       "components": {
         "schedule": {
           "raw": 0.463636,
-          "percentile": 26.811594,
-          "points": 8.043478
+          "percentile": 27.173913,
+          "points": 8.152174
         },
         "margin": {
           "raw": -13.0,
@@ -4255,55 +4398,55 @@
         },
         "efficiency": {
           "raw": -0.016787,
-          "percentile": 41.666667,
-          "points": 6.25
+          "percentile": 42.391304,
+          "points": 6.358696
         },
         "recent": {
           "raw": -1.666667,
-          "percentile": 44.565217,
-          "points": 2.228261
+          "percentile": 46.014493,
+          "points": 2.300725
         }
       },
-      "rating": 17.717391,
+      "rating": 18.007246,
       "rank": 132,
       "movement": 1
     },
     "254": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 9,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 10,
       "losses": 0,
       "ties": 0,
       "baseline_win_pct": 1,
-      "baseline_margin": 15.666666666666666,
+      "baseline_margin": 16.2,
       "components": {
         "schedule": {
-          "raw": 0.540404,
-          "percentile": 74.275362,
-          "points": 22.282609
+          "raw": 0.527273,
+          "percentile": 65.942029,
+          "points": 19.782609
         },
         "margin": {
-          "raw": 11.28851,
-          "percentile": 93.84058,
-          "points": 28.152174
+          "raw": 12.160256,
+          "percentile": 95.289855,
+          "points": 28.586957
         },
         "results": {
-          "raw": 0.909091,
+          "raw": 0.916667,
           "percentile": 99.637681,
           "points": 19.927536
         },
         "efficiency": {
-          "raw": 0.135045,
-          "percentile": 93.115942,
-          "points": 13.967391
+          "raw": 0.142634,
+          "percentile": 94.565217,
+          "points": 14.184783
         },
         "recent": {
-          "raw": -5.333333,
-          "percentile": 29.347826,
-          "points": 1.467391
+          "raw": -7.428571,
+          "percentile": 24.275362,
+          "points": 1.213768
         }
       },
-      "rating": 85.797101,
+      "rating": 83.695652,
       "rank": 6,
       "movement": -1
     },
@@ -4317,73 +4460,73 @@
       "baseline_margin": 10.5,
       "components": {
         "schedule": {
-          "raw": 0.486364,
-          "percentile": 41.304348,
-          "points": 12.391304
+          "raw": 0.490909,
+          "percentile": 44.202899,
+          "points": 13.26087
         },
         "margin": {
-          "raw": 7.175991,
+          "raw": 7.217949,
           "percentile": 82.971014,
           "points": 24.891304
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": -0.009048,
-          "percentile": 43.84058,
-          "points": 6.576087
+          "percentile": 44.565217,
+          "points": 6.684783
         },
         "recent": {
           "raw": -14.095238,
-          "percentile": 11.956522,
-          "points": 0.597826
+          "percentile": 13.405797,
+          "points": 0.67029
         }
       },
-      "rating": 60.615942,
-      "rank": 46,
-      "movement": 2
+      "rating": 61.594203,
+      "rank": 42,
+      "movement": 6
     },
     "2567": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 6,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "baseline_win_pct": 0.6666666666666666,
-      "baseline_margin": 4.333333333333333,
+      "baseline_win_pct": 0.6,
+      "baseline_margin": 1.8,
       "components": {
         "schedule": {
-          "raw": 0.493939,
-          "percentile": 46.73913,
-          "points": 14.021739
+          "raw": 0.528788,
+          "percentile": 67.028986,
+          "points": 20.108696
         },
         "margin": {
-          "raw": 3.528409,
-          "percentile": 70.652174,
-          "points": 21.195652
+          "raw": 2.879191,
+          "percentile": 68.478261,
+          "points": 20.543478
         },
         "results": {
-          "raw": 0.636364,
-          "percentile": 76.086957,
-          "points": 15.217391
+          "raw": 0.583333,
+          "percentile": 66.304348,
+          "points": 13.26087
         },
         "efficiency": {
-          "raw": 0.086889,
-          "percentile": 82.971014,
-          "points": 12.445652
+          "raw": 0.062253,
+          "percentile": 75.724638,
+          "points": 11.358696
         },
         "recent": {
-          "raw": -11.0,
-          "percentile": 15.57971,
-          "points": 0.778986
+          "raw": -15.380952,
+          "percentile": 11.231884,
+          "points": 0.561594
         }
       },
-      "rating": 63.65942,
-      "rank": 37,
-      "movement": -1
+      "rating": 65.833333,
+      "rank": 34,
+      "movement": 2
     },
     "2572": {
       "games": 10,
@@ -4401,13 +4544,13 @@
         },
         "margin": {
           "raw": -11.162722,
-          "percentile": 6.15942,
-          "points": 1.847826
+          "percentile": 6.884058,
+          "points": 2.065217
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.104403,
@@ -4416,52 +4559,52 @@
         },
         "recent": {
           "raw": -10.047619,
-          "percentile": 19.202899,
-          "points": 0.960145
+          "percentile": 17.753623,
+          "points": 0.887681
         }
       },
-      "rating": 19.166667,
-      "rank": 129,
-      "movement": 0
+      "rating": 19.456522,
+      "rank": 128,
+      "movement": 1
     },
     "2579": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": 4.111111111111111,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": 0.9,
       "components": {
         "schedule": {
-          "raw": 0.524579,
-          "percentile": 67.028986,
-          "points": 20.108696
+          "raw": 0.548485,
+          "percentile": 80.072464,
+          "points": 24.021739
         },
         "margin": {
-          "raw": 1.041909,
-          "percentile": 55.434783,
-          "points": 16.630435
+          "raw": -0.113412,
+          "percentile": 49.637681,
+          "points": 14.891304
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": 0.043615,
+          "raw": 0.041314,
           "percentile": 69.927536,
           "points": 10.48913
         },
         "recent": {
-          "raw": -3.333333,
-          "percentile": 35.144928,
-          "points": 1.757246
+          "raw": -20.428571,
+          "percentile": 3.26087,
+          "points": 0.163043
         }
       },
-      "rating": 60.57971,
-      "rank": 47,
-      "movement": -2
+      "rating": 59.057971,
+      "rank": 49,
+      "movement": -4
     },
     "258": {
       "games": 10,
@@ -4473,34 +4616,34 @@
       "baseline_margin": 1.5,
       "components": {
         "schedule": {
-          "raw": 0.49,
-          "percentile": 43.84058,
-          "points": 13.152174
+          "raw": 0.481818,
+          "percentile": 38.405797,
+          "points": 11.521739
         },
         "margin": {
-          "raw": 1.812354,
-          "percentile": 61.231884,
-          "points": 18.369565
+          "raw": 1.621795,
+          "percentile": 62.681159,
+          "points": 18.804348
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.082619,
-          "percentile": 19.202899,
-          "points": 2.880435
+          "percentile": 18.478261,
+          "points": 2.771739
         },
         "recent": {
           "raw": 4.952381,
-          "percentile": 66.304348,
-          "points": 3.315217
+          "percentile": 67.753623,
+          "points": 3.387681
         }
       },
-      "rating": 47.282609,
-      "rank": 72,
-      "movement": 11
+      "rating": 45.978261,
+      "rank": 77,
+      "movement": 6
     },
     "259": {
       "games": 10,
@@ -4512,34 +4655,34 @@
       "baseline_margin": -0.3,
       "components": {
         "schedule": {
-          "raw": 0.451818,
-          "percentile": 19.927536,
-          "points": 5.978261
+          "raw": 0.445455,
+          "percentile": 17.753623,
+          "points": 5.326087
         },
         "margin": {
-          "raw": -2.923077,
-          "percentile": 34.42029,
-          "points": 10.326087
+          "raw": -3.108974,
+          "percentile": 33.695652,
+          "points": 10.108696
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.007016,
-          "percentile": 50.362319,
-          "points": 7.554348
+          "percentile": 51.811594,
+          "points": 7.771739
         },
         "recent": {
           "raw": -22.904762,
-          "percentile": 1.811594,
-          "points": 0.09058
+          "percentile": 1.086957,
+          "points": 0.054348
         }
       },
-      "rating": 33.514493,
-      "rank": 107,
-      "movement": -4
+      "rating": 32.753623,
+      "rank": 108,
+      "movement": -5
     },
     "26": {
       "games": 11,
@@ -4551,34 +4694,34 @@
       "baseline_margin": 16.454545454545453,
       "components": {
         "schedule": {
-          "raw": 0.474931,
-          "percentile": 32.971014,
-          "points": 9.891304
+          "raw": 0.480716,
+          "percentile": 37.318841,
+          "points": 11.195652
         },
         "margin": {
-          "raw": 9.893065,
-          "percentile": 88.768116,
-          "points": 26.630435
+          "raw": 9.930403,
+          "percentile": 90.217391,
+          "points": 27.065217
         },
         "results": {
           "raw": 0.846154,
-          "percentile": 98.913043,
-          "points": 19.782609
+          "percentile": 98.550725,
+          "points": 19.710145
         },
         "efficiency": {
           "raw": 0.149109,
-          "percentile": 96.014493,
-          "points": 14.402174
+          "percentile": 96.73913,
+          "points": 14.51087
         },
         "recent": {
           "raw": -10.583333,
-          "percentile": 17.028986,
-          "points": 0.851449
+          "percentile": 16.304348,
+          "points": 0.815217
         }
       },
-      "rating": 71.557971,
-      "rank": 26,
-      "movement": -6
+      "rating": 73.297101,
+      "rank": 22,
+      "movement": -2
     },
     "2623": {
       "games": 10,
@@ -4590,29 +4733,29 @@
       "baseline_margin": -8.8,
       "components": {
         "schedule": {
-          "raw": 0.378182,
+          "raw": 0.372727,
           "percentile": 0.362319,
           "points": 0.108696
         },
         "margin": {
-          "raw": -8.308275,
+          "raw": -8.461538,
           "percentile": 12.681159,
           "points": 3.804348
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.108444,
-          "percentile": 11.956522,
-          "points": 1.793478
+          "percentile": 11.231884,
+          "points": 1.684783
         },
         "recent": {
           "raw": 8.47619,
-          "percentile": 74.275362,
-          "points": 3.713768
+          "percentile": 75.0,
+          "points": 3.75
         }
       },
       "rating": 13.623188,
@@ -4620,43 +4763,43 @@
       "movement": -1
     },
     "2628": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": 2.888888888888889,
+      "baseline_win_pct": 0.4,
+      "baseline_margin": 0.5,
       "components": {
         "schedule": {
-          "raw": 0.464646,
-          "percentile": 27.898551,
-          "points": 8.369565
+          "raw": 0.509091,
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
-          "raw": 2.583333,
-          "percentile": 65.57971,
-          "points": 19.673913
+          "raw": 1.608974,
+          "percentile": 61.956522,
+          "points": 18.586957
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.416667,
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
-          "raw": 0.107502,
-          "percentile": 87.318841,
-          "points": 13.097826
+          "raw": 0.07666,
+          "percentile": 79.347826,
+          "points": 11.902174
         },
         "recent": {
-          "raw": 3.166667,
-          "percentile": 59.782609,
-          "points": 2.98913
+          "raw": -6.428571,
+          "percentile": 27.898551,
+          "points": 1.394928
         }
       },
-      "rating": 52.028986,
-      "rank": 62,
-      "movement": -6
+      "rating": 55.253623,
+      "rank": 58,
+      "movement": -2
     },
     "2633": {
       "games": 10,
@@ -4668,14 +4811,14 @@
       "baseline_margin": 13.8,
       "components": {
         "schedule": {
-          "raw": 0.540455,
-          "percentile": 75.0,
-          "points": 22.5
+          "raw": 0.529545,
+          "percentile": 67.753623,
+          "points": 20.326087
         },
         "margin": {
-          "raw": 11.874843,
-          "percentile": 94.565217,
-          "points": 28.369565
+          "raw": 11.585799,
+          "percentile": 93.84058,
+          "points": 28.152174
         },
         "results": {
           "raw": 0.75,
@@ -4689,52 +4832,52 @@
         },
         "recent": {
           "raw": 8.142857,
-          "percentile": 71.376812,
-          "points": 3.568841
+          "percentile": 72.101449,
+          "points": 3.605072
         }
       },
-      "rating": 81.014493,
-      "rank": 11,
-      "movement": 2
+      "rating": 78.65942,
+      "rank": 16,
+      "movement": -3
     },
     "2636": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 7,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 8,
       "losses": 2,
       "ties": 0,
-      "baseline_win_pct": 0.7777777777777778,
-      "baseline_margin": 2.111111111111111,
+      "baseline_win_pct": 0.8,
+      "baseline_margin": 2.1,
       "components": {
         "schedule": {
-          "raw": 0.508754,
-          "percentile": 55.434783,
-          "points": 16.630435
+          "raw": 0.509697,
+          "percentile": 58.333333,
+          "points": 17.5
         },
         "margin": {
-          "raw": 1.405157,
-          "percentile": 57.608696,
-          "points": 17.282609
+          "raw": 1.403129,
+          "percentile": 59.057971,
+          "points": 17.717391
         },
         "results": {
-          "raw": 0.727273,
-          "percentile": 85.144928,
-          "points": 17.028986
+          "raw": 0.75,
+          "percentile": 89.130435,
+          "points": 17.826087
         },
         "efficiency": {
-          "raw": 0.031854,
+          "raw": 0.029954,
           "percentile": 64.130435,
           "points": 9.619565
         },
         "recent": {
-          "raw": 3.333333,
-          "percentile": 61.231884,
-          "points": 3.061594
+          "raw": -6.761905,
+          "percentile": 26.449275,
+          "points": 1.322464
         }
       },
-      "rating": 63.623188,
-      "rank": 38,
-      "movement": 13
+      "rating": 63.985507,
+      "rank": 40,
+      "movement": 11
     },
     "2638": {
       "games": 10,
@@ -4746,12 +4889,12 @@
       "baseline_margin": -28.4,
       "components": {
         "schedule": {
-          "raw": 0.521667,
-          "percentile": 65.57971,
-          "points": 19.673913
+          "raw": 0.530303,
+          "percentile": 68.478261,
+          "points": 20.543478
         },
         "margin": {
-          "raw": -15.24619,
+          "raw": -15.171105,
           "percentile": 0.362319,
           "points": 0.108696
         },
@@ -4771,9 +4914,9 @@
           "points": 3.894928
         }
       },
-      "rating": 23.949275,
-      "rank": 122,
-      "movement": 5
+      "rating": 24.818841,
+      "rank": 121,
+      "movement": 6
     },
     "264": {
       "games": 10,
@@ -4785,14 +4928,14 @@
       "baseline_margin": 1.8,
       "components": {
         "schedule": {
-          "raw": 0.509091,
-          "percentile": 57.246377,
-          "points": 17.173913
+          "raw": 0.504545,
+          "percentile": 50.362319,
+          "points": 15.108696
         },
         "margin": {
-          "raw": 2.106688,
-          "percentile": 62.681159,
-          "points": 18.804348
+          "raw": 2.079882,
+          "percentile": 64.130435,
+          "points": 19.23913
         },
         "results": {
           "raw": 0.583333,
@@ -4801,18 +4944,18 @@
         },
         "efficiency": {
           "raw": 0.002564,
-          "percentile": 47.463768,
-          "points": 7.119565
+          "percentile": 48.188406,
+          "points": 7.228261
         },
         "recent": {
           "raw": 0.761905,
-          "percentile": 55.797101,
-          "points": 2.789855
+          "percentile": 58.695652,
+          "points": 2.934783
         }
       },
-      "rating": 59.148551,
-      "rank": 50,
-      "movement": 21
+      "rating": 57.771739,
+      "rank": 51,
+      "movement": 20
     },
     "2641": {
       "games": 10,
@@ -4824,34 +4967,34 @@
       "baseline_margin": 13.3,
       "components": {
         "schedule": {
-          "raw": 0.506364,
-          "percentile": 53.623188,
-          "points": 16.086957
+          "raw": 0.509091,
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
-          "raw": 10.0169,
-          "percentile": 90.217391,
-          "points": 27.065217
+          "raw": 9.99359,
+          "percentile": 90.942029,
+          "points": 27.282609
         },
         "results": {
           "raw": 0.833333,
-          "percentile": 96.73913,
-          "points": 19.347826
+          "percentile": 96.014493,
+          "points": 19.202899
         },
         "efficiency": {
           "raw": 0.022538,
-          "percentile": 59.057971,
-          "points": 8.858696
+          "percentile": 59.782609,
+          "points": 8.967391
         },
         "recent": {
           "raw": 1.047619,
-          "percentile": 56.884058,
-          "points": 2.844203
+          "percentile": 59.782609,
+          "points": 2.98913
         }
       },
-      "rating": 74.202899,
-      "rank": 21,
-      "movement": 4
+      "rating": 75.072464,
+      "rank": 20,
+      "movement": 5
     },
     "2649": {
       "games": 10,
@@ -4863,12 +5006,12 @@
       "baseline_margin": 8.9,
       "components": {
         "schedule": {
-          "raw": 0.384091,
+          "raw": 0.388636,
           "percentile": 2.536232,
           "points": 0.76087
         },
         "margin": {
-          "raw": 3.579971,
+          "raw": 3.614936,
           "percentile": 71.376812,
           "points": 21.413043
         },
@@ -4879,8 +5022,8 @@
         },
         "efficiency": {
           "raw": 0.086024,
-          "percentile": 81.521739,
-          "points": 12.228261
+          "percentile": 82.971014,
+          "points": 12.445652
         },
         "recent": {
           "raw": 9.190476,
@@ -4888,7 +5031,7 @@
           "points": 3.967391
         }
       },
-      "rating": 56.195652,
+      "rating": 56.413043,
       "rank": 54,
       "movement": 6
     },
@@ -4902,12 +5045,12 @@
       "baseline_margin": -7.9,
       "components": {
         "schedule": {
-          "raw": 0.475455,
-          "percentile": 33.695652,
-          "points": 10.108696
+          "raw": 0.477273,
+          "percentile": 34.782609,
+          "points": 10.434783
         },
         "margin": {
-          "raw": -9.081002,
+          "raw": -9.042406,
           "percentile": 9.782609,
           "points": 2.934783
         },
@@ -4918,18 +5061,18 @@
         },
         "efficiency": {
           "raw": -0.075373,
-          "percentile": 21.376812,
-          "points": 3.206522
+          "percentile": 20.652174,
+          "points": 3.097826
         },
         "recent": {
           "raw": 13.857143,
-          "percentile": 90.217391,
-          "points": 4.51087
+          "percentile": 88.768116,
+          "points": 4.438406
         }
       },
-      "rating": 21.630435,
-      "rank": 125,
-      "movement": -1
+      "rating": 21.775362,
+      "rank": 124,
+      "movement": 0
     },
     "2653": {
       "games": 10,
@@ -4941,34 +5084,34 @@
       "baseline_margin": -10.3,
       "components": {
         "schedule": {
-          "raw": 0.453636,
+          "raw": 0.454545,
           "percentile": 21.376812,
           "points": 6.413043
         },
         "margin": {
-          "raw": -8.293124,
+          "raw": -8.230769,
           "percentile": 13.405797,
           "points": 4.021739
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.067433,
-          "percentile": 25.0,
-          "points": 3.75
+          "percentile": 23.550725,
+          "points": 3.532609
         },
         "recent": {
           "raw": -17.666667,
-          "percentile": 4.710145,
-          "points": 0.235507
+          "percentile": 6.15942,
+          "points": 0.307971
         }
       },
-      "rating": 18.623188,
-      "rank": 131,
-      "movement": -6
+      "rating": 18.550725,
+      "rank": 130,
+      "movement": -5
     },
     "2655": {
       "games": 11,
@@ -4980,19 +5123,19 @@
       "baseline_margin": -6,
       "components": {
         "schedule": {
-          "raw": 0.455372,
-          "percentile": 22.826087,
-          "points": 6.847826
+          "raw": 0.457851,
+          "percentile": 22.101449,
+          "points": 6.630435
         },
         "margin": {
-          "raw": -4.306818,
+          "raw": -4.294372,
           "percentile": 25.724638,
           "points": 7.717391
         },
         "results": {
           "raw": 0.538462,
-          "percentile": 54.710145,
-          "points": 10.942029
+          "percentile": 57.246377,
+          "points": 11.449275
         },
         "efficiency": {
           "raw": -0.093138,
@@ -5001,13 +5144,13 @@
         },
         "recent": {
           "raw": -4.125,
-          "percentile": 30.797101,
-          "points": 1.539855
+          "percentile": 32.971014,
+          "points": 1.648551
         }
       },
-      "rating": 29.384058,
-      "rank": 113,
-      "movement": 1
+      "rating": 29.782609,
+      "rank": 112,
+      "movement": 2
     },
     "2711": {
       "games": 10,
@@ -5019,34 +5162,34 @@
       "baseline_margin": 6.3,
       "components": {
         "schedule": {
-          "raw": 0.454545,
-          "percentile": 22.101449,
-          "points": 6.630435
+          "raw": 0.447273,
+          "percentile": 19.202899,
+          "points": 5.76087
         },
         "margin": {
-          "raw": 2.820513,
-          "percentile": 67.753623,
-          "points": 20.326087
+          "raw": 2.755245,
+          "percentile": 67.028986,
+          "points": 20.108696
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.114993,
-          "percentile": 89.492754,
-          "points": 13.423913
+          "percentile": 88.768116,
+          "points": 13.315217
         },
         "recent": {
           "raw": 14.285714,
-          "percentile": 90.942029,
-          "points": 4.547101
+          "percentile": 89.492754,
+          "points": 4.474638
         }
       },
-      "rating": 61.086957,
-      "rank": 44,
-      "movement": 5
+      "rating": 59.746377,
+      "rank": 47,
+      "movement": 2
     },
     "275": {
       "games": 10,
@@ -5058,12 +5201,12 @@
       "baseline_margin": 7.5,
       "components": {
         "schedule": {
-          "raw": 0.522727,
-          "percentile": 66.304348,
-          "points": 19.891304
+          "raw": 0.524242,
+          "percentile": 64.855072,
+          "points": 19.456522
         },
         "margin": {
-          "raw": 5.534024,
+          "raw": 5.576923,
           "percentile": 78.623188,
           "points": 23.586957
         },
@@ -5079,11 +5222,11 @@
         },
         "recent": {
           "raw": 13.761905,
-          "percentile": 89.492754,
-          "points": 4.474638
+          "percentile": 88.043478,
+          "points": 4.402174
         }
       },
-      "rating": 71.594203,
+      "rating": 71.086957,
       "rank": 25,
       "movement": 10
     },
@@ -5097,12 +5240,12 @@
       "baseline_margin": -0.1,
       "components": {
         "schedule": {
-          "raw": 0.446515,
-          "percentile": 17.753623,
-          "points": 5.326087
+          "raw": 0.441667,
+          "percentile": 16.304348,
+          "points": 4.891304
         },
         "margin": {
-          "raw": -1.933746,
+          "raw": -1.925049,
           "percentile": 41.666667,
           "points": 12.5
         },
@@ -5113,18 +5256,18 @@
         },
         "efficiency": {
           "raw": -0.113695,
-          "percentile": 10.507246,
-          "points": 1.576087
+          "percentile": 9.057971,
+          "points": 1.358696
         },
         "recent": {
           "raw": 5.380952,
-          "percentile": 67.028986,
-          "points": 3.351449
+          "percentile": 68.478261,
+          "points": 3.423913
         }
       },
-      "rating": 36.014493,
-      "rank": 101,
-      "movement": -2
+      "rating": 35.434783,
+      "rank": 100,
+      "movement": -1
     },
     "276": {
       "games": 10,
@@ -5137,18 +5280,18 @@
       "components": {
         "schedule": {
           "raw": 0.468182,
-          "percentile": 28.985507,
-          "points": 8.695652
+          "percentile": 28.623188,
+          "points": 8.586957
         },
         "margin": {
           "raw": -5.712525,
-          "percentile": 22.101449,
-          "points": 6.630435
+          "percentile": 21.376812,
+          "points": 6.413043
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.015038,
@@ -5157,13 +5300,13 @@
         },
         "recent": {
           "raw": -5.47619,
-          "percentile": 28.26087,
-          "points": 1.413043
+          "percentile": 29.710145,
+          "points": 1.485507
         }
       },
-      "rating": 34.51087,
-      "rank": 104,
-      "movement": 1
+      "rating": 34.184783,
+      "rank": 107,
+      "movement": -2
     },
     "277": {
       "games": 10,
@@ -5176,70 +5319,70 @@
       "components": {
         "schedule": {
           "raw": 0.518182,
-          "percentile": 63.768116,
-          "points": 19.130435
+          "percentile": 61.231884,
+          "points": 18.369565
         },
         "margin": {
-          "raw": -2.334499,
-          "percentile": 39.492754,
-          "points": 11.847826
+          "raw": -2.487179,
+          "percentile": 37.318841,
+          "points": 11.195652
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.00974,
-          "percentile": 43.115942,
-          "points": 6.467391
+          "percentile": 43.84058,
+          "points": 6.576087
         },
         "recent": {
           "raw": -8.047619,
-          "percentile": 20.652174,
-          "points": 1.032609
+          "percentile": 19.927536,
+          "points": 0.996377
         }
       },
-      "rating": 45.072464,
-      "rank": 78,
-      "movement": 4
+      "rating": 43.876812,
+      "rank": 82,
+      "movement": 0
     },
     "278": {
-      "games": 10,
-      "efficiency_games": 10,
-      "wins": 5,
+      "games": 11,
+      "efficiency_games": 11,
+      "wins": 6,
       "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.5,
-      "baseline_margin": 5.4,
+      "baseline_win_pct": 0.5454545454545454,
+      "baseline_margin": 5.545454545454546,
       "components": {
         "schedule": {
-          "raw": 0.427424,
-          "percentile": 14.130435,
-          "points": 4.23913
+          "raw": 0.412534,
+          "percentile": 6.884058,
+          "points": 2.065217
         },
         "margin": {
-          "raw": 2.23839,
-          "percentile": 64.130435,
-          "points": 19.23913
+          "raw": 1.776557,
+          "percentile": 63.405797,
+          "points": 19.021739
         },
         "results": {
-          "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "raw": 0.538462,
+          "percentile": 57.246377,
+          "points": 11.449275
         },
         "efficiency": {
-          "raw": 0.012846,
-          "percentile": 53.26087,
-          "points": 7.98913
+          "raw": 0.025547,
+          "percentile": 61.956522,
+          "points": 9.293478
         },
         "recent": {
-          "raw": -3.380952,
-          "percentile": 34.057971,
-          "points": 1.702899
+          "raw": -7.666667,
+          "percentile": 21.73913,
+          "points": 1.086957
         }
       },
-      "rating": 42.735507,
+      "rating": 42.916667,
       "rank": 85,
       "movement": 4
     },
@@ -5254,8 +5397,8 @@
       "components": {
         "schedule": {
           "raw": 0.509091,
-          "percentile": 57.246377,
-          "points": 17.173913
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
           "raw": 4.596154,
@@ -5278,9 +5421,9 @@
           "points": 4.981884
         }
       },
-      "rating": 70.797101,
-      "rank": 27,
-      "movement": 2
+      "rating": 70.253623,
+      "rank": 28,
+      "movement": 1
     },
     "295": {
       "games": 10,
@@ -5293,8 +5436,8 @@
       "components": {
         "schedule": {
           "raw": 0.518182,
-          "percentile": 63.768116,
-          "points": 19.130435
+          "percentile": 61.231884,
+          "points": 18.369565
         },
         "margin": {
           "raw": -8.583333,
@@ -5303,23 +5446,23 @@
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": 0.006757,
-          "percentile": 49.637681,
-          "points": 7.445652
+          "percentile": 51.086957,
+          "points": 7.663043
         },
         "recent": {
           "raw": 12.619048,
-          "percentile": 85.144928,
-          "points": 4.257246
+          "percentile": 85.869565,
+          "points": 4.293478
         }
       },
-      "rating": 36.376812,
-      "rank": 99,
-      "movement": 1
+      "rating": 36.014493,
+      "rank": 98,
+      "movement": 2
     },
     "30": {
       "games": 11,
@@ -5331,12 +5474,12 @@
       "baseline_margin": 6.7272727272727275,
       "components": {
         "schedule": {
-          "raw": 0.556474,
-          "percentile": 83.695652,
-          "points": 25.108696
+          "raw": 0.559917,
+          "percentile": 87.318841,
+          "points": 26.195652
         },
         "margin": {
-          "raw": 6.690476,
+          "raw": 6.694597,
           "percentile": 81.521739,
           "points": 24.456522
         },
@@ -5347,18 +5490,18 @@
         },
         "efficiency": {
           "raw": 0.07621,
-          "percentile": 77.898551,
-          "points": 11.684783
+          "percentile": 78.623188,
+          "points": 11.793478
         },
         "recent": {
           "raw": -2.375,
-          "percentile": 42.391304,
-          "points": 2.119565
+          "percentile": 43.115942,
+          "points": 2.155797
         }
       },
-      "rating": 80.253623,
-      "rank": 12,
-      "movement": 2
+      "rating": 81.485507,
+      "rank": 9,
+      "movement": 5
     },
     "309": {
       "games": 10,
@@ -5370,19 +5513,19 @@
       "baseline_margin": 7.7,
       "components": {
         "schedule": {
-          "raw": 0.426667,
-          "percentile": 11.231884,
-          "points": 3.369565
+          "raw": 0.421212,
+          "percentile": 9.782609,
+          "points": 2.934783
         },
         "margin": {
-          "raw": 3.334947,
+          "raw": 3.324458,
           "percentile": 69.927536,
           "points": 20.978261
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": 0.03348,
@@ -5391,13 +5534,13 @@
         },
         "recent": {
           "raw": 6.619048,
-          "percentile": 69.202899,
-          "points": 3.460145
+          "percentile": 70.652174,
+          "points": 3.532609
         }
       },
-      "rating": 54.021739,
-      "rank": 59,
-      "movement": 2
+      "rating": 53.586957,
+      "rank": 61,
+      "movement": 0
     },
     "324": {
       "games": 10,
@@ -5410,23 +5553,23 @@
       "components": {
         "schedule": {
           "raw": 0.490909,
-          "percentile": 44.565217,
-          "points": 13.369565
+          "percentile": 44.202899,
+          "points": 13.26087
         },
         "margin": {
           "raw": -3.653846,
-          "percentile": 27.898551,
-          "points": 8.369565
+          "percentile": 28.623188,
+          "points": 8.586957
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.122,
-          "percentile": 7.608696,
-          "points": 1.141304
+          "percentile": 6.884058,
+          "points": 1.032609
         },
         "recent": {
           "raw": -3.095238,
@@ -5434,7 +5577,7 @@
           "points": 1.865942
         }
       },
-      "rating": 28.949275,
+      "rating": 29.021739,
       "rank": 114,
       "movement": 2
     },
@@ -5448,14 +5591,14 @@
       "baseline_margin": 4.7,
       "components": {
         "schedule": {
-          "raw": 0.531364,
-          "percentile": 69.202899,
-          "points": 20.76087
+          "raw": 0.533333,
+          "percentile": 71.73913,
+          "points": 21.521739
         },
         "margin": {
-          "raw": 5.20069,
-          "percentile": 76.449275,
-          "points": 22.934783
+          "raw": 5.192308,
+          "percentile": 77.173913,
+          "points": 23.152174
         },
         "results": {
           "raw": 0.583333,
@@ -5464,8 +5607,8 @@
         },
         "efficiency": {
           "raw": 0.111179,
-          "percentile": 88.768116,
-          "points": 13.315217
+          "percentile": 88.043478,
+          "points": 13.206522
         },
         "recent": {
           "raw": 15.714286,
@@ -5473,48 +5616,48 @@
           "points": 4.583333
         }
       },
-      "rating": 74.855072,
-      "rank": 19,
-      "movement": 0
+      "rating": 75.724638,
+      "rank": 18,
+      "movement": 1
     },
     "328": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "baseline_win_pct": 0.4444444444444444,
-      "baseline_margin": -4.222222222222222,
+      "baseline_win_pct": 0.4,
+      "baseline_margin": -4.5,
       "components": {
         "schedule": {
-          "raw": 0.509091,
-          "percentile": 57.246377,
-          "points": 17.173913
+          "raw": 0.503788,
+          "percentile": 49.275362,
+          "points": 14.782609
         },
         "margin": {
-          "raw": -3.197601,
-          "percentile": 32.971014,
-          "points": 9.891304
+          "raw": -3.171105,
+          "percentile": 32.246377,
+          "points": 9.673913
         },
         "results": {
-          "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "raw": 0.416667,
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
-          "raw": -0.088553,
-          "percentile": 17.028986,
-          "points": 2.554348
+          "raw": -0.063677,
+          "percentile": 25.724638,
+          "points": 3.858696
         },
         "recent": {
-          "raw": 9.0,
-          "percentile": 76.449275,
-          "points": 3.822464
+          "raw": -2.380952,
+          "percentile": 42.391304,
+          "points": 2.119565
         }
       },
-      "rating": 41.34058,
-      "rank": 89,
-      "movement": -1
+      "rating": 37.173913,
+      "rank": 97,
+      "movement": -9
     },
     "333": {
       "games": 10,
@@ -5526,12 +5669,12 @@
       "baseline_margin": 16.9,
       "components": {
         "schedule": {
-          "raw": 0.564545,
-          "percentile": 85.869565,
-          "points": 25.76087
+          "raw": 0.554545,
+          "percentile": 82.971014,
+          "points": 24.891304
         },
         "margin": {
-          "raw": 14.007576,
+          "raw": 13.775641,
           "percentile": 97.463768,
           "points": 29.23913
         },
@@ -5547,11 +5690,11 @@
         },
         "recent": {
           "raw": -0.619048,
-          "percentile": 48.188406,
-          "points": 2.40942
+          "percentile": 51.086957,
+          "points": 2.554348
         }
       },
-      "rating": 88.224638,
+      "rating": 87.5,
       "rank": 4,
       "movement": 0
     },
@@ -5566,33 +5709,33 @@
       "components": {
         "schedule": {
           "raw": 0.463636,
-          "percentile": 26.811594,
-          "points": 8.043478
+          "percentile": 27.173913,
+          "points": 8.152174
         },
         "margin": {
           "raw": -2.378205,
-          "percentile": 38.768116,
-          "points": 11.630435
+          "percentile": 39.492754,
+          "points": 11.847826
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.027982,
-          "percentile": 38.043478,
-          "points": 5.706522
+          "percentile": 38.768116,
+          "points": 5.815217
         },
         "recent": {
           "raw": 19.380952,
-          "percentile": 96.014493,
-          "points": 4.800725
+          "percentile": 95.289855,
+          "points": 4.764493
         }
       },
-      "rating": 36.775362,
-      "rank": 98,
-      "movement": 7
+      "rating": 37.318841,
+      "rank": 96,
+      "movement": 9
     },
     "344": {
       "games": 10,
@@ -5604,32 +5747,32 @@
       "baseline_margin": -4.6,
       "components": {
         "schedule": {
-          "raw": 0.535152,
-          "percentile": 72.101449,
-          "points": 21.630435
+          "raw": 0.533333,
+          "percentile": 71.73913,
+          "points": 21.521739
         },
         "margin": {
-          "raw": -3.589788,
-          "percentile": 28.623188,
-          "points": 8.586957
+          "raw": -3.708087,
+          "percentile": 27.173913,
+          "points": 8.152174
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": 0.00285,
-          "percentile": 48.188406,
-          "points": 7.228261
+          "percentile": 48.913043,
+          "points": 7.336957
         },
         "recent": {
           "raw": -19.761905,
-          "percentile": 3.985507,
-          "points": 0.199275
+          "percentile": 4.710145,
+          "points": 0.235507
         }
       },
-      "rating": 44.23913,
+      "rating": 43.985507,
       "rank": 81,
       "movement": -1
     },
@@ -5644,33 +5787,33 @@
       "components": {
         "schedule": {
           "raw": 0.569865,
-          "percentile": 88.768116,
-          "points": 26.630435
+          "percentile": 90.217391,
+          "points": 27.065217
         },
         "margin": {
           "raw": 1.466346,
-          "percentile": 59.057971,
-          "points": 17.717391
+          "percentile": 59.782609,
+          "points": 17.934783
         },
         "results": {
           "raw": 0.454545,
-          "percentile": 39.492754,
-          "points": 7.898551
+          "percentile": 38.768116,
+          "points": 7.753623
         },
         "efficiency": {
           "raw": -0.114338,
-          "percentile": 9.782609,
-          "points": 1.467391
+          "percentile": 8.333333,
+          "points": 1.25
         },
         "recent": {
           "raw": -16.666667,
-          "percentile": 7.246377,
-          "points": 0.362319
+          "percentile": 7.971014,
+          "points": 0.398551
         }
       },
-      "rating": 54.076087,
-      "rank": 57,
-      "movement": 0
+      "rating": 54.402174,
+      "rank": 60,
+      "movement": -3
     },
     "356": {
       "games": 10,
@@ -5682,19 +5825,19 @@
       "baseline_margin": -1.4,
       "components": {
         "schedule": {
-          "raw": 0.553182,
-          "percentile": 81.521739,
-          "points": 24.456522
+          "raw": 0.547727,
+          "percentile": 79.347826,
+          "points": 23.804348
         },
         "margin": {
-          "raw": 1.187108,
-          "percentile": 56.15942,
-          "points": 16.847826
+          "raw": 1.169625,
+          "percentile": 57.608696,
+          "points": 17.282609
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.017328,
@@ -5703,52 +5846,52 @@
         },
         "recent": {
           "raw": -4.666667,
-          "percentile": 30.072464,
-          "points": 1.503623
+          "percentile": 32.246377,
+          "points": 1.612319
         }
       },
-      "rating": 60.688406,
-      "rank": 45,
-      "movement": -11
+      "rating": 60.507246,
+      "rank": 46,
+      "movement": -12
     },
     "36": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 2,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "baseline_win_pct": 0.2222222222222222,
-      "baseline_margin": -20.11111111111111,
+      "baseline_win_pct": 0.2,
+      "baseline_margin": -18.8,
       "components": {
         "schedule": {
-          "raw": 0.533333,
-          "percentile": 71.376812,
-          "points": 21.413043
+          "raw": 0.531818,
+          "percentile": 69.927536,
+          "points": 20.978261
         },
         "margin": {
-          "raw": -11.147727,
-          "percentile": 6.884058,
-          "points": 2.065217
+          "raw": -10.535996,
+          "percentile": 7.608696,
+          "points": 2.282609
         },
         "results": {
-          "raw": 0.272727,
-          "percentile": 13.768116,
-          "points": 2.753623
+          "raw": 0.25,
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
-          "raw": -0.173239,
+          "raw": -0.177778,
           "percentile": 3.985507,
           "points": 0.597826
         },
         "recent": {
-          "raw": -13.833333,
-          "percentile": 12.681159,
-          "points": 0.634058
+          "raw": -9.47619,
+          "percentile": 18.478261,
+          "points": 0.923913
         }
       },
-      "rating": 27.463768,
-      "rank": 117,
-      "movement": 0
+      "rating": 26.884058,
+      "rank": 118,
+      "movement": -1
     },
     "38": {
       "games": 10,
@@ -5760,34 +5903,34 @@
       "baseline_margin": -10.5,
       "components": {
         "schedule": {
-          "raw": 0.544545,
-          "percentile": 77.173913,
-          "points": 23.152174
+          "raw": 0.545455,
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "margin": {
-          "raw": -6.148019,
-          "percentile": 19.927536,
-          "points": 5.978261
+          "raw": -6.076923,
+          "percentile": 20.652174,
+          "points": 6.195652
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.027179,
-          "percentile": 39.492754,
-          "points": 5.923913
+          "percentile": 40.217391,
+          "points": 6.032609
         },
         "recent": {
           "raw": 10.095238,
-          "percentile": 81.521739,
-          "points": 4.076087
+          "percentile": 82.246377,
+          "points": 4.112319
         }
       },
-      "rating": 43.333333,
-      "rank": 83,
-      "movement": -14
+      "rating": 43.550725,
+      "rank": 84,
+      "movement": -15
     },
     "41": {
       "games": 10,
@@ -5800,33 +5943,33 @@
       "components": {
         "schedule": {
           "raw": 0.412727,
-          "percentile": 6.15942,
-          "points": 1.847826
+          "percentile": 7.608696,
+          "points": 2.282609
         },
         "margin": {
           "raw": 1.364802,
-          "percentile": 56.884058,
-          "points": 17.065217
+          "percentile": 58.333333,
+          "points": 17.5
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.006625,
-          "percentile": 45.289855,
-          "points": 6.793478
+          "percentile": 46.014493,
+          "points": 6.902174
         },
         "recent": {
           "raw": 1.571429,
-          "percentile": 57.608696,
-          "points": 2.880435
+          "percentile": 60.507246,
+          "points": 3.025362
         }
       },
-      "rating": 38.152174,
-      "rank": 95,
-      "movement": 0
+      "rating": 39.202899,
+      "rank": 93,
+      "movement": 2
     },
     "48": {
       "games": 10,
@@ -5849,62 +5992,62 @@
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.076762,
-          "percentile": 19.927536,
-          "points": 2.98913
+          "percentile": 19.202899,
+          "points": 2.880435
         },
         "recent": {
           "raw": 7.571429,
-          "percentile": 70.652174,
-          "points": 3.532609
+          "percentile": 71.376812,
+          "points": 3.568841
         }
       },
-      "rating": 30.76087,
-      "rank": 111,
-      "movement": -3
+      "rating": 30.615942,
+      "rank": 110,
+      "movement": -2
     },
     "5": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": -1.2222222222222223,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": -1.3,
       "components": {
         "schedule": {
-          "raw": 0.428283,
-          "percentile": 14.855072,
-          "points": 4.456522
+          "raw": 0.458182,
+          "percentile": 22.826087,
+          "points": 6.847826
         },
         "margin": {
-          "raw": -2.741162,
-          "percentile": 35.869565,
-          "points": 10.76087
+          "raw": -2.543124,
+          "percentile": 36.594203,
+          "points": 10.978261
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": 0.026984,
-          "percentile": 62.681159,
-          "points": 9.402174
+          "raw": 0.022474,
+          "percentile": 59.057971,
+          "points": 8.858696
         },
         "recent": {
-          "raw": 10.333333,
-          "percentile": 82.246377,
-          "points": 4.112319
+          "raw": 18.52381,
+          "percentile": 94.565217,
+          "points": 4.728261
         }
       },
-      "rating": 40.326087,
-      "rank": 92,
-      "movement": 0
+      "rating": 40.905797,
+      "rank": 90,
+      "movement": 2
     },
     "52": {
       "games": 10,
@@ -5916,34 +6059,34 @@
       "baseline_margin": -1.8,
       "components": {
         "schedule": {
-          "raw": 0.552727,
-          "percentile": 80.797101,
-          "points": 24.23913
+          "raw": 0.545455,
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "margin": {
-          "raw": 0.145105,
+          "raw": -0.070513,
           "percentile": 50.362319,
           "points": 15.108696
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.037963,
-          "percentile": 35.869565,
-          "points": 5.380435
+          "percentile": 34.42029,
+          "points": 5.163043
         },
         "recent": {
           "raw": 0.619048,
-          "percentile": 53.26087,
-          "points": 2.663043
+          "percentile": 56.15942,
+          "points": 2.807971
         }
       },
-      "rating": 53.985507,
-      "rank": 60,
-      "movement": -8
+      "rating": 52.753623,
+      "rank": 62,
+      "movement": -10
     },
     "55": {
       "games": 10,
@@ -5956,31 +6099,31 @@
       "components": {
         "schedule": {
           "raw": 0.436364,
-          "percentile": 15.57971,
-          "points": 4.673913
+          "percentile": 15.217391,
+          "points": 4.565217
         },
         "margin": {
           "raw": 1.00641,
-          "percentile": 54.710145,
-          "points": 16.413043
+          "percentile": 56.884058,
+          "points": 17.065217
         },
         "results": {
           "raw": 0.666667,
-          "percentile": 80.797101,
-          "points": 16.15942
+          "percentile": 80.434783,
+          "points": 16.086957
         },
         "efficiency": {
           "raw": -0.027536,
-          "percentile": 38.768116,
-          "points": 5.815217
+          "percentile": 39.492754,
+          "points": 5.923913
         },
         "recent": {
           "raw": 5.666667,
-          "percentile": 67.753623,
-          "points": 3.387681
+          "percentile": 69.202899,
+          "points": 3.460145
         }
       },
-      "rating": 46.449275,
+      "rating": 47.101449,
       "rank": 74,
       "movement": 3
     },
@@ -5994,14 +6137,14 @@
       "baseline_margin": 0.9,
       "components": {
         "schedule": {
-          "raw": 0.618939,
-          "percentile": 98.188406,
-          "points": 29.456522
+          "raw": 0.614394,
+          "percentile": 97.463768,
+          "points": 29.23913
         },
         "margin": {
-          "raw": 1.640712,
-          "percentile": 59.782609,
-          "points": 17.934783
+          "raw": 1.549803,
+          "percentile": 61.231884,
+          "points": 18.369565
         },
         "results": {
           "raw": 0.583333,
@@ -6010,18 +6153,18 @@
         },
         "efficiency": {
           "raw": -0.008285,
-          "percentile": 44.565217,
-          "points": 6.684783
+          "percentile": 45.289855,
+          "points": 6.793478
         },
         "recent": {
           "raw": 0.190476,
-          "percentile": 51.811594,
-          "points": 2.59058
+          "percentile": 53.985507,
+          "points": 2.699275
         }
       },
-      "rating": 69.927536,
-      "rank": 28,
-      "movement": 11
+      "rating": 70.362319,
+      "rank": 27,
+      "movement": 12
     },
     "58": {
       "games": 10,
@@ -6033,32 +6176,32 @@
       "baseline_margin": 2.3,
       "components": {
         "schedule": {
-          "raw": 0.461818,
-          "percentile": 25.724638,
-          "points": 7.717391
+          "raw": 0.459091,
+          "percentile": 23.550725,
+          "points": 7.065217
         },
         "margin": {
-          "raw": 0.502331,
-          "percentile": 52.536232,
-          "points": 15.76087
+          "raw": 0.488345,
+          "percentile": 53.985507,
+          "points": 16.195652
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.045601,
-          "percentile": 32.971014,
-          "points": 4.945652
+          "percentile": 32.246377,
+          "points": 4.836957
         },
         "recent": {
           "raw": -19.952381,
-          "percentile": 3.26087,
-          "points": 0.163043
+          "percentile": 3.985507,
+          "points": 0.199275
         }
       },
-      "rating": 38.152174,
+      "rating": 37.789855,
       "rank": 95,
       "movement": -30
     },
@@ -6072,19 +6215,19 @@
       "baseline_margin": -11.5,
       "components": {
         "schedule": {
-          "raw": 0.540909,
-          "percentile": 75.724638,
-          "points": 22.717391
+          "raw": 0.545455,
+          "percentile": 76.449275,
+          "points": 22.934783
         },
         "margin": {
-          "raw": -8.075175,
+          "raw": -7.948718,
           "percentile": 14.855072,
           "points": 4.456522
         },
         "results": {
           "raw": 0.25,
-          "percentile": 9.782609,
-          "points": 1.956522
+          "percentile": 10.507246,
+          "points": 2.101449
         },
         "efficiency": {
           "raw": -0.092447,
@@ -6093,11 +6236,11 @@
         },
         "recent": {
           "raw": 0.238095,
-          "percentile": 52.536232,
-          "points": 2.626812
+          "percentile": 54.710145,
+          "points": 2.735507
         }
       },
-      "rating": 34.202899,
+      "rating": 34.673913,
       "rank": 105,
       "movement": 8
     },
@@ -6111,112 +6254,112 @@
       "baseline_margin": -0.5,
       "components": {
         "schedule": {
-          "raw": 0.491818,
-          "percentile": 45.289855,
-          "points": 13.586957
+          "raw": 0.486364,
+          "percentile": 41.304348,
+          "points": 12.391304
         },
         "margin": {
-          "raw": -2.574816,
-          "percentile": 37.318841,
-          "points": 11.195652
+          "raw": -2.649408,
+          "percentile": 35.869565,
+          "points": 10.76087
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": -0.041247,
-          "percentile": 35.144928,
-          "points": 5.271739
+          "percentile": 33.695652,
+          "points": 5.054348
         },
         "recent": {
           "raw": 8.333333,
-          "percentile": 72.826087,
-          "points": 3.641304
+          "percentile": 73.550725,
+          "points": 3.677536
         }
       },
-      "rating": 43.26087,
-      "rank": 84,
-      "movement": -3
+      "rating": 41.376812,
+      "rank": 89,
+      "movement": -8
     },
     "61": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 8,
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 9,
       "losses": 1,
       "ties": 0,
-      "baseline_win_pct": 0.8888888888888888,
-      "baseline_margin": 23.444444444444443,
+      "baseline_win_pct": 0.9,
+      "baseline_margin": 23.9,
       "components": {
         "schedule": {
-          "raw": 0.554882,
-          "percentile": 82.971014,
-          "points": 24.891304
+          "raw": 0.557576,
+          "percentile": 84.782609,
+          "points": 25.434783
         },
         "margin": {
-          "raw": 16.271513,
+          "raw": 17.304241,
           "percentile": 99.637681,
           "points": 29.891304
         },
         "results": {
-          "raw": 0.818182,
-          "percentile": 94.202899,
-          "points": 18.84058
+          "raw": 0.833333,
+          "percentile": 96.014493,
+          "points": 19.202899
         },
         "efficiency": {
-          "raw": 0.165434,
-          "percentile": 96.73913,
-          "points": 14.51087
+          "raw": 0.151407,
+          "percentile": 97.463768,
+          "points": 14.619565
         },
         "recent": {
-          "raw": 6.666667,
-          "percentile": 69.927536,
-          "points": 3.496377
+          "raw": 9.52381,
+          "percentile": 80.797101,
+          "points": 4.039855
         }
       },
-      "rating": 91.630435,
-      "rank": 3,
-      "movement": -1
+      "rating": 93.188406,
+      "rank": 1,
+      "movement": 1
     },
     "62": {
-      "games": 10,
-      "efficiency_games": 10,
+      "games": 11,
+      "efficiency_games": 11,
       "wins": 3,
-      "losses": 7,
+      "losses": 8,
       "ties": 0,
-      "baseline_win_pct": 0.3,
-      "baseline_margin": -3.5,
+      "baseline_win_pct": 0.2727272727272727,
+      "baseline_margin": -3.909090909090909,
       "components": {
         "schedule": {
-          "raw": 0.427121,
-          "percentile": 11.956522,
-          "points": 3.586957
+          "raw": 0.430441,
+          "percentile": 14.130435,
+          "points": 4.23913
         },
         "margin": {
-          "raw": -6.182177,
-          "percentile": 18.478261,
-          "points": 5.543478
+          "raw": -6.135073,
+          "percentile": 19.927536,
+          "points": 5.978261
         },
         "results": {
-          "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "raw": 0.307692,
+          "percentile": 15.217391,
+          "points": 3.043478
         },
         "efficiency": {
-          "raw": 0.032128,
-          "percentile": 64.855072,
-          "points": 9.728261
+          "raw": 0.026228,
+          "percentile": 63.405797,
+          "points": 9.51087
         },
         "recent": {
-          "raw": 16.952381,
-          "percentile": 94.565217,
-          "points": 4.728261
+          "raw": 0.291667,
+          "percentile": 55.434783,
+          "points": 2.771739
         }
       },
-      "rating": 27.789855,
-      "rank": 116,
-      "movement": -1
+      "rating": 25.543478,
+      "rank": 120,
+      "movement": -5
     },
     "66": {
       "games": 10,
@@ -6228,73 +6371,73 @@
       "baseline_margin": -2.8,
       "components": {
         "schedule": {
-          "raw": 0.586364,
-          "percentile": 92.391304,
-          "points": 27.717391
+          "raw": 0.590909,
+          "percentile": 93.115942,
+          "points": 27.934783
         },
         "margin": {
-          "raw": -0.791958,
+          "raw": -0.737179,
           "percentile": 46.014493,
           "points": 13.804348
         },
         "results": {
           "raw": 0.416667,
-          "percentile": 32.971014,
-          "points": 6.594203
+          "percentile": 33.695652,
+          "points": 6.73913
         },
         "efficiency": {
           "raw": -0.071881,
-          "percentile": 22.826087,
-          "points": 3.423913
+          "percentile": 22.101449,
+          "points": 3.315217
         },
         "recent": {
           "raw": 0.047619,
-          "percentile": 50.362319,
-          "points": 2.518116
+          "percentile": 52.536232,
+          "points": 2.626812
         }
       },
-      "rating": 54.057971,
-      "rank": 58,
-      "movement": -18
+      "rating": 54.42029,
+      "rank": 59,
+      "movement": -19
     },
     "68": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 8,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "baseline_win_pct": 0.8888888888888888,
-      "baseline_margin": 12.777777777777779,
+      "baseline_win_pct": 0.8,
+      "baseline_margin": 11.3,
       "components": {
         "schedule": {
-          "raw": 0.528283,
-          "percentile": 67.753623,
-          "points": 20.326087
+          "raw": 0.52197,
+          "percentile": 64.130435,
+          "points": 19.23913
         },
         "margin": {
-          "raw": 10.90846,
-          "percentile": 93.115942,
-          "points": 27.934783
+          "raw": 9.527613,
+          "percentile": 88.768116,
+          "points": 26.630435
         },
         "results": {
-          "raw": 0.818182,
-          "percentile": 94.202899,
-          "points": 18.84058
+          "raw": 0.75,
+          "percentile": 89.130435,
+          "points": 17.826087
         },
         "efficiency": {
-          "raw": 0.16689,
-          "percentile": 97.463768,
-          "points": 14.619565
+          "raw": 0.140691,
+          "percentile": 93.84058,
+          "points": 14.076087
         },
         "recent": {
-          "raw": -3.166667,
-          "percentile": 36.594203,
-          "points": 1.82971
+          "raw": -2.333333,
+          "percentile": 43.84058,
+          "points": 2.192029
         }
       },
-      "rating": 83.550725,
-      "rank": 7,
-      "movement": 1
+      "rating": 79.963768,
+      "rank": 13,
+      "movement": -5
     },
     "77": {
       "games": 10,
@@ -6307,8 +6450,8 @@
       "components": {
         "schedule": {
           "raw": 0.495455,
-          "percentile": 48.913043,
-          "points": 14.673913
+          "percentile": 45.289855,
+          "points": 13.586957
         },
         "margin": {
           "raw": 5.640039,
@@ -6317,23 +6460,23 @@
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.02254,
-          "percentile": 59.782609,
-          "points": 8.967391
+          "percentile": 60.507246,
+          "points": 9.076087
         },
         "recent": {
           "raw": -22.095238,
-          "percentile": 2.536232,
-          "points": 0.126812
+          "percentile": 1.811594,
+          "points": 0.09058
         }
       },
-      "rating": 57.137681,
-      "rank": 53,
-      "movement": -10
+      "rating": 56.050725,
+      "rank": 56,
+      "movement": -13
     },
     "8": {
       "games": 10,
@@ -6345,34 +6488,34 @@
       "baseline_margin": -9.8,
       "components": {
         "schedule": {
-          "raw": 0.609545,
+          "raw": 0.611364,
           "percentile": 96.73913,
           "points": 29.021739
         },
         "margin": {
-          "raw": -2.838354,
+          "raw": -2.786489,
           "percentile": 35.144928,
           "points": 10.543478
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": -0.070285,
-          "percentile": 24.275362,
-          "points": 3.641304
+          "percentile": 22.826087,
+          "points": 3.423913
         },
         "recent": {
           "raw": 9.857143,
-          "percentile": 80.797101,
-          "points": 4.039855
+          "percentile": 81.521739,
+          "points": 4.076087
         }
       },
-      "rating": 51.449275,
-      "rank": 66,
-      "movement": -7
+      "rating": 51.34058,
+      "rank": 64,
+      "movement": -5
     },
     "84": {
       "games": 10,
@@ -6385,13 +6528,13 @@
       "components": {
         "schedule": {
           "raw": 0.546212,
-          "percentile": 77.898551,
-          "points": 23.369565
+          "percentile": 78.623188,
+          "points": 23.586957
         },
         "margin": {
           "raw": 10.022189,
-          "percentile": 90.942029,
-          "points": 27.282609
+          "percentile": 91.666667,
+          "points": 27.5
         },
         "results": {
           "raw": 0.75,
@@ -6405,169 +6548,169 @@
         },
         "recent": {
           "raw": -7.714286,
-          "percentile": 22.101449,
-          "points": 1.105072
+          "percentile": 20.652174,
+          "points": 1.032609
         }
       },
-      "rating": 79.528986,
-      "rank": 13,
-      "movement": -4
+      "rating": 79.891304,
+      "rank": 14,
+      "movement": -5
     },
     "87": {
-      "games": 10,
-      "efficiency_games": 10,
-      "wins": 9,
+      "games": 11,
+      "efficiency_games": 11,
+      "wins": 10,
       "losses": 1,
       "ties": 0,
-      "baseline_win_pct": 0.9,
-      "baseline_margin": 25.7,
+      "baseline_win_pct": 0.9090909090909091,
+      "baseline_margin": 25.272727272727273,
       "components": {
         "schedule": {
-          "raw": 0.48697,
-          "percentile": 42.391304,
-          "points": 12.717391
+          "raw": 0.504683,
+          "percentile": 51.086957,
+          "points": 15.326087
         },
         "margin": {
-          "raw": 14.746728,
+          "raw": 15.578671,
           "percentile": 98.913043,
           "points": 29.673913
         },
         "results": {
-          "raw": 0.833333,
-          "percentile": 96.73913,
-          "points": 19.347826
+          "raw": 0.846154,
+          "percentile": 98.550725,
+          "points": 19.710145
         },
         "efficiency": {
-          "raw": 0.087795,
-          "percentile": 83.695652,
-          "points": 12.554348
+          "raw": 0.096253,
+          "percentile": 85.869565,
+          "points": 12.880435
         },
         "recent": {
-          "raw": -0.428571,
-          "percentile": 48.913043,
-          "points": 2.445652
+          "raw": -1.083333,
+          "percentile": 48.188406,
+          "points": 2.40942
         }
       },
-      "rating": 76.73913,
-      "rank": 16,
-      "movement": 8
+      "rating": 80.0,
+      "rank": 12,
+      "movement": 12
     },
     "9": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 5,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "baseline_win_pct": 0.5555555555555556,
-      "baseline_margin": -4.444444444444445,
+      "baseline_win_pct": 0.5,
+      "baseline_margin": -4.3,
       "components": {
         "schedule": {
-          "raw": 0.474747,
-          "percentile": 32.246377,
-          "points": 9.673913
+          "raw": 0.478788,
+          "percentile": 35.869565,
+          "points": 10.76087
         },
         "margin": {
-          "raw": -2.729167,
-          "percentile": 36.594203,
-          "points": 10.978261
+          "raw": -2.45858,
+          "percentile": 38.043478,
+          "points": 11.413043
         },
         "results": {
-          "raw": 0.545455,
-          "percentile": 57.971014,
-          "points": 11.594203
+          "raw": 0.5,
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
-          "raw": -0.020568,
-          "percentile": 40.217391,
-          "points": 6.032609
+          "raw": -0.032016,
+          "percentile": 36.594203,
+          "points": 5.48913
         },
         "recent": {
-          "raw": 13.333333,
-          "percentile": 86.231884,
-          "points": 4.311594
+          "raw": 14.52381,
+          "percentile": 90.217391,
+          "points": 4.51087
         }
       },
-      "rating": 42.59058,
-      "rank": 87,
-      "movement": -9
+      "rating": 41.666667,
+      "rank": 88,
+      "movement": -10
     },
     "96": {
-      "games": 9,
-      "efficiency_games": 9,
+      "games": 10,
+      "efficiency_games": 10,
       "wins": 6,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "baseline_win_pct": 0.6666666666666666,
-      "baseline_margin": -0.2222222222222222,
+      "baseline_win_pct": 0.6,
+      "baseline_margin": -1.6,
       "components": {
         "schedule": {
-          "raw": 0.564983,
-          "percentile": 86.594203,
-          "points": 25.978261
+          "raw": 0.557576,
+          "percentile": 84.782609,
+          "points": 25.434783
         },
         "margin": {
-          "raw": 1.757576,
-          "percentile": 60.507246,
-          "points": 18.152174
-        },
-        "results": {
-          "raw": 0.636364,
-          "percentile": 76.086957,
-          "points": 15.217391
-        },
-        "efficiency": {
-          "raw": -0.115812,
-          "percentile": 9.057971,
-          "points": 1.358696
-        },
-        "recent": {
-          "raw": -8.666667,
-          "percentile": 19.927536,
-          "points": 0.996377
-        }
-      },
-      "rating": 61.702899,
-      "rank": 42,
-      "movement": 4
-    },
-    "97": {
-      "games": 9,
-      "efficiency_games": 9,
-      "wins": 6,
-      "losses": 3,
-      "ties": 0,
-      "baseline_win_pct": 0.6666666666666666,
-      "baseline_margin": 10,
-      "components": {
-        "schedule": {
-          "raw": 0.507071,
+          "raw": 0.512821,
           "percentile": 54.710145,
           "points": 16.413043
         },
-        "margin": {
-          "raw": 7.743056,
-          "percentile": 85.144928,
-          "points": 25.543478
-        },
         "results": {
-          "raw": 0.636364,
-          "percentile": 76.086957,
-          "points": 15.217391
+          "raw": 0.583333,
+          "percentile": 66.304348,
+          "points": 13.26087
         },
         "efficiency": {
-          "raw": 0.089744,
-          "percentile": 85.144928,
-          "points": 12.771739
+          "raw": -0.108665,
+          "percentile": 10.507246,
+          "points": 1.576087
         },
         "recent": {
-          "raw": 13.5,
-          "percentile": 88.405797,
-          "points": 4.42029
+          "raw": -21.047619,
+          "percentile": 2.536232,
+          "points": 0.126812
         }
       },
-      "rating": 74.365942,
-      "rank": 20,
-      "movement": -4
+      "rating": 56.811594,
+      "rank": 53,
+      "movement": -7
+    },
+    "97": {
+      "games": 10,
+      "efficiency_games": 10,
+      "wins": 7,
+      "losses": 3,
+      "ties": 0,
+      "baseline_win_pct": 0.7,
+      "baseline_margin": 12.2,
+      "components": {
+        "schedule": {
+          "raw": 0.509091,
+          "percentile": 55.434783,
+          "points": 16.630435
+        },
+        "margin": {
+          "raw": 9.461538,
+          "percentile": 88.043478,
+          "points": 26.413043
+        },
+        "results": {
+          "raw": 0.666667,
+          "percentile": 80.434783,
+          "points": 16.086957
+        },
+        "efficiency": {
+          "raw": 0.115766,
+          "percentile": 89.492754,
+          "points": 13.423913
+        },
+        "recent": {
+          "raw": 10.285714,
+          "percentile": 82.971014,
+          "points": 4.148551
+        }
+      },
+      "rating": 76.702899,
+      "rank": 17,
+      "movement": -1
     },
     "98": {
       "games": 10,
@@ -6579,34 +6722,34 @@
       "baseline_margin": -15.4,
       "components": {
         "schedule": {
-          "raw": 0.501818,
-          "percentile": 50.362319,
-          "points": 15.108696
+          "raw": 0.509091,
+          "percentile": 55.434783,
+          "points": 16.630435
         },
         "margin": {
-          "raw": -8.162587,
+          "raw": -8.00641,
           "percentile": 14.130435,
           "points": 4.23913
         },
         "results": {
           "raw": 0.333333,
-          "percentile": 21.014493,
-          "points": 4.202899
+          "percentile": 21.376812,
+          "points": 4.275362
         },
         "efficiency": {
           "raw": 0.003383,
-          "percentile": 48.913043,
-          "points": 7.336957
+          "percentile": 49.637681,
+          "points": 7.445652
         },
         "recent": {
           "raw": 3.142857,
-          "percentile": 59.057971,
-          "points": 2.952899
+          "percentile": 61.956522,
+          "points": 3.097826
         }
       },
-      "rating": 33.84058,
-      "rank": 106,
-      "movement": 3
+      "rating": 35.688406,
+      "rank": 99,
+      "movement": 10
     },
     "99": {
       "games": 10,
@@ -6618,24 +6761,24 @@
       "baseline_margin": 11.1,
       "components": {
         "schedule": {
-          "raw": 0.625909,
+          "raw": 0.620455,
           "percentile": 99.637681,
           "points": 29.891304
         },
         "margin": {
-          "raw": 10.589475,
-          "percentile": 92.391304,
-          "points": 27.717391
+          "raw": 10.501479,
+          "percentile": 93.115942,
+          "points": 27.934783
         },
         "results": {
           "raw": 0.5,
-          "percentile": 47.826087,
-          "points": 9.565217
+          "percentile": 47.463768,
+          "points": 9.492754
         },
         "efficiency": {
           "raw": 0.146072,
-          "percentile": 94.565217,
-          "points": 14.184783
+          "percentile": 95.289855,
+          "points": 14.293478
         },
         "recent": {
           "raw": -28.714286,
@@ -6643,19 +6786,19 @@
           "points": 0.018116
         }
       },
-      "rating": 81.376812,
-      "rank": 9,
-      "movement": -2
+      "rating": 81.630435,
+      "rank": 8,
+      "movement": -1
     }
   },
   "movement_reference": "2026-11-17T00:00:00+00:00",
   "backtest": {
-    "games": 405,
+    "games": 471,
     "accuracy": {
-      "power": 0.5951,
-      "win_pct": 0.6284,
-      "raw_margin": 0.6407,
-      "home": 0.5654
+      "power": 0.6115,
+      "win_pct": 0.6433,
+      "raw_margin": 0.6465,
+      "home": 0.569
     },
     "weeks": [
       {
@@ -6717,6 +6860,11 @@
         "from": "2026-11-10T00:00:00+00:00",
         "until": "2026-11-17T00:00:00+00:00",
         "games": 67
+      },
+      {
+        "from": "2026-11-17T00:00:00+00:00",
+        "until": "2026-11-24T00:00:00+00:00",
+        "games": 66
       }
     ]
   }

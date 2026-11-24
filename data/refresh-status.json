@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-23T22:00:59.778027+00:00",
+  "checked_at": "2026-11-24T01:24:31.283527+00:00",
   "dashboard_updated_at": "2026-11-23T07:46:14+00:00",
-  "archive_count": 151,
-  "power_cutoff": "2026-11-23T00:00:00+00:00",
-  "prediction_cutoff": "2026-11-23T00:00:00+00:00",
+  "archive_count": 224,
+  "power_cutoff": "2026-11-24T00:00:00+00:00",
+  "prediction_cutoff": "2026-11-24T00:00:00+00:00",
   "sha256": {
     "index.html": "f56e4b0b1b73e200857a9ec586c635b0c6c9958a87e8a1cba5c4f926e31cd057",
     "featured-games.mjs": "bf840a0ffdfa76fc00ab511fd1eb70abf16ae9728d6026a1c850c4973bd54511",
@@ -11,16 +11,16 @@
     "team-profiles.mjs": "d79a1dc08c4d7c31fa18df2b3a6f9c678bb6b4ff3e1c360a370f571e23dc19a3",
     "nd-command.mjs": "80b5151ad445a875adefc1da8d3c8c9edf0a1d72d76710ed95777d127b1cb90f",
     "notre-dame-news.mjs": "7b52c7a432b23a0bc4f0dd5d8340ac18141a9d2bcad4c71c5dee88f0062a0ee1",
-    "data/notre-dame-news.json": "575e6b4f7cea6dbf42c795b0b2fb81ca7a4fde1b1d44ff2ee758862c0dea11be",
+    "data/notre-dame-news.json": "4af7cbb60fc4714aa8364c302742f7b02b8f6510b9b04e447da843d3717de107",
     "notre-dame-roster.mjs": "4b9114b45a5acadcd23ff44a82f897199491fe5872c536f38b81e7a91e057564",
-    "data/notre-dame-roster.json": "e964a547faa98b092433b92155ec7031050a3d89f1fde2090826cf2b0497092a",
+    "data/notre-dame-roster.json": "94618fb78ea857ba117db37143aabdca4c2087c83d40ccf30c4864e96501d526",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
     "data/dashboard.json": "b8da7150d78a30d4c5ecb79f8f1f3418d256a14446be3c3de715b24adb557979",
     "data/team-profiles.json": "ed92f10d3a41de3b6890c37a114685a4006f8c433a3119d3255cec4fca53a2f4",
     "data/ap-rankings/2026/index.json": "e939e05fc09c376bf3e974e9187b60e67914750018fea08a7727818691f7d2f8",
-    "data/power-rankings/latest.json": "9bfa312c49d7e179865a6d5a11e184ac8f325a687b73d22eebb017cfdea027e1",
-    "data/predictions/latest.json": "ce3261610b67aba774f1dfe6da81a5f96823d4926b0345a00165a10fa3e15733",
+    "data/power-rankings/latest.json": "b05c00a3bc026ee7d3ce8ce7c2b481edd7b3536bc1b23d7c7d74e050ca0e1177",
+    "data/predictions/latest.json": "4d9b15b39ae528f3bd59fdcd588fb9549b8be75ff3f7fe37c6762e07cbde5e51",
     "playoff-model.mjs": "59d81aae5ef6f529f61948c61f3e601fb400cb6ae7e8a7a62950cf8684e28c80",
     "playoff-explorer.mjs": "2ea5cc857ebc02cbbaa782627612db47fcb13dfefdac46ef6dab96e43a50154c",
     "data/cfp-title-games.json": "6b9fc5ce1f644186ef00b63384deca41eaeaaa3ed00016159ae47cff549f729f",
@@ -28,6 +28,6 @@
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "3f1f6be49b7e03248442389e1ee774b4f3d96677f1021cf5fb93b6a7f5878e9e"
+    "data/playoff-simulation.json": "5fbc6862725144e8f635b7a3bd264658dcb2030c5fefbd7f1bb0f9caf2f84267"
   }
 }
