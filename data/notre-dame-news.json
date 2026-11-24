@@ -1,8 +1,26 @@
 {
-  "last_success_at": "2026-11-24T16:24:01.264722+00:00",
+  "last_success_at": "2026-11-24T19:11:19.078879+00:00",
   "status": "current",
   "failed_sources": [],
   "articles": [
+    {
+      "title": "Ash Nominated for Broyles Award",
+      "url": "https://fightingirish.com/news/2026/11/24/ash-nominated-for-broyles-award",
+      "source": "Notre Dame Athletics",
+      "published_at": "2026-11-24T18:00:00+00:00"
+    },
+    {
+      "title": "Moore Named Paycom Jim Thorpe Award Finalist",
+      "url": "https://fightingirish.com/news/2026/11/24/moore-named-paycom-jim-thorpe-award-finalist",
+      "source": "Notre Dame Athletics",
+      "published_at": "2026-11-24T17:11:49+00:00"
+    },
+    {
+      "title": "Moore Tabbed Finalist For Bednarik Award",
+      "url": "https://fightingirish.com/news/2026/11/24/moore-tabbed-finalist-for-bednarik-award",
+      "source": "Notre Dame Athletics",
+      "published_at": "2026-11-24T17:00:00+00:00"
+    },
     {
       "title": "Defense Carries Irish Over SMU",
       "url": "https://ndnation.com/defense-carries-irish-over-smu/",
@@ -68,12 +86,6 @@
       "url": "https://fightingirish.com/news/2026/11/13/moore-selected-as-lott-impact-trophy-semifinalist",
       "source": "Notre Dame Athletics",
       "published_at": "2026-11-13T18:02:00+00:00"
-    },
-    {
-      "title": "Irish Homestand Continues with Rivalry Contest Against Eagles",
-      "url": "https://fightingirish.com/news/2026/11/13/irish-homestand-continues-with-rivalry-contest-against-eagles",
-      "source": "Notre Dame Athletics",
-      "published_at": "2026-11-13T15:00:00+00:00"
     },
     {
       "title": "Irish Host Erratic Eagles",
