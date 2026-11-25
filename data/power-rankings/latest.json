@@ -19,7 +19,7 @@
     "recent_games": 3,
     "result_delay_hours": 24
   },
-  "cutoff": "2026-11-24T00:00:00+00:00",
+  "cutoff": "2026-11-25T00:00:00+00:00",
   "eligible": 138,
   "completed_fbs_games": 695,
   "conflicting_games_excluded": 0,
@@ -59,6 +59,38 @@
         "145": 23,
         "142": 24,
         "194": 25
+      }
+    },
+    "cfp": {
+      "name": "Playoff Committee Rankings",
+      "date": "2026-11-24T08:00Z",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/rankings",
+      "ranks": {
+        "61": 1,
+        "254": 2,
+        "251": 3,
+        "87": 4,
+        "2633": 5,
+        "333": 6,
+        "2390": 7,
+        "154": 8,
+        "26": 9,
+        "252": 10,
+        "2641": 11,
+        "2483": 12,
+        "2294": 13,
+        "84": 14,
+        "30": 15,
+        "12": 16,
+        "201": 17,
+        "248": 18,
+        "97": 19,
+        "57": 20,
+        "194": 21,
+        "145": 22,
+        "142": 23,
+        "264": 24,
+        "158": 25
       }
     }
   },
@@ -1484,7 +1516,7 @@
       },
       "rating": 15.0,
       "rank": 133,
-      "movement": 2
+      "movement": 0
     },
     "12": {
       "games": 10,
@@ -1523,7 +1555,7 @@
       },
       "rating": 68.550725,
       "rank": 29,
-      "movement": -6
+      "movement": 0
     },
     "120": {
       "games": 10,
@@ -1562,7 +1594,7 @@
       },
       "rating": 35.326087,
       "rank": 101,
-      "movement": -3
+      "movement": 0
     },
     "127": {
       "games": 11,
@@ -1601,7 +1633,7 @@
       },
       "rating": 51.268116,
       "rank": 65,
-      "movement": -7
+      "movement": 0
     },
     "130": {
       "games": 11,
@@ -1640,7 +1672,7 @@
       },
       "rating": 64.094203,
       "rank": 39,
-      "movement": 23
+      "movement": 0
     },
     "135": {
       "games": 10,
@@ -1679,7 +1711,7 @@
       },
       "rating": 45.724638,
       "rank": 78,
-      "movement": 7
+      "movement": 0
     },
     "142": {
       "games": 10,
@@ -1718,7 +1750,7 @@
       },
       "rating": 59.565217,
       "rank": 48,
-      "movement": 5
+      "movement": 0
     },
     "145": {
       "games": 10,
@@ -1757,7 +1789,7 @@
       },
       "rating": 74.818841,
       "rank": 21,
-      "movement": 1
+      "movement": 0
     },
     "150": {
       "games": 10,
@@ -1796,7 +1828,7 @@
       },
       "rating": 63.858696,
       "rank": 41,
-      "movement": -11
+      "movement": 0
     },
     "151": {
       "games": 10,
@@ -1835,7 +1867,7 @@
       },
       "rating": 40.615942,
       "rank": 91,
-      "movement": 6
+      "movement": 0
     },
     "152": {
       "games": 10,
@@ -1874,7 +1906,7 @@
       },
       "rating": 45.108696,
       "rank": 80,
-      "movement": 6
+      "movement": 0
     },
     "153": {
       "games": 10,
@@ -1913,7 +1945,7 @@
       },
       "rating": 66.467391,
       "rank": 33,
-      "movement": -7
+      "movement": 0
     },
     "154": {
       "games": 10,
@@ -1952,7 +1984,7 @@
       },
       "rating": 75.144928,
       "rank": 19,
-      "movement": -4
+      "movement": 0
     },
     "158": {
       "games": 10,
@@ -1991,7 +2023,7 @@
       },
       "rating": 72.246377,
       "rank": 23,
-      "movement": 8
+      "movement": 0
     },
     "16": {
       "games": 10,
@@ -2030,7 +2062,7 @@
       },
       "rating": 10.57971,
       "rank": 137,
-      "movement": 1
+      "movement": 0
     },
     "164": {
       "games": 10,
@@ -2069,7 +2101,7 @@
       },
       "rating": 22.971014,
       "rank": 123,
-      "movement": 3
+      "movement": 0
     },
     "166": {
       "games": 10,
@@ -2108,7 +2140,7 @@
       },
       "rating": 19.202899,
       "rank": 129,
-      "movement": 1
+      "movement": 0
     },
     "167": {
       "games": 10,
@@ -2147,7 +2179,7 @@
       },
       "rating": 66.847826,
       "rank": 31,
-      "movement": 10
+      "movement": 0
     },
     "183": {
       "games": 10,
@@ -2186,7 +2218,7 @@
       },
       "rating": 35.018116,
       "rank": 103,
-      "movement": -13
+      "movement": 0
     },
     "189": {
       "games": 10,
@@ -2225,7 +2257,7 @@
       },
       "rating": 26.376812,
       "rank": 119,
-      "movement": -1
+      "movement": 0
     },
     "193": {
       "games": 10,
@@ -2264,7 +2296,7 @@
       },
       "rating": 40.471014,
       "rank": 92,
-      "movement": 2
+      "movement": 0
     },
     "194": {
       "games": 11,
@@ -2303,7 +2335,7 @@
       },
       "rating": 79.637681,
       "rank": 15,
-      "movement": -3
+      "movement": 0
     },
     "195": {
       "games": 10,
@@ -2342,7 +2374,7 @@
       },
       "rating": 42.771739,
       "rank": 86,
-      "movement": 4
+      "movement": 0
     },
     "197": {
       "games": 10,
@@ -2381,7 +2413,7 @@
       },
       "rating": 64.782609,
       "rank": 37,
-      "movement": 7
+      "movement": 0
     },
     "2": {
       "games": 10,
@@ -2420,7 +2452,7 @@
       },
       "rating": 61.086957,
       "rank": 44,
-      "movement": -2
+      "movement": 0
     },
     "2005": {
       "games": 10,
@@ -2459,7 +2491,7 @@
       },
       "rating": 65.144928,
       "rank": 36,
-      "movement": -8
+      "movement": 0
     },
     "2006": {
       "games": 10,
@@ -2498,7 +2530,7 @@
       },
       "rating": 21.413043,
       "rank": 125,
-      "movement": 3
+      "movement": 0
     },
     "201": {
       "games": 11,
@@ -2537,7 +2569,7 @@
       },
       "rating": 80.57971,
       "rank": 11,
-      "movement": 6
+      "movement": 0
     },
     "202": {
       "games": 10,
@@ -2576,7 +2608,7 @@
       },
       "rating": 45.217391,
       "rank": 79,
-      "movement": 14
+      "movement": 0
     },
     "2026": {
       "games": 10,
@@ -2615,7 +2647,7 @@
       },
       "rating": 31.576087,
       "rank": 109,
-      "movement": 1
+      "movement": 0
     },
     "2032": {
       "games": 10,
@@ -2654,7 +2686,7 @@
       },
       "rating": 20.036232,
       "rank": 127,
-      "movement": -6
+      "movement": 0
     },
     "204": {
       "games": 10,
@@ -2693,7 +2725,7 @@
       },
       "rating": 47.753623,
       "rank": 71,
-      "movement": 4
+      "movement": 0
     },
     "2050": {
       "games": 10,
@@ -2732,7 +2764,7 @@
       },
       "rating": 21.086957,
       "rank": 126,
-      "movement": -3
+      "movement": 0
     },
     "2084": {
       "games": 9,
@@ -2771,7 +2803,7 @@
       },
       "rating": 58.297101,
       "rank": 50,
-      "movement": 5
+      "movement": 0
     },
     "21": {
       "games": 10,
@@ -2810,7 +2842,7 @@
       },
       "rating": 50.471014,
       "rank": 66,
-      "movement": 21
+      "movement": 0
     },
     "2116": {
       "games": 10,
@@ -2849,7 +2881,7 @@
       },
       "rating": 48.84058,
       "rank": 70,
-      "movement": 9
+      "movement": 0
     },
     "2117": {
       "games": 10,
@@ -2888,7 +2920,7 @@
       },
       "rating": 50.0,
       "rank": 68,
-      "movement": -1
+      "movement": 0
     },
     "213": {
       "games": 11,
@@ -2927,7 +2959,7 @@
       },
       "rating": 60.543478,
       "rank": 45,
-      "movement": -12
+      "movement": 0
     },
     "2132": {
       "games": 10,
@@ -2966,7 +2998,7 @@
       },
       "rating": 56.268116,
       "rank": 55,
-      "movement": 9
+      "movement": 0
     },
     "218": {
       "games": 10,
@@ -3005,7 +3037,7 @@
       },
       "rating": 13.387681,
       "rank": 136,
-      "movement": -5
+      "movement": 0
     },
     "2199": {
       "games": 10,
@@ -3044,7 +3076,7 @@
       },
       "rating": 14.492754,
       "rank": 134,
-      "movement": 2
+      "movement": 0
     },
     "221": {
       "games": 10,
@@ -3083,7 +3115,7 @@
       },
       "rating": 47.391304,
       "rank": 72,
-      "movement": -9
+      "movement": 0
     },
     "2226": {
       "games": 10,
@@ -3122,7 +3154,7 @@
       },
       "rating": 52.137681,
       "rank": 63,
-      "movement": 21
+      "movement": 0
     },
     "2229": {
       "games": 10,
@@ -3161,7 +3193,7 @@
       },
       "rating": 43.84058,
       "rank": 83,
-      "movement": -11
+      "movement": 0
     },
     "2247": {
       "games": 10,
@@ -3200,7 +3232,7 @@
       },
       "rating": 35.235507,
       "rank": 102,
-      "movement": -1
+      "movement": 0
     },
     "228": {
       "games": 10,
@@ -3239,7 +3271,7 @@
       },
       "rating": 47.355072,
       "rank": 73,
-      "movement": 1
+      "movement": 0
     },
     "2294": {
       "games": 10,
@@ -3278,7 +3310,7 @@
       },
       "rating": 72.173913,
       "rank": 24,
-      "movement": 3
+      "movement": 0
     },
     "23": {
       "games": 11,
@@ -3317,7 +3349,7 @@
       },
       "rating": 27.717391,
       "rank": 116,
-      "movement": 3
+      "movement": 0
     },
     "2305": {
       "games": 10,
@@ -3395,7 +3427,7 @@
       },
       "rating": 29.673913,
       "rank": 113,
-      "movement": -1
+      "movement": 0
     },
     "2309": {
       "games": 10,
@@ -3434,7 +3466,7 @@
       },
       "rating": 10.144928,
       "rank": 138,
-      "movement": -1
+      "movement": 0
     },
     "2335": {
       "games": 10,
@@ -3473,7 +3505,7 @@
       },
       "rating": 65.615942,
       "rank": 35,
-      "movement": 3
+      "movement": 0
     },
     "2348": {
       "games": 10,
@@ -3512,7 +3544,7 @@
       },
       "rating": 61.485507,
       "rank": 43,
-      "movement": 4
+      "movement": 0
     },
     "235": {
       "games": 10,
@@ -3551,7 +3583,7 @@
       },
       "rating": 71.014493,
       "rank": 26,
-      "movement": -15
+      "movement": 0
     },
     "238": {
       "games": 10,
@@ -3590,7 +3622,7 @@
       },
       "rating": 38.07971,
       "rank": 94,
-      "movement": 2
+      "movement": 0
     },
     "239": {
       "games": 10,
@@ -3629,7 +3661,7 @@
       },
       "rating": 64.728261,
       "rank": 38,
-      "movement": -6
+      "movement": 0
     },
     "2390": {
       "games": 10,
@@ -3668,7 +3700,7 @@
       },
       "rating": 91.630435,
       "rank": 3,
-      "movement": -2
+      "movement": 0
     },
     "2393": {
       "games": 10,
@@ -3707,7 +3739,7 @@
       },
       "rating": 28.731884,
       "rank": 115,
-      "movement": -8
+      "movement": 0
     },
     "24": {
       "games": 10,
@@ -3785,7 +3817,7 @@
       },
       "rating": 34.347826,
       "rank": 106,
-      "movement": -2
+      "movement": 0
     },
     "2426": {
       "games": 9,
@@ -3824,7 +3856,7 @@
       },
       "rating": 55.507246,
       "rank": 57,
-      "movement": 11
+      "movement": 0
     },
     "2429": {
       "games": 10,
@@ -3863,7 +3895,7 @@
       },
       "rating": 23.84058,
       "rank": 122,
-      "movement": -2
+      "movement": 0
     },
     "2433": {
       "games": 10,
@@ -3902,7 +3934,7 @@
       },
       "rating": 18.514493,
       "rank": 131,
-      "movement": 1
+      "movement": 0
     },
     "2439": {
       "games": 11,
@@ -3941,7 +3973,7 @@
       },
       "rating": 57.463768,
       "rank": 52,
-      "movement": -2
+      "movement": 0
     },
     "2440": {
       "games": 10,
@@ -3980,7 +4012,7 @@
       },
       "rating": 46.612319,
       "rank": 75,
-      "movement": -2
+      "movement": 0
     },
     "2449": {
       "games": 10,
@@ -4019,7 +4051,7 @@
       },
       "rating": 66.702899,
       "rank": 32,
-      "movement": -11
+      "movement": 0
     },
     "245": {
       "games": 10,
@@ -4058,7 +4090,7 @@
       },
       "rating": 49.818841,
       "rank": 69,
-      "movement": -15
+      "movement": 0
     },
     "2459": {
       "games": 10,
@@ -4097,7 +4129,7 @@
       },
       "rating": 26.956522,
       "rank": 117,
-      "movement": 5
+      "movement": 0
     },
     "248": {
       "games": 10,
@@ -4136,7 +4168,7 @@
       },
       "rating": 80.652174,
       "rank": 10,
-      "movement": 8
+      "movement": 0
     },
     "2483": {
       "games": 10,
@@ -4175,7 +4207,7 @@
       },
       "rating": 85.833333,
       "rank": 5,
-      "movement": 5
+      "movement": 0
     },
     "249": {
       "games": 10,
@@ -4214,7 +4246,7 @@
       },
       "rating": 66.884058,
       "rank": 30,
-      "movement": 7
+      "movement": 0
     },
     "25": {
       "games": 10,
@@ -4253,7 +4285,7 @@
       },
       "rating": 34.855072,
       "rank": 104,
-      "movement": -2
+      "movement": 0
     },
     "2509": {
       "games": 10,
@@ -4292,7 +4324,7 @@
       },
       "rating": 42.427536,
       "rank": 87,
-      "movement": -17
+      "movement": 0
     },
     "251": {
       "games": 11,
@@ -4331,7 +4363,7 @@
       },
       "rating": 92.608696,
       "rank": 2,
-      "movement": 1
+      "movement": 0
     },
     "252": {
       "games": 10,
@@ -4370,7 +4402,7 @@
       },
       "rating": 83.07971,
       "rank": 7,
-      "movement": -1
+      "movement": 0
     },
     "2534": {
       "games": 10,
@@ -4409,7 +4441,7 @@
       },
       "rating": 18.007246,
       "rank": 132,
-      "movement": 1
+      "movement": 0
     },
     "254": {
       "games": 10,
@@ -4448,7 +4480,7 @@
       },
       "rating": 83.695652,
       "rank": 6,
-      "movement": -1
+      "movement": 0
     },
     "256": {
       "games": 10,
@@ -4487,7 +4519,7 @@
       },
       "rating": 61.594203,
       "rank": 42,
-      "movement": 6
+      "movement": 0
     },
     "2567": {
       "games": 10,
@@ -4526,7 +4558,7 @@
       },
       "rating": 65.833333,
       "rank": 34,
-      "movement": 2
+      "movement": 0
     },
     "2572": {
       "games": 10,
@@ -4565,7 +4597,7 @@
       },
       "rating": 19.456522,
       "rank": 128,
-      "movement": 1
+      "movement": 0
     },
     "2579": {
       "games": 10,
@@ -4604,7 +4636,7 @@
       },
       "rating": 59.057971,
       "rank": 49,
-      "movement": -4
+      "movement": 0
     },
     "258": {
       "games": 10,
@@ -4643,7 +4675,7 @@
       },
       "rating": 45.978261,
       "rank": 77,
-      "movement": 6
+      "movement": 0
     },
     "259": {
       "games": 10,
@@ -4682,7 +4714,7 @@
       },
       "rating": 32.753623,
       "rank": 108,
-      "movement": -5
+      "movement": 0
     },
     "26": {
       "games": 11,
@@ -4721,7 +4753,7 @@
       },
       "rating": 73.297101,
       "rank": 22,
-      "movement": -2
+      "movement": 0
     },
     "2623": {
       "games": 10,
@@ -4760,7 +4792,7 @@
       },
       "rating": 13.623188,
       "rank": 135,
-      "movement": -1
+      "movement": 0
     },
     "2628": {
       "games": 10,
@@ -4799,7 +4831,7 @@
       },
       "rating": 55.253623,
       "rank": 58,
-      "movement": -2
+      "movement": 0
     },
     "2633": {
       "games": 10,
@@ -4838,7 +4870,7 @@
       },
       "rating": 78.65942,
       "rank": 16,
-      "movement": -3
+      "movement": 0
     },
     "2636": {
       "games": 10,
@@ -4877,7 +4909,7 @@
       },
       "rating": 63.985507,
       "rank": 40,
-      "movement": 11
+      "movement": 0
     },
     "2638": {
       "games": 10,
@@ -4916,7 +4948,7 @@
       },
       "rating": 24.818841,
       "rank": 121,
-      "movement": 6
+      "movement": 0
     },
     "264": {
       "games": 10,
@@ -4955,7 +4987,7 @@
       },
       "rating": 57.771739,
       "rank": 51,
-      "movement": 20
+      "movement": 0
     },
     "2641": {
       "games": 10,
@@ -4994,7 +5026,7 @@
       },
       "rating": 75.072464,
       "rank": 20,
-      "movement": 5
+      "movement": 0
     },
     "2649": {
       "games": 10,
@@ -5033,7 +5065,7 @@
       },
       "rating": 56.413043,
       "rank": 54,
-      "movement": 6
+      "movement": 0
     },
     "265": {
       "games": 10,
@@ -5111,7 +5143,7 @@
       },
       "rating": 18.550725,
       "rank": 130,
-      "movement": -5
+      "movement": 0
     },
     "2655": {
       "games": 11,
@@ -5150,7 +5182,7 @@
       },
       "rating": 29.782609,
       "rank": 112,
-      "movement": 2
+      "movement": 0
     },
     "2711": {
       "games": 10,
@@ -5189,7 +5221,7 @@
       },
       "rating": 59.746377,
       "rank": 47,
-      "movement": 2
+      "movement": 0
     },
     "275": {
       "games": 10,
@@ -5228,7 +5260,7 @@
       },
       "rating": 71.086957,
       "rank": 25,
-      "movement": 10
+      "movement": 0
     },
     "2751": {
       "games": 10,
@@ -5267,7 +5299,7 @@
       },
       "rating": 35.434783,
       "rank": 100,
-      "movement": -1
+      "movement": 0
     },
     "276": {
       "games": 10,
@@ -5306,7 +5338,7 @@
       },
       "rating": 34.184783,
       "rank": 107,
-      "movement": -2
+      "movement": 0
     },
     "277": {
       "games": 10,
@@ -5384,7 +5416,7 @@
       },
       "rating": 42.916667,
       "rank": 85,
-      "movement": 4
+      "movement": 0
     },
     "290": {
       "games": 10,
@@ -5423,7 +5455,7 @@
       },
       "rating": 70.253623,
       "rank": 28,
-      "movement": 1
+      "movement": 0
     },
     "295": {
       "games": 10,
@@ -5462,7 +5494,7 @@
       },
       "rating": 36.014493,
       "rank": 98,
-      "movement": 2
+      "movement": 0
     },
     "30": {
       "games": 11,
@@ -5501,7 +5533,7 @@
       },
       "rating": 81.485507,
       "rank": 9,
-      "movement": 5
+      "movement": 0
     },
     "309": {
       "games": 10,
@@ -5579,7 +5611,7 @@
       },
       "rating": 29.021739,
       "rank": 114,
-      "movement": 2
+      "movement": 0
     },
     "326": {
       "games": 10,
@@ -5618,7 +5650,7 @@
       },
       "rating": 75.724638,
       "rank": 18,
-      "movement": 1
+      "movement": 0
     },
     "328": {
       "games": 10,
@@ -5657,7 +5689,7 @@
       },
       "rating": 37.173913,
       "rank": 97,
-      "movement": -9
+      "movement": 0
     },
     "333": {
       "games": 10,
@@ -5735,7 +5767,7 @@
       },
       "rating": 37.318841,
       "rank": 96,
-      "movement": 9
+      "movement": 0
     },
     "344": {
       "games": 10,
@@ -5774,7 +5806,7 @@
       },
       "rating": 43.985507,
       "rank": 81,
-      "movement": -1
+      "movement": 0
     },
     "349": {
       "games": 9,
@@ -5813,7 +5845,7 @@
       },
       "rating": 54.402174,
       "rank": 60,
-      "movement": -3
+      "movement": 0
     },
     "356": {
       "games": 10,
@@ -5852,7 +5884,7 @@
       },
       "rating": 60.507246,
       "rank": 46,
-      "movement": -12
+      "movement": 0
     },
     "36": {
       "games": 10,
@@ -5891,7 +5923,7 @@
       },
       "rating": 26.884058,
       "rank": 118,
-      "movement": -1
+      "movement": 0
     },
     "38": {
       "games": 10,
@@ -5930,7 +5962,7 @@
       },
       "rating": 43.550725,
       "rank": 84,
-      "movement": -15
+      "movement": 0
     },
     "41": {
       "games": 10,
@@ -5969,7 +6001,7 @@
       },
       "rating": 39.202899,
       "rank": 93,
-      "movement": 2
+      "movement": 0
     },
     "48": {
       "games": 10,
@@ -6008,7 +6040,7 @@
       },
       "rating": 30.615942,
       "rank": 110,
-      "movement": -2
+      "movement": 0
     },
     "5": {
       "games": 10,
@@ -6047,7 +6079,7 @@
       },
       "rating": 40.905797,
       "rank": 90,
-      "movement": 2
+      "movement": 0
     },
     "52": {
       "games": 10,
@@ -6086,7 +6118,7 @@
       },
       "rating": 52.753623,
       "rank": 62,
-      "movement": -10
+      "movement": 0
     },
     "55": {
       "games": 10,
@@ -6125,7 +6157,7 @@
       },
       "rating": 47.101449,
       "rank": 74,
-      "movement": 3
+      "movement": 0
     },
     "57": {
       "games": 10,
@@ -6164,7 +6196,7 @@
       },
       "rating": 70.362319,
       "rank": 27,
-      "movement": 12
+      "movement": 0
     },
     "58": {
       "games": 10,
@@ -6203,7 +6235,7 @@
       },
       "rating": 37.789855,
       "rank": 95,
-      "movement": -30
+      "movement": 0
     },
     "59": {
       "games": 10,
@@ -6242,7 +6274,7 @@
       },
       "rating": 34.673913,
       "rank": 105,
-      "movement": 8
+      "movement": 0
     },
     "6": {
       "games": 10,
@@ -6281,7 +6313,7 @@
       },
       "rating": 41.376812,
       "rank": 89,
-      "movement": -8
+      "movement": 0
     },
     "61": {
       "games": 10,
@@ -6320,7 +6352,7 @@
       },
       "rating": 93.188406,
       "rank": 1,
-      "movement": 1
+      "movement": 0
     },
     "62": {
       "games": 11,
@@ -6359,7 +6391,7 @@
       },
       "rating": 25.543478,
       "rank": 120,
-      "movement": -5
+      "movement": 0
     },
     "66": {
       "games": 10,
@@ -6398,7 +6430,7 @@
       },
       "rating": 54.42029,
       "rank": 59,
-      "movement": -19
+      "movement": 0
     },
     "68": {
       "games": 10,
@@ -6437,7 +6469,7 @@
       },
       "rating": 79.963768,
       "rank": 13,
-      "movement": -5
+      "movement": 0
     },
     "77": {
       "games": 10,
@@ -6476,7 +6508,7 @@
       },
       "rating": 56.050725,
       "rank": 56,
-      "movement": -13
+      "movement": 0
     },
     "8": {
       "games": 10,
@@ -6515,7 +6547,7 @@
       },
       "rating": 51.34058,
       "rank": 64,
-      "movement": -5
+      "movement": 0
     },
     "84": {
       "games": 10,
@@ -6554,7 +6586,7 @@
       },
       "rating": 79.891304,
       "rank": 14,
-      "movement": -5
+      "movement": 0
     },
     "87": {
       "games": 11,
@@ -6593,7 +6625,7 @@
       },
       "rating": 80.0,
       "rank": 12,
-      "movement": 12
+      "movement": 0
     },
     "9": {
       "games": 10,
@@ -6632,7 +6664,7 @@
       },
       "rating": 41.666667,
       "rank": 88,
-      "movement": -10
+      "movement": 0
     },
     "96": {
       "games": 10,
@@ -6671,7 +6703,7 @@
       },
       "rating": 56.811594,
       "rank": 53,
-      "movement": -7
+      "movement": 0
     },
     "97": {
       "games": 10,
@@ -6710,7 +6742,7 @@
       },
       "rating": 76.702899,
       "rank": 17,
-      "movement": -1
+      "movement": 0
     },
     "98": {
       "games": 10,
@@ -6749,7 +6781,7 @@
       },
       "rating": 35.688406,
       "rank": 99,
-      "movement": 10
+      "movement": 0
     },
     "99": {
       "games": 10,
@@ -6788,10 +6820,10 @@
       },
       "rating": 81.630435,
       "rank": 8,
-      "movement": -1
+      "movement": 0
     }
   },
-  "movement_reference": "2026-11-17T00:00:00+00:00",
+  "movement_reference": "2026-11-24T00:00:00+00:00",
   "backtest": {
     "games": 471,
     "accuracy": {

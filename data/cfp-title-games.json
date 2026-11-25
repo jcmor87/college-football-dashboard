@@ -22,6 +22,14 @@
       "winner": null,
       "source_date": "20261204"
     },
+    "Big 12 Conference": {
+      "id": "401869533",
+      "date": "2026-12-05T01:00Z",
+      "teams": [],
+      "status": "Scheduled",
+      "winner": null,
+      "source_date": "20261204"
+    },
     "Pac-12 Conference": {
       "id": "401869542",
       "date": "2026-12-05T01:00Z",
@@ -29,14 +37,6 @@
         "21",
         "68"
       ],
-      "status": "Scheduled",
-      "winner": null,
-      "source_date": "20261204"
-    },
-    "Big 12 Conference": {
-      "id": "401869533",
-      "date": "2026-12-05T01:00Z",
-      "teams": [],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261204"

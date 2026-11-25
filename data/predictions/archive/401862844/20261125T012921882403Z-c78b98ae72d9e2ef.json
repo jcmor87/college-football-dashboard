@@ -1,0 +1,34 @@
+{
+  "id": "401862844",
+  "first": "2426",
+  "second": "349",
+  "kickoff": "2026-12-12T20:00:00+00:00",
+  "input_cutoff": "2026-11-25T00:00:00+00:00",
+  "model": "prediction-v1-7cc6429ce3314b79",
+  "power_model": "v1-d3da59079def",
+  "parameters": {
+    "rating_points": 0.31957211,
+    "home_points": 4.33755515,
+    "scale": 10
+  },
+  "rating_first": 55.507246,
+  "rating_second": 54.402174,
+  "venue": 0,
+  "margin": 0.353,
+  "probability": 0.508824,
+  "confidence": "low",
+  "rating_points": 0.353,
+  "venue_points": 0.0,
+  "baselines": {
+    "home": {
+      "margin": 0,
+      "probability": 0.5
+    },
+    "raw_margin": {
+      "margin": -2.0,
+      "probability": 0.45842951678320015
+    }
+  },
+  "generated_at": "2026-11-25T01:29:21.882403+00:00",
+  "revision": "c78b98ae72d9e2ef"
+}

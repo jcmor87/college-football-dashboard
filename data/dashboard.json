@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:46:14+00:00",
+  "updated_at": "2026-11-25T01:28:11+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -1306,28 +1306,28 @@
       "date": "2026-11-25T00:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/24 - 7:00 PM EST",
-      "scheduled": true,
+      "status": "Halftime",
+      "scheduled": false,
       "away_id": "2309",
       "home_id": "2199",
       "away": "Kent State Golden Flashes",
       "home": "Eastern Michigan Eagles",
-      "away_score": null,
-      "home_score": null
+      "away_score": "12",
+      "home_score": "14"
     },
     {
       "id": "401866471",
       "date": "2026-11-25T00:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/24 - 7:00 PM EST",
-      "scheduled": true,
+      "status": "1:01 - 2nd",
+      "scheduled": false,
       "away_id": "193",
       "home_id": "2711",
       "away": "Miami (OH) RedHawks",
       "home": "Western Michigan Broncos",
-      "away_score": null,
-      "home_score": null
+      "away_score": "14",
+      "home_score": "3"
     },
     {
       "id": "401856879",
