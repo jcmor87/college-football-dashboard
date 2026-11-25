@@ -24,8 +24,8 @@
   "completed_fbs_games": 695,
   "conflicting_games_excluded": 0,
   "profile_coverage": {
-    "available": 136,
-    "stale": 2,
+    "available": 138,
+    "stale": 0,
     "unavailable": 0
   },
   "polls": {

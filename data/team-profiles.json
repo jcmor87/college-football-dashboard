@@ -819,11 +819,11 @@
         "third_pct": 38.5
       },
       "strength": {
-        "pct": 58.3,
-        "covered": 9,
+        "pct": 57.0,
+        "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 43,
+        "wins": 65,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -4565,7 +4565,7 @@
       "school": "Ball State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
       "conference_record": "2-5",
-      "schedule_status": "stale",
+      "schedule_status": "available",
       "games": [
         {
           "id": "401858432",
@@ -6644,11 +6644,11 @@
         "third_pct": 37.3
       },
       "strength": {
-        "pct": 54.9,
-        "covered": 9,
+        "pct": 52.2,
+        "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 46,
+        "wins": 59,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -7060,11 +7060,11 @@
         "third_pct": 40.2
       },
       "strength": {
-        "pct": 54.4,
-        "covered": 7,
+        "pct": 50.5,
+        "covered": 9,
         "played": 11,
-        "wins": 43,
-        "losses": 36,
+        "wins": 51,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -7494,7 +7494,7 @@
       "school": "Central Michigan",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
       "conference_record": "3-4",
-      "schedule_status": "stale",
+      "schedule_status": "available",
       "games": [
         {
           "id": "401864498",
@@ -12069,10 +12069,10 @@
       },
       "strength": {
         "pct": 46.0,
-        "covered": 10,
+        "covered": 11,
         "played": 12,
-        "wins": 52,
-        "losses": 61,
+        "wins": 57,
+        "losses": 67,
         "ties": 0
       },
       "ranked_results": {
@@ -20854,11 +20854,11 @@
         "third_pct": 33.9
       },
       "strength": {
-        "pct": 48.7,
-        "covered": 10,
+        "pct": 46.8,
+        "covered": 11,
         "played": 12,
-        "wins": 55,
-        "losses": 58,
+        "wins": 58,
+        "losses": 66,
         "ties": 0
       },
       "ranked_results": {
@@ -22119,11 +22119,11 @@
         "third_pct": 48.4
       },
       "strength": {
-        "pct": 41.4,
-        "covered": 9,
+        "pct": 40.0,
+        "covered": 10,
         "played": 11,
-        "wins": 41,
-        "losses": 58,
+        "wins": 44,
+        "losses": 66,
         "ties": 0
       },
       "ranked_results": {
@@ -24615,11 +24615,11 @@
         "third_pct": 33.1
       },
       "strength": {
-        "pct": 47.8,
-        "covered": 8,
+        "pct": 45.5,
+        "covered": 9,
         "played": 11,
-        "wins": 43,
-        "losses": 47,
+        "wins": 46,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -25463,11 +25463,11 @@
         "third_pct": 34.7
       },
       "strength": {
-        "pct": 49.1,
-        "covered": 10,
+        "pct": 48.8,
+        "covered": 11,
         "played": 12,
-        "wins": 55,
-        "losses": 57,
+        "wins": 60,
+        "losses": 63,
         "ties": 0
       },
       "ranked_results": {
@@ -25896,11 +25896,11 @@
         "third_pct": 53.9
       },
       "strength": {
-        "pct": 62.6,
-        "covered": 9,
+        "pct": 60.9,
+        "covered": 10,
         "played": 11,
-        "wins": 62,
-        "losses": 37,
+        "wins": 67,
+        "losses": 43,
         "ties": 0
       },
       "ranked_results": {
@@ -30872,11 +30872,11 @@
         "third_pct": 39.3
       },
       "strength": {
-        "pct": 47.0,
-        "covered": 9,
+        "pct": 46.8,
+        "covered": 10,
         "played": 11,
-        "wins": 47,
-        "losses": 53,
+        "wins": 52,
+        "losses": 59,
         "ties": 0
       },
       "ranked_results": {
@@ -33368,11 +33368,11 @@
         "third_pct": 42.3
       },
       "strength": {
-        "pct": 55.6,
-        "covered": 9,
+        "pct": 52.7,
+        "covered": 10,
         "played": 11,
-        "wins": 55,
-        "losses": 44,
+        "wins": 58,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -34200,11 +34200,11 @@
         "third_pct": 44.2
       },
       "strength": {
-        "pct": 45.1,
-        "covered": 8,
+        "pct": 43.4,
+        "covered": 10,
         "played": 11,
-        "wins": 41,
-        "losses": 50,
+        "wins": 49,
+        "losses": 64,
         "ties": 0
       },
       "ranked_results": {
@@ -34616,11 +34616,11 @@
         "third_pct": 45.3
       },
       "strength": {
-        "pct": 62.2,
-        "covered": 10,
+        "pct": 59.0,
+        "covered": 11,
         "played": 11,
-        "wins": 69,
-        "losses": 42,
+        "wins": 72,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -40024,11 +40024,11 @@
         "third_pct": 31.8
       },
       "strength": {
-        "pct": 53.3,
-        "covered": 8,
+        "pct": 50.0,
+        "covered": 10,
         "played": 11,
-        "wins": 48,
-        "losses": 42,
+        "wins": 56,
+        "losses": 56,
         "ties": 0
       },
       "ranked_results": {
@@ -47146,11 +47146,11 @@
         "third_pct": 41.7
       },
       "strength": {
-        "pct": 41.6,
-        "covered": 9,
+        "pct": 40.2,
+        "covered": 10,
         "played": 11,
-        "wins": 42,
-        "losses": 59,
+        "wins": 45,
+        "losses": 67,
         "ties": 0
       },
       "ranked_results": {
@@ -56747,11 +56747,11 @@
         "third_pct": 46.5
       },
       "strength": {
-        "pct": 48.7,
-        "covered": 10,
+        "pct": 48.4,
+        "covered": 11,
         "played": 12,
-        "wins": 55,
-        "losses": 58,
+        "wins": 60,
+        "losses": 64,
         "ties": 0
       },
       "ranked_results": {
@@ -57579,11 +57579,11 @@
         "third_pct": 31.5
       },
       "strength": {
-        "pct": 46.0,
-        "covered": 9,
+        "pct": 45.9,
+        "covered": 10,
         "played": 11,
-        "wins": 46,
-        "losses": 54,
+        "wins": 51,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
