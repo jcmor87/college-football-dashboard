@@ -2147,7 +2147,7 @@
       "first": "2050",
       "second": "2117",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "Schedule unavailable",
       "actual": null,
       "prediction": {
         "id": "401866474",
