@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T01:28:11+00:00",
+  "updated_at": "2026-11-25T04:17:55+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -314,7 +314,7 @@
       "name": "Eastern Michigan Eagles",
       "abbreviation": "EMU",
       "conference": "Mid-American Conference",
-      "record": "4-7",
+      "record": "5-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2199/eastern-michigan-eagles"
     },
@@ -503,7 +503,7 @@
       "name": "Kent State Golden Flashes",
       "abbreviation": "KENT",
       "conference": "Mid-American Conference",
-      "record": "3-8",
+      "record": "3-9",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2309/kent-state-golden-flashes"
     },
@@ -602,7 +602,7 @@
       "name": "Miami (OH) RedHawks",
       "abbreviation": "M-OH",
       "conference": "Mid-American Conference",
-      "record": "7-4",
+      "record": "8-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/193/miami-oh-redhawks"
     },
@@ -1277,7 +1277,7 @@
       "name": "Western Michigan Broncos",
       "abbreviation": "WMU",
       "conference": "Mid-American Conference",
-      "record": "8-3",
+      "record": "8-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2711/western-michigan-broncos"
     },
@@ -1306,28 +1306,28 @@
       "date": "2026-11-25T00:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "Halftime",
+      "status": "Final",
       "scheduled": false,
       "away_id": "2309",
       "home_id": "2199",
       "away": "Kent State Golden Flashes",
       "home": "Eastern Michigan Eagles",
       "away_score": "12",
-      "home_score": "14"
+      "home_score": "17"
     },
     {
       "id": "401866471",
       "date": "2026-11-25T00:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "1:01 - 2nd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "193",
       "home_id": "2711",
       "away": "Miami (OH) RedHawks",
       "home": "Western Michigan Broncos",
-      "away_score": "14",
-      "home_score": "3"
+      "away_score": "28",
+      "home_score": "24"
     },
     {
       "id": "401856879",

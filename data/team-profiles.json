@@ -819,11 +819,11 @@
         "third_pct": 38.5
       },
       "strength": {
-        "pct": 57.3,
+        "pct": 57.0,
         "covered": 10,
         "played": 11,
-        "wins": 63,
-        "losses": 47,
+        "wins": 65,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -4963,11 +4963,11 @@
         "third_pct": 33.3
       },
       "strength": {
-        "pct": 55.5,
+        "pct": 55.0,
         "covered": 10,
         "played": 11,
         "wins": 61,
-        "losses": 49,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -5812,11 +5812,11 @@
         "third_pct": 50.7
       },
       "strength": {
-        "pct": 52.7,
+        "pct": 52.3,
         "covered": 10,
         "played": 11,
         "wins": 58,
-        "losses": 52,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -6644,11 +6644,11 @@
         "third_pct": 37.3
       },
       "strength": {
-        "pct": 52.7,
+        "pct": 52.2,
         "covered": 10,
         "played": 11,
-        "wins": 58,
-        "losses": 52,
+        "wins": 59,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -7063,8 +7063,8 @@
         "pct": 50.5,
         "covered": 9,
         "played": 11,
-        "wins": 50,
-        "losses": 49,
+        "wins": 51,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -7892,11 +7892,11 @@
         "third_pct": 41.7
       },
       "strength": {
-        "pct": 59.1,
+        "pct": 59.3,
         "covered": 10,
         "played": 11,
-        "wins": 65,
-        "losses": 45,
+        "wins": 67,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -8724,10 +8724,10 @@
         "third_pct": 47.1
       },
       "strength": {
-        "pct": 60.9,
+        "pct": 61.3,
         "covered": 10,
         "played": 11,
-        "wins": 67,
+        "wins": 68,
         "losses": 43,
         "ties": 0
       },
@@ -11653,7 +11653,7 @@
     "2199": {
       "school": "Eastern Michigan",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-      "conference_record": "3-4",
+      "conference_record": "4-4",
       "schedule_status": "available",
       "games": [
         {
@@ -12026,37 +12026,53 @@
           "opponent_id": "2309",
           "opponent": "Kent State Golden Flashes",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 17,
+          "allowed": 12,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 234,
+            "rushing": 139,
+            "passing": 95,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 305,
+            "rushing": 71,
+            "passing": 234,
+            "turnovers": 3,
+            "third_made": 3,
+            "third_attempts": 12
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 20.5,
-        "allowed": 27.3,
-        "margin": -6.7,
-        "yards": 306.7,
-        "rushing": 110.2,
-        "passing": 196.5,
-        "turnovers": 1.2,
-        "yards_allowed": 376.9,
-        "third_pct": 35.1
+        "games": 12,
+        "points": 20.2,
+        "allowed": 26.0,
+        "margin": -5.8,
+        "yards": 300.7,
+        "rushing": 112.6,
+        "passing": 188.1,
+        "turnovers": 1.1,
+        "yards_allowed": 370.9,
+        "third_pct": 34.3
       },
       "strength": {
-        "pct": 48.6,
-        "covered": 10,
-        "played": 11,
-        "wins": 54,
-        "losses": 57,
+        "pct": 46.0,
+        "covered": 11,
+        "played": 12,
+        "wins": 57,
+        "losses": 67,
         "ties": 0
       },
       "ranked_results": {
@@ -20423,7 +20439,7 @@
     "2309": {
       "school": "Kent State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-      "conference_record": "2-5",
+      "conference_record": "2-6",
       "schedule_status": "available",
       "games": [
         {
@@ -20796,37 +20812,53 @@
           "opponent_id": "2199",
           "opponent": "Eastern Michigan Eagles",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 12,
+          "allowed": 17,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 305,
+            "rushing": 71,
+            "passing": 234,
+            "turnovers": 3,
+            "third_made": 3,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 234,
+            "rushing": 139,
+            "passing": 95,
+            "turnovers": 0,
+            "third_made": 4,
+            "third_attempts": 15
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 14.5,
-        "allowed": 29.8,
-        "margin": -15.3,
-        "yards": 288.1,
-        "rushing": 91.0,
-        "passing": 197.1,
-        "turnovers": 1.8,
-        "yards_allowed": 365.3,
-        "third_pct": 34.6
+        "games": 12,
+        "points": 14.3,
+        "allowed": 28.8,
+        "margin": -14.4,
+        "yards": 289.5,
+        "rushing": 89.3,
+        "passing": 200.2,
+        "turnovers": 1.9,
+        "yards_allowed": 354.3,
+        "third_pct": 33.9
       },
       "strength": {
-        "pct": 47.3,
-        "covered": 10,
-        "played": 11,
-        "wins": 52,
-        "losses": 58,
+        "pct": 46.8,
+        "covered": 11,
+        "played": 12,
+        "wins": 58,
+        "losses": 66,
         "ties": 0
       },
       "ranked_results": {
@@ -24583,10 +24615,10 @@
         "third_pct": 33.1
       },
       "strength": {
-        "pct": 44.4,
+        "pct": 45.5,
         "covered": 9,
         "played": 11,
-        "wins": 44,
+        "wins": 46,
         "losses": 55,
         "ties": 0
       },
@@ -25016,7 +25048,7 @@
     "193": {
       "school": "Miami (OH)",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-      "conference_record": "5-2",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -25389,37 +25421,53 @@
           "opponent_id": "2711",
           "opponent": "Western Michigan Broncos",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 24,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 404,
+            "rushing": 190,
+            "passing": 214,
+            "turnovers": 0,
+            "third_made": 5,
+            "third_attempts": 12
+          },
+          "defense": {
+            "yards": 411,
+            "rushing": 297,
+            "passing": 114,
+            "turnovers": 2,
+            "third_made": 10,
+            "third_attempts": 17
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
+        "games": 12,
         "points": 27.4,
-        "allowed": 23.6,
-        "margin": 3.7,
-        "yards": 363.7,
-        "rushing": 166.7,
-        "passing": 197.0,
+        "allowed": 23.7,
+        "margin": 3.8,
+        "yards": 367.1,
+        "rushing": 168.7,
+        "passing": 198.4,
         "turnovers": 0.7,
-        "yards_allowed": 357.3,
-        "third_pct": 34.1
+        "yards_allowed": 361.8,
+        "third_pct": 34.7
       },
       "strength": {
-        "pct": 47.3,
-        "covered": 10,
-        "played": 11,
-        "wins": 52,
-        "losses": 58,
+        "pct": 48.8,
+        "covered": 11,
+        "played": 12,
+        "wins": 60,
+        "losses": 63,
         "ties": 0
       },
       "ranked_results": {
@@ -26264,10 +26312,10 @@
         "third_pct": 38.8
       },
       "strength": {
-        "pct": 66.1,
+        "pct": 66.4,
         "covered": 11,
         "played": 11,
-        "wins": 80,
+        "wins": 81,
         "losses": 41,
         "ties": 0
       },
@@ -26680,11 +26728,11 @@
         "third_pct": 40.0
       },
       "strength": {
-        "pct": 57.9,
+        "pct": 57.4,
         "covered": 11,
         "played": 11,
         "wins": 70,
-        "losses": 51,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -34152,11 +34200,11 @@
         "third_pct": 44.2
       },
       "strength": {
-        "pct": 42.7,
+        "pct": 43.4,
         "covered": 10,
         "played": 11,
-        "wins": 47,
-        "losses": 63,
+        "wins": 49,
+        "losses": 64,
         "ties": 0
       },
       "ranked_results": {
@@ -34568,11 +34616,11 @@
         "third_pct": 45.3
       },
       "strength": {
-        "pct": 59.5,
+        "pct": 59.0,
         "covered": 11,
         "played": 11,
         "wins": 72,
-        "losses": 49,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -37896,10 +37944,10 @@
         "third_pct": 37.8
       },
       "strength": {
-        "pct": 54.5,
+        "pct": 55.0,
         "covered": 10,
         "played": 11,
-        "wins": 60,
+        "wins": 61,
         "losses": 50,
         "ties": 0
       },
@@ -38728,11 +38776,11 @@
         "third_pct": 31.4
       },
       "strength": {
-        "pct": 62.7,
+        "pct": 62.2,
         "covered": 10,
         "played": 11,
         "wins": 69,
-        "losses": 41,
+        "losses": 42,
         "ties": 0
       },
       "ranked_results": {
@@ -39979,8 +40027,8 @@
         "pct": 50.0,
         "covered": 10,
         "played": 11,
-        "wins": 55,
-        "losses": 55,
+        "wins": 56,
+        "losses": 56,
         "ties": 0
       },
       "ranked_results": {
@@ -41274,10 +41322,10 @@
         "third_pct": 30.7
       },
       "strength": {
-        "pct": 48.8,
+        "pct": 49.2,
         "covered": 11,
         "played": 12,
-        "wins": 59,
+        "wins": 60,
         "losses": 62,
         "ties": 0
       },
@@ -42106,11 +42154,11 @@
         "third_pct": 46.4
       },
       "strength": {
-        "pct": 59.1,
+        "pct": 58.6,
         "covered": 10,
         "played": 11,
         "wins": 65,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -42522,11 +42570,11 @@
         "third_pct": 36.6
       },
       "strength": {
-        "pct": 49.5,
+        "pct": 49.1,
         "covered": 10,
         "played": 11,
         "wins": 54,
-        "losses": 55,
+        "losses": 56,
         "ties": 0
       },
       "ranked_results": {
@@ -47098,11 +47146,11 @@
         "third_pct": 41.7
       },
       "strength": {
-        "pct": 40.0,
+        "pct": 40.2,
         "covered": 10,
         "played": 11,
-        "wins": 44,
-        "losses": 66,
+        "wins": 45,
+        "losses": 67,
         "ties": 0
       },
       "ranked_results": {
@@ -50010,10 +50058,10 @@
         "third_pct": 42.5
       },
       "strength": {
-        "pct": 46.4,
+        "pct": 46.8,
         "covered": 10,
         "played": 11,
-        "wins": 51,
+        "wins": 52,
         "losses": 59,
         "ties": 0
       },
@@ -56284,7 +56332,7 @@
     "2711": {
       "school": "Western Michigan",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
-      "conference_record": "6-1",
+      "conference_record": "6-2",
       "schedule_status": "available",
       "games": [
         {
@@ -56657,37 +56705,53 @@
           "opponent_id": "193",
           "opponent": "Miami (OH) RedHawks",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 24,
+          "allowed": 28,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 411,
+            "rushing": 297,
+            "passing": 114,
+            "turnovers": 2,
+            "third_made": 10,
+            "third_attempts": 17
+          },
+          "defense": {
+            "yards": 404,
+            "rushing": 190,
+            "passing": 214,
+            "turnovers": 0,
+            "third_made": 5,
+            "third_attempts": 12
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 28.4,
-        "allowed": 19.5,
-        "margin": 8.9,
-        "yards": 350.0,
-        "rushing": 189.3,
-        "passing": 160.7,
-        "turnovers": 0.8,
-        "yards_allowed": 344.2,
-        "third_pct": 45.1
+        "games": 12,
+        "points": 28.0,
+        "allowed": 20.2,
+        "margin": 7.8,
+        "yards": 355.1,
+        "rushing": 198.2,
+        "passing": 156.8,
+        "turnovers": 0.9,
+        "yards_allowed": 349.2,
+        "third_pct": 46.5
       },
       "strength": {
-        "pct": 46.4,
-        "covered": 10,
-        "played": 11,
-        "wins": 51,
-        "losses": 59,
+        "pct": 48.4,
+        "covered": 11,
+        "played": 12,
+        "wins": 60,
+        "losses": 64,
         "ties": 0
       },
       "ranked_results": {
@@ -57099,10 +57163,10 @@
         "third_pct": 43.3
       },
       "strength": {
-        "pct": 54.5,
+        "pct": 55.0,
         "covered": 10,
         "played": 11,
-        "wins": 60,
+        "wins": 61,
         "losses": 50,
         "ties": 0
       },

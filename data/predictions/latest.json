@@ -317,8 +317,11 @@
       "first": "2199",
       "second": "2309",
       "venue": 1,
-      "status": "In Progress",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 17,
+        "second": 12
+      },
       "prediction": {
         "id": "401866470",
         "first": "2199",
@@ -389,8 +392,11 @@
       "first": "193",
       "second": "2711",
       "venue": -1,
-      "status": "In Progress",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 28,
+        "second": 24
+      },
       "prediction": {
         "id": "401866471",
         "first": "193",
@@ -6137,16 +6143,16 @@
   ],
   "live": {
     "engine": {
-      "games": 5,
-      "decisive": 5,
-      "accuracy": 0.8,
-      "mae": 8.175,
-      "brier": 0.2518,
+      "games": 7,
+      "decisive": 7,
+      "accuracy": 0.7143,
+      "mae": 8.014,
+      "brier": 0.27682,
       "calibration": [
         {
           "bin": "20–40%",
-          "games": 1,
-          "expected": 0.2126,
+          "games": 2,
+          "expected": 0.236,
           "observed": 1
         },
         {
@@ -6157,38 +6163,38 @@
         },
         {
           "bin": "60–80%",
-          "games": 2,
-          "expected": 0.6442,
+          "games": 3,
+          "expected": 0.6426,
           "observed": 1
         }
       ]
     },
     "home": {
-      "games": 5,
-      "decisive": 5,
-      "accuracy": 0.4,
-      "mae": 8.8,
-      "brier": 0.2663,
+      "games": 7,
+      "decisive": 7,
+      "accuracy": 0.4286,
+      "mae": 7.571,
+      "brier": 0.26275,
       "calibration": [
         {
           "bin": "40–60%",
-          "games": 5,
-          "expected": 0.4876,
+          "games": 7,
+          "expected": 0.4911,
           "observed": 1
         }
       ]
     },
     "raw_margin": {
-      "games": 5,
-      "decisive": 5,
-      "accuracy": 0.8,
-      "mae": 7.628,
-      "brier": 0.24571,
+      "games": 7,
+      "decisive": 7,
+      "accuracy": 0.7143,
+      "mae": 7.227,
+      "brier": 0.24831,
       "calibration": [
         {
           "bin": "20–40%",
-          "games": 1,
-          "expected": 0.2341,
+          "games": 2,
+          "expected": 0.3058,
           "observed": 1
         },
         {
@@ -6199,8 +6205,8 @@
         },
         {
           "bin": "60–80%",
-          "games": 2,
-          "expected": 0.6383,
+          "games": 3,
+          "expected": 0.6424,
           "observed": 1
         }
       ]
@@ -6230,6 +6236,28 @@
             "bin": "60–80%",
             "games": 2,
             "expected": 0.6442,
+            "observed": 1
+          }
+        ]
+      },
+      {
+        "week": "2026-11-24",
+        "games": 2,
+        "decisive": 2,
+        "accuracy": 0.5,
+        "mae": 7.612,
+        "brier": 0.33935,
+        "calibration": [
+          {
+            "bin": "20–40%",
+            "games": 1,
+            "expected": 0.2593,
+            "observed": 1
+          },
+          {
+            "bin": "60–80%",
+            "games": 1,
+            "expected": 0.6394,
             "observed": 1
           }
         ]
