@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T07:34:44.095094+00:00",
+  "checked_at": "2026-11-26T10:22:25.619726+00:00",
   "dashboard_updated_at": "2026-11-25T04:17:55+00:00",
   "archive_count": 366,
   "power_cutoff": "2026-11-26T00:00:00+00:00",
@@ -11,9 +11,9 @@
     "team-profiles.mjs": "d79a1dc08c4d7c31fa18df2b3a6f9c678bb6b4ff3e1c360a370f571e23dc19a3",
     "nd-command.mjs": "80b5151ad445a875adefc1da8d3c8c9edf0a1d72d76710ed95777d127b1cb90f",
     "notre-dame-news.mjs": "7b52c7a432b23a0bc4f0dd5d8340ac18141a9d2bcad4c71c5dee88f0062a0ee1",
-    "data/notre-dame-news.json": "2479852424b0e7b8006eadbd6194ba84db3c8259d42e7675ca7e5cc982996ef5",
+    "data/notre-dame-news.json": "b8c1f22bcfdaa2e4a408bc5b5d5324125f21459e2b2b4651483824102c01b220",
     "notre-dame-roster.mjs": "4b9114b45a5acadcd23ff44a82f897199491fe5872c536f38b81e7a91e057564",
-    "data/notre-dame-roster.json": "7f1d34124b393a6512df08b88dab3b85b508e9a84a6730d738578f846cede162",
+    "data/notre-dame-roster.json": "64274b611a87c868f53e951487e5c21e23d84874c1e619bbcec8f99d75bfd65f",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
     "data/dashboard.json": "fb8fcbfee0eb8cdb59f0932eadb5b138695afde68fdd26d80a9b1be0299c42ef",
@@ -28,6 +28,6 @@
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "561abb6242d37558bed55327b150f07b9e52b7ba43da02e18b6e1faa6479f63a"
+    "data/playoff-simulation.json": "44e9b4ab1708ac4e36ffa0488673861218ef11eaa4a1d290fe00b7e068a0d4ae"
   }
 }
