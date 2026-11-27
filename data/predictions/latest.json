@@ -558,7 +558,7 @@
       "first": "145",
       "second": "344",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401856762",
@@ -654,7 +654,7 @@
       "first": "202",
       "second": "2636",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "Halftime",
       "actual": null,
       "prediction": {
         "id": "401862840",
@@ -750,7 +750,7 @@
       "first": "2006",
       "second": "2084",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401866472",
@@ -846,7 +846,7 @@
       "first": "195",
       "second": "2649",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401866473",
@@ -942,7 +942,7 @@
       "first": "158",
       "second": "2294",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401858536",
