@@ -467,8 +467,11 @@
       "first": "2628",
       "second": "2641",
       "venue": -1,
-      "status": "In Progress",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 27,
+        "second": 48
+      },
       "prediction": {
         "id": "401856879",
         "first": "2628",
@@ -640,102 +643,6 @@
           "id": "3255be82ea143feb",
           "margin": 14.237,
           "probability": 0.805918,
-          "selected": true
-        }
-      ]
-    },
-    {
-      "id": "401858536",
-      "kickoff": "2026-11-27T17:00:00+00:00",
-      "week": "2026-11-24",
-      "first": "158",
-      "second": "2294",
-      "venue": -1,
-      "status": "Scheduled",
-      "actual": null,
-      "prediction": {
-        "id": "401858536",
-        "first": "158",
-        "second": "2294",
-        "kickoff": "2026-11-27T17:00:00+00:00",
-        "input_cutoff": "2026-11-27T00:00:00+00:00",
-        "model": "prediction-v1-7cc6429ce3314b79",
-        "power_model": "v1-d3da59079def",
-        "parameters": {
-          "rating_points": 0.31957211,
-          "home_points": 4.33755515,
-          "scale": 10
-        },
-        "rating_first": 72.137681,
-        "rating_second": 72.101449,
-        "venue": -1,
-        "margin": -4.326,
-        "probability": 0.393506,
-        "confidence": "moderate",
-        "rating_points": 0.012,
-        "venue_points": -4.338,
-        "baselines": {
-          "home": {
-            "margin": -3,
-            "probability": 0.43782349911420193
-          },
-          "raw_margin": {
-            "margin": -2.6500000000000004,
-            "probability": 0.4450149416042306
-          }
-        },
-        "generated_at": "2026-11-27T01:30:52.880826+00:00",
-        "revision": "9228a1df408b6dd5"
-      },
-      "revisions": 6,
-      "is_preview": false,
-      "history": [
-        {
-          "at": "2026-11-22T01:50:53.855017+00:00",
-          "model": "prediction-v1-24e29e8cb124071b",
-          "id": "b68dfce2c68f6f69",
-          "margin": -4.648,
-          "probability": 0.423147,
-          "selected": false
-        },
-        {
-          "at": "2026-11-23T01:26:15.551721+00:00",
-          "model": "prediction-v1-24e29e8cb124071b",
-          "id": "910af0ed91626efa",
-          "margin": -3.608,
-          "probability": 0.440155,
-          "selected": false
-        },
-        {
-          "at": "2026-11-24T01:23:50.688707+00:00",
-          "model": "prediction-v1-7cc6429ce3314b79",
-          "id": "aa14e6b279976c36",
-          "margin": -4.314,
-          "probability": 0.393792,
-          "selected": false
-        },
-        {
-          "at": "2026-11-25T01:29:21.868717+00:00",
-          "model": "prediction-v1-7cc6429ce3314b79",
-          "id": "1e7f810c0276237a",
-          "margin": -4.314,
-          "probability": 0.393792,
-          "selected": false
-        },
-        {
-          "at": "2026-11-26T01:28:57.978140+00:00",
-          "model": "prediction-v1-7cc6429ce3314b79",
-          "id": "c93da9790695da09",
-          "margin": -4.326,
-          "probability": 0.393506,
-          "selected": false
-        },
-        {
-          "at": "2026-11-27T01:30:52.880826+00:00",
-          "model": "prediction-v1-7cc6429ce3314b79",
-          "id": "9228a1df408b6dd5",
-          "margin": -4.326,
-          "probability": 0.393506,
           "selected": true
         }
       ]
@@ -1024,6 +931,110 @@
           "id": "ada0776c6ef0a54e",
           "margin": 0.198,
           "probability": 0.50495,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "id": "401858536",
+      "kickoff": "2026-11-27T17:08:00+00:00",
+      "week": "2026-11-24",
+      "first": "158",
+      "second": "2294",
+      "venue": -1,
+      "status": "Scheduled",
+      "actual": null,
+      "prediction": {
+        "id": "401858536",
+        "first": "158",
+        "second": "2294",
+        "kickoff": "2026-11-27T17:08:00+00:00",
+        "input_cutoff": "2026-11-27T00:00:00+00:00",
+        "model": "prediction-v1-7cc6429ce3314b79",
+        "power_model": "v1-d3da59079def",
+        "parameters": {
+          "rating_points": 0.31957211,
+          "home_points": 4.33755515,
+          "scale": 10
+        },
+        "rating_first": 72.137681,
+        "rating_second": 72.101449,
+        "venue": -1,
+        "margin": -4.326,
+        "probability": 0.393506,
+        "confidence": "moderate",
+        "rating_points": 0.012,
+        "venue_points": -4.338,
+        "baselines": {
+          "home": {
+            "margin": -3,
+            "probability": 0.43782349911420193
+          },
+          "raw_margin": {
+            "margin": -2.6500000000000004,
+            "probability": 0.4450149416042306
+          }
+        },
+        "generated_at": "2026-11-27T07:33:20.827628+00:00",
+        "revision": "7955e3bc2f21f5d9"
+      },
+      "revisions": 7,
+      "is_preview": false,
+      "history": [
+        {
+          "at": "2026-11-22T01:50:53.855017+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "b68dfce2c68f6f69",
+          "margin": -4.648,
+          "probability": 0.423147,
+          "selected": false
+        },
+        {
+          "at": "2026-11-23T01:26:15.551721+00:00",
+          "model": "prediction-v1-24e29e8cb124071b",
+          "id": "910af0ed91626efa",
+          "margin": -3.608,
+          "probability": 0.440155,
+          "selected": false
+        },
+        {
+          "at": "2026-11-24T01:23:50.688707+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "aa14e6b279976c36",
+          "margin": -4.314,
+          "probability": 0.393792,
+          "selected": false
+        },
+        {
+          "at": "2026-11-25T01:29:21.868717+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "1e7f810c0276237a",
+          "margin": -4.314,
+          "probability": 0.393792,
+          "selected": false
+        },
+        {
+          "at": "2026-11-26T01:28:57.978140+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "c93da9790695da09",
+          "margin": -4.326,
+          "probability": 0.393506,
+          "selected": false
+        },
+        {
+          "at": "2026-11-27T01:30:52.880826+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "9228a1df408b6dd5",
+          "margin": -4.326,
+          "probability": 0.393506,
+          "selected": false
+        },
+        {
+          "at": "2026-11-27T07:33:20.827628+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "7955e3bc2f21f5d9",
+          "margin": -4.326,
+          "probability": 0.393506,
           "selected": true
         }
       ]
@@ -6981,6 +6992,62 @@
       ]
     },
     {
+      "id": "401869533",
+      "kickoff": "2026-12-05T01:00:00+00:00",
+      "week": "2026-12-01",
+      "first": "254",
+      "second": "2641",
+      "venue": 0,
+      "status": "Scheduled",
+      "actual": null,
+      "prediction": {
+        "id": "401869533",
+        "first": "254",
+        "second": "2641",
+        "kickoff": "2026-12-05T01:00:00+00:00",
+        "input_cutoff": "2026-11-27T00:00:00+00:00",
+        "model": "prediction-v1-7cc6429ce3314b79",
+        "power_model": "v1-d3da59079def",
+        "parameters": {
+          "rating_points": 0.31957211,
+          "home_points": 4.33755515,
+          "scale": 10
+        },
+        "rating_first": 83.478261,
+        "rating_second": 75.036232,
+        "venue": 0,
+        "margin": 2.698,
+        "probability": 0.567044,
+        "confidence": "low",
+        "rating_points": 2.698,
+        "venue_points": 0.0,
+        "baselines": {
+          "home": {
+            "margin": 0,
+            "probability": 0.5
+          },
+          "raw_margin": {
+            "margin": 1.4499999999999993,
+            "probability": 0.5301716316989473
+          }
+        },
+        "generated_at": "2026-11-27T07:33:20.834316+00:00",
+        "revision": "2778410a8de22526"
+      },
+      "revisions": 1,
+      "is_preview": false,
+      "history": [
+        {
+          "at": "2026-11-27T07:33:20.834316+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "2778410a8de22526",
+          "margin": 2.698,
+          "probability": 0.567044,
+          "selected": true
+        }
+      ]
+    },
+    {
       "id": "401869542",
       "kickoff": "2026-12-05T01:00:00+00:00",
       "week": "2026-12-01",
@@ -7271,17 +7338,17 @@
   ],
   "live": {
     "engine": {
-      "games": 7,
-      "decisive": 7,
-      "accuracy": 0.7143,
-      "mae": 8.014,
-      "brier": 0.27682,
+      "games": 8,
+      "decisive": 8,
+      "accuracy": 0.75,
+      "mae": 8.304,
+      "brier": 0.2504,
       "calibration": [
         {
           "bin": "20–40%",
-          "games": 2,
-          "expected": 0.236,
-          "observed": 1
+          "games": 3,
+          "expected": 0.2426,
+          "observed": 0.6667
         },
         {
           "bin": "40–60%",
@@ -7298,32 +7365,32 @@
       ]
     },
     "home": {
-      "games": 7,
-      "decisive": 7,
-      "accuracy": 0.4286,
-      "mae": 7.571,
-      "brier": 0.26275,
+      "games": 8,
+      "decisive": 8,
+      "accuracy": 0.5,
+      "mae": 8.875,
+      "brier": 0.25387,
       "calibration": [
         {
           "bin": "40–60%",
-          "games": 7,
-          "expected": 0.4911,
-          "observed": 1
+          "games": 8,
+          "expected": 0.4845,
+          "observed": 0.875
         }
       ]
     },
     "raw_margin": {
-      "games": 7,
-      "decisive": 7,
-      "accuracy": 0.7143,
-      "mae": 7.227,
-      "brier": 0.24831,
+      "games": 8,
+      "decisive": 8,
+      "accuracy": 0.75,
+      "mae": 7.774,
+      "brier": 0.22957,
       "calibration": [
         {
           "bin": "20–40%",
-          "games": 2,
-          "expected": 0.3058,
-          "observed": 1
+          "games": 3,
+          "expected": 0.3084,
+          "observed": 0.6667
         },
         {
           "bin": "40–60%",
@@ -7370,17 +7437,17 @@
       },
       {
         "week": "2026-11-24",
-        "games": 2,
-        "decisive": 2,
-        "accuracy": 0.5,
-        "mae": 7.612,
-        "brier": 0.33935,
+        "games": 3,
+        "decisive": 3,
+        "accuracy": 0.6667,
+        "mae": 8.518,
+        "brier": 0.24807,
         "calibration": [
           {
             "bin": "20–40%",
-            "games": 1,
-            "expected": 0.2593,
-            "observed": 1
+            "games": 2,
+            "expected": 0.2576,
+            "observed": 0.5
           },
           {
             "bin": "60–80%",

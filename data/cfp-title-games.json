@@ -25,7 +25,10 @@
     "Big 12 Conference": {
       "id": "401869533",
       "date": "2026-12-05T01:00Z",
-      "teams": [],
+      "teams": [
+        "254",
+        "2641"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261204"

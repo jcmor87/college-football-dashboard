@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T04:17:59+00:00",
+  "updated_at": "2026-11-27T07:32:10+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -1007,7 +1007,7 @@
       "name": "TCU Horned Frogs",
       "abbreviation": "TCU",
       "conference": "Big 12 Conference",
-      "record": "5-6",
+      "record": "5-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2628/tcu-horned-frogs"
     },
@@ -1061,7 +1061,7 @@
       "name": "Texas Tech Red Raiders",
       "abbreviation": "TTU",
       "conference": "Big 12 Conference",
-      "record": "10-1",
+      "record": "11-1",
       "rank": 9,
       "url": "https://www.espn.com/college-football/team/_/id/2641/texas-tech-red-raiders"
     },
@@ -1334,13 +1334,13 @@
       "date": "2026-11-27T01:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "4:27 - 4th",
+      "status": "Final",
       "scheduled": false,
       "away_id": "2628",
       "home_id": "2641",
       "away": "TCU Horned Frogs",
       "home": "Texas Tech Red Raiders",
-      "away_score": "20",
+      "away_score": "27",
       "home_score": "48"
     },
     {
@@ -1354,20 +1354,6 @@
       "home_id": "145",
       "away": "Mississippi State Bulldogs",
       "home": "Ole Miss Rebels",
-      "away_score": null,
-      "home_score": null
-    },
-    {
-      "id": "401858536",
-      "date": "2026-11-27T17:00Z",
-      "week": 13,
-      "time_tbd": false,
-      "status": "11/27 - 12:00 PM EST",
-      "scheduled": true,
-      "away_id": "158",
-      "home_id": "2294",
-      "away": "Nebraska Cornhuskers",
-      "home": "Iowa Hawkeyes",
       "away_score": null,
       "home_score": null
     },
@@ -1410,6 +1396,20 @@
       "home_id": "195",
       "away": "Toledo Rockets",
       "home": "Ohio Bobcats",
+      "away_score": null,
+      "home_score": null
+    },
+    {
+      "id": "401858536",
+      "date": "2026-11-27T17:08Z",
+      "week": 13,
+      "time_tbd": false,
+      "status": "11/27 - 12:08 PM EST",
+      "scheduled": true,
+      "away_id": "158",
+      "home_id": "2294",
+      "away": "Nebraska Cornhuskers",
+      "home": "Iowa Hawkeyes",
       "away_score": null,
       "home_score": null
     },

@@ -2067,10 +2067,10 @@
         "third_pct": 32.1
       },
       "strength": {
-        "pct": 51.8,
+        "pct": 52.3,
         "covered": 10,
         "played": 11,
-        "wins": 57,
+        "wins": 58,
         "losses": 53,
         "ties": 0
       },
@@ -2486,8 +2486,8 @@
         "pct": 51.8,
         "covered": 10,
         "played": 11,
-        "wins": 57,
-        "losses": 53,
+        "wins": 58,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -3315,11 +3315,11 @@
         "third_pct": 42.1
       },
       "strength": {
-        "pct": 50.0,
+        "pct": 49.5,
         "covered": 10,
         "played": 11,
         "wins": 55,
-        "losses": 55,
+        "losses": 56,
         "ties": 0
       },
       "ranked_results": {
@@ -4547,11 +4547,11 @@
         "third_pct": 50.7
       },
       "strength": {
-        "pct": 58.2,
+        "pct": 57.7,
         "covered": 10,
         "played": 11,
         "wins": 64,
-        "losses": 46,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
@@ -5379,11 +5379,11 @@
         "third_pct": 39.3
       },
       "strength": {
-        "pct": 59.1,
+        "pct": 58.9,
         "covered": 10,
         "played": 11,
-        "wins": 65,
-        "losses": 45,
+        "wins": 66,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -8724,10 +8724,10 @@
         "third_pct": 47.1
       },
       "strength": {
-        "pct": 61.3,
+        "pct": 61.6,
         "covered": 10,
         "played": 11,
-        "wins": 68,
+        "wins": 69,
         "losses": 43,
         "ties": 0
       },
@@ -9972,10 +9972,10 @@
         "third_pct": 40.4
       },
       "strength": {
-        "pct": 60.9,
+        "pct": 61.3,
         "covered": 10,
         "played": 11,
-        "wins": 67,
+        "wins": 68,
         "losses": 43,
         "ties": 0
       },
@@ -16661,10 +16661,10 @@
         "third_pct": 57.4
       },
       "strength": {
-        "pct": 60.0,
+        "pct": 60.4,
         "covered": 10,
         "played": 11,
-        "wins": 66,
+        "wins": 67,
         "losses": 44,
         "ties": 0
       },
@@ -17878,7 +17878,7 @@
         },
         {
           "id": "401858536",
-          "date": "2026-11-27T17:00Z",
+          "date": "2026-11-27T17:08Z",
           "time_tbd": false,
           "opponent_id": "158",
           "opponent": "Nebraska Cornhuskers",
@@ -19590,11 +19590,11 @@
         "third_pct": 37.4
       },
       "strength": {
-        "pct": 59.1,
+        "pct": 58.6,
         "covered": 10,
         "played": 11,
         "wins": 65,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -20006,11 +20006,11 @@
         "third_pct": 48.4
       },
       "strength": {
-        "pct": 50.9,
+        "pct": 50.5,
         "covered": 10,
         "played": 11,
         "wins": 56,
-        "losses": 54,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -30009,7 +30009,7 @@
         },
         {
           "id": "401858536",
-          "date": "2026-11-27T17:00Z",
+          "date": "2026-11-27T17:08Z",
           "time_tbd": false,
           "opponent_id": "2294",
           "opponent": "Iowa Hawkeyes",
@@ -31704,11 +31704,11 @@
         "third_pct": 46.5
       },
       "strength": {
-        "pct": 63.6,
+        "pct": 63.1,
         "covered": 10,
         "played": 11,
         "wins": 70,
-        "losses": 40,
+        "losses": 41,
         "ties": 0
       },
       "ranked_results": {
@@ -35448,10 +35448,10 @@
         "third_pct": 37.9
       },
       "strength": {
-        "pct": 57.3,
+        "pct": 57.7,
         "covered": 10,
         "played": 11,
-        "wins": 63,
+        "wins": 64,
         "losses": 47,
         "ties": 0
       },
@@ -37112,10 +37112,10 @@
         "third_pct": 44.9
       },
       "strength": {
-        "pct": 50.9,
+        "pct": 51.4,
         "covered": 10,
         "played": 11,
-        "wins": 56,
+        "wins": 57,
         "losses": 54,
         "ties": 0
       },
@@ -40440,10 +40440,10 @@
         "third_pct": 34.6
       },
       "strength": {
-        "pct": 55.5,
+        "pct": 55.9,
         "covered": 10,
         "played": 11,
-        "wins": 61,
+        "wins": 62,
         "losses": 49,
         "ties": 0
       },
@@ -43835,7 +43835,7 @@
     "2628": {
       "school": "TCU",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-      "conference_record": "3-5",
+      "conference_record": "3-6",
       "schedule_status": "available",
       "games": [
         {
@@ -44208,42 +44208,58 @@
           "opponent_id": "2641",
           "opponent": "Texas Tech Red Raiders",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 27,
+          "allowed": 48,
+          "result": "L",
           "opponent_rank_now": 9,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": 9,
+          "offense": {
+            "yards": 463,
+            "rushing": 245,
+            "passing": 218,
+            "turnovers": 2,
+            "third_made": 9,
+            "third_attempts": 18
+          },
+          "defense": {
+            "yards": 459,
+            "rushing": 87,
+            "passing": 372,
+            "turnovers": 1,
+            "third_made": 3,
+            "third_attempts": 8
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 22.8,
-        "allowed": 17.3,
-        "margin": 5.5,
-        "yards": 362.5,
-        "rushing": 110.7,
-        "passing": 251.8,
-        "turnovers": 1.5,
-        "yards_allowed": 315.0,
-        "third_pct": 43.5
+        "games": 12,
+        "points": 23.2,
+        "allowed": 19.8,
+        "margin": 3.3,
+        "yards": 370.9,
+        "rushing": 121.9,
+        "passing": 249.0,
+        "turnovers": 1.6,
+        "yards_allowed": 327.0,
+        "third_pct": 44.2
       },
       "strength": {
-        "pct": 56.4,
-        "covered": 10,
-        "played": 11,
-        "wins": 62,
-        "losses": 48,
+        "pct": 59.8,
+        "covered": 11,
+        "played": 12,
+        "wins": 73,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
         "W": 0,
-        "L": 3,
+        "L": 4,
         "T": 0,
         "unverified": 0
       }
@@ -46331,7 +46347,7 @@
     "2641": {
       "school": "Texas Tech",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-      "conference_record": "7-1",
+      "conference_record": "8-1",
       "schedule_status": "available",
       "games": [
         {
@@ -46704,12 +46720,45 @@
           "opponent_id": "2628",
           "opponent": "TCU Horned Frogs",
           "site": "Home",
-          "status": "In Progress",
+          "status": "Final",
+          "final": true,
+          "points": 48,
+          "allowed": 27,
+          "result": "W",
+          "opponent_rank_now": null,
+          "current_poll_available": true,
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 459,
+            "rushing": 87,
+            "passing": 372,
+            "turnovers": 1,
+            "third_made": 3,
+            "third_attempts": 8
+          },
+          "defense": {
+            "yards": 463,
+            "rushing": 245,
+            "passing": 218,
+            "turnovers": 2,
+            "third_made": 9,
+            "third_attempts": 18
+          }
+        },
+        {
+          "id": "401869533",
+          "date": "2026-12-05T01:00Z",
+          "time_tbd": false,
+          "opponent_id": "254",
+          "opponent": "Utah Utes",
+          "site": "Neutral",
+          "status": "Scheduled",
           "final": false,
           "points": null,
           "allowed": null,
           "result": null,
-          "opponent_rank_now": null,
+          "opponent_rank_now": 2,
           "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
@@ -46718,23 +46767,23 @@
       "previous_rank": 11,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 37.3,
-        "allowed": 23.1,
-        "margin": 14.2,
-        "yards": 444.4,
-        "rushing": 212.5,
-        "passing": 231.9,
+        "games": 12,
+        "points": 38.2,
+        "allowed": 23.4,
+        "margin": 14.8,
+        "yards": 445.6,
+        "rushing": 202.0,
+        "passing": 243.6,
         "turnovers": 1.5,
-        "yards_allowed": 395.7,
+        "yards_allowed": 401.3,
         "third_pct": 38.2
       },
       "strength": {
-        "pct": 51.8,
-        "covered": 10,
-        "played": 11,
-        "wins": 57,
-        "losses": 53,
+        "pct": 50.8,
+        "covered": 11,
+        "played": 12,
+        "wins": 62,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
@@ -49226,11 +49275,11 @@
         "third_pct": 36.5
       },
       "strength": {
-        "pct": 55.5,
+        "pct": 55.0,
         "covered": 10,
         "played": 11,
         "wins": 61,
-        "losses": 49,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -52953,6 +53002,23 @@
           "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
+        },
+        {
+          "id": "401869533",
+          "date": "2026-12-05T01:00Z",
+          "time_tbd": false,
+          "opponent_id": "2641",
+          "opponent": "Texas Tech Red Raiders",
+          "site": "Neutral",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": 9,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": 2,
@@ -52970,11 +53036,11 @@
         "third_pct": 52.9
       },
       "strength": {
-        "pct": 51.8,
+        "pct": 51.4,
         "covered": 10,
         "played": 11,
         "wins": 57,
-        "losses": 53,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -55899,11 +55965,11 @@
         "third_pct": 44.0
       },
       "strength": {
-        "pct": 57.3,
+        "pct": 57.1,
         "covered": 10,
         "played": 11,
-        "wins": 63,
-        "losses": 47,
+        "wins": 64,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
