@@ -66,7 +66,10 @@
     "Mid-American Conference": {
       "id": "401869536",
       "date": "2026-12-05T17:00Z",
-      "teams": [],
+      "teams": [
+        "2084",
+        "2649"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261205"
