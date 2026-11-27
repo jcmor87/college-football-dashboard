@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-27T01:31:19.745367+00:00",
-  "dashboard_updated_at": "2026-11-27T01:29:42+00:00",
+  "checked_at": "2026-11-27T04:19:43.658034+00:00",
+  "dashboard_updated_at": "2026-11-27T04:17:59+00:00",
   "archive_count": 436,
   "power_cutoff": "2026-11-27T00:00:00+00:00",
   "prediction_cutoff": "2026-11-27T00:00:00+00:00",
@@ -11,12 +11,12 @@
     "team-profiles.mjs": "d79a1dc08c4d7c31fa18df2b3a6f9c678bb6b4ff3e1c360a370f571e23dc19a3",
     "nd-command.mjs": "80b5151ad445a875adefc1da8d3c8c9edf0a1d72d76710ed95777d127b1cb90f",
     "notre-dame-news.mjs": "7b52c7a432b23a0bc4f0dd5d8340ac18141a9d2bcad4c71c5dee88f0062a0ee1",
-    "data/notre-dame-news.json": "8977a08e3c2ceaa4a1082e025d04449b7607e7175f43e7c4c6f54a714d747ed8",
+    "data/notre-dame-news.json": "92775a15e5b5a1c32d37f4b9c6edb4acfbc311e6b7345acf58a981a7aa8fa0b6",
     "notre-dame-roster.mjs": "4b9114b45a5acadcd23ff44a82f897199491fe5872c536f38b81e7a91e057564",
-    "data/notre-dame-roster.json": "4d5db601526692d964817cf1eb613517767710f7f91ffe6f75eca05eb7d49475",
+    "data/notre-dame-roster.json": "519d6315a5a5fff1aded4aedc93b4903543fcaf6980f70ad944250b1c6f09a8c",
     "power-rankings.mjs": "2190d33e4086c1694048cdf41903967e76c46537804bc74ce4f65cbd850f4cb1",
     "game-predictions.mjs": "72b45070bfb7dacdef4e1b7b99ddcb88eefe9667f92552d7b44e99137e441c13",
-    "data/dashboard.json": "3acca23e6615fd71e44e41bc7975a0f1656916aae0a63b4c3eda5f0035c9f522",
+    "data/dashboard.json": "d8a2037b167dac69681e848b97408eddb90216efb5247fb33d72e80d7be36dad",
     "data/team-profiles.json": "4a05c4ec998fcccfe2659eba4f61008a266d518f1038c4fd45b08eb42f375adc",
     "data/ap-rankings/2026/index.json": "e939e05fc09c376bf3e974e9187b60e67914750018fea08a7727818691f7d2f8",
     "data/power-rankings/latest.json": "db9ed568b19498987566ca99c6d597cad417ce4cccb1782ce6faddff8553d032",
@@ -28,6 +28,6 @@
     "playoff-simulation.mjs": "5680be63035f76e4263b53b110f0d9e21b5ed5fcc43eddcc014629a72483a2cf",
     "playoff-simulator-ui.mjs": "12f8e2334f5188372c83a3c086065399a0a6803da568a74ef1e1bb159dd948d1",
     "playoff-worker.mjs": "367a4f1bb6375184ad42bda75c988537876eabd546f23fa54321bc3c1294a0d9",
-    "data/playoff-simulation.json": "3e0c8ce12e5dfa643293a5f5363f1c66cfd31ef0afc2a6395d1bbc337c415e4d"
+    "data/playoff-simulation.json": "093742f7e9cffeee3305d3260a0f237a6f6de0e1d66c96a6c360be5b732d7d4c"
   }
 }

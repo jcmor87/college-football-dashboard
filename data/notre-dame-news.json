@@ -1,8 +1,14 @@
 {
-  "last_success_at": "2026-11-27T01:31:11.217869+00:00",
+  "last_success_at": "2026-11-27T04:19:35.034327+00:00",
   "status": "current",
   "failed_sources": [],
   "articles": [
+    {
+      "title": "Code Red for the Orange",
+      "url": "https://ndnation.com/code-red-for-the-orange/",
+      "source": "NDNation",
+      "published_at": "2026-11-27T01:54:07+00:00"
+    },
     {
       "title": "Moore Selected As Finalist for Lott IMPACT Trophy",
       "url": "https://fightingirish.com/news/2026/11/25/moore-selected-as-finalist-for-lott-impact-trophy",
@@ -80,12 +86,6 @@
       "url": "https://ndnation.com/taking-care-of-business/",
       "source": "NDNation",
       "published_at": "2026-11-15T06:08:34+00:00"
-    },
-    {
-      "title": "Irish Host Erratic Eagles",
-      "url": "https://ndnation.com/irish-host-erratic-eagles/",
-      "source": "NDNation",
-      "published_at": "2026-11-13T04:09:51+00:00"
     }
   ]
 }
