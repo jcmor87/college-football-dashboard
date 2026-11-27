@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T04:17:55+00:00",
+  "updated_at": "2026-11-27T01:29:42+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -1334,14 +1334,14 @@
       "date": "2026-11-27T01:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/26 - 8:00 PM EST",
-      "scheduled": true,
+      "status": "5:35 - 1st",
+      "scheduled": false,
       "away_id": "2628",
       "home_id": "2641",
       "away": "TCU Horned Frogs",
       "home": "Texas Tech Red Raiders",
-      "away_score": null,
-      "home_score": null
+      "away_score": "0",
+      "home_score": "0"
     },
     {
       "id": "401856762",
