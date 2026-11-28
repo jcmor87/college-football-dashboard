@@ -47,7 +47,9 @@
     "Mountain West Conference": {
       "id": "401874049",
       "date": "2026-12-05T02:00Z",
-      "teams": [],
+      "teams": [
+        "167"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261204"
@@ -78,6 +80,7 @@
       "id": "401869545",
       "date": "2026-12-05T21:00Z",
       "teams": [
+        "251",
         "61"
       ],
       "status": "Scheduled",
@@ -87,7 +90,9 @@
     "American Conference": {
       "id": "401869532",
       "date": "2026-12-06T01:00Z",
-      "teams": [],
+      "teams": [
+        "2636"
+      ],
       "status": "Scheduled",
       "winner": null,
       "source_date": "20261205"

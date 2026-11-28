@@ -7807,6 +7807,62 @@
       ]
     },
     {
+      "id": "401869545",
+      "kickoff": "2026-12-05T21:00:00+00:00",
+      "week": "2026-12-01",
+      "first": "251",
+      "second": "61",
+      "venue": 0,
+      "status": "Scheduled",
+      "actual": null,
+      "prediction": {
+        "id": "401869545",
+        "first": "251",
+        "second": "61",
+        "kickoff": "2026-12-05T21:00:00+00:00",
+        "input_cutoff": "2026-11-28T00:00:00+00:00",
+        "model": "prediction-v1-7cc6429ce3314b79",
+        "power_model": "v1-d3da59079def",
+        "parameters": {
+          "rating_points": 0.31957211,
+          "home_points": 4.33755515,
+          "scale": 10
+        },
+        "rating_first": 92.572464,
+        "rating_second": 93.224638,
+        "venue": 0,
+        "margin": -0.208,
+        "probability": 0.4948,
+        "confidence": "low",
+        "rating_points": -0.208,
+        "venue_points": 0.0,
+        "baselines": {
+          "home": {
+            "margin": 0,
+            "probability": 0.5
+          },
+          "raw_margin": {
+            "margin": -4.404545454545453,
+            "probability": 0.40925513636073085
+          }
+        },
+        "generated_at": "2026-11-28T13:11:53.706143+00:00",
+        "revision": "f5519cfb38f16857"
+      },
+      "revisions": 1,
+      "is_preview": false,
+      "history": [
+        {
+          "at": "2026-11-28T13:11:53.706143+00:00",
+          "model": "prediction-v1-7cc6429ce3314b79",
+          "id": "f5519cfb38f16857",
+          "margin": -0.208,
+          "probability": 0.4948,
+          "selected": true
+        }
+      ]
+    },
+    {
       "id": "401862844",
       "kickoff": "2026-12-12T20:00:00+00:00",
       "week": "2026-12-08",

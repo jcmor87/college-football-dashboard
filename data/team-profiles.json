@@ -14665,16 +14665,16 @@
           "id": "401869545",
           "date": "2026-12-05T21:00Z",
           "time_tbd": false,
-          "opponent_id": "-2",
-          "opponent": "TBD",
+          "opponent_id": "251",
+          "opponent": "Texas Longhorns",
           "site": "Neutral",
           "status": "Scheduled",
           "final": false,
           "points": null,
           "allowed": null,
           "result": null,
-          "opponent_rank_now": null,
-          "current_poll_available": false,
+          "opponent_rank_now": 5,
+          "current_poll_available": true,
           "game_poll_date": null,
           "opponent_rank_at_game": null
         }
@@ -31064,6 +31064,23 @@
             "third_made": 5,
             "third_attempts": 15
           }
+        },
+        {
+          "id": "401874049",
+          "date": "2026-12-05T02:00Z",
+          "time_tbd": false,
+          "opponent_id": "-2",
+          "opponent": "TBD",
+          "site": "Home",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": false,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
@@ -46234,6 +46251,23 @@
             "third_made": 5,
             "third_attempts": 15
           }
+        },
+        {
+          "id": "401869545",
+          "date": "2026-12-05T21:00Z",
+          "time_tbd": false,
+          "opponent_id": "61",
+          "opponent": "Georgia Bulldogs",
+          "site": "Neutral",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": 1,
+          "current_poll_available": true,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": 8,
@@ -52572,6 +52606,23 @@
             "third_made": 3,
             "third_attempts": 10
           }
+        },
+        {
+          "id": "401869532",
+          "date": "2026-12-06T01:00Z",
+          "time_tbd": false,
+          "opponent_id": "-2",
+          "opponent": "TBD",
+          "site": "Home",
+          "status": "Scheduled",
+          "final": false,
+          "points": null,
+          "allowed": null,
+          "result": null,
+          "opponent_rank_now": null,
+          "current_poll_available": false,
+          "game_poll_date": null,
+          "opponent_rank_at_game": null
         }
       ],
       "previous_rank": null,
