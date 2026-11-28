@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T04:05:56+00:00",
+  "updated_at": "2026-11-28T07:26:53+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -1196,7 +1196,7 @@
       "name": "Utah Utes",
       "abbreviation": "UTAH",
       "conference": "Big 12 Conference",
-      "record": "11-0",
+      "record": "12-0",
       "rank": 2,
       "url": "https://www.espn.com/college-football/team/_/id/254/utah-utes"
     },
@@ -1259,7 +1259,7 @@
       "name": "West Virginia Mountaineers",
       "abbreviation": "WVU",
       "conference": "Big 12 Conference",
-      "record": "5-6",
+      "record": "5-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/277/west-virginia-mountaineers"
     },
@@ -1516,14 +1516,14 @@
       "date": "2026-11-28T02:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "Halftime",
+      "status": "Final",
       "scheduled": false,
       "away_id": "277",
       "home_id": "254",
       "away": "West Virginia Mountaineers",
       "home": "Utah Utes",
-      "away_score": "7",
-      "home_score": "38"
+      "away_score": "28",
+      "home_score": "52"
     },
     {
       "id": "401856761",

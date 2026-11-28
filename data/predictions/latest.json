@@ -1754,8 +1754,11 @@
       "first": "254",
       "second": "277",
       "venue": 1,
-      "status": "Halftime",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 52,
+        "second": 28
+      },
       "prediction": {
         "id": "401856880",
         "first": "254",
@@ -7910,11 +7913,11 @@
   ],
   "live": {
     "engine": {
-      "games": 20,
-      "decisive": 20,
-      "accuracy": 0.8,
-      "mae": 8.806,
-      "brier": 0.20693,
+      "games": 21,
+      "decisive": 21,
+      "accuracy": 0.8095,
+      "mae": 8.723,
+      "brier": 0.19822,
       "calibration": [
         {
           "bin": "0–20%",
@@ -7942,33 +7945,33 @@
         },
         {
           "bin": "80–100%",
-          "games": 1,
-          "expected": 0.8059,
+          "games": 2,
+          "expected": 0.8252,
           "observed": 1
         }
       ]
     },
     "home": {
-      "games": 20,
-      "decisive": 20,
-      "accuracy": 0.5,
-      "mae": 11.3,
-      "brier": 0.25387,
+      "games": 21,
+      "decisive": 21,
+      "accuracy": 0.5238,
+      "mae": 11.762,
+      "brier": 0.25091,
       "calibration": [
         {
           "bin": "40–60%",
-          "games": 20,
-          "expected": 0.5,
-          "observed": 0.5
+          "games": 21,
+          "expected": 0.503,
+          "observed": 0.5238
         }
       ]
     },
     "raw_margin": {
-      "games": 20,
-      "decisive": 20,
-      "accuracy": 0.7,
-      "mae": 9.258,
-      "brier": 0.21807,
+      "games": 21,
+      "decisive": 21,
+      "accuracy": 0.7143,
+      "mae": 9.32,
+      "brier": 0.21056,
       "calibration": [
         {
           "bin": "20–40%",
@@ -7984,8 +7987,8 @@
         },
         {
           "bin": "60–80%",
-          "games": 5,
-          "expected": 0.6422,
+          "games": 6,
+          "expected": 0.6608,
           "observed": 1
         }
       ]
@@ -8021,11 +8024,11 @@
       },
       {
         "week": "2026-11-24",
-        "games": 15,
-        "decisive": 15,
-        "accuracy": 0.8,
-        "mae": 9.016,
-        "brier": 0.19197,
+        "games": 16,
+        "decisive": 16,
+        "accuracy": 0.8125,
+        "mae": 8.894,
+        "brier": 0.18148,
         "calibration": [
           {
             "bin": "0–20%",
@@ -8053,8 +8056,8 @@
           },
           {
             "bin": "80–100%",
-            "games": 1,
-            "expected": 0.8059,
+            "games": 2,
+            "expected": 0.8252,
             "observed": 1
           }
         ]
