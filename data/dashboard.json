@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T22:05:51+00:00",
+  "updated_at": "2026-11-28T01:27:09+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -62,7 +62,7 @@
       "name": "Air Force Falcons",
       "abbreviation": "AFA",
       "conference": "Mountain West Conference",
-      "record": "9-2",
+      "record": "9-3",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2005/air-force-falcons"
     },
@@ -89,7 +89,7 @@
       "name": "App State Mountaineers",
       "abbreviation": "APP",
       "conference": "Sun Belt Conference",
-      "record": "7-4",
+      "record": "7-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2026/app-state-mountaineers"
     },
@@ -332,7 +332,7 @@
       "name": "Florida Gators",
       "abbreviation": "FLA",
       "conference": "Southeastern Conference",
-      "record": "7-4",
+      "record": "8-4",
       "rank": 20,
       "url": "https://www.espn.com/college-football/team/_/id/57/florida-gators"
     },
@@ -350,7 +350,7 @@
       "name": "Florida State Seminoles",
       "abbreviation": "FSU",
       "conference": "Atlantic Coast Conference",
-      "record": "5-6",
+      "record": "5-7",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/52/florida-state-seminoles"
     },
@@ -593,7 +593,7 @@
       "name": "Memphis Tigers",
       "abbreviation": "MEM",
       "conference": "American Conference",
-      "record": "8-3",
+      "record": "8-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/235/memphis-tigers"
     },
@@ -719,7 +719,7 @@
       "name": "New Mexico Lobos",
       "abbreviation": "UNM",
       "conference": "Mountain West Conference",
-      "record": "9-2",
+      "record": "10-2",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/167/new-mexico-lobos"
     },
@@ -746,7 +746,7 @@
       "name": "North Dakota State Bison",
       "abbreviation": "NDSU",
       "conference": "Mountain West Conference",
-      "record": "9-2",
+      "record": "10-2",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/2449/north-dakota-state-bison"
     },
@@ -944,7 +944,7 @@
       "name": "San José State Spartans",
       "abbreviation": "SJSU",
       "conference": "Mountain West Conference",
-      "record": "5-7",
+      "record": "5-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/23/san-jose-state-spartans"
     },
@@ -953,7 +953,7 @@
       "name": "South Alabama Jaguars",
       "abbreviation": "USA",
       "conference": "Sun Belt Conference",
-      "record": "6-5",
+      "record": "7-5",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/6/south-alabama-jaguars"
     },
@@ -1016,7 +1016,7 @@
       "name": "Temple Owls",
       "abbreviation": "TEM",
       "conference": "American Conference",
-      "record": "2-9",
+      "record": "3-9",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/218/temple-owls"
     },
@@ -1418,98 +1418,98 @@
       "date": "2026-11-27T20:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "3:04 - 3rd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "2026",
       "home_id": "6",
       "away": "App State Mountaineers",
       "home": "South Alabama Jaguars",
       "away_score": "13",
-      "home_score": "10"
+      "home_score": "20"
     },
     {
       "id": "401856759",
       "date": "2026-11-27T20:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "0:45 - 2nd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "57",
       "home_id": "52",
       "away": "Florida Gators",
       "home": "Florida State Seminoles",
-      "away_score": "10",
-      "home_score": "3"
+      "away_score": "26",
+      "home_score": "10"
     },
     {
       "id": "401862838",
       "date": "2026-11-27T20:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "Halftime",
+      "status": "Final",
       "scheduled": false,
       "away_id": "218",
       "home_id": "235",
       "away": "Temple Owls",
       "home": "Memphis Tigers",
-      "away_score": "7",
-      "home_score": "17"
+      "away_score": "35",
+      "home_score": "31"
     },
     {
       "id": "401864549",
       "date": "2026-11-27T20:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "1:07 - 2nd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "2449",
       "home_id": "23",
       "away": "North Dakota State Bison",
       "home": "San José State Spartans",
-      "away_score": "24",
-      "home_score": "14"
+      "away_score": "38",
+      "home_score": "31"
     },
     {
       "id": "401864546",
       "date": "2026-11-27T21:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "3:59 - 1st",
+      "status": "Final",
       "scheduled": false,
       "away_id": "2005",
       "home_id": "167",
       "away": "Air Force Falcons",
       "home": "New Mexico Lobos",
-      "away_score": "7",
-      "home_score": "0"
+      "away_score": "19",
+      "home_score": "42"
     },
     {
       "id": "401856756",
       "date": "2026-11-28T00:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/27 - 7:30 PM EST",
-      "scheduled": true,
+      "status": "13:11 - 2nd",
+      "scheduled": false,
       "away_id": "251",
       "home_id": "245",
       "away": "Texas Longhorns",
       "home": "Texas A&M Aggies",
-      "away_score": null,
-      "home_score": null
+      "away_score": "3",
+      "home_score": "0"
     },
     {
       "id": "401858544",
       "date": "2026-11-28T00:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/27 - 7:30 PM EST",
-      "scheduled": true,
+      "status": "14:01 - 2nd",
+      "scheduled": false,
       "away_id": "135",
       "home_id": "275",
       "away": "Minnesota Golden Gophers",
       "home": "Wisconsin Badgers",
-      "away_score": null,
-      "home_score": null
+      "away_score": "3",
+      "home_score": "7"
     },
     {
       "id": "401856880",
