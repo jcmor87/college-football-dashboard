@@ -1556,8 +1556,11 @@
       "first": "245",
       "second": "251",
       "venue": 1,
-      "status": "In Progress",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 6,
+        "second": 16
+      },
       "prediction": {
         "id": "401856756",
         "first": "245",
@@ -1652,8 +1655,11 @@
       "first": "135",
       "second": "275",
       "venue": -1,
-      "status": "In Progress",
-      "actual": null,
+      "status": "Final",
+      "actual": {
+        "first": 5,
+        "second": 28
+      },
       "prediction": {
         "id": "401858544",
         "first": "135",
@@ -1748,7 +1754,7 @@
       "first": "254",
       "second": "277",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "Halftime",
       "actual": null,
       "prediction": {
         "id": "401856880",
@@ -7904,11 +7910,11 @@
   ],
   "live": {
     "engine": {
-      "games": 18,
-      "decisive": 18,
-      "accuracy": 0.7778,
-      "mae": 9.171,
-      "brier": 0.2228,
+      "games": 20,
+      "decisive": 20,
+      "accuracy": 0.8,
+      "mae": 8.806,
+      "brier": 0.20693,
       "calibration": [
         {
           "bin": "0–20%",
@@ -7918,9 +7924,9 @@
         },
         {
           "bin": "20–40%",
-          "games": 8,
-          "expected": 0.2932,
-          "observed": 0.25
+          "games": 10,
+          "expected": 0.2848,
+          "observed": 0.2
         },
         {
           "bin": "40–60%",
@@ -7943,32 +7949,32 @@
       ]
     },
     "home": {
-      "games": 18,
-      "decisive": 18,
+      "games": 20,
+      "decisive": 20,
       "accuracy": 0.5,
-      "mae": 10.722,
+      "mae": 11.3,
       "brier": 0.25387,
       "calibration": [
         {
           "bin": "40–60%",
-          "games": 18,
+          "games": 20,
           "expected": 0.5,
-          "observed": 0.5556
+          "observed": 0.5
         }
       ]
     },
     "raw_margin": {
-      "games": 18,
-      "decisive": 18,
-      "accuracy": 0.6667,
-      "mae": 9.256,
-      "brier": 0.22811,
+      "games": 20,
+      "decisive": 20,
+      "accuracy": 0.7,
+      "mae": 9.258,
+      "brier": 0.21807,
       "calibration": [
         {
           "bin": "20–40%",
-          "games": 6,
-          "expected": 0.3234,
-          "observed": 0.5
+          "games": 8,
+          "expected": 0.3313,
+          "observed": 0.375
         },
         {
           "bin": "40–60%",
@@ -8015,11 +8021,11 @@
       },
       {
         "week": "2026-11-24",
-        "games": 13,
-        "decisive": 13,
-        "accuracy": 0.7692,
-        "mae": 9.555,
-        "brier": 0.21165,
+        "games": 15,
+        "decisive": 15,
+        "accuracy": 0.8,
+        "mae": 9.016,
+        "brier": 0.19197,
         "calibration": [
           {
             "bin": "0–20%",
@@ -8029,9 +8035,9 @@
           },
           {
             "bin": "20–40%",
-            "games": 7,
-            "expected": 0.3047,
-            "observed": 0.1429
+            "games": 9,
+            "expected": 0.2928,
+            "observed": 0.1111
           },
           {
             "bin": "40–60%",

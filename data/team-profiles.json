@@ -851,11 +851,11 @@
         "third_pct": 37.4
       },
       "strength": {
-        "pct": 58.3,
+        "pct": 57.8,
         "covered": 11,
         "played": 12,
         "wins": 74,
-        "losses": 53,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -1267,11 +1267,11 @@
         "third_pct": 42.7
       },
       "strength": {
-        "pct": 56.2,
+        "pct": 55.8,
         "covered": 10,
         "played": 11,
         "wins": 63,
-        "losses": 49,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -2115,11 +2115,11 @@
         "third_pct": 32.1
       },
       "strength": {
-        "pct": 52.3,
+        "pct": 51.8,
         "covered": 10,
         "played": 11,
         "wins": 58,
-        "losses": 53,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -2947,11 +2947,11 @@
         "third_pct": 40.5
       },
       "strength": {
-        "pct": 66.7,
+        "pct": 66.4,
         "covered": 10,
         "played": 11,
-        "wins": 74,
-        "losses": 37,
+        "wins": 75,
+        "losses": 38,
         "ties": 0
       },
       "ranked_results": {
@@ -5860,11 +5860,11 @@
         "third_pct": 50.7
       },
       "strength": {
-        "pct": 51.5,
-        "covered": 9,
+        "pct": 51.8,
+        "covered": 10,
         "played": 11,
-        "wins": 52,
-        "losses": 49,
+        "wins": 58,
+        "losses": 54,
         "ties": 0
       },
       "ranked_results": {
@@ -10469,11 +10469,11 @@
         "third_pct": 43.3
       },
       "strength": {
-        "pct": 60.0,
-        "covered": 9,
+        "pct": 59.5,
+        "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 40,
+        "wins": 66,
+        "losses": 45,
         "ties": 0
       },
       "ranked_results": {
@@ -12149,10 +12149,10 @@
         "third_pct": 34.3
       },
       "strength": {
-        "pct": 45.3,
+        "pct": 45.7,
         "covered": 11,
         "played": 12,
-        "wins": 58,
+        "wins": 59,
         "losses": 70,
         "ties": 0
       },
@@ -12997,10 +12997,10 @@
         "third_pct": 44.6
       },
       "strength": {
-        "pct": 62.6,
+        "pct": 62.9,
         "covered": 11,
         "played": 12,
-        "wins": 77,
+        "wins": 78,
         "losses": 46,
         "ties": 0
       },
@@ -14261,11 +14261,11 @@
         "third_pct": 41.2
       },
       "strength": {
-        "pct": 42.9,
-        "covered": 10,
+        "pct": 43.9,
+        "covered": 11,
         "played": 11,
-        "wins": 48,
-        "losses": 64,
+        "wins": 54,
+        "losses": 69,
         "ties": 0
       },
       "ranked_results": {
@@ -16774,11 +16774,11 @@
         "third_pct": 57.4
       },
       "strength": {
-        "pct": 61.0,
-        "covered": 9,
+        "pct": 60.4,
+        "covered": 10,
         "played": 11,
-        "wins": 61,
-        "losses": 39,
+        "wins": 67,
+        "losses": 44,
         "ties": 0
       },
       "ranked_results": {
@@ -17606,11 +17606,11 @@
         "third_pct": 38.5
       },
       "strength": {
-        "pct": 55.0,
+        "pct": 54.5,
         "covered": 10,
         "played": 11,
         "wins": 61,
-        "losses": 50,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -18041,8 +18041,8 @@
         "pct": 49.2,
         "covered": 11,
         "played": 12,
-        "wins": 60,
-        "losses": 62,
+        "wins": 61,
+        "losses": 63,
         "ties": 0
       },
       "ranked_results": {
@@ -21399,11 +21399,11 @@
         "third_pct": 37.7
       },
       "strength": {
-        "pct": 59.8,
+        "pct": 59.3,
         "covered": 10,
         "played": 11,
         "wins": 67,
-        "losses": 45,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -21815,11 +21815,11 @@
         "third_pct": 47.9
       },
       "strength": {
-        "pct": 66.1,
+        "pct": 65.8,
         "covered": 10,
         "played": 11,
-        "wins": 74,
-        "losses": 38,
+        "wins": 75,
+        "losses": 39,
         "ties": 0
       },
       "ranked_results": {
@@ -24328,10 +24328,10 @@
         "third_pct": 35.9
       },
       "strength": {
-        "pct": 56.8,
+        "pct": 57.1,
         "covered": 10,
         "played": 11,
-        "wins": 63,
+        "wins": 64,
         "losses": 48,
         "ties": 0
       },
@@ -26457,10 +26457,10 @@
         "third_pct": 38.8
       },
       "strength": {
-        "pct": 66.1,
+        "pct": 66.4,
         "covered": 11,
         "played": 11,
-        "wins": 82,
+        "wins": 83,
         "losses": 42,
         "ties": 0
       },
@@ -26873,11 +26873,11 @@
         "third_pct": 40.0
       },
       "strength": {
-        "pct": 57.7,
+        "pct": 57.3,
         "covered": 11,
         "played": 11,
         "wins": 71,
-        "losses": 52,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -27306,7 +27306,7 @@
     "135": {
       "school": "Minnesota",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-      "conference_record": "4-4",
+      "conference_record": "4-5",
       "schedule_status": "available",
       "games": [
         {
@@ -27679,37 +27679,53 @@
           "opponent_id": "275",
           "opponent": "Wisconsin Badgers",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 5,
+          "allowed": 28,
+          "result": "L",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 115,
+            "rushing": 11,
+            "passing": 104,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 11
+          },
+          "defense": {
+            "yards": 482,
+            "rushing": 265,
+            "passing": 217,
+            "turnovers": 2,
+            "third_made": 9,
+            "third_attempts": 15
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 23.3,
-        "allowed": 23.4,
-        "margin": -0.1,
-        "yards": 306.6,
-        "rushing": 98.5,
-        "passing": 208.2,
-        "turnovers": 1.0,
-        "yards_allowed": 329.3,
-        "third_pct": 30.9
+        "games": 12,
+        "points": 21.8,
+        "allowed": 23.8,
+        "margin": -2.0,
+        "yards": 290.7,
+        "rushing": 91.2,
+        "passing": 199.5,
+        "turnovers": 0.9,
+        "yards_allowed": 342.0,
+        "third_pct": 30.1
       },
       "strength": {
-        "pct": 56.6,
-        "covered": 10,
-        "played": 11,
-        "wins": 64,
-        "losses": 49,
+        "pct": 57.6,
+        "covered": 11,
+        "played": 12,
+        "wins": 72,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -28137,11 +28153,11 @@
         "third_pct": 37.0
       },
       "strength": {
-        "pct": 58.2,
+        "pct": 58.1,
         "covered": 11,
         "played": 12,
-        "wins": 71,
-        "losses": 51,
+        "wins": 72,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -28553,11 +28569,11 @@
         "third_pct": 35.5
       },
       "strength": {
-        "pct": 43.6,
+        "pct": 43.2,
         "covered": 10,
         "played": 11,
         "wins": 48,
-        "losses": 62,
+        "losses": 63,
         "ties": 0
       },
       "ranked_results": {
@@ -28969,11 +28985,11 @@
         "third_pct": 38.9
       },
       "strength": {
-        "pct": 55.8,
+        "pct": 55.7,
         "covered": 10,
         "played": 11,
-        "wins": 63,
-        "losses": 50,
+        "wins": 64,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -33577,11 +33593,11 @@
         "third_pct": 42.3
       },
       "strength": {
-        "pct": 53.2,
+        "pct": 52.7,
         "covered": 10,
         "played": 11,
         "wins": 59,
-        "losses": 52,
+        "losses": 53,
         "ties": 0
       },
       "ranked_results": {
@@ -33993,10 +34009,10 @@
         "third_pct": 45.7
       },
       "strength": {
-        "pct": 50.8,
+        "pct": 51.2,
         "covered": 11,
         "played": 11,
-        "wins": 61,
+        "wins": 62,
         "losses": 59,
         "ties": 0
       },
@@ -34841,10 +34857,10 @@
         "third_pct": 45.3
       },
       "strength": {
-        "pct": 58.9,
+        "pct": 59.2,
         "covered": 11,
         "played": 11,
-        "wins": 73,
+        "wins": 74,
         "losses": 51,
         "ties": 0
       },
@@ -35257,11 +35273,11 @@
         "third_pct": 41.1
       },
       "strength": {
-        "pct": 59.2,
+        "pct": 59.1,
         "covered": 11,
         "played": 11,
-        "wins": 74,
-        "losses": 51,
+        "wins": 75,
+        "losses": 52,
         "ties": 0
       },
       "ranked_results": {
@@ -36521,10 +36537,10 @@
         "third_pct": 50.6
       },
       "strength": {
-        "pct": 58.5,
+        "pct": 58.9,
         "covered": 11,
         "played": 12,
-        "wins": 72,
+        "wins": 73,
         "losses": 51,
         "ties": 0
       },
@@ -36955,7 +36971,7 @@
       "school": "Oregon State",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
       "conference_record": "4-3",
-      "schedule_status": "stale",
+      "schedule_status": "available",
       "games": [
         {
           "id": "401856778",
@@ -37772,8 +37788,8 @@
         "pct": 52.0,
         "covered": 11,
         "played": 11,
-        "wins": 64,
-        "losses": 59,
+        "wins": 65,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
@@ -38601,11 +38617,11 @@
         "third_pct": 41.5
       },
       "strength": {
-        "pct": 68.5,
+        "pct": 68.1,
         "covered": 10,
         "played": 11,
-        "wins": 76,
-        "losses": 35,
+        "wins": 77,
+        "losses": 36,
         "ties": 0
       },
       "ranked_results": {
@@ -39433,10 +39449,10 @@
         "third_pct": 35.0
       },
       "strength": {
-        "pct": 56.8,
+        "pct": 57.1,
         "covered": 10,
         "played": 11,
-        "wins": 63,
+        "wins": 64,
         "losses": 48,
         "ties": 0
       },
@@ -41114,11 +41130,11 @@
         "third_pct": 36.9
       },
       "strength": {
-        "pct": 59.0,
-        "covered": 9,
+        "pct": 58.6,
+        "covered": 10,
         "played": 11,
-        "wins": 59,
-        "losses": 41,
+        "wins": 65,
+        "losses": 46,
         "ties": 0
       },
       "ranked_results": {
@@ -42427,11 +42443,11 @@
         "third_pct": 46.4
       },
       "strength": {
-        "pct": 58.4,
+        "pct": 57.9,
         "covered": 10,
         "played": 11,
         "wins": 66,
-        "losses": 47,
+        "losses": 48,
         "ties": 0
       },
       "ranked_results": {
@@ -45374,8 +45390,8 @@
         "pct": 54.5,
         "covered": 10,
         "played": 11,
-        "wins": 60,
-        "losses": 50,
+        "wins": 61,
+        "losses": 51,
         "ties": 0
       },
       "ranked_results": {
@@ -45388,7 +45404,7 @@
     "245": {
       "school": "Texas A&M",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-      "conference_record": "1-7",
+      "conference_record": "1-8",
       "schedule_status": "available",
       "games": [
         {
@@ -45761,42 +45777,58 @@
           "opponent_id": "251",
           "opponent": "Texas Longhorns",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 6,
+          "allowed": 16,
+          "result": "L",
           "opponent_rank_now": 5,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": 5,
+          "offense": {
+            "yards": 234,
+            "rushing": 33,
+            "passing": 201,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 242,
+            "rushing": 99,
+            "passing": 143,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 17
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 22.6,
-        "allowed": 19.8,
-        "margin": 2.8,
-        "yards": 327.0,
-        "rushing": 144.5,
-        "passing": 182.5,
+        "games": 12,
+        "points": 21.2,
+        "allowed": 19.5,
+        "margin": 1.8,
+        "yards": 319.2,
+        "rushing": 135.2,
+        "passing": 184.1,
         "turnovers": 1.3,
-        "yards_allowed": 328.3,
-        "third_pct": 38.7
+        "yards_allowed": 321.1,
+        "third_pct": 38.2
       },
       "strength": {
-        "pct": 59.1,
-        "covered": 10,
-        "played": 11,
-        "wins": 65,
-        "losses": 45,
+        "pct": 61.5,
+        "covered": 11,
+        "played": 12,
+        "wins": 75,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
         "W": 0,
-        "L": 5,
+        "L": 6,
         "T": 0,
         "unverified": 0
       }
@@ -45804,7 +45836,7 @@
     "251": {
       "school": "Texas",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-      "conference_record": "6-2",
+      "conference_record": "7-2",
       "schedule_status": "available",
       "games": [
         {
@@ -46177,37 +46209,53 @@
           "opponent_id": "245",
           "opponent": "Texas A&M Aggies",
           "site": "Away",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 16,
+          "allowed": 6,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 242,
+            "rushing": 99,
+            "passing": 143,
+            "turnovers": 1,
+            "third_made": 6,
+            "third_attempts": 17
+          },
+          "defense": {
+            "yards": 234,
+            "rushing": 33,
+            "passing": 201,
+            "turnovers": 2,
+            "third_made": 5,
+            "third_attempts": 15
+          }
         }
       ],
       "previous_rank": 8,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 31.5,
-        "allowed": 16.5,
-        "margin": 15.1,
-        "yards": 363.2,
-        "rushing": 127.5,
-        "passing": 235.7,
+        "games": 12,
+        "points": 30.2,
+        "allowed": 15.6,
+        "margin": 14.7,
+        "yards": 353.1,
+        "rushing": 125.1,
+        "passing": 228.0,
         "turnovers": 1.5,
-        "yards_allowed": 295.5,
-        "third_pct": 41.4
+        "yards_allowed": 290.3,
+        "third_pct": 40.8
       },
       "strength": {
-        "pct": 62.4,
-        "covered": 11,
-        "played": 11,
-        "wins": 78,
-        "losses": 47,
+        "pct": 59.9,
+        "covered": 12,
+        "played": 12,
+        "wins": 82,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -46619,11 +46667,11 @@
         "third_pct": 54.8
       },
       "strength": {
-        "pct": 56.0,
-        "covered": 9,
+        "pct": 56.2,
+        "covered": 10,
         "played": 11,
-        "wins": 56,
-        "losses": 44,
+        "wins": 63,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -47068,11 +47116,11 @@
         "third_pct": 38.2
       },
       "strength": {
-        "pct": 50.5,
-        "covered": 10,
+        "pct": 50.8,
+        "covered": 11,
         "played": 12,
-        "wins": 56,
-        "losses": 55,
+        "wins": 62,
+        "losses": 60,
         "ties": 0
       },
       "ranked_results": {
@@ -50029,11 +50077,11 @@
         "third_pct": 44.5
       },
       "strength": {
-        "pct": 47.1,
+        "pct": 47.2,
         "covered": 11,
         "played": 11,
-        "wins": 57,
-        "losses": 64,
+        "wins": 58,
+        "losses": 65,
         "ties": 0
       },
       "ranked_results": {
@@ -51693,10 +51741,10 @@
         "third_pct": 47.0
       },
       "strength": {
-        "pct": 56.9,
+        "pct": 57.3,
         "covered": 11,
         "played": 11,
-        "wins": 70,
+        "wins": 71,
         "losses": 53,
         "ties": 0
       },
@@ -52109,11 +52157,11 @@
         "third_pct": 27.2
       },
       "strength": {
-        "pct": 59.6,
-        "covered": 9,
+        "pct": 59.1,
+        "covered": 10,
         "played": 11,
-        "wins": 62,
-        "losses": 42,
+        "wins": 68,
+        "losses": 47,
         "ties": 0
       },
       "ranked_results": {
@@ -52541,10 +52589,10 @@
         "third_pct": 40.9
       },
       "strength": {
-        "pct": 52.9,
+        "pct": 53.3,
         "covered": 11,
         "played": 12,
-        "wins": 64,
+        "wins": 65,
         "losses": 57,
         "ties": 0
       },
@@ -52957,11 +53005,11 @@
         "third_pct": 37.4
       },
       "strength": {
-        "pct": 55.6,
-        "covered": 9,
+        "pct": 55.5,
+        "covered": 10,
         "played": 11,
-        "wins": 55,
-        "losses": 44,
+        "wins": 61,
+        "losses": 49,
         "ties": 0
       },
       "ranked_results": {
@@ -53347,7 +53395,7 @@
           "opponent_id": "277",
           "opponent": "West Virginia Mountaineers",
           "site": "Home",
-          "status": "Scheduled",
+          "status": "Halftime",
           "final": false,
           "points": null,
           "allowed": null,
@@ -55487,11 +55535,11 @@
         "third_pct": 35.0
       },
       "strength": {
-        "pct": 51.8,
+        "pct": 51.3,
         "covered": 10,
         "played": 11,
         "wins": 58,
-        "losses": 54,
+        "losses": 55,
         "ties": 0
       },
       "ranked_results": {
@@ -55904,10 +55952,10 @@
       },
       "strength": {
         "pct": 54.5,
-        "covered": 9,
+        "covered": 10,
         "played": 11,
-        "wins": 54,
-        "losses": 45,
+        "wins": 60,
+        "losses": 50,
         "ties": 0
       },
       "ranked_results": {
@@ -56293,7 +56341,7 @@
           "opponent_id": "254",
           "opponent": "Utah Utes",
           "site": "Away",
-          "status": "Scheduled",
+          "status": "Halftime",
           "final": false,
           "points": null,
           "allowed": null,
@@ -57184,7 +57232,7 @@
     "275": {
       "school": "Wisconsin",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "conference_record": "5-3",
+      "conference_record": "6-3",
       "schedule_status": "available",
       "games": [
         {
@@ -57557,37 +57605,53 @@
           "opponent_id": "135",
           "opponent": "Minnesota Golden Gophers",
           "site": "Home",
-          "status": "In Progress",
-          "final": false,
-          "points": null,
-          "allowed": null,
-          "result": null,
+          "status": "Final",
+          "final": true,
+          "points": 28,
+          "allowed": 5,
+          "result": "W",
           "opponent_rank_now": null,
           "current_poll_available": true,
-          "game_poll_date": null,
-          "opponent_rank_at_game": null
+          "game_poll_date": "2026-11-22T08:00Z",
+          "opponent_rank_at_game": null,
+          "offense": {
+            "yards": 482,
+            "rushing": 265,
+            "passing": 217,
+            "turnovers": 2,
+            "third_made": 9,
+            "third_attempts": 15
+          },
+          "defense": {
+            "yards": 115,
+            "rushing": 11,
+            "passing": 104,
+            "turnovers": 0,
+            "third_made": 2,
+            "third_attempts": 11
+          }
         }
       ],
       "previous_rank": null,
       "movement_available": true,
       "stats": {
-        "games": 11,
-        "points": 25.7,
-        "allowed": 16.5,
-        "margin": 9.3,
-        "yards": 328.9,
-        "rushing": 155.6,
-        "passing": 173.3,
+        "games": 12,
+        "points": 25.9,
+        "allowed": 15.5,
+        "margin": 10.4,
+        "yards": 341.7,
+        "rushing": 164.8,
+        "passing": 176.9,
         "turnovers": 1.2,
-        "yards_allowed": 278.6,
-        "third_pct": 43.3
+        "yards_allowed": 265.0,
+        "third_pct": 44.9
       },
       "strength": {
-        "pct": 55.4,
-        "covered": 10,
-        "played": 11,
-        "wins": 62,
-        "losses": 50,
+        "pct": 54.8,
+        "covered": 11,
+        "played": 12,
+        "wins": 68,
+        "losses": 56,
         "ties": 0
       },
       "ranked_results": {

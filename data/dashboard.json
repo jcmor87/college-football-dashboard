@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T01:27:09+00:00",
+  "updated_at": "2026-11-28T04:05:56+00:00",
   "status": "ok",
   "season": 2026,
   "week": 13,
@@ -647,7 +647,7 @@
       "name": "Minnesota Golden Gophers",
       "abbreviation": "MINN",
       "conference": "Big Ten Conference",
-      "record": "6-5",
+      "record": "6-6",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/135/minnesota-golden-gophers"
     },
@@ -1034,7 +1034,7 @@
       "name": "Texas A&M Aggies",
       "abbreviation": "TA&M",
       "conference": "Southeastern Conference",
-      "record": "4-7",
+      "record": "4-8",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/245/texas-am-aggies"
     },
@@ -1043,7 +1043,7 @@
       "name": "Texas Longhorns",
       "abbreviation": "TEX",
       "conference": "Southeastern Conference",
-      "record": "9-2",
+      "record": "10-2",
       "rank": 5,
       "url": "https://www.espn.com/college-football/team/_/id/251/texas-longhorns"
     },
@@ -1286,7 +1286,7 @@
       "name": "Wisconsin Badgers",
       "abbreviation": "WIS",
       "conference": "Big Ten Conference",
-      "record": "7-4",
+      "record": "8-4",
       "rank": null,
       "url": "https://www.espn.com/college-football/team/_/id/275/wisconsin-badgers"
     },
@@ -1488,42 +1488,42 @@
       "date": "2026-11-28T00:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "13:11 - 2nd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "251",
       "home_id": "245",
       "away": "Texas Longhorns",
       "home": "Texas A&M Aggies",
-      "away_score": "3",
-      "home_score": "0"
+      "away_score": "16",
+      "home_score": "6"
     },
     {
       "id": "401858544",
       "date": "2026-11-28T00:30Z",
       "week": 13,
       "time_tbd": false,
-      "status": "14:01 - 2nd",
+      "status": "Final",
       "scheduled": false,
       "away_id": "135",
       "home_id": "275",
       "away": "Minnesota Golden Gophers",
       "home": "Wisconsin Badgers",
-      "away_score": "3",
-      "home_score": "7"
+      "away_score": "5",
+      "home_score": "28"
     },
     {
       "id": "401856880",
       "date": "2026-11-28T02:00Z",
       "week": 13,
       "time_tbd": false,
-      "status": "11/27 - 9:00 PM EST",
-      "scheduled": true,
+      "status": "Halftime",
+      "scheduled": false,
       "away_id": "277",
       "home_id": "254",
       "away": "West Virginia Mountaineers",
       "home": "Utah Utes",
-      "away_score": null,
-      "home_score": null
+      "away_score": "7",
+      "home_score": "38"
     },
     {
       "id": "401856761",
