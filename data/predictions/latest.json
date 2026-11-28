@@ -1861,7 +1861,7 @@
       "first": "96",
       "second": "97",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401856761",
@@ -1965,7 +1965,7 @@
       "first": "103",
       "second": "2390",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401858311",
@@ -2069,7 +2069,7 @@
       "first": "152",
       "second": "153",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401858313",
@@ -2173,7 +2173,7 @@
       "first": "183",
       "second": "87",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401858314",
@@ -2277,7 +2277,7 @@
       "first": "130",
       "second": "194",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "Halftime",
       "actual": null,
       "prediction": {
         "id": "401858540",
@@ -2381,7 +2381,7 @@
       "first": "2751",
       "second": "41",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401861969",
@@ -2485,7 +2485,7 @@
       "first": "2426",
       "second": "2429",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401862842",
@@ -2589,7 +2589,7 @@
       "first": "2050",
       "second": "2117",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401866474",
@@ -2693,7 +2693,7 @@
       "first": "2348",
       "second": "290",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401869954",
@@ -2797,7 +2797,7 @@
       "first": "356",
       "second": "77",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "Halftime",
       "actual": null,
       "prediction": {
         "id": "401858537",
@@ -2901,7 +2901,7 @@
       "first": "8",
       "second": "99",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401856758",
@@ -3005,7 +3005,7 @@
       "first": "151",
       "second": "2226",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401862837",
@@ -3109,7 +3109,7 @@
       "first": "338",
       "second": "98",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401870804",
@@ -3213,7 +3213,7 @@
       "first": "2433",
       "second": "276",
       "venue": 1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401871102",
@@ -3317,7 +3317,7 @@
       "first": "2572",
       "second": "295",
       "venue": -1,
-      "status": "Scheduled",
+      "status": "In Progress",
       "actual": null,
       "prediction": {
         "id": "401871103",
